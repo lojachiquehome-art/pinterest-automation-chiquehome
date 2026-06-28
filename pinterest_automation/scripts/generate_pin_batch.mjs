@@ -27,6 +27,14 @@ const descriptionTemplates = [
   "Uma sugestao pratica para quem quer comprar decoracao online com mais seguranca. Veja o produto, variacoes e informacoes de entrega.",
 ];
 
+const visualVariants = [
+  "environment_full_bleed",
+  "product_full_bleed",
+  "environment_title_overlay",
+  "product_in_environment",
+  "listicle_idea_overlay",
+];
+
 const roomByType = {
   Banheiro: "banheiro",
   "Tapete Cozinha": "cozinha",
@@ -234,33 +242,39 @@ function makeCollectionUrl(boardName, keyword, index) {
 
 function visualStrategy(term, index) {
   const angle = normalizeText(term.content_angle);
-  if (angle === "produto") {
-    return index % 3 === 0 ? "product_editorial_text" : "shopify_product_photo";
+  const variant = visualVariants[(index - 1) % visualVariants.length];
+  if (angle === "produto" && variant === "environment_full_bleed") {
+    return "product_full_bleed";
   }
-  if (angle === "dor" || angle === "ambiente" || angle === "transformacao" || angle === "projeto") {
-    return index % 2 === 0 ? "generated_scene_with_product" : "generated_scene_with_text";
-  }
-  return index % 4 === 0 ? "shopify_product_photo" : "generated_scene_with_text";
+  return variant;
 }
 
 function landingType(strategy) {
-  return strategy.startsWith("generated_scene") ? "collection" : "product";
+  return strategy === "product_full_bleed" ? "product" : "collection";
+}
+
+function requiresAiImage(strategy) {
+  return strategy !== "product_full_bleed";
 }
 
 function imagePrompt({ product, term, title, strategy }) {
   const scene = boardScene[term.board] ?? `${term.keyword} em ambiente de casa elegante, organizado e realista`;
   const productName = productShort(product.title);
-  const base = `Imagem vertical para Pinterest, proporcao 2:3, estilo clean e premium para a marca Chique Home. Tema: ${term.keyword}. Cenario: ${scene}.`;
-  if (strategy === "shopify_product_photo") {
-    return `Usar a foto original do produto da Shopify sem texto na imagem. Produto: ${productName}.`;
+  const palette = "paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro";
+  const base = `Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: ${term.keyword}. Cenario: ${scene}. Usar ${palette}.`;
+  if (strategy === "product_full_bleed") {
+    return `Usar foto original do produto da Shopify em formato vertical cheio, sem moldura e sem card. Produto: ${productName}. Se precisar, aplicar fundo limpo premium e manter o produto grande e claro. Cupom PINTEREST10 apenas discreto, se houver texto.`;
   }
-  if (strategy === "product_editorial_text") {
-    return `${base} Produto em destaque: ${productName}. Criar arte editorial minimalista com texto curto: "${title}". Inserir chamada pequena: "PINTEREST10".`;
+  if (strategy === "environment_full_bleed") {
+    return `${base} Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: ${productName}, aplicar apenas se fizer sentido natural.`;
   }
-  if (strategy === "generated_scene_with_product") {
-    return `${base} Aplicar visualmente o produto da Shopify no ambiente de forma natural e realista. Produto: ${productName}. Sem texto grande na imagem.`;
+  if (strategy === "environment_title_overlay") {
+    return `${base} Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: "${title}". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior.`;
   }
-  return `${base} Criar imagem de ambiente inspiracional com texto minimalista legivel: "${title}". Inserir o produto ${productName} como parte do cenario quando fizer sentido.`;
+  if (strategy === "product_in_environment") {
+    return `${base} Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: ${productName}. Sem texto grande, foco em inspirar clique para compra.`;
+  }
+  return `${base} Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: "3 ideias para ${term.keyword}". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: ${productName}.`;
 }
 
 function generate() {
@@ -307,6 +321,7 @@ function generate() {
           : makeUrl(product.handle, term.keyword, idx),
         image_url: product.image_url,
         generated_image_prompt: imagePrompt({ product, term, title, strategy }),
+        requires_ai_image: requiresAiImage(strategy) ? "yes" : "no",
         alt_text: `${short} - ${term.keyword} Chique Home`.slice(0, 500),
         product_title: product.title,
         product_handle: product.handle,

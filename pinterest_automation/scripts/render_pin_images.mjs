@@ -114,33 +114,37 @@ const selected = rows
   .filter((row) => row.status === "ready" && !publishedIds.has(String(row.id)) && !row.generated_image_url)
   .slice(offset, offset + limit);
 const baseUrl = process.env.PIN_IMAGE_BASE_URL?.replace(/\/$/, "");
+const needsAi = [];
 
 for (const row of selected) {
-  if (row.visual_strategy === "shopify_product_photo") {
+  if (row.visual_strategy === "product_full_bleed") {
     row.generated_image_url = row.image_url;
     row.generated_image_path = "";
     continue;
   }
 
-  const fileName = `pin-${String(row.id).padStart(4, "0")}.png`;
-  const filePath = path.join(outDir, fileName);
-  const productDataUrl = await imageToDataUrl(row.image_url);
-  const svg = svgTemplate(row, productDataUrl);
-  await sharp(Buffer.from(svg)).png().toFile(filePath);
-  row.generated_image_path = `public/pinterest/${imageDate}/${fileName}`;
-  row.generated_image_url = baseUrl ? `${baseUrl}/${imageDate}/${fileName}` : "";
-  console.log(`Rendered ${row.generated_image_path}`);
+  needsAi.push(row);
+  console.log(`Needs approved AI image: row ${row.id} | ${row.keyword} | ${row.visual_strategy}`);
 }
 
 writeFileSync(rowsPath, JSON.stringify(rows, null, 2), "utf8");
 writeFileSync(path.join(ROOT, "output", "image_manifest.json"), JSON.stringify({
   imageDate,
   baseUrl: baseUrl ?? "",
-  rendered: selected.map((row) => ({
+  rendered: selected.filter((row) => row.generated_image_url).map((row) => ({
     id: row.id,
     keyword: row.keyword,
     visual_strategy: row.visual_strategy,
     generated_image_path: row.generated_image_path,
     generated_image_url: row.generated_image_url,
+  })),
+  needsAi: needsAi.map((row) => ({
+    id: row.id,
+    board_name: row.board_name,
+    keyword: row.keyword,
+    visual_strategy: row.visual_strategy,
+    product_title: row.product_title,
+    product_image_url: row.image_url,
+    prompt: row.generated_image_prompt,
   })),
 }, null, 2), "utf8");

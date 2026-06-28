@@ -1,846 +1,97 @@
 {
   "imageDate": "2026-06-28",
   "baseUrl": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest",
-  "rendered": [
-    {
-      "id": 1,
-      "keyword": "porta papel higienico de parede",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383"
-    },
-    {
-      "id": 2,
-      "keyword": "porta papel banheiro moderno",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383"
-    },
-    {
-      "id": 3,
-      "keyword": "banheiro pequeno organizado",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0003.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0003.png"
-    },
-    {
-      "id": 4,
-      "keyword": "banheiro com cara de hotel",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0004.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0004.png"
-    },
-    {
-      "id": 5,
-      "keyword": "banheiro decorado",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0005.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0005.png"
-    },
-    {
-      "id": 6,
-      "keyword": "banheiro pequeno decorado",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0006.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0006.png"
-    },
-    {
-      "id": 7,
-      "keyword": "banheiro moderno",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0007.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0007.png"
-    },
+  "rendered": [],
+  "needsAi": [
     {
       "id": 8,
+      "board_name": "Banheiro com cara de hotel",
       "keyword": "banheiro com cara de hotel",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383"
+      "visual_strategy": "environment_title_overlay",
+      "product_title": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro - Preto",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro com cara de hotel. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"banheiro com cara de hotel: ideia elegante com Porta-Papel Higienico de Parede Moderno Duplo para\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
     },
     {
       "id": 9,
+      "board_name": "Banheiro com cara de hotel",
       "keyword": "lavabo decorado",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0009.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0009.png"
+      "visual_strategy": "product_in_environment",
+      "product_title": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro - Preto",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: lavabo decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Porta-Papel Higienico de Parede Moderno Duplo para Banheiro. Sem texto grande, foco em inspirar clique para compra."
     },
     {
       "id": 10,
+      "board_name": "Banheiro organizado",
       "keyword": "penteadeira",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383"
-    },
-    {
-      "id": 11,
-      "keyword": "porta papel higienico de parede",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252"
-    },
-    {
-      "id": 12,
-      "keyword": "porta papel banheiro moderno",
-      "visual_strategy": "product_editorial_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0012.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0012.png"
+      "visual_strategy": "listicle_idea_overlay",
+      "product_title": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro - Preto",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: penteadeira. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para penteadeira\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Porta-Papel Higienico de Parede Moderno Duplo para Banheiro."
     },
     {
       "id": 13,
+      "board_name": "Banheiro organizado",
       "keyword": "banheiro pequeno organizado",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0013.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0013.png"
+      "visual_strategy": "environment_title_overlay",
+      "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro pequeno organizado. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Veja como usar Porta-Papel Higienico de Parede Moderno para Banheiro em banheiro pequeno organizado\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
     },
     {
       "id": 14,
+      "board_name": "Banheiro com cara de hotel",
       "keyword": "banheiro com cara de hotel",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0014.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0014.png"
+      "visual_strategy": "product_in_environment",
+      "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro com cara de hotel. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Porta-Papel Higienico de Parede Moderno para Banheiro. Sem texto grande, foco em inspirar clique para compra."
     },
     {
       "id": 15,
+      "board_name": "Banheiro com cara de hotel",
       "keyword": "banheiro decorado",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0015.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0015.png"
+      "visual_strategy": "listicle_idea_overlay",
+      "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para banheiro decorado\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Porta-Papel Higienico de Parede Moderno para Banheiro."
     },
     {
       "id": 16,
+      "board_name": "Banheiro com cara de hotel",
       "keyword": "banheiro pequeno decorado",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0016.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0016.png"
-    },
-    {
-      "id": 17,
-      "keyword": "banheiro moderno",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0017.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0017.png"
+      "visual_strategy": "environment_full_bleed",
+      "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro pequeno decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Porta-Papel Higienico de Parede Moderno para Banheiro, aplicar apenas se fizer sentido natural."
     },
     {
       "id": 18,
+      "board_name": "Banheiro com cara de hotel",
       "keyword": "banheiro com cara de hotel",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0018.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0018.png"
+      "visual_strategy": "environment_title_overlay",
+      "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro com cara de hotel. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"banheiro com cara de hotel para deixar o ambiente mais sofisticado\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
     },
     {
       "id": 19,
+      "board_name": "Banheiro com cara de hotel",
       "keyword": "lavabo decorado",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0019.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0019.png"
+      "visual_strategy": "product_in_environment",
+      "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: lavabo decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Porta-Papel Higienico de Parede Moderno para Banheiro. Sem texto grande, foco em inspirar clique para compra."
     },
     {
       "id": 20,
+      "board_name": "Banheiro organizado",
       "keyword": "penteadeira",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252"
-    },
-    {
-      "id": 21,
-      "keyword": "projeto de cozinha",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0021.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0021.png"
-    },
-    {
-      "id": 22,
-      "keyword": "decoração cozinha",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0022.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0022.png"
-    },
-    {
-      "id": 23,
-      "keyword": "tapete cozinha antiderrapante",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586"
-    },
-    {
-      "id": 24,
-      "keyword": "tapete de cozinha absorvente",
-      "visual_strategy": "product_editorial_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0024.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0024.png"
-    },
-    {
-      "id": 25,
-      "keyword": "passadeira para cozinha",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586"
-    },
-    {
-      "id": 26,
-      "keyword": "tapete cozinha bege",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586"
-    },
-    {
-      "id": 27,
-      "keyword": "tapete cozinha preto",
-      "visual_strategy": "product_editorial_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0027.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0027.png"
-    },
-    {
-      "id": 28,
-      "keyword": "cozinha organizada",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0028.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0028.png"
-    },
-    {
-      "id": 29,
-      "keyword": "cozinha pequena organizada",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0029.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0029.png"
-    },
-    {
-      "id": 30,
-      "keyword": "cozinha decorada simples",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0030.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0030.png"
-    },
-    {
-      "id": 31,
-      "keyword": "projeto de cozinha",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0031.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0031.png"
-    },
-    {
-      "id": 32,
-      "keyword": "decoração cozinha",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0032.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0032.png"
-    },
-    {
-      "id": 33,
-      "keyword": "tapete cozinha antiderrapante",
-      "visual_strategy": "product_editorial_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0033.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0033.png"
-    },
-    {
-      "id": 34,
-      "keyword": "tapete de cozinha absorvente",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391"
-    },
-    {
-      "id": 35,
-      "keyword": "tapete cozinha bege",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391"
-    },
-    {
-      "id": 36,
-      "keyword": "tapete cozinha preto",
-      "visual_strategy": "product_editorial_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0036.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0036.png"
-    },
-    {
-      "id": 37,
-      "keyword": "cozinha organizada",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0037.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0037.png"
-    },
-    {
-      "id": 38,
-      "keyword": "cozinha pequena organizada",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0038.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0038.png"
-    },
-    {
-      "id": 39,
-      "keyword": "cozinha decorada simples",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0039.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0039.png"
-    },
-    {
-      "id": 40,
-      "keyword": "cozinha decorada",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0040.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0040.png"
-    },
-    {
-      "id": 41,
-      "keyword": "projeto de cozinha",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0041.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0041.png"
-    },
-    {
-      "id": 42,
-      "keyword": "decoração cozinha",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0042.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0042.png"
-    },
-    {
-      "id": 43,
-      "keyword": "tapete cozinha antiderrapante",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Passadeira_Absorvente_bege.webp?v=1745846307"
-    },
-    {
-      "id": 44,
-      "keyword": "tapete de cozinha absorvente",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Passadeira_Absorvente_bege.webp?v=1745846307"
-    },
-    {
-      "id": 45,
-      "keyword": "passadeira para cozinha",
-      "visual_strategy": "product_editorial_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0045.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0045.png"
-    },
-    {
-      "id": 46,
-      "keyword": "tapete cozinha bege",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Passadeira_Absorvente_bege.webp?v=1745846307"
-    },
-    {
-      "id": 47,
-      "keyword": "tapete cozinha preto",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Passadeira_Absorvente_bege.webp?v=1745846307"
-    },
-    {
-      "id": 48,
-      "keyword": "cozinha organizada",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0048.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0048.png"
-    },
-    {
-      "id": 49,
-      "keyword": "cozinha pequena organizada",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0049.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0049.png"
-    },
-    {
-      "id": 50,
-      "keyword": "cozinha decorada simples",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0050.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0050.png"
-    },
-    {
-      "id": 51,
-      "keyword": "projeto de cozinha",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0051.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0051.png"
-    },
-    {
-      "id": 52,
-      "keyword": "sala de estar apartamento",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0052.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0052.png"
-    },
-    {
-      "id": 53,
-      "keyword": "decoração sala",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0053.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0053.png"
-    },
-    {
-      "id": 54,
-      "keyword": "decoração cozinha",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0054.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0054.png"
-    },
-    {
-      "id": 55,
-      "keyword": "cozinha organizada",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0055.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0055.png"
-    },
-    {
-      "id": 56,
-      "keyword": "cozinha pequena organizada",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0056.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0056.png"
-    },
-    {
-      "id": 57,
-      "keyword": "cozinha decorada simples",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0057.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0057.png"
-    },
-    {
-      "id": 58,
-      "keyword": "relogio de parede grande",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Sofisticado_preto.webp?v=1758392862"
-    },
-    {
-      "id": 59,
-      "keyword": "relogio de parede cozinha",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Sofisticado_preto.webp?v=1758392862"
-    },
-    {
-      "id": 60,
-      "keyword": "relogio de parede sala",
-      "visual_strategy": "product_editorial_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0060.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0060.png"
-    },
-    {
-      "id": 61,
-      "keyword": "projeto de cozinha",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0061.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0061.png"
-    },
-    {
-      "id": 62,
-      "keyword": "sala de estar apartamento",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0062.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0062.png"
-    },
-    {
-      "id": 63,
-      "keyword": "decoração sala",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0063.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0063.png"
-    },
-    {
-      "id": 64,
-      "keyword": "decoração cozinha",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0064.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0064.png"
-    },
-    {
-      "id": 65,
-      "keyword": "cozinha organizada",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0065.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0065.png"
-    },
-    {
-      "id": 66,
-      "keyword": "cozinha pequena organizada",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0066.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0066.png"
-    },
-    {
-      "id": 67,
-      "keyword": "cozinha decorada simples",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0067.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0067.png"
-    },
-    {
-      "id": 68,
-      "keyword": "relogio de parede grande",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Decoracao_preto_2.webp?v=1746993703"
-    },
-    {
-      "id": 69,
-      "keyword": "relogio de parede cozinha",
-      "visual_strategy": "product_editorial_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0069.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0069.png"
-    },
-    {
-      "id": 70,
-      "keyword": "relogio de parede sala",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Decoracao_preto_2.webp?v=1746993703"
-    },
-    {
-      "id": 71,
-      "keyword": "banheiro pequeno organizado",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0071.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0071.png"
-    },
-    {
-      "id": 72,
-      "keyword": "banheiro com cara de hotel",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0072.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0072.png"
-    },
-    {
-      "id": 73,
-      "keyword": "organizador box banheiro",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Maquiagem_Porta_Pincel_em_Acrilico_Giratorio_preto.webp?v=1751413621"
-    },
-    {
-      "id": 74,
-      "keyword": "banheiro decorado",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0074.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0074.png"
-    },
-    {
-      "id": 75,
-      "keyword": "banheiro pequeno decorado",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0075.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0075.png"
-    },
-    {
-      "id": 76,
-      "keyword": "banheiro moderno",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Maquiagem_Porta_Pincel_em_Acrilico_Giratorio_preto.webp?v=1751413621"
-    },
-    {
-      "id": 77,
-      "keyword": "banheiro com cara de hotel",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0077.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0077.png"
-    },
-    {
-      "id": 78,
-      "keyword": "lavabo decorado",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0078.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0078.png"
-    },
-    {
-      "id": 79,
-      "keyword": "penteadeira",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Maquiagem_Porta_Pincel_em_Acrilico_Giratorio_preto.webp?v=1751413621"
-    },
-    {
-      "id": 80,
-      "keyword": "organizacao de banheiro",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0080.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0080.png"
-    },
-    {
-      "id": 81,
-      "keyword": "banheiro pequeno organizado",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0081.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0081.png"
-    },
-    {
-      "id": 82,
-      "keyword": "banheiro com cara de hotel",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0082.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0082.png"
-    },
-    {
-      "id": 83,
-      "keyword": "banheiro decorado",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0083.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0083.png"
-    },
-    {
-      "id": 84,
-      "keyword": "banheiro pequeno decorado",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0084.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0084.png"
-    },
-    {
-      "id": 85,
-      "keyword": "banheiro moderno",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0085.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0085.png"
-    },
-    {
-      "id": 86,
-      "keyword": "banheiro com cara de hotel",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0086.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0086.png"
-    },
-    {
-      "id": 87,
-      "keyword": "lavabo decorado",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0087.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0087.png"
-    },
-    {
-      "id": 88,
-      "keyword": "penteadeira",
-      "visual_strategy": "shopify_product_photo",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Bandeja_para_Banheiro_Lavabo_Decorativa_Redonda_Decoracao_verde.webp?v=1751410419"
-    },
-    {
-      "id": 89,
-      "keyword": "organizacao de banheiro",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0089.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0089.png"
-    },
-    {
-      "id": 90,
-      "keyword": "organizador de maquiagem",
-      "visual_strategy": "product_editorial_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0090.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0090.png"
-    },
-    {
-      "id": 91,
-      "keyword": "sala de estar apartamento",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0091.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0091.png"
-    },
-    {
-      "id": 92,
-      "keyword": "decoração sala",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0092.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0092.png"
-    },
-    {
-      "id": 93,
-      "keyword": "sala de jantar decorada",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0093.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0093.png"
-    },
-    {
-      "id": 94,
-      "keyword": "sala sofisticada",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0094.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0094.png"
-    },
-    {
-      "id": 95,
-      "keyword": "decoracao de sala",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0095.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0095.png"
-    },
-    {
-      "id": 96,
-      "keyword": "sala pequena decorada",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0096.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0096.png"
-    },
-    {
-      "id": 97,
-      "keyword": "decoracao de sala pequena",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0097.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0097.png"
-    },
-    {
-      "id": 98,
-      "keyword": "sala sofisticada",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0098.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0098.png"
-    },
-    {
-      "id": 99,
-      "keyword": "sala elegante",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0099.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0099.png"
-    },
-    {
-      "id": 100,
-      "keyword": "decoracao de parede",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0100.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0100.png"
-    },
-    {
-      "id": 101,
-      "keyword": "projeto de cozinha",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0101.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0101.png"
-    },
-    {
-      "id": 102,
-      "keyword": "sala de estar apartamento",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0102.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0102.png"
-    },
-    {
-      "id": 103,
-      "keyword": "decoração sala",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0103.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0103.png"
-    },
-    {
-      "id": 104,
-      "keyword": "decoração cozinha",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0104.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0104.png"
-    },
-    {
-      "id": 105,
-      "keyword": "cozinha organizada",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0105.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0105.png"
-    },
-    {
-      "id": 106,
-      "keyword": "cozinha pequena organizada",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0106.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0106.png"
-    },
-    {
-      "id": 107,
-      "keyword": "cozinha decorada simples",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0107.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0107.png"
-    },
-    {
-      "id": 108,
-      "keyword": "sala de jantar decorada",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0108.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0108.png"
-    },
-    {
-      "id": 109,
-      "keyword": "sala sofisticada",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0109.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0109.png"
-    },
-    {
-      "id": 110,
-      "keyword": "decoracao de sala",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0110.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0110.png"
-    },
-    {
-      "id": 111,
-      "keyword": "projeto de cozinha",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0111.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0111.png"
-    },
-    {
-      "id": 112,
-      "keyword": "sala de estar apartamento",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0112.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0112.png"
-    },
-    {
-      "id": 113,
-      "keyword": "decoração sala",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0113.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0113.png"
-    },
-    {
-      "id": 114,
-      "keyword": "decoração cozinha",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0114.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0114.png"
-    },
-    {
-      "id": 115,
-      "keyword": "cozinha organizada",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0115.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0115.png"
-    },
-    {
-      "id": 116,
-      "keyword": "cozinha pequena organizada",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0116.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0116.png"
-    },
-    {
-      "id": 117,
-      "keyword": "cozinha decorada simples",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0117.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0117.png"
-    },
-    {
-      "id": 118,
-      "keyword": "sala de jantar decorada",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0118.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0118.png"
-    },
-    {
-      "id": 119,
-      "keyword": "sala sofisticada",
-      "visual_strategy": "generated_scene_with_text",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0119.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0119.png"
-    },
-    {
-      "id": 120,
-      "keyword": "decoracao de sala",
-      "visual_strategy": "generated_scene_with_product",
-      "generated_image_path": "public/pinterest/2026-06-28/pin-0120.png",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/2026-06-28/pin-0120.png"
+      "visual_strategy": "listicle_idea_overlay",
+      "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: penteadeira. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para penteadeira\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Porta-Papel Higienico de Parede Moderno para Banheiro."
     }
   ]
 }

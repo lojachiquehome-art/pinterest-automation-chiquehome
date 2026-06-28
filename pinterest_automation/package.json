@@ -6,6 +6,8 @@
   "scripts": {
     "generate": "node scripts/generate_pin_batch.mjs",
     "render-images": "node scripts/render_pin_images.mjs",
+    "export-image-prompts": "node scripts/export_image_prompts.mjs",
+    "apply-image-assets": "node scripts/apply_image_assets.mjs",
     "publish:dry": "node scripts/publish_pins.mjs --dry-run --limit 10",
     "publish": "node scripts/publish_pins.mjs --limit 10",
     "daily": "node scripts/generate_pin_batch.mjs && node scripts/render_pin_images.mjs --limit 10 && node scripts/publish_pins.mjs --limit 10"

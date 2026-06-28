@@ -49,7 +49,9 @@ jobs:
         run: |
           LIMIT="${{ github.event.inputs.limit || '10' }}"
           node scripts/generate_pin_batch.mjs
+          node scripts/apply_image_assets.mjs
           node scripts/render_pin_images.mjs --limit "$LIMIT"
+          node scripts/export_image_prompts.mjs
 
       - name: Commit generated images before publishing
         uses: stefanzweifel/git-auto-commit-action@v5

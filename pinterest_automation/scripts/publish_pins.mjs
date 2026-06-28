@@ -72,6 +72,10 @@ const boardMap = JSON.parse(readFileSync(path.join(ROOT, "data", "board_ids.json
 const published = [...publishedHistory];
 
 for (const row of rows) {
+  if (row.requires_ai_image === "yes" && !row.generated_image_url) {
+    console.log(`SKIP missing approved AI image: row ${row.id} | ${row.keyword} | ${row.visual_strategy}`);
+    continue;
+  }
   const boardId = boardMap[row.board_name];
   if (!boardId || boardId === MISSING_BOARD_ID) {
     console.log(`SKIP missing board id: ${row.board_name} | ${row.title}`);

@@ -1,0 +1,872 @@
+[
+  {
+    "id": 8,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "banheiro com cara de hotel",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro - Preto",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383",
+    "target_path": "public/pinterest/final/pin-0008.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro com cara de hotel. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"banheiro com cara de hotel: ideia elegante com Porta-Papel Higienico de Parede Moderno Duplo para\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 9,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "lavabo decorado",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro - Preto",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383",
+    "target_path": "public/pinterest/final/pin-0009.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: lavabo decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Porta-Papel Higienico de Parede Moderno Duplo para Banheiro. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 10,
+    "board_name": "Banheiro organizado",
+    "keyword": "penteadeira",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro - Preto",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383",
+    "target_path": "public/pinterest/final/pin-0010.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: penteadeira. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para penteadeira\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Porta-Papel Higienico de Parede Moderno Duplo para Banheiro."
+  },
+  {
+    "id": 13,
+    "board_name": "Banheiro organizado",
+    "keyword": "banheiro pequeno organizado",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+    "target_path": "public/pinterest/final/pin-0013.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro pequeno organizado. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Veja como usar Porta-Papel Higienico de Parede Moderno para Banheiro em banheiro pequeno organizado\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 14,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "banheiro com cara de hotel",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+    "target_path": "public/pinterest/final/pin-0014.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro com cara de hotel. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Porta-Papel Higienico de Parede Moderno para Banheiro. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 15,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "banheiro decorado",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+    "target_path": "public/pinterest/final/pin-0015.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para banheiro decorado\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Porta-Papel Higienico de Parede Moderno para Banheiro."
+  },
+  {
+    "id": 16,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "banheiro pequeno decorado",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+    "target_path": "public/pinterest/final/pin-0016.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro pequeno decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Porta-Papel Higienico de Parede Moderno para Banheiro, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 18,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "banheiro com cara de hotel",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+    "target_path": "public/pinterest/final/pin-0018.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro com cara de hotel. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"banheiro com cara de hotel para deixar o ambiente mais sofisticado\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 19,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "lavabo decorado",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+    "target_path": "public/pinterest/final/pin-0019.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: lavabo decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Porta-Papel Higienico de Parede Moderno para Banheiro. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 20,
+    "board_name": "Banheiro organizado",
+    "keyword": "penteadeira",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Dourado.webp?v=1779417252",
+    "target_path": "public/pinterest/final/pin-0020.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: penteadeira. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para penteadeira\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Porta-Papel Higienico de Parede Moderno para Banheiro."
+  },
+  {
+    "id": 21,
+    "board_name": "Cozinha elegante",
+    "keyword": "projeto de cozinha",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
+    "target_path": "public/pinterest/final/pin-0021.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: projeto de cozinha. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Tapete para Cozinha Antiderrapante Absorvente, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 23,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "tapete cozinha antiderrapante",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
+    "target_path": "public/pinterest/final/pin-0023.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete cozinha antiderrapante. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Ideia pronta de tapete cozinha antiderrapante com link do produto\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 24,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "tapete de cozinha absorvente",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
+    "target_path": "public/pinterest/final/pin-0024.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete de cozinha absorvente. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Tapete para Cozinha Antiderrapante Absorvente. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 25,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "passadeira para cozinha",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
+    "target_path": "public/pinterest/final/pin-0025.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: passadeira para cozinha. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para passadeira para cozinha\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Tapete para Cozinha Antiderrapante Absorvente."
+  },
+  {
+    "id": 28,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha organizada",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
+    "target_path": "public/pinterest/final/pin-0028.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Tapete para Cozinha Antiderrapante Absorvente para transformar o ambiente\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 29,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha pequena organizada",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
+    "target_path": "public/pinterest/final/pin-0029.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha pequena organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Tapete para Cozinha Antiderrapante Absorvente. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 30,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha decorada simples",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
+    "target_path": "public/pinterest/final/pin-0030.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha decorada simples. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para cozinha decorada simples\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Tapete para Cozinha Antiderrapante Absorvente."
+  },
+  {
+    "id": 31,
+    "board_name": "Cozinha elegante",
+    "keyword": "projeto de cozinha",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
+    "target_path": "public/pinterest/final/pin-0031.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: projeto de cozinha. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Tapete para Cozinha Antiderrapante Absorvente, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 33,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "tapete cozinha antiderrapante",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
+    "target_path": "public/pinterest/final/pin-0033.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete cozinha antiderrapante. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Tapete para Cozinha Antiderrapante Absorvente: inspiracao para tapete cozinha antiderrapante\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 34,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "tapete de cozinha absorvente",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
+    "target_path": "public/pinterest/final/pin-0034.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete de cozinha absorvente. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Tapete para Cozinha Antiderrapante Absorvente. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 35,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "tapete cozinha bege",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
+    "target_path": "public/pinterest/final/pin-0035.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete cozinha bege. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para tapete cozinha bege\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Tapete para Cozinha Antiderrapante Absorvente."
+  },
+  {
+    "id": 38,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha pequena organizada",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
+    "target_path": "public/pinterest/final/pin-0038.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha pequena organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"cozinha pequena organizada: produto para comprar e usar em casa\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 39,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha decorada simples",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
+    "target_path": "public/pinterest/final/pin-0039.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha decorada simples. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Tapete para Cozinha Antiderrapante Absorvente. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 40,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha decorada",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
+    "target_path": "public/pinterest/final/pin-0040.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha decorada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para cozinha decorada\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Tapete para Cozinha Antiderrapante Absorvente."
+  },
+  {
+    "id": 41,
+    "board_name": "Cozinha elegante",
+    "keyword": "projeto de cozinha",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Tapete para Cozinha Antiderrapante Passadeira Absorvente - Bege",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Passadeira_Absorvente_bege.webp?v=1745846307",
+    "target_path": "public/pinterest/final/pin-0041.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: projeto de cozinha. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Tapete para Cozinha Antiderrapante Passadeira Absorvente, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 43,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "tapete cozinha antiderrapante",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Tapete para Cozinha Antiderrapante Passadeira Absorvente - Bege",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Passadeira_Absorvente_bege.webp?v=1745846307",
+    "target_path": "public/pinterest/final/pin-0043.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete cozinha antiderrapante. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Inspire-se: tapete cozinha antiderrapante com toque Chique Home\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 44,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "tapete de cozinha absorvente",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Tapete para Cozinha Antiderrapante Passadeira Absorvente - Bege",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Passadeira_Absorvente_bege.webp?v=1745846307",
+    "target_path": "public/pinterest/final/pin-0044.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete de cozinha absorvente. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Tapete para Cozinha Antiderrapante Passadeira Absorvente. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 45,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "passadeira para cozinha",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Tapete para Cozinha Antiderrapante Passadeira Absorvente - Bege",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Passadeira_Absorvente_bege.webp?v=1745846307",
+    "target_path": "public/pinterest/final/pin-0045.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: passadeira para cozinha. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para passadeira para cozinha\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Tapete para Cozinha Antiderrapante Passadeira Absorvente."
+  },
+  {
+    "id": 48,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha organizada",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Tapete para Cozinha Antiderrapante Passadeira Absorvente - Bege",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Passadeira_Absorvente_bege.webp?v=1745846307",
+    "target_path": "public/pinterest/final/pin-0048.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"cozinha organizada: ideia elegante com Tapete para Cozinha Antiderrapante Passadeira Absorvente\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 49,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha pequena organizada",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Tapete para Cozinha Antiderrapante Passadeira Absorvente - Bege",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Passadeira_Absorvente_bege.webp?v=1745846307",
+    "target_path": "public/pinterest/final/pin-0049.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha pequena organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Tapete para Cozinha Antiderrapante Passadeira Absorvente. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 50,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha decorada simples",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Tapete para Cozinha Antiderrapante Passadeira Absorvente - Bege",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Passadeira_Absorvente_bege.webp?v=1745846307",
+    "target_path": "public/pinterest/final/pin-0050.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha decorada simples. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para cozinha decorada simples\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Tapete para Cozinha Antiderrapante Passadeira Absorvente."
+  },
+  {
+    "id": 51,
+    "board_name": "Cozinha elegante",
+    "keyword": "projeto de cozinha",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo Sofisticado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Sofisticado_preto.webp?v=1758392862",
+    "target_path": "public/pinterest/final/pin-0051.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: projeto de cozinha. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Relogio de Parede Grande Decorativo Sofisticado, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 53,
+    "board_name": "Sala sofisticada",
+    "keyword": "decoração sala",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo Sofisticado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Sofisticado_preto.webp?v=1758392862",
+    "target_path": "public/pinterest/final/pin-0053.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoração sala. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Veja como usar Relogio de Parede Grande Decorativo Sofisticado em decoração sala\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 54,
+    "board_name": "Cozinha elegante",
+    "keyword": "decoração cozinha",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo Sofisticado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Sofisticado_preto.webp?v=1758392862",
+    "target_path": "public/pinterest/final/pin-0054.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoração cozinha. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Relogio de Parede Grande Decorativo Sofisticado. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 55,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha organizada",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo Sofisticado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Sofisticado_preto.webp?v=1758392862",
+    "target_path": "public/pinterest/final/pin-0055.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para cozinha organizada\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Relogio de Parede Grande Decorativo Sofisticado."
+  },
+  {
+    "id": 56,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha pequena organizada",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo Sofisticado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Sofisticado_preto.webp?v=1758392862",
+    "target_path": "public/pinterest/final/pin-0056.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha pequena organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Relogio de Parede Grande Decorativo Sofisticado, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 58,
+    "board_name": "Relogios de parede",
+    "keyword": "relogio de parede grande",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo Sofisticado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Sofisticado_preto.webp?v=1758392862",
+    "target_path": "public/pinterest/final/pin-0058.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio de parede grande. Cenario: parede de sala ou cozinha com relogio decorativo grande, composicao limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"relogio de parede grande para deixar o ambiente mais sofisticado\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 59,
+    "board_name": "Relogios de parede",
+    "keyword": "relogio de parede cozinha",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo Sofisticado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Sofisticado_preto.webp?v=1758392862",
+    "target_path": "public/pinterest/final/pin-0059.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio de parede cozinha. Cenario: parede de sala ou cozinha com relogio decorativo grande, composicao limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Relogio de Parede Grande Decorativo Sofisticado. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 60,
+    "board_name": "Relogios de parede",
+    "keyword": "relogio de parede sala",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo Sofisticado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Sofisticado_preto.webp?v=1758392862",
+    "target_path": "public/pinterest/final/pin-0060.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio de parede sala. Cenario: parede de sala ou cozinha com relogio decorativo grande, composicao limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para relogio de parede sala\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Relogio de Parede Grande Decorativo Sofisticado."
+  },
+  {
+    "id": 61,
+    "board_name": "Cozinha elegante",
+    "keyword": "projeto de cozinha",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Decoracao_preto_2.webp?v=1746993703",
+    "target_path": "public/pinterest/final/pin-0061.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: projeto de cozinha. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Relogio de Parede Grande Decorativo, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 63,
+    "board_name": "Sala sofisticada",
+    "keyword": "decoração sala",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Decoracao_preto_2.webp?v=1746993703",
+    "target_path": "public/pinterest/final/pin-0063.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoração sala. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Ideia pronta de decoração sala com link do produto\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 64,
+    "board_name": "Cozinha elegante",
+    "keyword": "decoração cozinha",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Decoracao_preto_2.webp?v=1746993703",
+    "target_path": "public/pinterest/final/pin-0064.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoração cozinha. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Relogio de Parede Grande Decorativo. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 65,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha organizada",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Decoracao_preto_2.webp?v=1746993703",
+    "target_path": "public/pinterest/final/pin-0065.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para cozinha organizada\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Relogio de Parede Grande Decorativo."
+  },
+  {
+    "id": 66,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha pequena organizada",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Decoracao_preto_2.webp?v=1746993703",
+    "target_path": "public/pinterest/final/pin-0066.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha pequena organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Relogio de Parede Grande Decorativo, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 68,
+    "board_name": "Relogios de parede",
+    "keyword": "relogio de parede grande",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Decoracao_preto_2.webp?v=1746993703",
+    "target_path": "public/pinterest/final/pin-0068.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio de parede grande. Cenario: parede de sala ou cozinha com relogio decorativo grande, composicao limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Relogio de Parede Grande Decorativo para transformar o ambiente\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 69,
+    "board_name": "Relogios de parede",
+    "keyword": "relogio de parede cozinha",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Decoracao_preto_2.webp?v=1746993703",
+    "target_path": "public/pinterest/final/pin-0069.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio de parede cozinha. Cenario: parede de sala ou cozinha com relogio decorativo grande, composicao limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Relogio de Parede Grande Decorativo. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 70,
+    "board_name": "Relogios de parede",
+    "keyword": "relogio de parede sala",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Decoracao_preto_2.webp?v=1746993703",
+    "target_path": "public/pinterest/final/pin-0070.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio de parede sala. Cenario: parede de sala ou cozinha com relogio decorativo grande, composicao limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para relogio de parede sala\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Relogio de Parede Grande Decorativo."
+  },
+  {
+    "id": 71,
+    "board_name": "Banheiro organizado",
+    "keyword": "banheiro pequeno organizado",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Organizador de Maquiagem Porta Pincel em Acrilico Giratorio",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Maquiagem_Porta_Pincel_em_Acrilico_Giratorio_preto.webp?v=1751413621",
+    "target_path": "public/pinterest/final/pin-0071.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro pequeno organizado. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Organizador de Maquiagem Porta Pincel em Acrilico Giratorio, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 73,
+    "board_name": "Banheiro organizado",
+    "keyword": "organizador box banheiro",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Organizador de Maquiagem Porta Pincel em Acrilico Giratorio",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Maquiagem_Porta_Pincel_em_Acrilico_Giratorio_preto.webp?v=1751413621",
+    "target_path": "public/pinterest/final/pin-0073.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: organizador box banheiro. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Organizador de Maquiagem Porta Pincel em Acrilico Giratorio: inspiracao para organizador box\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 74,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "banheiro decorado",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Organizador de Maquiagem Porta Pincel em Acrilico Giratorio",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Maquiagem_Porta_Pincel_em_Acrilico_Giratorio_preto.webp?v=1751413621",
+    "target_path": "public/pinterest/final/pin-0074.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Organizador de Maquiagem Porta Pincel em Acrilico Giratorio. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 75,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "banheiro pequeno decorado",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Organizador de Maquiagem Porta Pincel em Acrilico Giratorio",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Maquiagem_Porta_Pincel_em_Acrilico_Giratorio_preto.webp?v=1751413621",
+    "target_path": "public/pinterest/final/pin-0075.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro pequeno decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para banheiro pequeno decorado\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Organizador de Maquiagem Porta Pincel em Acrilico Giratorio."
+  },
+  {
+    "id": 76,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "banheiro moderno",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Organizador de Maquiagem Porta Pincel em Acrilico Giratorio",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Maquiagem_Porta_Pincel_em_Acrilico_Giratorio_preto.webp?v=1751413621",
+    "target_path": "public/pinterest/final/pin-0076.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro moderno. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Organizador de Maquiagem Porta Pincel em Acrilico Giratorio, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 78,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "lavabo decorado",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Organizador de Maquiagem Porta Pincel em Acrilico Giratorio",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Maquiagem_Porta_Pincel_em_Acrilico_Giratorio_preto.webp?v=1751413621",
+    "target_path": "public/pinterest/final/pin-0078.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: lavabo decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"lavabo decorado: produto para comprar e usar em casa\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 79,
+    "board_name": "Banheiro organizado",
+    "keyword": "penteadeira",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Organizador de Maquiagem Porta Pincel em Acrilico Giratorio",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Maquiagem_Porta_Pincel_em_Acrilico_Giratorio_preto.webp?v=1751413621",
+    "target_path": "public/pinterest/final/pin-0079.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: penteadeira. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Organizador de Maquiagem Porta Pincel em Acrilico Giratorio. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 80,
+    "board_name": "Banheiro organizado",
+    "keyword": "organizacao de banheiro",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Organizador de Maquiagem Porta Pincel em Acrilico Giratorio",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Maquiagem_Porta_Pincel_em_Acrilico_Giratorio_preto.webp?v=1751413621",
+    "target_path": "public/pinterest/final/pin-0080.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: organizacao de banheiro. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para organizacao de banheiro\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Organizador de Maquiagem Porta Pincel em Acrilico Giratorio."
+  },
+  {
+    "id": 81,
+    "board_name": "Banheiro organizado",
+    "keyword": "banheiro pequeno organizado",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Bandeja para Banheiro/Lavabo Decorativa Redonda - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Bandeja_para_Banheiro_Lavabo_Decorativa_Redonda_Decoracao_verde.webp?v=1751410419",
+    "target_path": "public/pinterest/final/pin-0081.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro pequeno organizado. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Bandeja para Banheiro/Lavabo Decorativa Redonda, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 83,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "banheiro decorado",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Bandeja para Banheiro/Lavabo Decorativa Redonda - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Bandeja_para_Banheiro_Lavabo_Decorativa_Redonda_Decoracao_verde.webp?v=1751410419",
+    "target_path": "public/pinterest/final/pin-0083.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Inspire-se: banheiro decorado com toque Chique Home\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 84,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "banheiro pequeno decorado",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Bandeja para Banheiro/Lavabo Decorativa Redonda - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Bandeja_para_Banheiro_Lavabo_Decorativa_Redonda_Decoracao_verde.webp?v=1751410419",
+    "target_path": "public/pinterest/final/pin-0084.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro pequeno decorado. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Bandeja para Banheiro/Lavabo Decorativa Redonda. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 85,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "banheiro moderno",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Bandeja para Banheiro/Lavabo Decorativa Redonda - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Bandeja_para_Banheiro_Lavabo_Decorativa_Redonda_Decoracao_verde.webp?v=1751410419",
+    "target_path": "public/pinterest/final/pin-0085.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro moderno. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para banheiro moderno\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Bandeja para Banheiro/Lavabo Decorativa Redonda."
+  },
+  {
+    "id": 86,
+    "board_name": "Banheiro com cara de hotel",
+    "keyword": "banheiro com cara de hotel",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Bandeja para Banheiro/Lavabo Decorativa Redonda - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Bandeja_para_Banheiro_Lavabo_Decorativa_Redonda_Decoracao_verde.webp?v=1751410419",
+    "target_path": "public/pinterest/final/pin-0086.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro com cara de hotel. Cenario: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organizacao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Bandeja para Banheiro/Lavabo Decorativa Redonda, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 88,
+    "board_name": "Banheiro organizado",
+    "keyword": "penteadeira",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Bandeja para Banheiro/Lavabo Decorativa Redonda - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Bandeja_para_Banheiro_Lavabo_Decorativa_Redonda_Decoracao_verde.webp?v=1751410419",
+    "target_path": "public/pinterest/final/pin-0088.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: penteadeira. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"penteadeira: ideia elegante com Bandeja para Banheiro/Lavabo Decorativa Redonda\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 89,
+    "board_name": "Banheiro organizado",
+    "keyword": "organizacao de banheiro",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Bandeja para Banheiro/Lavabo Decorativa Redonda - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Bandeja_para_Banheiro_Lavabo_Decorativa_Redonda_Decoracao_verde.webp?v=1751410419",
+    "target_path": "public/pinterest/final/pin-0089.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: organizacao de banheiro. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Bandeja para Banheiro/Lavabo Decorativa Redonda. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 90,
+    "board_name": "Banheiro organizado",
+    "keyword": "organizador de maquiagem",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Bandeja para Banheiro/Lavabo Decorativa Redonda - Decoracao",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Bandeja_para_Banheiro_Lavabo_Decorativa_Redonda_Decoracao_verde.webp?v=1751410419",
+    "target_path": "public/pinterest/final/pin-0090.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: organizador de maquiagem. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para organizador de maquiagem\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Bandeja para Banheiro/Lavabo Decorativa Redonda."
+  },
+  {
+    "id": 91,
+    "board_name": "Sala sofisticada",
+    "keyword": "sala de estar apartamento",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Arandela de Parede Externa/Interna Luminaria LED Quadrada - Preta",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Arandela_de_Parede_Externa_Interna_Luminaria_LED_Quadrada_Preta_6.webp?v=1751328310",
+    "target_path": "public/pinterest/final/pin-0091.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala de estar apartamento. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Arandela de Parede Externa/Interna Luminaria LED Quadrada, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 93,
+    "board_name": "Mesa posta elegante",
+    "keyword": "sala de jantar decorada",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Arandela de Parede Externa/Interna Luminaria LED Quadrada - Preta",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Arandela_de_Parede_Externa_Interna_Luminaria_LED_Quadrada_Preta_6.webp?v=1751328310",
+    "target_path": "public/pinterest/final/pin-0093.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala de jantar decorada. Cenario: sala de jantar elegante com cadeiras arrumadas, mesa posta clean e detalhes de decoracao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Veja como usar Arandela de Parede Externa/Interna Luminaria LED Quadrada em sala de jantar decorada\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 94,
+    "board_name": "Sala sofisticada",
+    "keyword": "sala sofisticada",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Arandela de Parede Externa/Interna Luminaria LED Quadrada - Preta",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Arandela_de_Parede_Externa_Interna_Luminaria_LED_Quadrada_Preta_6.webp?v=1751328310",
+    "target_path": "public/pinterest/final/pin-0094.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala sofisticada. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Arandela de Parede Externa/Interna Luminaria LED Quadrada. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 95,
+    "board_name": "Sala sofisticada",
+    "keyword": "decoracao de sala",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Arandela de Parede Externa/Interna Luminaria LED Quadrada - Preta",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Arandela_de_Parede_Externa_Interna_Luminaria_LED_Quadrada_Preta_6.webp?v=1751328310",
+    "target_path": "public/pinterest/final/pin-0095.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoracao de sala. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para decoracao de sala\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Arandela de Parede Externa/Interna Luminaria LED Quadrada."
+  },
+  {
+    "id": 96,
+    "board_name": "Sala sofisticada",
+    "keyword": "sala pequena decorada",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Arandela de Parede Externa/Interna Luminaria LED Quadrada - Preta",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Arandela_de_Parede_Externa_Interna_Luminaria_LED_Quadrada_Preta_6.webp?v=1751328310",
+    "target_path": "public/pinterest/final/pin-0096.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala pequena decorada. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Arandela de Parede Externa/Interna Luminaria LED Quadrada, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 98,
+    "board_name": "Sala sofisticada",
+    "keyword": "sala sofisticada",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Arandela de Parede Externa/Interna Luminaria LED Quadrada - Preta",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Arandela_de_Parede_Externa_Interna_Luminaria_LED_Quadrada_Preta_6.webp?v=1751328310",
+    "target_path": "public/pinterest/final/pin-0098.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala sofisticada. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"sala sofisticada para deixar o ambiente mais sofisticado\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 99,
+    "board_name": "Sala sofisticada",
+    "keyword": "sala elegante",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Arandela de Parede Externa/Interna Luminaria LED Quadrada - Preta",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Arandela_de_Parede_Externa_Interna_Luminaria_LED_Quadrada_Preta_6.webp?v=1751328310",
+    "target_path": "public/pinterest/final/pin-0099.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala elegante. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Arandela de Parede Externa/Interna Luminaria LED Quadrada. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 100,
+    "board_name": "Decoracao de parede",
+    "keyword": "decoracao de parede",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Arandela de Parede Externa/Interna Luminaria LED Quadrada - Preta",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Arandela_de_Parede_Externa_Interna_Luminaria_LED_Quadrada_Preta_6.webp?v=1751328310",
+    "target_path": "public/pinterest/final/pin-0100.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoracao de parede. Cenario: parede decorada com composicao minimalista, relogio decorativo, prateleira ou textura discreta. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para decoracao de parede\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Arandela de Parede Externa/Interna Luminaria LED Quadrada."
+  },
+  {
+    "id": 101,
+    "board_name": "Cozinha elegante",
+    "keyword": "projeto de cozinha",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Lustre_Pendente_para_Sala_Quarto_Cozinha_Moderno_LED_Dourado.webp?v=1748190597",
+    "target_path": "public/pinterest/final/pin-0101.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: projeto de cozinha. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Lustre Pendente Moderno LED Espiral, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 103,
+    "board_name": "Sala sofisticada",
+    "keyword": "decoração sala",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Lustre_Pendente_para_Sala_Quarto_Cozinha_Moderno_LED_Dourado.webp?v=1748190597",
+    "target_path": "public/pinterest/final/pin-0103.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoração sala. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Ideia pronta de decoração sala com link do produto\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 104,
+    "board_name": "Cozinha elegante",
+    "keyword": "decoração cozinha",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Lustre_Pendente_para_Sala_Quarto_Cozinha_Moderno_LED_Dourado.webp?v=1748190597",
+    "target_path": "public/pinterest/final/pin-0104.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoração cozinha. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Lustre Pendente Moderno LED Espiral. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 105,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha organizada",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Lustre_Pendente_para_Sala_Quarto_Cozinha_Moderno_LED_Dourado.webp?v=1748190597",
+    "target_path": "public/pinterest/final/pin-0105.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para cozinha organizada\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Lustre Pendente Moderno LED Espiral."
+  },
+  {
+    "id": 106,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha pequena organizada",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Lustre_Pendente_para_Sala_Quarto_Cozinha_Moderno_LED_Dourado.webp?v=1748190597",
+    "target_path": "public/pinterest/final/pin-0106.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha pequena organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Lustre Pendente Moderno LED Espiral, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 108,
+    "board_name": "Mesa posta elegante",
+    "keyword": "sala de jantar decorada",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Lustre_Pendente_para_Sala_Quarto_Cozinha_Moderno_LED_Dourado.webp?v=1748190597",
+    "target_path": "public/pinterest/final/pin-0108.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala de jantar decorada. Cenario: sala de jantar elegante com cadeiras arrumadas, mesa posta clean e detalhes de decoracao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Lustre Pendente Moderno LED Espiral para transformar o ambiente\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 109,
+    "board_name": "Sala sofisticada",
+    "keyword": "sala sofisticada",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Lustre_Pendente_para_Sala_Quarto_Cozinha_Moderno_LED_Dourado.webp?v=1748190597",
+    "target_path": "public/pinterest/final/pin-0109.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala sofisticada. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Lustre Pendente Moderno LED Espiral. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 110,
+    "board_name": "Sala sofisticada",
+    "keyword": "decoracao de sala",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Lustre_Pendente_para_Sala_Quarto_Cozinha_Moderno_LED_Dourado.webp?v=1748190597",
+    "target_path": "public/pinterest/final/pin-0110.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoracao de sala. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para decoracao de sala\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Lustre Pendente Moderno LED Espiral."
+  },
+  {
+    "id": 111,
+    "board_name": "Cozinha elegante",
+    "keyword": "projeto de cozinha",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Luminaria de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Luminaria_de_Teto_para_Sala_Quarto_Cozinha_em_LED_branco_2.webp?v=1744760801",
+    "target_path": "public/pinterest/final/pin-0111.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: projeto de cozinha. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Luminaria de Teto em LED Espiral, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 113,
+    "board_name": "Sala sofisticada",
+    "keyword": "decoração sala",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Luminaria de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Luminaria_de_Teto_para_Sala_Quarto_Cozinha_em_LED_branco_2.webp?v=1744760801",
+    "target_path": "public/pinterest/final/pin-0113.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoração sala. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Luminaria de Teto em LED Espiral: inspiracao para decoração sala\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 114,
+    "board_name": "Cozinha elegante",
+    "keyword": "decoração cozinha",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Luminaria de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Luminaria_de_Teto_para_Sala_Quarto_Cozinha_em_LED_branco_2.webp?v=1744760801",
+    "target_path": "public/pinterest/final/pin-0114.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoração cozinha. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Luminaria de Teto em LED Espiral. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 115,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha organizada",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Luminaria de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Luminaria_de_Teto_para_Sala_Quarto_Cozinha_em_LED_branco_2.webp?v=1744760801",
+    "target_path": "public/pinterest/final/pin-0115.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para cozinha organizada\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Luminaria de Teto em LED Espiral."
+  },
+  {
+    "id": 116,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha pequena organizada",
+    "visual_strategy": "environment_full_bleed",
+    "product_title": "Luminaria de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Luminaria_de_Teto_para_Sala_Quarto_Cozinha_em_LED_branco_2.webp?v=1744760801",
+    "target_path": "public/pinterest/final/pin-0116.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha pequena organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Luminaria de Teto em LED Espiral, aplicar apenas se fizer sentido natural."
+  },
+  {
+    "id": 118,
+    "board_name": "Mesa posta elegante",
+    "keyword": "sala de jantar decorada",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Luminaria de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Luminaria_de_Teto_para_Sala_Quarto_Cozinha_em_LED_branco_2.webp?v=1744760801",
+    "target_path": "public/pinterest/final/pin-0118.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala de jantar decorada. Cenario: sala de jantar elegante com cadeiras arrumadas, mesa posta clean e detalhes de decoracao. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"sala de jantar decorada: produto para comprar e usar em casa\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+  },
+  {
+    "id": 119,
+    "board_name": "Sala sofisticada",
+    "keyword": "sala sofisticada",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Luminaria de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Luminaria_de_Teto_para_Sala_Quarto_Cozinha_em_LED_branco_2.webp?v=1744760801",
+    "target_path": "public/pinterest/final/pin-0119.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala sofisticada. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Luminaria de Teto em LED Espiral. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 120,
+    "board_name": "Sala sofisticada",
+    "keyword": "decoracao de sala",
+    "visual_strategy": "listicle_idea_overlay",
+    "product_title": "Luminaria de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Luminaria_de_Teto_para_Sala_Quarto_Cozinha_em_LED_branco_2.webp?v=1744760801",
+    "target_path": "public/pinterest/final/pin-0120.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoracao de sala. Cenario: sala de estar sofisticada, sofa neutro, almofadas decorativas, relogio de parede e decoracao elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para decoracao de sala\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Luminaria de Teto em LED Espiral."
+  }
+]
