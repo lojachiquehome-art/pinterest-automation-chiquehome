@@ -1,0 +1,7 @@
+.env
+.env.*
+!/.env.example
+secrets/
+output/published_pins.json
+node_modules/
+.npm-cache/

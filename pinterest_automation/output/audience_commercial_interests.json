@@ -1,0 +1,362 @@
+[
+  {
+    "category": "Home Decor",
+    "interest": "Wall",
+    "categoryPercent": 0.881,
+    "interestPercent": 0.881
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Room Decor",
+    "categoryPercent": 0.702,
+    "interestPercent": 0.702
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Home Decor Style",
+    "categoryPercent": 0.506,
+    "interestPercent": 0.506
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Lighting",
+    "categoryPercent": 0.373,
+    "interestPercent": 0.373
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Home Accessories",
+    "categoryPercent": 0.371,
+    "interestPercent": 0.371
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Storage and Organization",
+    "categoryPercent": 0.363,
+    "interestPercent": 0.363
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Furniture",
+    "categoryPercent": 0.32,
+    "interestPercent": 0.32
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Flooring",
+    "categoryPercent": 0.266,
+    "interestPercent": 0.266
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Home Maintenance",
+    "categoryPercent": 0.207,
+    "interestPercent": 0.207
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Door",
+    "categoryPercent": 0.084,
+    "interestPercent": 0.084
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Exterior",
+    "categoryPercent": 0.07,
+    "interestPercent": 0.07
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Remodel",
+    "categoryPercent": 0.04,
+    "interestPercent": 0.04
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Stairs",
+    "categoryPercent": 0.028,
+    "interestPercent": 0.028
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Entrance",
+    "categoryPercent": 0.027,
+    "interestPercent": 0.027
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Window Treatment",
+    "categoryPercent": 0.02,
+    "interestPercent": 0.02
+  },
+  {
+    "category": "Home Decor",
+    "interest": "Home Decor Tips",
+    "categoryPercent": 0.013,
+    "interestPercent": 0.013
+  },
+  {
+    "category": "Beauty",
+    "interest": "Hair",
+    "categoryPercent": 0.89,
+    "interestPercent": 0.89
+  },
+  {
+    "category": "Beauty",
+    "interest": "Skin Care",
+    "categoryPercent": 0.562,
+    "interestPercent": 0.562
+  },
+  {
+    "category": "Beauty",
+    "interest": "Makeup",
+    "categoryPercent": 0.412,
+    "interestPercent": 0.412
+  },
+  {
+    "category": "Beauty",
+    "interest": "Nails",
+    "categoryPercent": 0.349,
+    "interestPercent": 0.349
+  },
+  {
+    "category": "Beauty",
+    "interest": "Bath and Body Care",
+    "categoryPercent": 0.341,
+    "interestPercent": 0.341
+  },
+  {
+    "category": "Beauty",
+    "interest": "Men's Beauty",
+    "categoryPercent": 0.043,
+    "interestPercent": 0.043
+  },
+  {
+    "category": "Beauty",
+    "interest": "Fragrance",
+    "categoryPercent": 0.011,
+    "interestPercent": 0.011
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Meal Planning",
+    "categoryPercent": 0.749,
+    "interestPercent": 0.749
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Desserts",
+    "categoryPercent": 0.732,
+    "interestPercent": 0.732
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Drinks",
+    "categoryPercent": 0.391,
+    "interestPercent": 0.391
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Fruit",
+    "categoryPercent": 0.317,
+    "interestPercent": 0.317
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "World Cuisine",
+    "categoryPercent": 0.263,
+    "interestPercent": 0.263
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Appetizers",
+    "categoryPercent": 0.196,
+    "interestPercent": 0.196
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Cooking Method",
+    "categoryPercent": 0.149,
+    "interestPercent": 0.149
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Special Diet",
+    "categoryPercent": 0.144,
+    "interestPercent": 0.144
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Snacks",
+    "categoryPercent": 0.133,
+    "interestPercent": 0.133
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Salad",
+    "categoryPercent": 0.087,
+    "interestPercent": 0.087
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Bread",
+    "categoryPercent": 0.085,
+    "interestPercent": 0.085
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Meat",
+    "categoryPercent": 0.063,
+    "interestPercent": 0.063
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Soup",
+    "categoryPercent": 0.039,
+    "interestPercent": 0.039
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Food For Special Event",
+    "categoryPercent": 0.039,
+    "interestPercent": 0.039
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Seafood",
+    "categoryPercent": 0.035,
+    "interestPercent": 0.035
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Vegetables",
+    "categoryPercent": 0.025,
+    "interestPercent": 0.025
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Condiments",
+    "categoryPercent": 0.024,
+    "interestPercent": 0.024
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Sandwich",
+    "categoryPercent": 0.02,
+    "interestPercent": 0.02
+  },
+  {
+    "category": "Food and Drinks",
+    "interest": "Pizza",
+    "categoryPercent": 0.019,
+    "interestPercent": 0.019
+  },
+  {
+    "category": "Event Planning",
+    "interest": "Holiday",
+    "categoryPercent": 0.866,
+    "interestPercent": 0.866
+  },
+  {
+    "category": "Event Planning",
+    "interest": "Personal Celebration",
+    "categoryPercent": 0.303,
+    "interestPercent": 0.303
+  },
+  {
+    "category": "Event Planning",
+    "interest": "Gifts",
+    "categoryPercent": 0.3,
+    "interestPercent": 0.3
+  },
+  {
+    "category": "Event Planning",
+    "interest": "Hosting Occasions",
+    "categoryPercent": 0.215,
+    "interestPercent": 0.215
+  },
+  {
+    "category": "Event Planning",
+    "interest": "School Celebration",
+    "categoryPercent": 0.032,
+    "interestPercent": 0.032
+  },
+  {
+    "category": "Gardening",
+    "interest": "Planting",
+    "categoryPercent": 0.768,
+    "interestPercent": 0.768
+  },
+  {
+    "category": "Gardening",
+    "interest": "Garden Design",
+    "categoryPercent": 0.159,
+    "interestPercent": 0.159
+  },
+  {
+    "category": "Gardening",
+    "interest": "Garden Types",
+    "categoryPercent": 0.112,
+    "interestPercent": 0.112
+  },
+  {
+    "category": "Gardening",
+    "interest": "Gardening Supplies",
+    "categoryPercent": 0.029,
+    "interestPercent": 0.029
+  },
+  {
+    "category": "Wedding",
+    "interest": "Wedding Outfit",
+    "categoryPercent": 0.348,
+    "interestPercent": 0.348
+  },
+  {
+    "category": "Wedding",
+    "interest": "Wedding Cake",
+    "categoryPercent": 0.331,
+    "interestPercent": 0.331
+  },
+  {
+    "category": "Wedding",
+    "interest": "Wedding Decor",
+    "categoryPercent": 0.266,
+    "interestPercent": 0.266
+  },
+  {
+    "category": "Wedding",
+    "interest": "Wedding Beauty",
+    "categoryPercent": 0.25,
+    "interestPercent": 0.25
+  },
+  {
+    "category": "Wedding",
+    "interest": "Wedding Stationery",
+    "categoryPercent": 0.18,
+    "interestPercent": 0.18
+  },
+  {
+    "category": "Wedding",
+    "interest": "Wedding Event",
+    "categoryPercent": 0.15,
+    "interestPercent": 0.15
+  },
+  {
+    "category": "Wedding",
+    "interest": "Wedding Jewelry and Accessories",
+    "categoryPercent": 0.133,
+    "interestPercent": 0.133
+  },
+  {
+    "category": "Wedding",
+    "interest": "Wedding Photography and Videography",
+    "categoryPercent": 0.122,
+    "interestPercent": 0.122
+  },
+  {
+    "category": "Wedding",
+    "interest": "Wedding Theme",
+    "categoryPercent": 0.103,
+    "interestPercent": 0.103
+  }
+]

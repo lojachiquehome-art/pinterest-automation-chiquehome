@@ -1,0 +1,43 @@
+keyword,intent,board,priority,content_angle
+decoracao de sala,sala,Sala sofisticada,1,ambiente
+sala pequena decorada,sala,Sala sofisticada,1,dor
+decoracao de sala pequena,sala,Sala sofisticada,1,dor
+sala sofisticada,sala,Sala sofisticada,1,estilo
+sala elegante,sala,Sala sofisticada,1,estilo
+decoracao sem reforma,casa,Decoracao sem reforma,1,dor
+apartamento pequeno decorado,casa,Apartamento pequeno decorado,1,dor
+decoracao de apartamento pequeno,casa,Apartamento pequeno decorado,1,dor
+cozinha decorada,cozinha,Cozinha elegante,1,ambiente
+cozinha pequena decorada,cozinha,Cozinha elegante,1,dor
+decoracao de cozinha,cozinha,Cozinha elegante,1,ambiente
+tapete para cozinha,cozinha,Tapetes para cozinha,1,produto
+tapete antiderrapante para cozinha,cozinha,Tapetes para cozinha,1,produto
+passadeira para cozinha,cozinha,Tapetes para cozinha,1,produto
+cozinha elegante,cozinha,Cozinha elegante,1,estilo
+banheiro decorado,banheiro,Banheiro com cara de hotel,1,ambiente
+banheiro pequeno decorado,banheiro,Banheiro com cara de hotel,1,dor
+banheiro moderno,banheiro,Banheiro com cara de hotel,1,estilo
+banheiro com cara de hotel,banheiro,Banheiro com cara de hotel,1,missao
+lavabo decorado,banheiro,Banheiro com cara de hotel,1,ambiente
+organizacao de banheiro,banheiro,Banheiro organizado,2,dor
+organizador de maquiagem,banheiro,Banheiro organizado,2,produto
+relogio de parede grande,relogio,Relogios de parede,1,produto
+relogio de parede decorativo,relogio,Relogios de parede,1,produto
+decoracao de parede,sala,Decoracao de parede,1,ambiente
+parede da sala decorada,sala,Decoracao de parede,2,dor
+iluminacao para sala,iluminacao,Iluminacao decorativa,1,produto
+lustre para sala,iluminacao,Iluminacao decorativa,1,produto
+lustre pendente,iluminacao,Iluminacao decorativa,1,produto
+luminaria para quarto,iluminacao,Iluminacao decorativa,1,produto
+arandela de parede,iluminacao,Iluminacao decorativa,1,produto
+mesa posta,mesa,Mesa posta elegante,1,ambiente
+mesa posta simples,mesa,Mesa posta elegante,1,dor
+decoracao mesa posta,mesa,Mesa posta elegante,1,ambiente
+casa nova,casa,Presentes para casa nova,2,missao
+presentes para casa nova,casa,Presentes para casa nova,2,missao
+achados para casa,casa,Achados para casa,1,descoberta
+achadinhos para casa,casa,Achados para casa,1,descoberta
+itens para casa,casa,Achados para casa,2,descoberta
+casa chique,casa,Achados para casa,2,estilo
+casa elegante,casa,Achados para casa,1,estilo
+

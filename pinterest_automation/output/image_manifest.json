@@ -1,0 +1,41 @@
+{
+  "imageDate": "2026-06-27",
+  "baseUrl": "",
+  "rendered": [
+    {
+      "id": 1,
+      "keyword": "porta papel higienico de parede",
+      "visual_strategy": "shopify_product_photo",
+      "generated_image_path": "",
+      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383"
+    },
+    {
+      "id": 2,
+      "keyword": "porta papel banheiro moderno",
+      "visual_strategy": "shopify_product_photo",
+      "generated_image_path": "",
+      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383"
+    },
+    {
+      "id": 3,
+      "keyword": "banheiro pequeno organizado",
+      "visual_strategy": "generated_scene_with_text",
+      "generated_image_path": "public/pinterest/2026-06-27/pin-0003.png",
+      "generated_image_url": ""
+    },
+    {
+      "id": 4,
+      "keyword": "banheiro com cara de hotel",
+      "visual_strategy": "generated_scene_with_product",
+      "generated_image_path": "public/pinterest/2026-06-27/pin-0004.png",
+      "generated_image_url": ""
+    },
+    {
+      "id": 5,
+      "keyword": "banheiro decorado",
+      "visual_strategy": "generated_scene_with_text",
+      "generated_image_path": "public/pinterest/2026-06-27/pin-0005.png",
+      "generated_image_url": ""
+    }
+  ]
+}
