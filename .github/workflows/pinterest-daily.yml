@@ -45,17 +45,29 @@ jobs:
           mkdir -p secrets
           printf '%s' "$PINTEREST_TOKEN_JSON" > secrets/pinterest_token.json
 
-      - name: Generate and publish daily pins
+      - name: Generate pins and images
         run: |
           LIMIT="${{ github.event.inputs.limit || '10' }}"
-          if [ "${{ github.event.inputs.dry_run || 'false' }}" = "true" ]; then
-            node scripts/daily_pinterest.mjs --dry-run --limit "$LIMIT"
-          else
-            node scripts/daily_pinterest.mjs --limit "$LIMIT"
-          fi
+          node scripts/generate_pin_batch.mjs
+          node scripts/render_pin_images.mjs --limit "$LIMIT"
 
-      - name: Commit generated images and logs
+      - name: Commit generated images before publishing
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: generate daily pinterest assets"
           file_pattern: "pinterest_automation/public/pinterest/** pinterest_automation/output/*.json pinterest_automation/output/*.csv"
+
+      - name: Publish daily pins
+        run: |
+          LIMIT="${{ github.event.inputs.limit || '10' }}"
+          if [ "${{ github.event.inputs.dry_run || 'false' }}" = "true" ]; then
+            node scripts/publish_pins.mjs --dry-run --limit "$LIMIT"
+          else
+            node scripts/publish_pins.mjs --limit "$LIMIT"
+          fi
+
+      - name: Commit publish history
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update pinterest publish history"
+          file_pattern: "pinterest_automation/output/published_pins.json"

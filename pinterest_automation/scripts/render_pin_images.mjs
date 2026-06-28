@@ -1,4 +1,4 @@
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
@@ -102,12 +102,16 @@ function datedDir() {
 const { limit, offset } = parseArgs();
 const rowsPath = path.join(ROOT, "output", "pins_batch.json");
 const rows = JSON.parse(readFileSync(rowsPath, "utf8"));
+const publishedPath = path.join(ROOT, "output", "published_pins.json");
+const publishedIds = existsSync(publishedPath)
+  ? new Set(JSON.parse(readFileSync(publishedPath, "utf8")).map((item) => String(item.row_id)))
+  : new Set();
 const imageDate = datedDir();
 const outDir = path.join(ROOT, "public", "pinterest", imageDate);
 mkdirSync(outDir, { recursive: true });
 
 const selected = rows
-  .filter((row) => row.status === "ready" && !row.generated_image_url)
+  .filter((row) => row.status === "ready" && !publishedIds.has(String(row.id)) && !row.generated_image_url)
   .slice(offset, offset + limit);
 const baseUrl = process.env.PIN_IMAGE_BASE_URL?.replace(/\/$/, "");
 

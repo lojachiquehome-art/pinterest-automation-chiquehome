@@ -47,7 +47,18 @@ const collectionByBoard = {
   "Achados para casa": "collections/achados-para-casa",
   "Lavanderia organizada": "collections/lavanderia-organizada",
   "Organizacao e prateleiras": "collections/organizacao-e-prateleiras",
+  "Organização e prateleiras": "collections/organizacao-e-prateleiras",
   "Quarto decorado": "collections/quarto-decorado",
+  "Relogios de parede": "collections/relogios-de-parede",
+  "Iluminacao decorativa": "collections/iluminacao-decorativa",
+  "Escritorio em casa": "collections/escritorio-em-casa",
+  "Escritório em casa": "collections/escritorio-em-casa",
+  "Hall de entrada": "collections/hall-de-entrada",
+  "Design de interiores": "collections/decoracao-sem-reforma",
+  "Paleta de cores para casa": "collections/decoracao-sem-reforma",
+  "Truques de casa": "collections/achados-para-casa",
+  "Presentes para casa nova": "collections/achados-para-casa",
+  "Área externa e varanda": "collections/achados-para-casa",
 };
 
 const boardScene = {
@@ -63,7 +74,18 @@ const boardScene = {
   "Achados para casa": "cantinho da casa com achados uteis e bonitos, organizacao pratica e acabamento premium",
   "Lavanderia organizada": "area de servico pequena organizada, prateleiras, cestos, produtos alinhados e visual claro",
   "Organizacao e prateleiras": "prateleiras organizadas com potes, caixas e objetos de decoracao em ambiente pequeno",
+  "Organização e prateleiras": "prateleiras organizadas com potes, caixas e objetos de decoracao em ambiente pequeno",
   "Quarto decorado": "quarto de casal pequeno decorado, mesa de cabeceira organizada, relogio digital e tons neutros",
+  "Relogios de parede": "parede de sala ou cozinha com relogio decorativo grande, composicao limpa e elegante",
+  "Iluminacao decorativa": "ambiente interno com luminaria decorativa acesa, luz aconchegante e decoracao sofisticada",
+  "Escritorio em casa": "home office organizado, mesa clara, luminaria, porta-canetas e pequenos objetos decorativos",
+  "Escritório em casa": "home office organizado, mesa clara, luminaria, porta-canetas e pequenos objetos decorativos",
+  "Hall de entrada": "hall de entrada elegante com aparador, bandeja, vaso, relogio ou arandela na parede",
+  "Design de interiores": "ambiente residencial bem decorado com composicao harmônica, cores neutras e detalhes Chique Home",
+  "Paleta de cores para casa": "ambiente decorado com paleta de cores harmonica, tons neutros e objetos decorativos",
+  "Truques de casa": "truque simples de organizacao e decoracao para deixar a casa mais bonita sem reforma",
+  "Presentes para casa nova": "composicao de presentes para casa nova com itens uteis, decorativos e elegantes",
+  "Área externa e varanda": "varanda pequena decorada com objetos funcionais, luz natural e clima acolhedor",
 };
 
 function parseCsv(text) {
@@ -173,8 +195,16 @@ function fill(template, data) {
   return template.replace(/\{(\w+)\}/g, (_, key) => data[key] ?? "");
 }
 
+function truncateText(text, maxLength) {
+  const normalized = String(text ?? "").replace(/\s+/g, " ").trim();
+  if (normalized.length <= maxLength) return normalized;
+  const cut = normalized.slice(0, maxLength + 1);
+  const lastSpace = cut.lastIndexOf(" ");
+  return (lastSpace > maxLength * 0.65 ? cut.slice(0, lastSpace) : cut.slice(0, maxLength)).trim();
+}
+
 function addPinterestCoupon(description) {
-  return `${description} ${PINTEREST_COUPON_TEXT}`.slice(0, 500);
+  return truncateText(`${description} ${PINTEREST_COUPON_TEXT}`, 500);
 }
 
 function normalizeText(text) {
@@ -253,7 +283,7 @@ function generate() {
       const room = roomByType[product.product_type] ?? term.intent;
       const short = productShort(product.title);
       const data = { keyword: term.keyword, product_short: short, room };
-      const title = fill(titleTemplates[idx % titleTemplates.length], data).slice(0, 100);
+      const title = truncateText(fill(titleTemplates[idx % titleTemplates.length], data), 100);
       const description = addPinterestCoupon(fill(descriptionTemplates[idx % descriptionTemplates.length], data));
       const strategy = visualStrategy(term, idx);
       const destinationType = landingType(strategy);

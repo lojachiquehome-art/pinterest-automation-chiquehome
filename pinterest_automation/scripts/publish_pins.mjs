@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { getPinterestAccessToken } from "./pinterest_auth.mjs";
@@ -15,40 +15,6 @@ function parseArgs() {
     limit: Number(args[args.indexOf("--limit") + 1] || 10),
     sleep: Number(args[args.indexOf("--sleep") + 1] || 10),
   };
-}
-
-function parseCsv(text) {
-  const rows = [];
-  let row = [];
-  let value = "";
-  let inQuotes = false;
-  for (let i = 0; i < text.length; i++) {
-    const char = text[i];
-    const next = text[i + 1];
-    if (char === '"' && inQuotes && next === '"') {
-      value += '"';
-      i++;
-    } else if (char === '"') {
-      inQuotes = !inQuotes;
-    } else if (char === "," && !inQuotes) {
-      row.push(value);
-      value = "";
-    } else if ((char === "\n" || char === "\r") && !inQuotes) {
-      if (char === "\r" && next === "\n") i++;
-      row.push(value);
-      if (row.some((cell) => cell.length)) rows.push(row);
-      row = [];
-      value = "";
-    } else {
-      value += char;
-    }
-  }
-  if (value.length || row.length) {
-    row.push(value);
-    rows.push(row);
-  }
-  const headers = rows.shift().map((h) => h.replace(/^\uFEFF/, ""));
-  return rows.map((values) => Object.fromEntries(headers.map((h, i) => [h, values[i] ?? ""])));
 }
 
 function sleep(ms) {
@@ -72,6 +38,8 @@ async function pinterestPost(pathname, token, payload) {
 }
 
 function createPayload(row, boardId) {
+  const imageUrl = row.generated_image_url || row.image_url;
+  if (!imageUrl) throw new Error(`Pin ${row.id} nao tem image_url publica.`);
   return {
     board_id: boardId,
     title: row.title,
@@ -80,19 +48,28 @@ function createPayload(row, boardId) {
     alt_text: row.alt_text,
     media_source: {
       source_type: "image_url",
-      url: row.generated_image_url || row.image_url,
+      url: imageUrl,
     },
   };
+}
+
+function readPublishedHistory() {
+  const file = path.join(ROOT, "output", "published_pins.json");
+  if (!existsSync(file)) return [];
+  return JSON.parse(readFileSync(file, "utf8"));
 }
 
 const { dryRun, limit, sleep: sleepSeconds } = parseArgs();
 const token = dryRun ? "" : await getPinterestAccessToken();
 
-const rows = parseCsv(readFileSync(path.join(ROOT, "output", "pins_batch.csv"), "utf8"))
-  .filter((row) => row.status === "ready")
+const publishedFile = path.join(ROOT, "output", "published_pins.json");
+const publishedHistory = readPublishedHistory();
+const alreadyPublished = new Set(publishedHistory.map((item) => String(item.row_id)));
+const rows = JSON.parse(readFileSync(path.join(ROOT, "output", "pins_batch.json"), "utf8"))
+  .filter((row) => row.status === "ready" && !alreadyPublished.has(String(row.id)))
   .slice(0, limit);
 const boardMap = JSON.parse(readFileSync(path.join(ROOT, "data", "board_ids.json"), "utf8"));
-const published = [];
+const published = [...publishedHistory];
 
 for (const row of rows) {
   const boardId = boardMap[row.board_name];
@@ -111,6 +88,6 @@ for (const row of rows) {
   }
 }
 
-if (published.length) {
-  writeFileSync(path.join(ROOT, "output", "published_pins.json"), JSON.stringify(published, null, 2), "utf8");
+if (!dryRun && published.length !== publishedHistory.length) {
+  writeFileSync(publishedFile, JSON.stringify(published, null, 2), "utf8");
 }
