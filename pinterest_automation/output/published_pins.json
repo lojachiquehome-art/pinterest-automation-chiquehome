@@ -49,5 +49,56 @@
       "creative_type": "REGULAR",
       "board_id": "930134197981214275"
     }
+  },
+  {
+    "row_id": 4,
+    "pin": {
+      "created_at": "2026-07-20T21:07:45",
+      "is_standard": true,
+      "product_tags": [],
+      "creative_type": "REGULAR",
+      "pin_metrics": null,
+      "title": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro para transformar o ambiente",
+      "alt_text": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro - banheiro com cara de hotel Chique Home",
+      "description": "Gostou da ideia? Clique para ver preco, medidas, cores e detalhes do produto na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "parent_pin_id": null,
+      "is_product": false,
+      "has_been_promoted": false,
+      "id": "930134129315903554",
+      "board_section_id": null,
+      "is_owner": true,
+      "is_removable": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/7a/bb/35/7abb35b8fcf79d49f1644c23e08e964f.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/7a/bb/35/7abb35b8fcf79d49f1644c23e08e964f.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/7a/bb/35/7abb35b8fcf79d49f1644c23e08e964f.jpg"
+          },
+          "1200x": {
+            "width": 1024,
+            "height": 1536,
+            "url": "https://i.pinimg.com/1200x/7a/bb/35/7abb35b8fcf79d49f1644c23e08e964f.jpg"
+          }
+        }
+      },
+      "dominant_color": "#825831",
+      "link": "https://chiquehome.com.br/collections/banheiro-com-cara-de-hotel?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=banheiro_com_cara_de_hotel_4",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "board_id": "930134197981214274"
+    }
   }
 ]
