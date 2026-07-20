@@ -39,7 +39,9 @@ const roomByType = {
   Banheiro: "banheiro",
   "Tapete Cozinha": "cozinha",
   Relogio: "sala ou cozinha",
+  "Relogio Mesa": "quarto ou mesa de cabeceira",
   Iluminacao: "sala, quarto ou cozinha",
+  Sala: "sala",
 };
 
 const collectionByBoard = {
@@ -257,6 +259,49 @@ function requiresAiImage(strategy) {
   return strategy !== "product_full_bleed";
 }
 
+function termForCampaign(row) {
+  return {
+    keyword: row.keyword,
+    intent: row.intent || row.board_name,
+    board: row.board_name,
+    priority: "1",
+    content_angle: row.visual_strategy === "product_full_bleed" ? "produto" : "ambiente",
+    monthly_change: "",
+  };
+}
+
+function buildRow({ id, product, term, strategy, scheduledAt }) {
+  const room = roomByType[product.product_type] ?? term.intent;
+  const short = productShort(product.title);
+  const data = { keyword: term.keyword, product_short: short, room };
+  const title = truncateText(fill(titleTemplates[id % titleTemplates.length], data), 100);
+  const description = addPinterestCoupon(fill(descriptionTemplates[id % descriptionTemplates.length], data));
+  const destinationType = landingType(strategy);
+  return {
+    id,
+    scheduled_at: scheduledAt.toISOString(),
+    board_name: term.board,
+    keyword: term.keyword,
+    intent: term.intent,
+    content_angle: term.content_angle,
+    trend_monthly_change: term.monthly_change ?? "",
+    visual_strategy: strategy,
+    landing_type: destinationType,
+    title,
+    description,
+    link: destinationType === "collection"
+      ? makeCollectionUrl(term.board, term.keyword, id)
+      : makeUrl(product.handle, term.keyword, id),
+    image_url: product.image_url,
+    generated_image_prompt: imagePrompt({ product, term, title, strategy }),
+    requires_ai_image: requiresAiImage(strategy) ? "yes" : "no",
+    alt_text: `${short} - ${term.keyword} Chique Home`.slice(0, 500),
+    product_title: product.title,
+    product_handle: product.handle,
+    status: "ready",
+  };
+}
+
 function imagePrompt({ product, term, title, strategy }) {
   const scene = boardScene[term.board] ?? `${term.keyword} em ambiente de casa elegante, organizado e realista`;
   const productName = productShort(product.title);
@@ -279,6 +324,7 @@ function imagePrompt({ product, term, title, strategy }) {
 
 function generate() {
   const products = parseCsv(readFileSync(path.join(ROOT, "data", "products_seed.csv"), "utf8"));
+  const productsByHandle = new Map(products.map((product) => [product.handle, product]));
   const baseTerms = parseCsv(readFileSync(path.join(ROOT, "data", "pinterest_terms.csv"), "utf8"));
   const trendTermsPath = path.join(ROOT, "data", "trends_terms_manual.csv");
   const trendTerms = parseCsv(readFileSync(trendTermsPath, "utf8"));
@@ -288,45 +334,38 @@ function generate() {
   const start = new Date();
   start.setHours(9, 0, 0, 0);
   const rows = [];
-  let idx = 1;
+  let idx = 1001;
+
+  const weeklyCampaignPath = path.join(ROOT, "data", "weekly_campaign_2026-07-21.csv");
+  try {
+    const weeklyRows = parseCsv(readFileSync(weeklyCampaignPath, "utf8"));
+    for (let i = 0; i < weeklyRows.length; i++) {
+      const campaign = weeklyRows[i];
+      const product = productsByHandle.get(campaign.product_handle);
+      if (!product) throw new Error(`Produto nao encontrado no weekly campaign: ${campaign.product_handle}`);
+      const scheduled = new Date(`${campaign.date}T${String(slots[i % 6] ?? 9).padStart(2, "0")}:00:00-03:00`);
+      rows.push(buildRow({
+        id: idx,
+        product,
+        term: termForCampaign(campaign),
+        strategy: campaign.visual_strategy,
+        scheduledAt: scheduled,
+      }));
+      idx++;
+    }
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
 
   for (const product of products) {
     let relevant = terms.filter((term) => matches(product, term));
     if (!relevant.length) relevant = terms.slice(0, 8);
     for (const term of relevant.slice(0, 10)) {
-      const room = roomByType[product.product_type] ?? term.intent;
-      const short = productShort(product.title);
-      const data = { keyword: term.keyword, product_short: short, room };
-      const title = truncateText(fill(titleTemplates[idx % titleTemplates.length], data), 100);
-      const description = addPinterestCoupon(fill(descriptionTemplates[idx % descriptionTemplates.length], data));
       const strategy = visualStrategy(term, idx);
-      const destinationType = landingType(strategy);
       const scheduled = new Date(start);
       scheduled.setDate(start.getDate() + Math.floor((idx - 1) / slots.length));
       scheduled.setHours(slots[(idx - 1) % slots.length], 0, 0, 0);
-      rows.push({
-        id: idx,
-        scheduled_at: scheduled.toISOString(),
-        board_name: term.board,
-        keyword: term.keyword,
-        intent: term.intent,
-        content_angle: term.content_angle,
-        trend_monthly_change: term.monthly_change ?? "",
-        visual_strategy: strategy,
-        landing_type: destinationType,
-        title,
-        description,
-        link: destinationType === "collection"
-          ? makeCollectionUrl(term.board, term.keyword, idx)
-          : makeUrl(product.handle, term.keyword, idx),
-        image_url: product.image_url,
-        generated_image_prompt: imagePrompt({ product, term, title, strategy }),
-        requires_ai_image: requiresAiImage(strategy) ? "yes" : "no",
-        alt_text: `${short} - ${term.keyword} Chique Home`.slice(0, 500),
-        product_title: product.title,
-        product_handle: product.handle,
-        status: "ready",
-      });
+      rows.push(buildRow({ id: idx, product, term, strategy, scheduledAt: scheduled }));
       idx++;
     }
   }

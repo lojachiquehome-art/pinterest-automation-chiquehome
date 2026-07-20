@@ -9,6 +9,7 @@ const WIDTH = 1000;
 const HEIGHT = 1500;
 const STORE_URL = "https://chiquehome.com.br";
 const PRODUCT_DIR = path.join(ROOT, "public", "pinterest", "product-originals");
+const GENERATED_DIR = path.join(ROOT, "public", "pinterest", "generated");
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -141,6 +142,59 @@ async function productImageBuffer(row) {
   }
 }
 
+async function productDataUrl(row) {
+  const input = await productImageBuffer(row);
+  const output = await sharp(input)
+    .rotate()
+    .resize(720, 720, { fit: "cover", position: "center" })
+    .jpeg({ quality: 88 })
+    .toBuffer();
+  return `data:image/jpeg;base64,${output.toString("base64")}`;
+}
+
+function designedOverlay(row) {
+  const colors = palette(row.board_name);
+  const title = row.visual_strategy === "listicle_idea_overlay"
+    ? `3 ideias para ${row.keyword}`
+    : row.visual_strategy === "environment_title_overlay"
+      ? row.keyword
+      : "";
+  const titleLines = wrapText(title, 18, 4);
+  const showTitle = row.visual_strategy === "environment_title_overlay" || row.visual_strategy === "listicle_idea_overlay";
+  const showSmall = row.visual_strategy === "product_in_environment";
+  return `
+    <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
+      <rect width="${WIDTH}" height="${HEIGHT}" fill="#000" opacity="${showTitle ? "0.22" : "0.03"}"/>
+      ${showTitle ? `<rect x="70" y="360" width="860" height="560" rx="0" fill="#000" opacity="0.10"/>` : ""}
+      ${titleLines.map((line, i) => `<text x="500" y="${500 + i * 92}" text-anchor="middle" font-family="Georgia, serif" font-size="${row.visual_strategy === "listicle_idea_overlay" ? 76 : 82}" font-weight="700" fill="#fff7ed">${escapeXml(line.toUpperCase())}</text>`).join("")}
+      ${row.visual_strategy === "listicle_idea_overlay" ? [0, 1, 2].map((n) => `<circle cx="${250 + n * 250}" cy="980" r="42" fill="${colors.accent}" opacity="0.92"/><text x="${250 + n * 250}" y="996" text-anchor="middle" font-family="Arial" font-size="42" font-weight="800" fill="#fff">${n + 1}</text>`).join("") : ""}
+      ${showSmall ? `<rect x="80" y="1090" width="610" height="86" rx="43" fill="#fff8ef" opacity="0.88"/><text x="124" y="1146" font-family="Arial" font-size="34" font-weight="700" fill="${colors.dark}">Veja o produto na Chique Home</text>` : ""}
+      <rect x="640" y="1380" width="280" height="72" rx="36" fill="#d9b98f" opacity="0.9"/>
+      <text x="780" y="1427" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#3b2d24">PINTEREST10</text>
+    </svg>
+  `;
+}
+
+async function renderDesignedPin(row) {
+  mkdirSync(GENERATED_DIR, { recursive: true });
+  const fileName = `pin-${String(row.id).padStart(4, "0")}.jpg`;
+  const filePath = path.join(GENERATED_DIR, fileName);
+  const input = await productImageBuffer(row);
+  const background = await sharp(input)
+    .rotate()
+    .resize(WIDTH, HEIGHT, { fit: "cover", position: "center" })
+    .modulate({ brightness: row.visual_strategy === "environment_full_bleed" ? 1.02 : 0.88, saturation: 0.94 })
+    .jpeg({ quality: 91 })
+    .toBuffer();
+
+  await sharp(background)
+    .composite([{ input: Buffer.from(designedOverlay(row)), left: 0, top: 0 }])
+    .jpeg({ quality: 91 })
+    .toFile(filePath);
+
+  return { fileName, filePath };
+}
+
 async function renderProductPin(row) {
   mkdirSync(PRODUCT_DIR, { recursive: true });
   const fileName = `pin-${String(row.id).padStart(4, "0")}.jpg`;
@@ -202,6 +256,7 @@ const imageDate = datedDir();
 const outDir = path.join(ROOT, "public", "pinterest", imageDate);
 mkdirSync(outDir, { recursive: true });
 mkdirSync(PRODUCT_DIR, { recursive: true });
+mkdirSync(GENERATED_DIR, { recursive: true });
 
 const selected = rows
   .filter((row) => row.status === "ready" && !publishedIds.has(String(row.id)) && !row.generated_image_url)
@@ -220,8 +275,11 @@ for (const row of selected) {
     continue;
   }
 
-  needsAi.push(row);
-  console.log(`Needs approved AI image: row ${row.id} | ${row.keyword} | ${row.visual_strategy}`);
+  if (!baseUrl) throw new Error("PIN_IMAGE_BASE_URL precisa estar configurado para imagens geradas.");
+  const rendered = await renderDesignedPin(row);
+  row.generated_image_url = `${baseUrl}/generated/${rendered.fileName}`;
+  row.generated_image_path = `public/pinterest/generated/${rendered.fileName}`;
+  console.log(`Rendered designed image: row ${row.id} | ${rendered.fileName} | ${row.visual_strategy}`);
 }
 
 writeFileSync(rowsPath, JSON.stringify(rows, null, 2), "utf8");

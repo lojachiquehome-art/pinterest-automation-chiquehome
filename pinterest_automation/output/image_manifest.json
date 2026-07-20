@@ -3,148 +3,257 @@
   "baseUrl": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest",
   "rendered": [
     {
-      "id": 1,
+      "id": 1001,
       "keyword": "porta papel higienico de parede",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-0001.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0001.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-1001.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1001.jpg"
     },
     {
-      "id": 2,
+      "id": 1002,
       "keyword": "porta papel banheiro moderno",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-0002.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0002.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-1002.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1002.jpg"
     },
     {
-      "id": 7,
-      "keyword": "banheiro moderno",
+      "id": 1003,
+      "keyword": "organizador de maquiagem",
+      "visual_strategy": "environment_full_bleed",
+      "generated_image_path": "public/pinterest/generated/pin-1003.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1003.jpg"
+    },
+    {
+      "id": 1004,
+      "keyword": "bandeja para banheiro",
+      "visual_strategy": "environment_title_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-1004.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1004.jpg"
+    },
+    {
+      "id": 1005,
+      "keyword": "banheiro pequeno organizado",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-1005.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1005.jpg"
+    },
+    {
+      "id": 1006,
+      "keyword": "organizacao de banheiro",
+      "visual_strategy": "listicle_idea_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-1006.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1006.jpg"
+    },
+    {
+      "id": 1007,
+      "keyword": "tapete para cozinha",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-0007.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0007.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-1007.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1007.jpg"
     },
     {
-      "id": 11,
-      "keyword": "porta papel higienico de parede",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-0011.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0011.jpg"
-    },
-    {
-      "id": 12,
-      "keyword": "porta papel banheiro moderno",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-0012.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0012.jpg"
-    },
-    {
-      "id": 17,
-      "keyword": "banheiro moderno",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-0017.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0017.jpg"
-    },
-    {
-      "id": 22,
-      "keyword": "decoração cozinha",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-0022.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0022.jpg"
-    },
-    {
-      "id": 26,
+      "id": 1008,
       "keyword": "tapete cozinha bege",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-0026.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0026.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-1008.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1008.jpg"
     },
     {
-      "id": 27,
-      "keyword": "tapete cozinha preto",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-0027.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0027.jpg"
-    },
-    {
-      "id": 32,
-      "keyword": "decoração cozinha",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-0032.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0032.jpg"
-    }
-  ],
-  "needsAi": [
-    {
-      "id": 10,
-      "board_name": "Banheiro organizado",
-      "keyword": "penteadeira",
-      "visual_strategy": "listicle_idea_overlay",
-      "product_title": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro - Preto",
-      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383",
-      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: penteadeira. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para penteadeira\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Porta-Papel Higienico de Parede Moderno Duplo para Banheiro."
-    },
-    {
-      "id": 28,
-      "board_name": "Cozinha elegante",
-      "keyword": "cozinha organizada",
-      "visual_strategy": "environment_title_overlay",
-      "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
-      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
-      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Tapete para Cozinha Antiderrapante Absorvente para transformar o ambiente\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
-    },
-    {
-      "id": 29,
-      "board_name": "Cozinha elegante",
-      "keyword": "cozinha pequena organizada",
-      "visual_strategy": "product_in_environment",
-      "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
-      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
-      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha pequena organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Tapete para Cozinha Antiderrapante Absorvente. Sem texto grande, foco em inspirar clique para compra."
-    },
-    {
-      "id": 30,
-      "board_name": "Cozinha elegante",
-      "keyword": "cozinha decorada simples",
-      "visual_strategy": "listicle_idea_overlay",
-      "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
-      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
-      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha decorada simples. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para cozinha decorada simples\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Tapete para Cozinha Antiderrapante Absorvente."
-    },
-    {
-      "id": 31,
-      "board_name": "Cozinha elegante",
-      "keyword": "projeto de cozinha",
+      "id": 1009,
+      "keyword": "passadeira para cozinha",
       "visual_strategy": "environment_full_bleed",
-      "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
-      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
-      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: projeto de cozinha. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Tapete para Cozinha Antiderrapante Absorvente, aplicar apenas se fizer sentido natural."
+      "generated_image_path": "public/pinterest/generated/pin-1009.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1009.jpg"
     },
     {
-      "id": 33,
-      "board_name": "Tapetes para cozinha",
-      "keyword": "tapete cozinha antiderrapante",
+      "id": 1010,
+      "keyword": "tapete antiderrapante para cozinha",
       "visual_strategy": "environment_title_overlay",
-      "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
-      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
-      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete cozinha antiderrapante. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Tapete para Cozinha Antiderrapante Absorvente: inspiracao para tapete cozinha antiderrapante\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+      "generated_image_path": "public/pinterest/generated/pin-1010.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1010.jpg"
     },
     {
-      "id": 34,
-      "board_name": "Tapetes para cozinha",
+      "id": 1011,
       "keyword": "tapete de cozinha absorvente",
       "visual_strategy": "product_in_environment",
-      "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
-      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
-      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete de cozinha absorvente. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Tapete para Cozinha Antiderrapante Absorvente. Sem texto grande, foco em inspirar clique para compra."
+      "generated_image_path": "public/pinterest/generated/pin-1011.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1011.jpg"
     },
     {
-      "id": 35,
-      "board_name": "Tapetes para cozinha",
-      "keyword": "tapete cozinha bege",
+      "id": 1012,
+      "keyword": "cozinha organizada",
       "visual_strategy": "listicle_idea_overlay",
-      "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
-      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
-      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete cozinha bege. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para tapete cozinha bege\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Tapete para Cozinha Antiderrapante Absorvente."
+      "generated_image_path": "public/pinterest/generated/pin-1012.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1012.jpg"
+    },
+    {
+      "id": 1013,
+      "keyword": "relogio digital de mesa",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-1013.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1013.jpg"
+    },
+    {
+      "id": 1014,
+      "keyword": "relogio de mesa led",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-1014.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1014.jpg"
+    },
+    {
+      "id": 1015,
+      "keyword": "relogio de cabeceira",
+      "visual_strategy": "environment_full_bleed",
+      "generated_image_path": "public/pinterest/generated/pin-1015.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1015.jpg"
+    },
+    {
+      "id": 1016,
+      "keyword": "relogio despertador digital",
+      "visual_strategy": "environment_title_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-1016.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1016.jpg"
+    },
+    {
+      "id": 1017,
+      "keyword": "quarto decorado",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-1017.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1017.jpg"
+    },
+    {
+      "id": 1018,
+      "keyword": "mesa de cabeceira organizada",
+      "visual_strategy": "listicle_idea_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-1018.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1018.jpg"
+    },
+    {
+      "id": 1019,
+      "keyword": "relogio de parede grande",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-1019.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1019.jpg"
+    },
+    {
+      "id": 1020,
+      "keyword": "relogio de parede cozinha",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-1020.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1020.jpg"
+    },
+    {
+      "id": 1021,
+      "keyword": "relogio de parede sala",
+      "visual_strategy": "environment_full_bleed",
+      "generated_image_path": "public/pinterest/generated/pin-1021.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1021.jpg"
+    },
+    {
+      "id": 1022,
+      "keyword": "relogio de parede decorativo",
+      "visual_strategy": "environment_title_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-1022.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1022.jpg"
+    },
+    {
+      "id": 1023,
+      "keyword": "decoracao de parede",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-1023.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1023.jpg"
+    },
+    {
+      "id": 1024,
+      "keyword": "parede da sala decorada",
+      "visual_strategy": "listicle_idea_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-1024.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1024.jpg"
+    },
+    {
+      "id": 1025,
+      "keyword": "arandela de parede",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-1025.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1025.jpg"
+    },
+    {
+      "id": 1026,
+      "keyword": "lustre pendente",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-1026.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1026.jpg"
+    },
+    {
+      "id": 1027,
+      "keyword": "luminaria para quarto",
+      "visual_strategy": "environment_full_bleed",
+      "generated_image_path": "public/pinterest/generated/pin-1027.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1027.jpg"
+    },
+    {
+      "id": 1028,
+      "keyword": "iluminacao para sala",
+      "visual_strategy": "environment_title_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-1028.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1028.jpg"
+    },
+    {
+      "id": 1029,
+      "keyword": "iluminacao decorativa",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-1029.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1029.jpg"
+    },
+    {
+      "id": 1030,
+      "keyword": "luminaria de teto",
+      "visual_strategy": "listicle_idea_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-1030.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1030.jpg"
+    },
+    {
+      "id": 1031,
+      "keyword": "capa almofada sofa luxo",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-1031.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1031.jpg"
+    },
+    {
+      "id": 1032,
+      "keyword": "enfeites para o lar",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-1032.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1032.jpg"
+    },
+    {
+      "id": 1033,
+      "keyword": "sala de jantar decorada",
+      "visual_strategy": "environment_full_bleed",
+      "generated_image_path": "public/pinterest/generated/pin-1033.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1033.jpg"
+    },
+    {
+      "id": 1034,
+      "keyword": "sala sofisticada",
+      "visual_strategy": "environment_title_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-1034.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1034.jpg"
+    },
+    {
+      "id": 1035,
+      "keyword": "decoracao de sala",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-1035.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1035.jpg"
+    },
+    {
+      "id": 1036,
+      "keyword": "decoracao mesa posta",
+      "visual_strategy": "listicle_idea_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-1036.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1036.jpg"
     }
-  ]
+  ],
+  "needsAi": []
 }
