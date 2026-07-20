@@ -10,10 +10,16 @@ const MISSING_BOARD_ID = "BOARD_ID_AQUI";
 
 function parseArgs() {
   const args = process.argv.slice(2);
+  const readNumberArg = (name, fallback) => {
+    const index = args.indexOf(name);
+    if (index === -1) return fallback;
+    const value = Number(args[index + 1]);
+    return Number.isFinite(value) ? value : fallback;
+  };
   return {
     dryRun: args.includes("--dry-run"),
-    limit: Number(args[args.indexOf("--limit") + 1] || 10),
-    sleep: Number(args[args.indexOf("--sleep") + 1] || 10),
+    limit: readNumberArg("--limit", 10),
+    sleep: readNumberArg("--sleep", 10),
   };
 }
 
@@ -53,6 +59,15 @@ function createPayload(row, boardId) {
   };
 }
 
+function isPinterestFetchableImageUrl(url) {
+  try {
+    const parsed = new URL(url);
+    return /\.(png|jpe?g)$/i.test(parsed.pathname);
+  } catch {
+    return false;
+  }
+}
+
 function readPublishedHistory() {
   const file = path.join(ROOT, "output", "published_pins.json");
   if (!existsSync(file)) return [];
@@ -66,14 +81,20 @@ const publishedFile = path.join(ROOT, "output", "published_pins.json");
 const publishedHistory = readPublishedHistory();
 const alreadyPublished = new Set(publishedHistory.map((item) => String(item.row_id)));
 const rows = JSON.parse(readFileSync(path.join(ROOT, "output", "pins_batch.json"), "utf8"))
-  .filter((row) => row.status === "ready" && !alreadyPublished.has(String(row.id)))
-  .slice(0, limit);
+  .filter((row) => row.status === "ready" && !alreadyPublished.has(String(row.id)));
 const boardMap = JSON.parse(readFileSync(path.join(ROOT, "data", "board_ids.json"), "utf8"));
 const published = [...publishedHistory];
+let processed = 0;
 
 for (const row of rows) {
+  if (processed >= limit) break;
   if (row.requires_ai_image === "yes" && !row.generated_image_url) {
     console.log(`SKIP missing approved AI image: row ${row.id} | ${row.keyword} | ${row.visual_strategy}`);
+    continue;
+  }
+  const imageUrl = row.generated_image_url || row.image_url;
+  if (!isPinterestFetchableImageUrl(imageUrl)) {
+    console.log(`SKIP image format not accepted by Pinterest: row ${row.id} | ${imageUrl}`);
     continue;
   }
   const boardId = boardMap[row.board_name];
@@ -90,6 +111,7 @@ for (const row of rows) {
     console.log(`Published pin for row ${row.id}: ${result.id}`);
     await sleep(sleepSeconds * 1000);
   }
+  processed += 1;
 }
 
 if (!dryRun && published.length !== publishedHistory.length) {

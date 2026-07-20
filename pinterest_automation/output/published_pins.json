@@ -1,0 +1,53 @@
+[
+  {
+    "row_id": 3,
+    "pin": {
+      "is_standard": true,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "is_removable": false,
+      "dominant_color": "#6d553a",
+      "link": "https://chiquehome.com.br/collections/banheiro-organizado?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=banheiro_pequeno_organizado_3",
+      "title": "Inspire-se: banheiro pequeno organizado com toque Chique Home",
+      "description": "Transforme o ambiente com uma escolha visual e funcional. Veja essa sugestao de banheiro pequeno organizado na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "has_been_promoted": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/6a/f8/1c/6af81c2b5e651fd38d188b7db681f70e.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/6a/f8/1c/6af81c2b5e651fd38d188b7db681f70e.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/6a/f8/1c/6af81c2b5e651fd38d188b7db681f70e.jpg"
+          },
+          "1200x": {
+            "width": 1024,
+            "height": 1536,
+            "url": "https://i.pinimg.com/1200x/6a/f8/1c/6af81c2b5e651fd38d188b7db681f70e.jpg"
+          }
+        }
+      },
+      "alt_text": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro - banheiro pequeno organizado Chique Home",
+      "pin_metrics": null,
+      "is_product": false,
+      "parent_pin_id": null,
+      "board_section_id": null,
+      "is_owner": true,
+      "id": "930134129315902624",
+      "created_at": "2026-07-20T20:33:14",
+      "product_tags": [],
+      "creative_type": "REGULAR",
+      "board_id": "930134197981214275"
+    }
+  }
+]
