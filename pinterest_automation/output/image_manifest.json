@@ -6,9 +6,93 @@
       "id": 1,
       "keyword": "porta papel higienico de parede",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "",
-      "generated_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383"
+      "generated_image_path": "public/pinterest/product-originals/pin-0001.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0001.jpg"
+    },
+    {
+      "id": 2,
+      "keyword": "porta papel banheiro moderno",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-0002.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0002.jpg"
+    },
+    {
+      "id": 7,
+      "keyword": "banheiro moderno",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-0007.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0007.jpg"
+    },
+    {
+      "id": 11,
+      "keyword": "porta papel higienico de parede",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-0011.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0011.jpg"
+    },
+    {
+      "id": 12,
+      "keyword": "porta papel banheiro moderno",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-0012.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0012.jpg"
+    },
+    {
+      "id": 17,
+      "keyword": "banheiro moderno",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-0017.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0017.jpg"
+    },
+    {
+      "id": 22,
+      "keyword": "decoração cozinha",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-0022.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0022.jpg"
+    },
+    {
+      "id": 26,
+      "keyword": "tapete cozinha bege",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-0026.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0026.jpg"
+    },
+    {
+      "id": 27,
+      "keyword": "tapete cozinha preto",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-0027.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-0027.jpg"
     }
   ],
-  "needsAi": []
+  "needsAi": [
+    {
+      "id": 10,
+      "board_name": "Banheiro organizado",
+      "keyword": "penteadeira",
+      "visual_strategy": "listicle_idea_overlay",
+      "product_title": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro - Preto",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Papel_Higienico_de_Parede_moderno_para_Banheiro_Duplo_Preto.webp?v=1779417383",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: penteadeira. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: \"3 ideias para penteadeira\". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: Porta-Papel Higienico de Parede Moderno Duplo para Banheiro."
+    },
+    {
+      "id": 28,
+      "board_name": "Cozinha elegante",
+      "keyword": "cozinha organizada",
+      "visual_strategy": "environment_title_overlay",
+      "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Tapete para Cozinha Antiderrapante Absorvente para transformar o ambiente\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+    },
+    {
+      "id": 29,
+      "board_name": "Cozinha elegante",
+      "keyword": "cozinha pequena organizada",
+      "visual_strategy": "product_in_environment",
+      "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
+      "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
+      "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha pequena organizada. Cenario: cozinha pequena organizada, clean, clara, armarios planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Tapete para Cozinha Antiderrapante Absorvente. Sem texto grande, foco em inspirar clique para compra."
+    }
+  ]
 }

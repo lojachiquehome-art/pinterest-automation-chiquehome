@@ -7,6 +7,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const WIDTH = 1000;
 const HEIGHT = 1500;
+const STORE_URL = "https://chiquehome.com.br";
+const PRODUCT_DIR = path.join(ROOT, "public", "pinterest", "product-originals");
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -91,6 +93,116 @@ async function imageToDataUrl(url) {
   return `data:image/png;base64,${output.toString("base64")}`;
 }
 
+function normalizeImageUrl(url) {
+  if (!url) return "";
+  if (url.startsWith("//")) return `https:${url}`;
+  return url;
+}
+
+function imageUrlFromProductPage(html) {
+  const candidates = [];
+  const patterns = [
+    /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/gi,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/gi,
+    /\/\/chiquehome\.com\.br\/cdn\/shop\/files\/[^"'\s>]+/gi,
+    /\/\/cdn\.shopify\.com\/s\/files\/[^"'\s>]+/gi,
+  ];
+  for (const pattern of patterns) {
+    let match;
+    while ((match = pattern.exec(html))) candidates.push(normalizeImageUrl(match[1] || match[0]));
+  }
+  return candidates.find((url) => !/logo|favicon|payment|visa|mastercard|pix/i.test(url)) ?? "";
+}
+
+async function fetchBuffer(url) {
+  const response = await fetch(url, {
+    headers: {
+      "User-Agent": "ChiqueHomePinterestAutomation/1.0",
+      Accept: "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    },
+  });
+  if (!response.ok) throw new Error(`Imagem ${response.status}: ${url}`);
+  return Buffer.from(await response.arrayBuffer());
+}
+
+async function productImageBuffer(row) {
+  try {
+    return await fetchBuffer(row.image_url);
+  } catch (firstError) {
+    const productUrl = `${STORE_URL}/products/${row.product_handle}`;
+    const page = await fetch(productUrl, {
+      headers: { "User-Agent": "ChiqueHomePinterestAutomation/1.0" },
+    });
+    if (!page.ok) throw firstError;
+    const imageUrl = imageUrlFromProductPage(await page.text());
+    if (!imageUrl) throw firstError;
+    console.log(`Using current Shopify product image for row ${row.id}: ${imageUrl}`);
+    return fetchBuffer(imageUrl);
+  }
+}
+
+async function renderProductPin(row) {
+  mkdirSync(PRODUCT_DIR, { recursive: true });
+  const fileName = `pin-${String(row.id).padStart(4, "0")}.jpg`;
+  const filePath = path.join(PRODUCT_DIR, fileName);
+
+  const input = await productImageBuffer(row);
+  const style = Number(row.id) % 2 === 0 ? "shopify_original" : "product_closeup";
+  const image = sharp(input).rotate();
+  const metadata = await image.metadata();
+
+  const background = await sharp({
+    create: {
+      width: WIDTH,
+      height: HEIGHT,
+      channels: 3,
+      background: "#faf7f1",
+    },
+  })
+    .jpeg({ quality: 92 })
+    .toBuffer();
+
+  const fit = style === "shopify_original" ? "inside" : "cover";
+  const maxWidth = style === "shopify_original" ? 900 : WIDTH;
+  const maxHeight = style === "shopify_original" ? 1120 : HEIGHT;
+  const resized = await sharp(input)
+    .rotate()
+    .resize(maxWidth, maxHeight, {
+      fit,
+      withoutEnlargement: style === "shopify_original",
+      position: "center",
+    })
+    .jpeg({ quality: 92 })
+    .toBuffer();
+
+  const resizedMeta = await sharp(resized).metadata();
+  const left = Math.max(0, Math.round((WIDTH - (resizedMeta.width ?? WIDTH)) / 2));
+  const top = Math.max(0, Math.round((HEIGHT - (resizedMeta.height ?? HEIGHT)) / 2) - (style === "shopify_original" ? 50 : 0));
+
+  const badge = Buffer.from(`
+    <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
+      <rect x="640" y="1380" width="280" height="72" rx="36" fill="#d9b98f" opacity="0.9"/>
+      <text x="780" y="1427" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#3b2d24">PINTEREST10</text>
+    </svg>
+  `);
+
+  await sharp(background)
+    .composite([
+      { input: resized, left, top },
+      { input: badge, left: 0, top: 0 },
+    ])
+    .jpeg({ quality: 92 })
+    .toFile(filePath);
+
+  return {
+    fileName,
+    filePath,
+    style,
+    originalWidth: metadata.width,
+    originalHeight: metadata.height,
+  };
+}
+
 function datedDir() {
   const now = new Date();
   const yyyy = now.getUTCFullYear();
@@ -109,6 +221,7 @@ const publishedIds = existsSync(publishedPath)
 const imageDate = datedDir();
 const outDir = path.join(ROOT, "public", "pinterest", imageDate);
 mkdirSync(outDir, { recursive: true });
+mkdirSync(PRODUCT_DIR, { recursive: true });
 
 const selected = rows
   .filter((row) => row.status === "ready" && !publishedIds.has(String(row.id)) && !row.generated_image_url)
@@ -118,8 +231,12 @@ const needsAi = [];
 
 for (const row of selected) {
   if (row.visual_strategy === "product_full_bleed") {
-    row.generated_image_url = row.image_url;
-    row.generated_image_path = "";
+    if (!baseUrl) throw new Error("PIN_IMAGE_BASE_URL precisa estar configurado para imagens de produto.");
+    const rendered = await renderProductPin(row);
+    row.generated_image_url = `${baseUrl}/product-originals/${rendered.fileName}`;
+    row.generated_image_path = `public/pinterest/product-originals/${rendered.fileName}`;
+    row.product_image_style = rendered.style;
+    console.log(`Rendered product image: row ${row.id} | ${rendered.fileName} | ${rendered.style}`);
     continue;
   }
 
