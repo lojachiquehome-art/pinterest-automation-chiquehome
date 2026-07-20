@@ -151,36 +151,33 @@ async function renderProductPin(row) {
   const image = sharp(input).rotate();
   const metadata = await image.metadata();
 
-  const background = await sharp({
-    create: {
-      width: WIDTH,
-      height: HEIGHT,
-      channels: 3,
-      background: "#faf7f1",
-    },
-  })
+  const background = await sharp(input)
+    .rotate()
+    .resize(WIDTH, HEIGHT, {
+      fit: "cover",
+      position: "attention",
+    })
+    .blur(18)
+    .modulate({ brightness: 1.06, saturation: 0.82 })
     .jpeg({ quality: 92 })
     .toBuffer();
 
-  const fit = style === "shopify_original" ? "inside" : "cover";
-  const maxWidth = style === "shopify_original" ? 900 : WIDTH;
-  const maxHeight = style === "shopify_original" ? 1120 : HEIGHT;
   const resized = await sharp(input)
     .rotate()
-    .resize(maxWidth, maxHeight, {
-      fit,
-      withoutEnlargement: style === "shopify_original",
-      position: "center",
+    .resize(WIDTH, HEIGHT, {
+      fit: "cover",
+      position: "attention",
     })
     .jpeg({ quality: 92 })
     .toBuffer();
 
   const resizedMeta = await sharp(resized).metadata();
   const left = Math.max(0, Math.round((WIDTH - (resizedMeta.width ?? WIDTH)) / 2));
-  const top = Math.max(0, Math.round((HEIGHT - (resizedMeta.height ?? HEIGHT)) / 2) - (style === "shopify_original" ? 50 : 0));
+  const top = Math.max(0, Math.round((HEIGHT - (resizedMeta.height ?? HEIGHT)) / 2));
 
   const badge = Buffer.from(`
     <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
+      <rect width="${WIDTH}" height="${HEIGHT}" fill="#faf7f1" opacity="${style === "shopify_original" ? "0.05" : "0.12"}"/>
       <rect x="640" y="1380" width="280" height="72" rx="36" fill="#d9b98f" opacity="0.9"/>
       <text x="780" y="1427" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#3b2d24">PINTEREST10</text>
     </svg>
