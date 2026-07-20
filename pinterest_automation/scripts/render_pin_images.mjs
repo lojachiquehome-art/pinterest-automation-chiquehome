@@ -141,12 +141,6 @@ async function productImageBuffer(row) {
   }
 }
 
-function softBackgroundFromDominant(dominant) {
-  const soften = (value) => Math.round((Number(value) || 0) * 0.22 + 248 * 0.78);
-  const toHex = (value) => soften(value).toString(16).padStart(2, "0");
-  return `#${toHex(dominant.r)}${toHex(dominant.g)}${toHex(dominant.b)}`;
-}
-
 async function renderProductPin(row) {
   mkdirSync(PRODUCT_DIR, { recursive: true });
   const fileName = `pin-${String(row.id).padStart(4, "0")}.jpg`;
@@ -156,46 +150,15 @@ async function renderProductPin(row) {
   const style = Number(row.id) % 2 === 0 ? "shopify_original" : "product_closeup";
   const image = sharp(input).rotate();
   const metadata = await image.metadata();
-  const stats = await sharp(input).rotate().stats();
-  const backgroundColor = softBackgroundFromDominant(stats.dominant);
-
-  const background = await sharp({
-    create: {
-      width: WIDTH,
-      height: HEIGHT,
-      channels: 3,
-      background: backgroundColor,
-    },
-  })
-    .jpeg({ quality: 92 })
-    .toBuffer();
 
   const resized = await sharp(input)
     .rotate()
     .resize(WIDTH, HEIGHT, {
-      fit: "inside",
+      fit: "cover",
       position: "attention",
-      withoutEnlargement: false,
     })
     .jpeg({ quality: 92 })
     .toBuffer();
-
-  const resizedMeta = await sharp(resized).metadata();
-  const left = Math.max(0, Math.round((WIDTH - (resizedMeta.width ?? WIDTH)) / 2));
-  const top = 0;
-  const imageHeight = resizedMeta.height ?? HEIGHT;
-  const bottomFillHeight = Math.max(0, HEIGHT - imageHeight);
-  const bottomFill = bottomFillHeight
-    ? await sharp(input)
-        .rotate()
-        .resize(WIDTH, bottomFillHeight, {
-          fit: "cover",
-          position: "attention",
-        })
-        .modulate({ brightness: 1.03, saturation: 0.92 })
-        .jpeg({ quality: 92 })
-        .toBuffer()
-    : null;
 
   const badge = Buffer.from(`
     <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
@@ -204,10 +167,8 @@ async function renderProductPin(row) {
     </svg>
   `);
 
-  await sharp(background)
+  await sharp(resized)
     .composite([
-      { input: resized, left, top },
-      ...(bottomFill ? [{ input: bottomFill, left: 0, top: imageHeight }] : []),
       { input: badge, left: 0, top: 0 },
     ])
     .jpeg({ quality: 92 })
