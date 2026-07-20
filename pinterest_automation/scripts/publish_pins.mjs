@@ -88,6 +88,28 @@ function readFailureHistory() {
   return JSON.parse(readFileSync(file, "utf8"));
 }
 
+function selectDailyRows(rows, limit) {
+  const selected = [];
+  const productCounts = new Map();
+  const productOnlyHandles = new Set();
+
+  for (const row of rows) {
+    if (selected.length >= limit) break;
+    const handle = row.product_handle || row.product_title || `row-${row.id}`;
+    const count = productCounts.get(handle) ?? 0;
+    const isProductOnly = row.visual_strategy === "product_full_bleed";
+
+    if (count >= 2) continue;
+    if (isProductOnly && productOnlyHandles.has(handle)) continue;
+
+    selected.push(row);
+    productCounts.set(handle, count + 1);
+    if (isProductOnly) productOnlyHandles.add(handle);
+  }
+
+  return selected;
+}
+
 const { dryRun, limit, sleep: sleepSeconds } = parseArgs();
 const token = dryRun ? "" : await getPinterestAccessToken();
 
@@ -108,7 +130,7 @@ const published = [...publishedHistory];
 const failures = [...failureHistory];
 let processed = 0;
 
-for (const row of rows) {
+for (const row of selectDailyRows(rows, limit * 8)) {
   if (processed >= limit) break;
   if (row.requires_ai_image === "yes" && !row.generated_image_url) {
     console.log(`SKIP missing approved AI image: row ${row.id} | ${row.keyword} | ${row.visual_strategy}`);

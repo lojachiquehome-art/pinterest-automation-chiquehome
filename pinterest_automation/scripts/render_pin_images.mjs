@@ -164,16 +164,17 @@ async function renderProductPin(row) {
 
   const resized = await sharp(input)
     .rotate()
-    .resize(WIDTH, HEIGHT, {
-      fit: "cover",
+    .resize(920, 1260, {
+      fit: "inside",
       position: "attention",
+      withoutEnlargement: false,
     })
     .jpeg({ quality: 92 })
     .toBuffer();
 
   const resizedMeta = await sharp(resized).metadata();
   const left = Math.max(0, Math.round((WIDTH - (resizedMeta.width ?? WIDTH)) / 2));
-  const top = Math.max(0, Math.round((HEIGHT - (resizedMeta.height ?? HEIGHT)) / 2));
+  const top = Math.max(40, Math.round((HEIGHT - (resizedMeta.height ?? HEIGHT)) / 2) - 55);
 
   const badge = Buffer.from(`
     <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
