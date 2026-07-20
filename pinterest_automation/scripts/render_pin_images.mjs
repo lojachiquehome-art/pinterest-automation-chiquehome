@@ -155,7 +155,7 @@ async function renderProductPin(row) {
     .rotate()
     .resize(WIDTH, HEIGHT, {
       fit: "cover",
-      position: "attention",
+      position: "center",
     })
     .jpeg({ quality: 92 })
     .toBuffer();
