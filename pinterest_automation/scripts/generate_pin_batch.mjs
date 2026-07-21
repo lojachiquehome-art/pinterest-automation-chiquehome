@@ -252,7 +252,9 @@ function visualStrategy(term, index) {
 }
 
 function landingType(strategy) {
-  return strategy === "product_full_bleed" ? "product" : "collection";
+  return strategy === "product_full_bleed" || strategy === "product_in_environment" || strategy === "product_title_overlay"
+    ? "product"
+    : "collection";
 }
 
 function requiresAiImage(strategy) {
@@ -260,12 +262,15 @@ function requiresAiImage(strategy) {
 }
 
 function termForCampaign(row) {
+  const isProductPin = row.visual_strategy === "product_full_bleed"
+    || row.visual_strategy === "product_in_environment"
+    || row.visual_strategy === "product_title_overlay";
   return {
     keyword: row.keyword,
     intent: row.intent || row.board_name,
     board: row.board_name,
     priority: "1",
-    content_angle: row.visual_strategy === "product_full_bleed" ? "produto" : "ambiente",
+    content_angle: isProductPin ? "produto" : "ambiente",
     monthly_change: "",
   };
 }
@@ -319,7 +324,10 @@ function imagePrompt({ product, term, title, strategy }) {
   if (strategy === "product_in_environment") {
     return `${base} Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: ${productName}. Sem texto grande, foco em inspirar clique para compra.`;
   }
-  return `${base} Criar imagem estilo lista/ideia viral, com texto centralizado em portugues: "3 ideias para ${term.keyword}". Usar pequenos marcadores 1, 2, 3 em pontos do ambiente, mantendo visual elegante. Cupom PINTEREST10 discreto. Produto relacionado: ${productName}.`;
+  if (strategy === "product_title_overlay") {
+    return `${base} Criar imagem com o produto em destaque e titulo centralizado usando o nome do produto ou colecao: "${productName}". Visual premium, elegante, estilo Pinterest Brasil, sem lista e sem marcadores. Cupom PINTEREST10 discreto.`;
+  }
+  return `${base} Criar imagem com produto ou ambiente em destaque, visual premium realista e clicavel. Produto relacionado: ${productName}.`;
 }
 
 function generate() {
@@ -343,7 +351,7 @@ function generate() {
       const campaign = weeklyRows[i];
       const product = productsByHandle.get(campaign.product_handle);
       if (!product) throw new Error(`Produto nao encontrado no weekly campaign: ${campaign.product_handle}`);
-      const scheduled = new Date(`${campaign.date}T${String(slots[i % 6] ?? 9).padStart(2, "0")}:00:00-03:00`);
+      const scheduled = new Date(`${campaign.date}T${String(slots[i % 5] ?? 9).padStart(2, "0")}:00:00-03:00`);
       rows.push(buildRow({
         id: idx,
         product,

@@ -56,6 +56,59 @@ function palette(boardName) {
   return { bg: "#f4f0e8", accent: "#6f735b", dark: "#282a22", soft: "#ded9c8" };
 }
 
+function textContext(row) {
+  return `${row.board_name} ${row.keyword} ${row.product_title} ${row.product_handle}`.toLowerCase();
+}
+
+function accentText(value) {
+  return String(value ?? "")
+    .replace(/\brelogios\b/gi, "relógios")
+    .replace(/\brelogio\b/gi, "relógio")
+    .replace(/\biluminacao\b/gi, "iluminação")
+    .replace(/\bluminaria\b/gi, "luminária")
+    .replace(/\bdecoracao\b/gi, "decoração")
+    .replace(/\borganizacao\b/gi, "organização")
+    .replace(/\bhigienico\b/gi, "higiênico")
+    .replace(/\bacrilico\b/gi, "acrílico")
+    .replace(/\bgiratorio\b/gi, "giratório")
+    .replace(/\bsofa\b/gi, "sofá")
+    .replace(/\btrico\b/gi, "tricô")
+    .replace(/\bmoveis\b/gi, "móveis");
+}
+
+function conciseProductTitle(row) {
+  const text = textContext(row);
+  if (text.includes("lorenzzo")) return "Relógio de parede Lorenzzo";
+  if (text.includes("relogio de parede")) return "Relógio de parede";
+  if (text.includes("relogio digital") || text.includes("relogio de mesa")) return "Relógio de mesa";
+  if (text.includes("porta-papel") || text.includes("porta papel")) return "Porta papel higiênico";
+  if (text.includes("tapete")) return "Tapete para cozinha";
+  if (text.includes("organizador")) return "Organizador de maquiagem";
+  if (text.includes("bandeja")) return "Bandeja para banheiro";
+  if (text.includes("luminaria")) return "Luminária de teto";
+  if (text.includes("lustre")) return "Lustre pendente";
+  if (text.includes("arandela")) return "Arandela de parede";
+  if (text.includes("capa para cadeira") || text.includes("cadeira")) return "Capa para cadeira";
+  if (text.includes("almofada")) return "Capa de almofada";
+  if (text.includes("livro caixa")) return "Livro caixa decorativo";
+  return accentText(row.keyword);
+}
+
+function shouldZoomOut(row) {
+  return /relogio|rel[oó]gio/i.test(`${row.board_name} ${row.keyword} ${row.product_title}`);
+}
+
+function isDigitalTableClock(row) {
+  return /relogio.*mesa|relogio.*digital|despertador|cabeceira/i.test(textContext(row));
+}
+
+function smartImagePosition(row) {
+  const text = textContext(row);
+  if (text.includes("lorenzzo")) return "right";
+  if (text.includes("relogio de parede") && row.visual_strategy === "environment_full_bleed") return "right";
+  return "center";
+}
+
 function svgTemplate(row, productDataUrl) {
   const colors = palette(row.board_name);
   const titleLines = wrapText(row.title, 24, 4);
@@ -74,9 +127,9 @@ function svgTemplate(row, productDataUrl) {
   <rect x="125" y="205" width="750" height="700" rx="36" fill="${colors.soft}"/>
   <path d="M125 790 C300 710 440 850 620 750 C740 685 810 715 875 670 L875 905 L125 905 Z" fill="${colors.accent}" opacity="0.18"/>
   ${imageBlock}
-  <text x="125" y="${textY}" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="${colors.accent}" letter-spacing="2">${escapeXml(row.board_name.toUpperCase())}</text>
+  <text x="125" y="${textY}" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="${colors.accent}" letter-spacing="2">${escapeXml(accentText(row.board_name).toUpperCase())}</text>
   ${titleLines.map((line, i) => `<text x="125" y="${textY + 72 + i * 62}" font-family="Arial, sans-serif" font-size="54" font-weight="800" fill="${colors.dark}">${escapeXml(line)}</text>`).join("")}
-  ${keywordLines.map((line, i) => `<text x="125" y="${textY + 330 + i * 42}" font-family="Arial, sans-serif" font-size="34" fill="${colors.dark}" opacity="0.82">${escapeXml(line)}</text>`).join("")}
+  ${keywordLines.map((line, i) => `<text x="125" y="${textY + 330 + i * 42}" font-family="Arial, sans-serif" font-size="34" fill="${colors.dark}" opacity="0.82">${escapeXml(accentText(line))}</text>`).join("")}
   <rect x="125" y="1310" width="345" height="72" rx="36" fill="${colors.dark}"/>
   <text x="162" y="1357" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">PINTEREST10</text>
   <text x="500" y="1356" font-family="Arial, sans-serif" font-size="28" fill="${colors.dark}">10% OFF no site</text>
@@ -100,7 +153,7 @@ function normalizeImageUrl(url) {
   return url;
 }
 
-function imageUrlFromProductPage(html) {
+function imageUrlsFromProductPage(html) {
   const candidates = [];
   const patterns = [
     /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/gi,
@@ -112,7 +165,12 @@ function imageUrlFromProductPage(html) {
     let match;
     while ((match = pattern.exec(html))) candidates.push(normalizeImageUrl(match[1] || match[0]));
   }
-  return candidates.find((url) => !/logo|favicon|payment|visa|mastercard|pix/i.test(url)) ?? "";
+  return [...new Set(candidates)]
+    .filter((url) => !/logo|favicon|payment|visa|mastercard|pix/i.test(url));
+}
+
+function imageUrlFromProductPage(html) {
+  return imageUrlsFromProductPage(html)[0] ?? "";
 }
 
 async function fetchBuffer(url) {
@@ -126,20 +184,64 @@ async function fetchBuffer(url) {
   return Buffer.from(await response.arrayBuffer());
 }
 
-async function productImageBuffer(row) {
-  try {
-    return await fetchBuffer(row.image_url);
-  } catch (firstError) {
-    const productUrl = `${STORE_URL}/products/${row.product_handle}`;
-    const page = await fetch(productUrl, {
-      headers: { "User-Agent": "ChiqueHomePinterestAutomation/1.0" },
-    });
-    if (!page.ok) throw firstError;
-    const imageUrl = imageUrlFromProductPage(await page.text());
-    if (!imageUrl) throw firstError;
-    console.log(`Using current Shopify product image for row ${row.id}: ${imageUrl}`);
-    return fetchBuffer(imageUrl);
+async function productPageImageUrls(row) {
+  const productUrl = `${STORE_URL}/products/${row.product_handle}`;
+  const page = await fetch(productUrl, {
+    headers: { "User-Agent": "ChiqueHomePinterestAutomation/1.0" },
+  });
+  if (!page.ok) return [];
+  return imageUrlsFromProductPage(await page.text());
+}
+
+function pickImageUrl(row, urls) {
+  const normalizedPrimary = normalizeImageUrl(row.image_url).replace(/^http:/, "https:");
+  const cleanUrls = urls
+    .map((url) => normalizeImageUrl(url).replace(/^http:/, "https:"))
+    .filter(Boolean);
+  const alternateUrls = cleanUrls.filter((url) => url !== normalizedPrimary);
+
+  if (/livro-caixa/i.test(row.product_handle)) return normalizedPrimary;
+  if (/lorenzzo/i.test(textContext(row))) {
+    const fullSceneUrl = alternateUrls.find((url) => /lorenzzo_wood/i.test(url)) ?? alternateUrls[0] ?? normalizedPrimary;
+    if (row.visual_strategy === "product_in_environment" || row.visual_strategy === "environment_full_bleed" || row.visual_strategy === "product_title_overlay") {
+      return fullSceneUrl;
+    }
   }
+  if (row.visual_strategy === "product_full_bleed" && isDigitalTableClock(row)) return alternateUrls[0] ?? normalizedPrimary;
+  if (row.visual_strategy === "product_full_bleed") return normalizedPrimary;
+  if (row.visual_strategy === "product_in_environment") return alternateUrls[1] ?? alternateUrls[0] ?? normalizedPrimary;
+  if (row.visual_strategy === "environment_full_bleed") return alternateUrls[2] ?? alternateUrls[1] ?? alternateUrls[0] ?? normalizedPrimary;
+  if (row.visual_strategy === "environment_title_overlay") return alternateUrls[3] ?? alternateUrls[1] ?? alternateUrls[0] ?? normalizedPrimary;
+  if (row.visual_strategy === "product_title_overlay") return alternateUrls[0] ?? normalizedPrimary;
+  return normalizedPrimary;
+}
+
+async function productImageBuffer(row) {
+  const productUrls = await productPageImageUrls(row);
+  const selectedUrl = pickImageUrl(row, productUrls);
+  const candidates = [
+    selectedUrl,
+    ...productUrls,
+    row.image_url,
+  ]
+    .map((url) => normalizeImageUrl(url).replace(/^http:/, "https:"))
+    .filter(Boolean);
+  const uniqueCandidates = [...new Set(candidates)];
+  let lastError;
+
+  for (const imageUrl of uniqueCandidates) {
+    try {
+      if (imageUrl !== normalizeImageUrl(row.image_url).replace(/^http:/, "https:")) {
+        console.log(`Using alternate Shopify image for row ${row.id}: ${imageUrl}`);
+      }
+      return await fetchBuffer(imageUrl);
+    } catch (error) {
+      lastError = error;
+      console.log(`Skipping unavailable Shopify image for row ${row.id}: ${imageUrl}`);
+    }
+  }
+
+  throw lastError ?? new Error(`Nenhuma imagem Shopify disponivel para row ${row.id}`);
 }
 
 async function productDataUrl(row) {
@@ -154,20 +256,20 @@ async function productDataUrl(row) {
 
 function designedOverlay(row) {
   const colors = palette(row.board_name);
-  const title = row.visual_strategy === "listicle_idea_overlay"
-    ? `3 ideias para ${row.keyword}`
+  const rawTitle = row.visual_strategy === "product_title_overlay"
+    ? conciseProductTitle(row)
     : row.visual_strategy === "environment_title_overlay"
       ? row.keyword
       : "";
-  const titleLines = wrapText(title, 18, 4);
-  const showTitle = row.visual_strategy === "environment_title_overlay" || row.visual_strategy === "listicle_idea_overlay";
+  const title = accentText(rawTitle);
+  const titleLines = wrapText(title, 18, 3);
+  const showTitle = row.visual_strategy === "environment_title_overlay" || row.visual_strategy === "product_title_overlay";
   const showSmall = row.visual_strategy === "product_in_environment";
   return `
     <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
       <rect width="${WIDTH}" height="${HEIGHT}" fill="#000" opacity="${showTitle ? "0.22" : "0.03"}"/>
       ${showTitle ? `<rect x="70" y="360" width="860" height="560" rx="0" fill="#000" opacity="0.10"/>` : ""}
-      ${titleLines.map((line, i) => `<text x="500" y="${500 + i * 92}" text-anchor="middle" font-family="Georgia, serif" font-size="${row.visual_strategy === "listicle_idea_overlay" ? 76 : 82}" font-weight="700" fill="#fff7ed">${escapeXml(line.toUpperCase())}</text>`).join("")}
-      ${row.visual_strategy === "listicle_idea_overlay" ? [0, 1, 2].map((n) => `<circle cx="${250 + n * 250}" cy="980" r="42" fill="${colors.accent}" opacity="0.92"/><text x="${250 + n * 250}" y="996" text-anchor="middle" font-family="Arial" font-size="42" font-weight="800" fill="#fff">${n + 1}</text>`).join("") : ""}
+      ${titleLines.map((line, i) => `<text x="500" y="${500 + i * 92}" text-anchor="middle" font-family="Georgia, serif" font-size="82" font-weight="700" fill="#fff7ed">${escapeXml(accentText(line).toUpperCase())}</text>`).join("")}
       ${showSmall ? `<rect x="80" y="1090" width="610" height="86" rx="43" fill="#fff8ef" opacity="0.88"/><text x="124" y="1146" font-family="Arial" font-size="34" font-weight="700" fill="${colors.dark}">Veja o produto na Chique Home</text>` : ""}
       <rect x="640" y="1380" width="280" height="72" rx="36" fill="#d9b98f" opacity="0.9"/>
       <text x="780" y="1427" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#3b2d24">PINTEREST10</text>
@@ -182,15 +284,20 @@ async function renderDesignedPin(row) {
   const input = await productImageBuffer(row);
   const background = await sharp(input)
     .rotate()
-    .resize(WIDTH, HEIGHT, { fit: "cover", position: "center" })
+    .resize(WIDTH, HEIGHT, {
+      fit: "cover",
+      position: smartImagePosition(row),
+    })
     .modulate({ brightness: row.visual_strategy === "environment_full_bleed" ? 1.02 : 0.88, saturation: 0.94 })
     .jpeg({ quality: 91 })
     .toBuffer();
 
-  await sharp(background)
+  const finalImage = await sharp(background)
     .composite([{ input: Buffer.from(designedOverlay(row)), left: 0, top: 0 }])
     .jpeg({ quality: 91 })
-    .toFile(filePath);
+    .toBuffer();
+
+  writeFileSync(filePath, finalImage);
 
   return { fileName, filePath };
 }
@@ -209,7 +316,7 @@ async function renderProductPin(row) {
     .rotate()
     .resize(WIDTH, HEIGHT, {
       fit: "cover",
-      position: "center",
+      position: smartImagePosition(row),
     })
     .jpeg({ quality: 92 })
     .toBuffer();
@@ -221,12 +328,14 @@ async function renderProductPin(row) {
     </svg>
   `);
 
-  await sharp(resized)
+  const finalImage = await sharp(resized)
     .composite([
       { input: badge, left: 0, top: 0 },
     ])
     .jpeg({ quality: 92 })
-    .toFile(filePath);
+    .toBuffer();
+
+  writeFileSync(filePath, finalImage);
 
   return {
     fileName,

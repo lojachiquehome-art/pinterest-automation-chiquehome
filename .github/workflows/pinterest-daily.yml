@@ -8,7 +8,7 @@ on:
       limit:
         description: "Pins to publish"
         required: false
-        default: "6"
+        default: "5"
       dry_run:
         description: "Dry run only"
         required: false
@@ -47,7 +47,7 @@ jobs:
 
       - name: Generate pins and images
         run: |
-          LIMIT="${{ github.event.inputs.limit || '6' }}"
+          LIMIT="${{ github.event.inputs.limit || '5' }}"
           node scripts/generate_pin_batch.mjs
           node scripts/apply_image_assets.mjs
           node scripts/render_pin_images.mjs --limit "$LIMIT"
@@ -61,7 +61,7 @@ jobs:
 
       - name: Publish daily pins
         run: |
-          LIMIT="${{ github.event.inputs.limit || '6' }}"
+          LIMIT="${{ github.event.inputs.limit || '5' }}"
           if [ "${{ github.event.inputs.dry_run || 'false' }}" = "true" ]; then
             node scripts/publish_pins.mjs --dry-run --limit "$LIMIT"
           else
