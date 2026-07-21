@@ -3,6 +3,8 @@ name: Pinterest daily automation
 on:
   schedule:
     - cron: "30 12 * * *"
+    - cron: "40,50 12 * * *"
+    - cron: "0,10,20,30 13 * * *"
   workflow_dispatch:
     inputs:
       limit:

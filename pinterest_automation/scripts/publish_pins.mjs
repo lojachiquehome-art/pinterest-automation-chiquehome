@@ -88,6 +88,28 @@ function readFailureHistory() {
   return JSON.parse(readFileSync(file, "utf8"));
 }
 
+function brazilDateKey(value = new Date()) {
+  const date = value instanceof Date ? value : new Date(value);
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Sao_Paulo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(date);
+}
+
+function publishedAt(item) {
+  return item.published_at || item.pin?.created_at || null;
+}
+
+function hasPublishedToday(history) {
+  const today = brazilDateKey();
+  return history.some((item) => {
+    const date = publishedAt(item);
+    return date && brazilDateKey(date) === today;
+  });
+}
+
 function selectDailyRows(rows, limit) {
   const selected = [];
   const productCounts = new Map();
@@ -117,6 +139,12 @@ const publishedFile = path.join(ROOT, "output", "published_pins.json");
 const failuresFile = path.join(ROOT, "output", "publish_failures.json");
 const publishedHistory = readPublishedHistory();
 const failureHistory = readFailureHistory();
+
+if (!dryRun && hasPublishedToday(publishedHistory)) {
+  console.log(`Daily Pinterest publication already completed for ${brazilDateKey()} America/Sao_Paulo.`);
+  process.exit(0);
+}
+
 const alreadyPublished = new Set(publishedHistory.map((item) => String(item.row_id)));
 const failedRows = new Set(
   failureHistory
@@ -152,7 +180,7 @@ for (const row of selectDailyRows(rows, limit * 8)) {
   } else {
     try {
       const result = await pinterestPost("/pins", token, payload);
-      published.push({ row_id: row.id, pin: result });
+      published.push({ row_id: row.id, published_at: new Date().toISOString(), pin: result });
       console.log(`Published pin for row ${row.id}: ${result.id}`);
       await sleep(sleepSeconds * 1000);
     } catch (error) {
