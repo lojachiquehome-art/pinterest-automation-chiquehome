@@ -270,13 +270,11 @@ function designedOverlay(row) {
   const title = accentText(rawTitle);
   const titleLines = wrapText(title, 18, 3);
   const showTitle = row.visual_strategy === "environment_title_overlay" || row.visual_strategy === "product_title_overlay";
-  const showSmall = row.visual_strategy === "product_in_environment";
   return `
     <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
       <rect width="${WIDTH}" height="${HEIGHT}" fill="#000" opacity="${showTitle ? "0.22" : "0.03"}"/>
       ${showTitle ? `<rect x="70" y="360" width="860" height="560" rx="0" fill="#000" opacity="0.10"/>` : ""}
       ${titleLines.map((line, i) => `<text x="500" y="${500 + i * 92}" text-anchor="middle" font-family="Georgia, serif" font-size="82" font-weight="700" fill="#fff7ed">${escapeXml(accentText(line).toUpperCase())}</text>`).join("")}
-      ${showSmall ? `<rect x="80" y="1090" width="610" height="86" rx="43" fill="#fff8ef" opacity="0.88"/><text x="124" y="1146" font-family="Arial" font-size="34" font-weight="700" fill="${colors.dark}">Veja o produto na Chique Home</text>` : ""}
       <rect x="640" y="1380" width="280" height="72" rx="36" fill="#d9b98f" opacity="0.9"/>
       <text x="780" y="1427" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#3b2d24">PINTEREST10</text>
     </svg>
