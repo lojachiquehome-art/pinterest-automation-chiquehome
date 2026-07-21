@@ -1,13 +1,13 @@
 {
-  "imageDate": "2026-07-20",
+  "imageDate": "2026-07-21",
   "baseUrl": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest",
   "rendered": [
     {
       "id": 1001,
-      "keyword": "porta papel higienico de parede",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1001.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1001.jpg"
+      "keyword": "banheiro pequeno organizado",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-1001.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1001.jpg"
     },
     {
       "id": 1002,
@@ -32,227 +32,10 @@
     },
     {
       "id": 1005,
-      "keyword": "banheiro pequeno organizado",
-      "visual_strategy": "product_in_environment",
+      "keyword": "organizador de banheiro sofisticado",
+      "visual_strategy": "product_title_overlay",
       "generated_image_path": "public/pinterest/generated/pin-1005.jpg",
       "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1005.jpg"
-    },
-    {
-      "id": 1006,
-      "keyword": "organizacao de banheiro",
-      "visual_strategy": "listicle_idea_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1006.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1006.jpg"
-    },
-    {
-      "id": 1007,
-      "keyword": "tapete para cozinha",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1007.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1007.jpg"
-    },
-    {
-      "id": 1008,
-      "keyword": "tapete cozinha bege",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1008.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1008.jpg"
-    },
-    {
-      "id": 1009,
-      "keyword": "passadeira para cozinha",
-      "visual_strategy": "environment_full_bleed",
-      "generated_image_path": "public/pinterest/generated/pin-1009.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1009.jpg"
-    },
-    {
-      "id": 1010,
-      "keyword": "tapete antiderrapante para cozinha",
-      "visual_strategy": "environment_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1010.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1010.jpg"
-    },
-    {
-      "id": 1011,
-      "keyword": "tapete de cozinha absorvente",
-      "visual_strategy": "product_in_environment",
-      "generated_image_path": "public/pinterest/generated/pin-1011.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1011.jpg"
-    },
-    {
-      "id": 1012,
-      "keyword": "cozinha organizada",
-      "visual_strategy": "listicle_idea_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1012.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1012.jpg"
-    },
-    {
-      "id": 1013,
-      "keyword": "relogio digital de mesa",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1013.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1013.jpg"
-    },
-    {
-      "id": 1014,
-      "keyword": "relogio de mesa led",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1014.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1014.jpg"
-    },
-    {
-      "id": 1015,
-      "keyword": "relogio de cabeceira",
-      "visual_strategy": "environment_full_bleed",
-      "generated_image_path": "public/pinterest/generated/pin-1015.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1015.jpg"
-    },
-    {
-      "id": 1016,
-      "keyword": "relogio despertador digital",
-      "visual_strategy": "environment_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1016.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1016.jpg"
-    },
-    {
-      "id": 1017,
-      "keyword": "quarto decorado",
-      "visual_strategy": "product_in_environment",
-      "generated_image_path": "public/pinterest/generated/pin-1017.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1017.jpg"
-    },
-    {
-      "id": 1018,
-      "keyword": "mesa de cabeceira organizada",
-      "visual_strategy": "listicle_idea_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1018.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1018.jpg"
-    },
-    {
-      "id": 1019,
-      "keyword": "relogio de parede grande",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1019.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1019.jpg"
-    },
-    {
-      "id": 1020,
-      "keyword": "relogio de parede cozinha",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1020.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1020.jpg"
-    },
-    {
-      "id": 1021,
-      "keyword": "relogio de parede sala",
-      "visual_strategy": "environment_full_bleed",
-      "generated_image_path": "public/pinterest/generated/pin-1021.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1021.jpg"
-    },
-    {
-      "id": 1022,
-      "keyword": "relogio de parede decorativo",
-      "visual_strategy": "environment_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1022.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1022.jpg"
-    },
-    {
-      "id": 1023,
-      "keyword": "decoracao de parede",
-      "visual_strategy": "product_in_environment",
-      "generated_image_path": "public/pinterest/generated/pin-1023.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1023.jpg"
-    },
-    {
-      "id": 1024,
-      "keyword": "parede da sala decorada",
-      "visual_strategy": "listicle_idea_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1024.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1024.jpg"
-    },
-    {
-      "id": 1025,
-      "keyword": "arandela de parede",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1025.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1025.jpg"
-    },
-    {
-      "id": 1026,
-      "keyword": "lustre pendente",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1026.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1026.jpg"
-    },
-    {
-      "id": 1027,
-      "keyword": "luminaria para quarto",
-      "visual_strategy": "environment_full_bleed",
-      "generated_image_path": "public/pinterest/generated/pin-1027.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1027.jpg"
-    },
-    {
-      "id": 1028,
-      "keyword": "iluminacao para sala",
-      "visual_strategy": "environment_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1028.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1028.jpg"
-    },
-    {
-      "id": 1029,
-      "keyword": "iluminacao decorativa",
-      "visual_strategy": "product_in_environment",
-      "generated_image_path": "public/pinterest/generated/pin-1029.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1029.jpg"
-    },
-    {
-      "id": 1030,
-      "keyword": "luminaria de teto",
-      "visual_strategy": "listicle_idea_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1030.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1030.jpg"
-    },
-    {
-      "id": 1031,
-      "keyword": "capa almofada sofa luxo",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1031.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1031.jpg"
-    },
-    {
-      "id": 1032,
-      "keyword": "enfeites para o lar",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1032.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1032.jpg"
-    },
-    {
-      "id": 1033,
-      "keyword": "sala de jantar decorada",
-      "visual_strategy": "environment_full_bleed",
-      "generated_image_path": "public/pinterest/generated/pin-1033.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1033.jpg"
-    },
-    {
-      "id": 1034,
-      "keyword": "sala sofisticada",
-      "visual_strategy": "environment_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1034.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1034.jpg"
-    },
-    {
-      "id": 1035,
-      "keyword": "decoracao de sala",
-      "visual_strategy": "product_in_environment",
-      "generated_image_path": "public/pinterest/generated/pin-1035.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1035.jpg"
-    },
-    {
-      "id": 1036,
-      "keyword": "decoracao mesa posta",
-      "visual_strategy": "listicle_idea_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1036.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1036.jpg"
     }
   ],
   "needsAi": []
