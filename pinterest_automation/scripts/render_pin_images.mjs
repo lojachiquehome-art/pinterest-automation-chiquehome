@@ -10,6 +10,9 @@ const HEIGHT = 1500;
 const STORE_URL = "https://chiquehome.com.br";
 const PRODUCT_DIR = path.join(ROOT, "public", "pinterest", "product-originals");
 const GENERATED_DIR = path.join(ROOT, "public", "pinterest", "generated");
+const IMAGE_OVERRIDES_BY_ROW_ID = {
+  1001: "https://chiquehome.com.br/cdn/shop/files/porta-papel-higienico-de-parede-para-banheiro-moderno-duplo-preto-produto-principal_75876fa6-c49c-4794-9b99-c68be51e78a1.jpg?v=1783619178",
+};
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -20,6 +23,7 @@ function parseArgs() {
   return {
     limit: Number(valueAfter("--limit", 10)),
     offset: Number(valueAfter("--offset", 0)),
+    includePublished: args.includes("--include-published"),
   };
 }
 
@@ -194,6 +198,8 @@ async function productPageImageUrls(row) {
 }
 
 function pickImageUrl(row, urls) {
+  if (IMAGE_OVERRIDES_BY_ROW_ID[row.id]) return IMAGE_OVERRIDES_BY_ROW_ID[row.id];
+
   const normalizedPrimary = normalizeImageUrl(row.image_url).replace(/^http:/, "https:");
   const cleanUrls = urls
     .map((url) => normalizeImageUrl(url).replace(/^http:/, "https:"))
@@ -354,7 +360,7 @@ function datedDir() {
   return `${yyyy}-${mm}-${dd}`;
 }
 
-const { limit, offset } = parseArgs();
+const { limit, offset, includePublished } = parseArgs();
 const rowsPath = path.join(ROOT, "output", "pins_batch.json");
 const rows = JSON.parse(readFileSync(rowsPath, "utf8"));
 const publishedPath = path.join(ROOT, "output", "published_pins.json");
@@ -368,7 +374,7 @@ mkdirSync(PRODUCT_DIR, { recursive: true });
 mkdirSync(GENERATED_DIR, { recursive: true });
 
 const selected = rows
-  .filter((row) => row.status === "ready" && !publishedIds.has(String(row.id)) && !row.generated_image_url)
+  .filter((row) => row.status === "ready" && (includePublished || !publishedIds.has(String(row.id))) && (includePublished || !row.generated_image_url))
   .slice(offset, offset + limit);
 const baseUrl = process.env.PIN_IMAGE_BASE_URL?.replace(/\/$/, "");
 const needsAi = [];
