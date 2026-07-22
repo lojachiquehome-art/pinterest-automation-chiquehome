@@ -360,5 +360,265 @@
       "created_at": "2026-07-21T13:16:28",
       "is_product": false
     }
+  },
+  {
+    "row_id": 1006,
+    "published_at": "2026-07-22T14:33:32.866Z",
+    "pin": {
+      "parent_pin_id": null,
+      "is_owner": true,
+      "alt_text": "Tapete para Cozinha Antiderrapante Absorvente - tapete de cozinha absorvente Chique Home",
+      "id": "930134129315957443",
+      "is_removable": false,
+      "board_id": "930134197981214273",
+      "pin_metrics": null,
+      "board_section_id": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/8d/f3/d3/8df3d34d3a7b2e79801d730cdb11c083.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/8d/f3/d3/8df3d34d3a7b2e79801d730cdb11c083.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/8d/f3/d3/8df3d34d3a7b2e79801d730cdb11c083.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/8d/f3/d3/8df3d34d3a7b2e79801d730cdb11c083.jpg"
+          }
+        }
+      },
+      "is_product": false,
+      "link": "https://chiquehome.com.br/products/tapete-para-cozinha-antiderrapante-absorvente-bege-areia?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=tapete_de_cozinha_absorvente_1006",
+      "created_at": "2026-07-22T14:33:32",
+      "description": "Gostou da ideia? Clique para ver preco, medidas, cores e detalhes do produto na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "dominant_color": null,
+      "is_standard": true,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "creative_type": "REGULAR",
+      "has_been_promoted": false,
+      "product_tags": [],
+      "title": "tapete de cozinha absorvente: produto para comprar e usar em casa"
+    }
+  },
+  {
+    "row_id": 1007,
+    "published_at": "2026-07-22T14:33:43.627Z",
+    "pin": {
+      "link": "https://chiquehome.com.br/products/tapete-para-cozinha-antiderrapante-absorvente-nude?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=tapete_para_cozinha_1007",
+      "board_section_id": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/15/16/56/15165681cc6ddec96a70e6b316492fd5.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/15/16/56/15165681cc6ddec96a70e6b316492fd5.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/15/16/56/15165681cc6ddec96a70e6b316492fd5.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/15/16/56/15165681cc6ddec96a70e6b316492fd5.jpg"
+          }
+        }
+      },
+      "description": "Uma sugestao pratica para quem quer comprar decoracao online com mais seguranca. Veja o produto, variacoes e informacoes de entrega. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "has_been_promoted": false,
+      "pin_metrics": null,
+      "created_at": "2026-07-22T14:33:43",
+      "title": "Ideia pronta de tapete para cozinha com link do produto",
+      "id": "930134129315957451",
+      "is_product": false,
+      "is_standard": true,
+      "is_owner": true,
+      "is_removable": false,
+      "creative_type": "REGULAR",
+      "product_tags": [],
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "parent_pin_id": null,
+      "alt_text": "Tapete para Cozinha Antiderrapante Absorvente - tapete para cozinha Chique Home",
+      "dominant_color": null,
+      "board_id": "930134197981214273"
+    }
+  },
+  {
+    "row_id": 1008,
+    "published_at": "2026-07-22T14:33:54.452Z",
+    "pin": {
+      "created_at": "2026-07-22T14:33:54",
+      "creative_type": "REGULAR",
+      "parent_pin_id": null,
+      "pin_metrics": null,
+      "is_standard": true,
+      "alt_text": "Tapete para Cozinha Antiderrapante Passadeira Absorvente - passadeira para cozinha Chique Home",
+      "is_owner": true,
+      "dominant_color": null,
+      "board_id": "930134197981214273",
+      "has_been_promoted": false,
+      "id": "930134129315957459",
+      "description": "Ideia de passadeira para cozinha para deixar sua casa mais bonita, funcional e sofisticada. Veja o produto na Chique Home e monte um ambiente com mais personalidade. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/64/68/d1/6468d1cd88737c5576da5c4127b99520.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/64/68/d1/6468d1cd88737c5576da5c4127b99520.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/64/68/d1/6468d1cd88737c5576da5c4127b99520.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/64/68/d1/6468d1cd88737c5576da5c4127b99520.jpg"
+          }
+        }
+      },
+      "board_section_id": null,
+      "title": "passadeira para cozinha: ideia elegante com Tapete para Cozinha Antiderrapante Passadeira Absorvente",
+      "product_tags": [],
+      "is_removable": false,
+      "link": "https://chiquehome.com.br/collections/tapetes-para-cozinha?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=passadeira_para_cozinha_1008",
+      "is_product": false
+    }
+  },
+  {
+    "row_id": 1009,
+    "published_at": "2026-07-22T14:34:05.295Z",
+    "pin": {
+      "parent_pin_id": null,
+      "board_section_id": null,
+      "pin_metrics": null,
+      "creative_type": "REGULAR",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "id": "930134129315957466",
+      "has_been_promoted": false,
+      "is_standard": true,
+      "product_tags": [],
+      "is_product": false,
+      "link": "https://chiquehome.com.br/collections/tapetes-para-cozinha?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=tapete_antiderrapante_para_cozinha_1009",
+      "is_owner": true,
+      "alt_text": "Tapete para Cozinha Antiderrapante Absorvente - tapete antiderrapante para cozinha Chique Home",
+      "dominant_color": null,
+      "title": "Tapete para Cozinha Antiderrapante Absorvente: inspiracao para tapete antiderrapante para cozinha",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/f3/0f/eb/f30feb046c9c8ae15eebedc23d461a28.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/f3/0f/eb/f30feb046c9c8ae15eebedc23d461a28.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/f3/0f/eb/f30feb046c9c8ae15eebedc23d461a28.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/f3/0f/eb/f30feb046c9c8ae15eebedc23d461a28.jpg"
+          }
+        }
+      },
+      "description": "Se voce esta buscando tapete antiderrapante para cozinha, este item ajuda a renovar o ambiente sem reforma. Confira detalhes, medidas e opcoes na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "is_removable": false,
+      "created_at": "2026-07-22T14:34:05",
+      "board_id": "930134197981214273"
+    }
+  },
+  {
+    "row_id": 1010,
+    "published_at": "2026-07-22T14:34:16.081Z",
+    "pin": {
+      "created_at": "2026-07-22T14:34:15",
+      "is_product": false,
+      "product_tags": [],
+      "dominant_color": null,
+      "board_section_id": null,
+      "is_removable": false,
+      "is_owner": true,
+      "description": "Uma inspiracao simples para quem quer tapete cozinha bege com acabamento elegante. Produto com compra segura, frete e rastreio. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "board_id": "930134197981214273",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/17/b7/7a/17b77a6c1e7c22e7d448f100a27672c8.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/17/b7/7a/17b77a6c1e7c22e7d448f100a27672c8.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/17/b7/7a/17b77a6c1e7c22e7d448f100a27672c8.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/17/b7/7a/17b77a6c1e7c22e7d448f100a27672c8.jpg"
+          }
+        }
+      },
+      "creative_type": "REGULAR",
+      "pin_metrics": null,
+      "link": "https://chiquehome.com.br/products/tapete-para-cozinha-antiderrapante-absorvente-bege-areia?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=tapete_cozinha_bege_1010",
+      "parent_pin_id": null,
+      "id": "930134129315957472",
+      "is_standard": true,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "alt_text": "Tapete para Cozinha Antiderrapante Absorvente - tapete cozinha bege Chique Home",
+      "has_been_promoted": false,
+      "title": "tapete cozinha bege para deixar o ambiente mais sofisticado"
+    }
   }
 ]
