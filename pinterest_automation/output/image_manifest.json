@@ -3,39 +3,39 @@
   "baseUrl": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest",
   "rendered": [
     {
-      "id": 1006,
-      "keyword": "tapete de cozinha absorvente",
+      "id": 1011,
+      "keyword": "relogio de cabeceira",
       "visual_strategy": "product_in_environment",
-      "generated_image_path": "public/pinterest/generated/pin-1006.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1006.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-1011.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1011.jpg"
     },
     {
-      "id": 1007,
-      "keyword": "tapete para cozinha",
+      "id": 1012,
+      "keyword": "relogio digital de mesa",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1007.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1007.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-1012.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1012.jpg"
     },
     {
-      "id": 1008,
-      "keyword": "passadeira para cozinha",
+      "id": 1013,
+      "keyword": "mesa de cabeceira organizada",
       "visual_strategy": "environment_full_bleed",
-      "generated_image_path": "public/pinterest/generated/pin-1008.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1008.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-1013.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1013.jpg"
     },
     {
-      "id": 1009,
-      "keyword": "tapete antiderrapante para cozinha",
+      "id": 1014,
+      "keyword": "relogio despertador digital",
       "visual_strategy": "environment_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1009.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1009.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-1014.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1014.jpg"
     },
     {
-      "id": 1010,
-      "keyword": "tapete cozinha bege",
+      "id": 1015,
+      "keyword": "relogio de mesa led",
       "visual_strategy": "product_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1010.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1010.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-1015.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1015.jpg"
     }
   ],
   "needsAi": []

@@ -40,44 +40,44 @@
     "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: organizador de banheiro sofisticado. Cenario: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem com o produto em destaque e titulo centralizado usando o nome do produto ou colecao: \"Organizador de Maquiagem Porta Pincel em Acrilico Giratorio\". Visual premium, elegante, estilo Pinterest Brasil, sem lista e sem marcadores. Cupom PINTEREST10 discreto."
   },
   {
-    "id": 1011,
-    "board_name": "Quarto decorado",
-    "keyword": "relogio de cabeceira",
+    "id": 1006,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "tapete de cozinha absorvente",
     "visual_strategy": "product_in_environment",
-    "product_title": "Relogio de Mesa Digital Carregador Sem Fio e Luminaria LED 3 em 1",
-    "product_image_url": "http://chiquehome.com.br/cdn/shop/files/Relogio_de_Mesa_Digital_Carregador_Sem_Fio_Luminaria_LED_3.webp?v=1739673022",
-    "target_path": "public/pinterest/final/pin-1011.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio de cabeceira. Cenario: quarto de casal pequeno decorado, mesa de cabeceira organizada, relogio digital e tons neutros. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Relogio de Mesa Digital Carregador Sem Fio e Luminaria LED 3 em 1. Sem texto grande, foco em inspirar clique para compra."
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
+    "target_path": "public/pinterest/final/pin-1006.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete de cozinha absorvente. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Tapete para Cozinha Antiderrapante Absorvente. Sem texto grande, foco em inspirar clique para compra."
   },
   {
-    "id": 1013,
-    "board_name": "Quarto decorado",
-    "keyword": "mesa de cabeceira organizada",
+    "id": 1008,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "passadeira para cozinha",
     "visual_strategy": "environment_full_bleed",
-    "product_title": "Relogio Digital de Mesa Despertador Redondo Branco",
-    "product_image_url": "http://chiquehome.com.br/cdn/shop/files/Relogio_Digital_de_Mesa_Despertador_LED_Redondo_branco.webp?v=1761426162",
-    "target_path": "public/pinterest/final/pin-1013.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: mesa de cabeceira organizada. Cenario: quarto de casal pequeno decorado, mesa de cabeceira organizada, relogio digital e tons neutros. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Relogio Digital de Mesa Despertador Redondo Branco, aplicar apenas se fizer sentido natural."
+    "product_title": "Tapete para Cozinha Antiderrapante Passadeira Absorvente - Bege",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Passadeira_Absorvente_bege.webp?v=1745846307",
+    "target_path": "public/pinterest/final/pin-1008.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: passadeira para cozinha. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Tapete para Cozinha Antiderrapante Passadeira Absorvente, aplicar apenas se fizer sentido natural."
   },
   {
-    "id": 1014,
-    "board_name": "Quarto decorado",
-    "keyword": "relogio despertador digital",
+    "id": 1009,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "tapete antiderrapante para cozinha",
     "visual_strategy": "environment_title_overlay",
-    "product_title": "Relogio de Mesa Digital Despertador Triangular Bege",
-    "product_image_url": "http://chiquehome.com.br/cdn/shop/files/Relogio_Digital_de_Mesa_Despertador_LED_Triangular_bege_5.webp?v=1774525086",
-    "target_path": "public/pinterest/final/pin-1014.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio despertador digital. Cenario: quarto de casal pequeno decorado, mesa de cabeceira organizada, relogio digital e tons neutros. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"relogio despertador digital: produto para comprar e usar em casa\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Nude.webp?v=1769546586",
+    "target_path": "public/pinterest/final/pin-1009.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete antiderrapante para cozinha. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Tapete para Cozinha Antiderrapante Absorvente: inspiracao para tapete antiderrapante para cozinha\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
   },
   {
-    "id": 1015,
-    "board_name": "Quarto decorado",
-    "keyword": "relogio de mesa led",
+    "id": 1010,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "tapete cozinha bege",
     "visual_strategy": "product_title_overlay",
-    "product_title": "Relogio Digital de Mesa Despertador Redondo Branco",
-    "product_image_url": "http://chiquehome.com.br/cdn/shop/files/Relogio_Digital_de_Mesa_Despertador_LED_Redondo_branco.webp?v=1761426162",
-    "target_path": "public/pinterest/final/pin-1015.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio de mesa led. Cenario: quarto de casal pequeno decorado, mesa de cabeceira organizada, relogio digital e tons neutros. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem com o produto em destaque e titulo centralizado usando o nome do produto ou colecao: \"Relogio Digital de Mesa Despertador Redondo Branco\". Visual premium, elegante, estilo Pinterest Brasil, sem lista e sem marcadores. Cupom PINTEREST10 discreto."
+    "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Absorvente_Bege_Areia_2.webp?v=1769546391",
+    "target_path": "public/pinterest/final/pin-1010.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: tapete cozinha bege. Cenario: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem com o produto em destaque e titulo centralizado usando o nome do produto ou colecao: \"Tapete para Cozinha Antiderrapante Absorvente\". Visual premium, elegante, estilo Pinterest Brasil, sem lista e sem marcadores. Cupom PINTEREST10 discreto."
   },
   {
     "id": 1016,
