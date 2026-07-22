@@ -2,8 +2,8 @@ name: Pinterest daily automation
 
 on:
   schedule:
-    - cron: "30-59/5 12 * * *"
-    - cron: "0-30/5 13 * * *"
+    - cron: "0,15,30,45 11 * * *"
+    - cron: "0,15,25 12 * * *"
   workflow_dispatch:
     inputs:
       limit:
@@ -17,6 +17,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: pinterest-daily-production
+  cancel-in-progress: false
 
 jobs:
   pinterest:
@@ -60,13 +64,25 @@ jobs:
           commit_message: "chore: generate daily pinterest assets"
           file_pattern: "pinterest_automation/public/pinterest/** pinterest_automation/output/*.json pinterest_automation/output/*.csv"
 
+      - name: Wait until 09:30 BRT
+        if: github.event_name == 'schedule'
+        run: |
+          TARGET="$(TZ=America/Sao_Paulo date +%Y-%m-%d) 09:30:00"
+          TARGET_EPOCH="$(TZ=America/Sao_Paulo date -d "$TARGET" +%s)"
+          NOW_EPOCH="$(TZ=America/Sao_Paulo date +%s)"
+          if [ "$NOW_EPOCH" -lt "$TARGET_EPOCH" ]; then
+            SLEEP_SECONDS=$((TARGET_EPOCH - NOW_EPOCH))
+            echo "Waiting ${SLEEP_SECONDS}s to publish at 09:30 America/Sao_Paulo"
+            sleep "$SLEEP_SECONDS"
+          fi
+
       - name: Publish daily pins
         run: |
           LIMIT="${{ github.event.inputs.limit || '5' }}"
           if [ "${{ github.event.inputs.dry_run || 'false' }}" = "true" ]; then
             node scripts/publish_pins.mjs --dry-run --limit "$LIMIT"
           else
-            node scripts/publish_pins.mjs --limit "$LIMIT"
+            node scripts/publish_pins.mjs --limit "$LIMIT" --sleep 60
           fi
 
       - name: Commit publish history
