@@ -18,9 +18,7 @@
     "alt_text": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro - banheiro pequeno organizado Chique Home",
     "product_title": "Porta-Papel Higienico de Parede Moderno Duplo para Banheiro - Preto",
     "product_handle": "porta-papel-higienico-de-parede-moderno-duplo-para-banheiro-preto",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1001.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1001.jpg"
+    "status": "ready"
   },
   {
     "id": 1002,
@@ -41,10 +39,7 @@
     "alt_text": "Porta-Papel Higienico de Parede Moderno para Banheiro - porta papel banheiro moderno Chique Home",
     "product_title": "Porta-Papel Higienico de Parede Moderno para Banheiro - Dourado",
     "product_handle": "porta-papel-higienico-de-parede-moderno-para-banheiro-dourado",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1002.jpg",
-    "generated_image_path": "public/pinterest/product-originals/pin-1002.jpg",
-    "product_image_style": "shopify_original"
+    "status": "ready"
   },
   {
     "id": 1003,
@@ -65,9 +60,7 @@
     "alt_text": "Organizador de Maquiagem Porta Pincel em Acrilico Giratorio - organizador de maquiagem Chique Home",
     "product_title": "Organizador de Maquiagem Porta Pincel em Acrilico Giratorio",
     "product_handle": "organizador-de-maquiagem-porta-pincel-em-acrilico-giratorio",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1003.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1003.jpg"
+    "status": "ready"
   },
   {
     "id": 1004,
@@ -88,9 +81,7 @@
     "alt_text": "Bandeja para Banheiro/Lavabo Decorativa Redonda - bandeja para banheiro Chique Home",
     "product_title": "Bandeja para Banheiro/Lavabo Decorativa Redonda - Decoracao",
     "product_handle": "bandeja-para-banheiro-lavabo-decorativa-redonda-decoracao",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1004.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1004.jpg"
+    "status": "ready"
   },
   {
     "id": 1005,
@@ -111,9 +102,7 @@
     "alt_text": "Organizador de Maquiagem Porta Pincel em Acrilico Giratorio - organizador de banheiro sofisticado Chique Home",
     "product_title": "Organizador de Maquiagem Porta Pincel em Acrilico Giratorio",
     "product_handle": "organizador-de-maquiagem-porta-pincel-em-acrilico-giratorio",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1005.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1005.jpg"
+    "status": "ready"
   },
   {
     "id": 1006,
@@ -134,7 +123,9 @@
     "alt_text": "Tapete para Cozinha Antiderrapante Absorvente - tapete de cozinha absorvente Chique Home",
     "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
     "product_handle": "tapete-para-cozinha-antiderrapante-absorvente-bege-areia",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1006.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1006.jpg"
   },
   {
     "id": 1007,
@@ -155,7 +146,10 @@
     "alt_text": "Tapete para Cozinha Antiderrapante Absorvente - tapete para cozinha Chique Home",
     "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
     "product_handle": "tapete-para-cozinha-antiderrapante-absorvente-nude",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1007.jpg",
+    "generated_image_path": "public/pinterest/product-originals/pin-1007.jpg",
+    "product_image_style": "product_closeup"
   },
   {
     "id": 1008,
@@ -176,7 +170,9 @@
     "alt_text": "Tapete para Cozinha Antiderrapante Passadeira Absorvente - passadeira para cozinha Chique Home",
     "product_title": "Tapete para Cozinha Antiderrapante Passadeira Absorvente - Bege",
     "product_handle": "tapete-para-cozinha-antiderrapante-passadeira-absorvente-bege",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1008.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1008.jpg"
   },
   {
     "id": 1009,
@@ -197,7 +193,9 @@
     "alt_text": "Tapete para Cozinha Antiderrapante Absorvente - tapete antiderrapante para cozinha Chique Home",
     "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Nude",
     "product_handle": "tapete-para-cozinha-antiderrapante-absorvente-nude",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1009.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1009.jpg"
   },
   {
     "id": 1010,
@@ -218,7 +216,9 @@
     "alt_text": "Tapete para Cozinha Antiderrapante Absorvente - tapete cozinha bege Chique Home",
     "product_title": "Tapete para Cozinha Antiderrapante Absorvente - Bege Areia",
     "product_handle": "tapete-para-cozinha-antiderrapante-absorvente-bege-areia",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1010.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1010.jpg"
   },
   {
     "id": 1011,
@@ -642,7 +642,7 @@
   },
   {
     "id": 1031,
-    "scheduled_at": "2026-12-15T11:00:00.000Z",
+    "scheduled_at": "2026-12-16T11:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "porta papel higienico de parede",
     "intent": "banheiro",
@@ -663,7 +663,7 @@
   },
   {
     "id": 1032,
-    "scheduled_at": "2026-12-15T13:00:00.000Z",
+    "scheduled_at": "2026-12-16T13:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "porta papel banheiro moderno",
     "intent": "banheiro",
@@ -684,7 +684,7 @@
   },
   {
     "id": 1033,
-    "scheduled_at": "2026-12-15T15:00:00.000Z",
+    "scheduled_at": "2026-12-16T15:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "banheiro pequeno organizado",
     "intent": "banheiro",
@@ -705,7 +705,7 @@
   },
   {
     "id": 1034,
-    "scheduled_at": "2026-12-15T17:00:00.000Z",
+    "scheduled_at": "2026-12-16T17:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro com cara de hotel",
     "intent": "banheiro",
@@ -726,7 +726,7 @@
   },
   {
     "id": 1035,
-    "scheduled_at": "2026-12-15T19:00:00.000Z",
+    "scheduled_at": "2026-12-16T19:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro decorado",
     "intent": "banheiro",
@@ -747,7 +747,7 @@
   },
   {
     "id": 1036,
-    "scheduled_at": "2026-12-15T21:00:00.000Z",
+    "scheduled_at": "2026-12-16T21:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro pequeno decorado",
     "intent": "banheiro",
@@ -768,7 +768,7 @@
   },
   {
     "id": 1037,
-    "scheduled_at": "2026-12-16T09:00:00.000Z",
+    "scheduled_at": "2026-12-17T09:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro moderno",
     "intent": "banheiro",
@@ -789,7 +789,7 @@
   },
   {
     "id": 1038,
-    "scheduled_at": "2026-12-16T11:00:00.000Z",
+    "scheduled_at": "2026-12-17T11:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro com cara de hotel",
     "intent": "banheiro",
@@ -810,7 +810,7 @@
   },
   {
     "id": 1039,
-    "scheduled_at": "2026-12-16T13:00:00.000Z",
+    "scheduled_at": "2026-12-17T13:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "lavabo decorado",
     "intent": "banheiro",
@@ -831,7 +831,7 @@
   },
   {
     "id": 1040,
-    "scheduled_at": "2026-12-16T15:00:00.000Z",
+    "scheduled_at": "2026-12-17T15:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "penteadeira",
     "intent": "banheiro",
@@ -852,7 +852,7 @@
   },
   {
     "id": 1041,
-    "scheduled_at": "2026-12-16T17:00:00.000Z",
+    "scheduled_at": "2026-12-17T17:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "porta papel higienico de parede",
     "intent": "banheiro",
@@ -873,7 +873,7 @@
   },
   {
     "id": 1042,
-    "scheduled_at": "2026-12-16T19:00:00.000Z",
+    "scheduled_at": "2026-12-17T19:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "porta papel banheiro moderno",
     "intent": "banheiro",
@@ -894,7 +894,7 @@
   },
   {
     "id": 1043,
-    "scheduled_at": "2026-12-16T21:00:00.000Z",
+    "scheduled_at": "2026-12-17T21:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "banheiro pequeno organizado",
     "intent": "banheiro",
@@ -915,7 +915,7 @@
   },
   {
     "id": 1044,
-    "scheduled_at": "2026-12-17T09:00:00.000Z",
+    "scheduled_at": "2026-12-18T09:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro com cara de hotel",
     "intent": "banheiro",
@@ -936,7 +936,7 @@
   },
   {
     "id": 1045,
-    "scheduled_at": "2026-12-17T11:00:00.000Z",
+    "scheduled_at": "2026-12-18T11:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro decorado",
     "intent": "banheiro",
@@ -957,7 +957,7 @@
   },
   {
     "id": 1046,
-    "scheduled_at": "2026-12-17T13:00:00.000Z",
+    "scheduled_at": "2026-12-18T13:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro pequeno decorado",
     "intent": "banheiro",
@@ -978,7 +978,7 @@
   },
   {
     "id": 1047,
-    "scheduled_at": "2026-12-17T15:00:00.000Z",
+    "scheduled_at": "2026-12-18T15:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro moderno",
     "intent": "banheiro",
@@ -999,7 +999,7 @@
   },
   {
     "id": 1048,
-    "scheduled_at": "2026-12-17T17:00:00.000Z",
+    "scheduled_at": "2026-12-18T17:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro com cara de hotel",
     "intent": "banheiro",
@@ -1020,7 +1020,7 @@
   },
   {
     "id": 1049,
-    "scheduled_at": "2026-12-17T19:00:00.000Z",
+    "scheduled_at": "2026-12-18T19:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "lavabo decorado",
     "intent": "banheiro",
@@ -1041,7 +1041,7 @@
   },
   {
     "id": 1050,
-    "scheduled_at": "2026-12-17T21:00:00.000Z",
+    "scheduled_at": "2026-12-18T21:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "penteadeira",
     "intent": "banheiro",
@@ -1062,7 +1062,7 @@
   },
   {
     "id": 1051,
-    "scheduled_at": "2026-12-18T09:00:00.000Z",
+    "scheduled_at": "2026-12-19T09:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "projeto de cozinha",
     "intent": "cozinha",
@@ -1083,7 +1083,7 @@
   },
   {
     "id": 1052,
-    "scheduled_at": "2026-12-18T11:00:00.000Z",
+    "scheduled_at": "2026-12-19T11:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "decoração cozinha",
     "intent": "cozinha",
@@ -1104,7 +1104,7 @@
   },
   {
     "id": 1053,
-    "scheduled_at": "2026-12-18T13:00:00.000Z",
+    "scheduled_at": "2026-12-19T13:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "tapete cozinha antiderrapante",
     "intent": "cozinha",
@@ -1125,7 +1125,7 @@
   },
   {
     "id": 1054,
-    "scheduled_at": "2026-12-18T15:00:00.000Z",
+    "scheduled_at": "2026-12-19T15:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "tapete de cozinha absorvente",
     "intent": "cozinha",
@@ -1146,7 +1146,7 @@
   },
   {
     "id": 1055,
-    "scheduled_at": "2026-12-18T17:00:00.000Z",
+    "scheduled_at": "2026-12-19T17:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "passadeira para cozinha",
     "intent": "cozinha",
@@ -1167,7 +1167,7 @@
   },
   {
     "id": 1056,
-    "scheduled_at": "2026-12-18T19:00:00.000Z",
+    "scheduled_at": "2026-12-19T19:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "tapete cozinha bege",
     "intent": "cozinha",
@@ -1188,7 +1188,7 @@
   },
   {
     "id": 1057,
-    "scheduled_at": "2026-12-18T21:00:00.000Z",
+    "scheduled_at": "2026-12-19T21:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "tapete cozinha preto",
     "intent": "cozinha",
@@ -1209,7 +1209,7 @@
   },
   {
     "id": 1058,
-    "scheduled_at": "2026-12-19T09:00:00.000Z",
+    "scheduled_at": "2026-12-20T09:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha organizada",
     "intent": "cozinha",
@@ -1230,7 +1230,7 @@
   },
   {
     "id": 1059,
-    "scheduled_at": "2026-12-19T11:00:00.000Z",
+    "scheduled_at": "2026-12-20T11:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha pequena organizada",
     "intent": "cozinha",
@@ -1251,7 +1251,7 @@
   },
   {
     "id": 1060,
-    "scheduled_at": "2026-12-19T13:00:00.000Z",
+    "scheduled_at": "2026-12-20T13:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha decorada simples",
     "intent": "cozinha",
@@ -1272,7 +1272,7 @@
   },
   {
     "id": 1061,
-    "scheduled_at": "2026-12-19T15:00:00.000Z",
+    "scheduled_at": "2026-12-20T15:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "projeto de cozinha",
     "intent": "cozinha",
@@ -1293,7 +1293,7 @@
   },
   {
     "id": 1062,
-    "scheduled_at": "2026-12-19T17:00:00.000Z",
+    "scheduled_at": "2026-12-20T17:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "decoração cozinha",
     "intent": "cozinha",
@@ -1314,7 +1314,7 @@
   },
   {
     "id": 1063,
-    "scheduled_at": "2026-12-19T19:00:00.000Z",
+    "scheduled_at": "2026-12-20T19:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "tapete cozinha antiderrapante",
     "intent": "cozinha",
@@ -1335,7 +1335,7 @@
   },
   {
     "id": 1064,
-    "scheduled_at": "2026-12-19T21:00:00.000Z",
+    "scheduled_at": "2026-12-20T21:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "tapete de cozinha absorvente",
     "intent": "cozinha",
@@ -1356,7 +1356,7 @@
   },
   {
     "id": 1065,
-    "scheduled_at": "2026-12-20T09:00:00.000Z",
+    "scheduled_at": "2026-12-21T09:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "tapete cozinha bege",
     "intent": "cozinha",
@@ -1377,7 +1377,7 @@
   },
   {
     "id": 1066,
-    "scheduled_at": "2026-12-20T11:00:00.000Z",
+    "scheduled_at": "2026-12-21T11:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "tapete cozinha preto",
     "intent": "cozinha",
@@ -1398,7 +1398,7 @@
   },
   {
     "id": 1067,
-    "scheduled_at": "2026-12-20T13:00:00.000Z",
+    "scheduled_at": "2026-12-21T13:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha organizada",
     "intent": "cozinha",
@@ -1419,7 +1419,7 @@
   },
   {
     "id": 1068,
-    "scheduled_at": "2026-12-20T15:00:00.000Z",
+    "scheduled_at": "2026-12-21T15:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha pequena organizada",
     "intent": "cozinha",
@@ -1440,7 +1440,7 @@
   },
   {
     "id": 1069,
-    "scheduled_at": "2026-12-20T17:00:00.000Z",
+    "scheduled_at": "2026-12-21T17:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha decorada simples",
     "intent": "cozinha",
@@ -1461,7 +1461,7 @@
   },
   {
     "id": 1070,
-    "scheduled_at": "2026-12-20T19:00:00.000Z",
+    "scheduled_at": "2026-12-21T19:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha decorada",
     "intent": "cozinha",
@@ -1482,7 +1482,7 @@
   },
   {
     "id": 1071,
-    "scheduled_at": "2026-12-20T21:00:00.000Z",
+    "scheduled_at": "2026-12-21T21:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "projeto de cozinha",
     "intent": "cozinha",
@@ -1503,7 +1503,7 @@
   },
   {
     "id": 1072,
-    "scheduled_at": "2026-12-21T09:00:00.000Z",
+    "scheduled_at": "2026-12-22T09:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "decoração cozinha",
     "intent": "cozinha",
@@ -1524,7 +1524,7 @@
   },
   {
     "id": 1073,
-    "scheduled_at": "2026-12-21T11:00:00.000Z",
+    "scheduled_at": "2026-12-22T11:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "tapete cozinha antiderrapante",
     "intent": "cozinha",
@@ -1545,7 +1545,7 @@
   },
   {
     "id": 1074,
-    "scheduled_at": "2026-12-21T13:00:00.000Z",
+    "scheduled_at": "2026-12-22T13:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "tapete de cozinha absorvente",
     "intent": "cozinha",
@@ -1566,7 +1566,7 @@
   },
   {
     "id": 1075,
-    "scheduled_at": "2026-12-21T15:00:00.000Z",
+    "scheduled_at": "2026-12-22T15:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "passadeira para cozinha",
     "intent": "cozinha",
@@ -1587,7 +1587,7 @@
   },
   {
     "id": 1076,
-    "scheduled_at": "2026-12-21T17:00:00.000Z",
+    "scheduled_at": "2026-12-22T17:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "tapete cozinha bege",
     "intent": "cozinha",
@@ -1608,7 +1608,7 @@
   },
   {
     "id": 1077,
-    "scheduled_at": "2026-12-21T19:00:00.000Z",
+    "scheduled_at": "2026-12-22T19:00:00.000Z",
     "board_name": "Tapetes para cozinha",
     "keyword": "tapete cozinha preto",
     "intent": "cozinha",
@@ -1629,7 +1629,7 @@
   },
   {
     "id": 1078,
-    "scheduled_at": "2026-12-21T21:00:00.000Z",
+    "scheduled_at": "2026-12-22T21:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha organizada",
     "intent": "cozinha",
@@ -1650,7 +1650,7 @@
   },
   {
     "id": 1079,
-    "scheduled_at": "2026-12-22T09:00:00.000Z",
+    "scheduled_at": "2026-12-23T09:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha pequena organizada",
     "intent": "cozinha",
@@ -1671,7 +1671,7 @@
   },
   {
     "id": 1080,
-    "scheduled_at": "2026-12-22T11:00:00.000Z",
+    "scheduled_at": "2026-12-23T11:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha decorada simples",
     "intent": "cozinha",
@@ -1692,7 +1692,7 @@
   },
   {
     "id": 1081,
-    "scheduled_at": "2026-12-22T13:00:00.000Z",
+    "scheduled_at": "2026-12-23T13:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "projeto de cozinha",
     "intent": "cozinha",
@@ -1713,7 +1713,7 @@
   },
   {
     "id": 1082,
-    "scheduled_at": "2026-12-22T15:00:00.000Z",
+    "scheduled_at": "2026-12-23T15:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala de estar apartamento",
     "intent": "sala",
@@ -1734,7 +1734,7 @@
   },
   {
     "id": 1083,
-    "scheduled_at": "2026-12-22T17:00:00.000Z",
+    "scheduled_at": "2026-12-23T17:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoração sala",
     "intent": "sala",
@@ -1755,7 +1755,7 @@
   },
   {
     "id": 1084,
-    "scheduled_at": "2026-12-22T19:00:00.000Z",
+    "scheduled_at": "2026-12-23T19:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "decoração cozinha",
     "intent": "cozinha",
@@ -1776,7 +1776,7 @@
   },
   {
     "id": 1085,
-    "scheduled_at": "2026-12-22T21:00:00.000Z",
+    "scheduled_at": "2026-12-23T21:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha organizada",
     "intent": "cozinha",
@@ -1797,7 +1797,7 @@
   },
   {
     "id": 1086,
-    "scheduled_at": "2026-12-23T09:00:00.000Z",
+    "scheduled_at": "2026-12-24T09:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha pequena organizada",
     "intent": "cozinha",
@@ -1818,7 +1818,7 @@
   },
   {
     "id": 1087,
-    "scheduled_at": "2026-12-23T11:00:00.000Z",
+    "scheduled_at": "2026-12-24T11:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha decorada simples",
     "intent": "cozinha",
@@ -1839,7 +1839,7 @@
   },
   {
     "id": 1088,
-    "scheduled_at": "2026-12-23T13:00:00.000Z",
+    "scheduled_at": "2026-12-24T13:00:00.000Z",
     "board_name": "Relogios de parede",
     "keyword": "relogio de parede grande",
     "intent": "sala",
@@ -1860,7 +1860,7 @@
   },
   {
     "id": 1089,
-    "scheduled_at": "2026-12-23T15:00:00.000Z",
+    "scheduled_at": "2026-12-24T15:00:00.000Z",
     "board_name": "Relogios de parede",
     "keyword": "relogio de parede cozinha",
     "intent": "cozinha",
@@ -1881,7 +1881,7 @@
   },
   {
     "id": 1090,
-    "scheduled_at": "2026-12-23T17:00:00.000Z",
+    "scheduled_at": "2026-12-24T17:00:00.000Z",
     "board_name": "Relogios de parede",
     "keyword": "relogio de parede sala",
     "intent": "sala",
@@ -1902,7 +1902,7 @@
   },
   {
     "id": 1091,
-    "scheduled_at": "2026-12-23T19:00:00.000Z",
+    "scheduled_at": "2026-12-24T19:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "projeto de cozinha",
     "intent": "cozinha",
@@ -1923,7 +1923,7 @@
   },
   {
     "id": 1092,
-    "scheduled_at": "2026-12-23T21:00:00.000Z",
+    "scheduled_at": "2026-12-24T21:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala de estar apartamento",
     "intent": "sala",
@@ -1944,7 +1944,7 @@
   },
   {
     "id": 1093,
-    "scheduled_at": "2026-12-24T09:00:00.000Z",
+    "scheduled_at": "2026-12-25T09:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoração sala",
     "intent": "sala",
@@ -1965,7 +1965,7 @@
   },
   {
     "id": 1094,
-    "scheduled_at": "2026-12-24T11:00:00.000Z",
+    "scheduled_at": "2026-12-25T11:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "decoração cozinha",
     "intent": "cozinha",
@@ -1986,7 +1986,7 @@
   },
   {
     "id": 1095,
-    "scheduled_at": "2026-12-24T13:00:00.000Z",
+    "scheduled_at": "2026-12-25T13:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha organizada",
     "intent": "cozinha",
@@ -2007,7 +2007,7 @@
   },
   {
     "id": 1096,
-    "scheduled_at": "2026-12-24T15:00:00.000Z",
+    "scheduled_at": "2026-12-25T15:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha pequena organizada",
     "intent": "cozinha",
@@ -2028,7 +2028,7 @@
   },
   {
     "id": 1097,
-    "scheduled_at": "2026-12-24T17:00:00.000Z",
+    "scheduled_at": "2026-12-25T17:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha decorada simples",
     "intent": "cozinha",
@@ -2049,7 +2049,7 @@
   },
   {
     "id": 1098,
-    "scheduled_at": "2026-12-24T19:00:00.000Z",
+    "scheduled_at": "2026-12-25T19:00:00.000Z",
     "board_name": "Relogios de parede",
     "keyword": "relogio de parede grande",
     "intent": "sala",
@@ -2070,7 +2070,7 @@
   },
   {
     "id": 1099,
-    "scheduled_at": "2026-12-24T21:00:00.000Z",
+    "scheduled_at": "2026-12-25T21:00:00.000Z",
     "board_name": "Relogios de parede",
     "keyword": "relogio de parede cozinha",
     "intent": "cozinha",
@@ -2091,7 +2091,7 @@
   },
   {
     "id": 1100,
-    "scheduled_at": "2026-12-25T09:00:00.000Z",
+    "scheduled_at": "2026-12-26T09:00:00.000Z",
     "board_name": "Relogios de parede",
     "keyword": "relogio de parede sala",
     "intent": "sala",
@@ -2112,7 +2112,7 @@
   },
   {
     "id": 1101,
-    "scheduled_at": "2026-12-25T11:00:00.000Z",
+    "scheduled_at": "2026-12-26T11:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "projeto de cozinha",
     "intent": "cozinha",
@@ -2133,7 +2133,7 @@
   },
   {
     "id": 1102,
-    "scheduled_at": "2026-12-25T13:00:00.000Z",
+    "scheduled_at": "2026-12-26T13:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala de estar apartamento",
     "intent": "sala",
@@ -2154,7 +2154,7 @@
   },
   {
     "id": 1103,
-    "scheduled_at": "2026-12-25T15:00:00.000Z",
+    "scheduled_at": "2026-12-26T15:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoração sala",
     "intent": "sala",
@@ -2175,7 +2175,7 @@
   },
   {
     "id": 1104,
-    "scheduled_at": "2026-12-25T17:00:00.000Z",
+    "scheduled_at": "2026-12-26T17:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "decoração cozinha",
     "intent": "cozinha",
@@ -2196,7 +2196,7 @@
   },
   {
     "id": 1105,
-    "scheduled_at": "2026-12-25T19:00:00.000Z",
+    "scheduled_at": "2026-12-26T19:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha organizada",
     "intent": "cozinha",
@@ -2217,7 +2217,7 @@
   },
   {
     "id": 1106,
-    "scheduled_at": "2026-12-25T21:00:00.000Z",
+    "scheduled_at": "2026-12-26T21:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha pequena organizada",
     "intent": "cozinha",
@@ -2238,7 +2238,7 @@
   },
   {
     "id": 1107,
-    "scheduled_at": "2026-12-26T09:00:00.000Z",
+    "scheduled_at": "2026-12-27T09:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha decorada simples",
     "intent": "cozinha",
@@ -2259,7 +2259,7 @@
   },
   {
     "id": 1108,
-    "scheduled_at": "2026-12-26T11:00:00.000Z",
+    "scheduled_at": "2026-12-27T11:00:00.000Z",
     "board_name": "Relogios de parede",
     "keyword": "relogio de parede grande",
     "intent": "sala",
@@ -2280,7 +2280,7 @@
   },
   {
     "id": 1109,
-    "scheduled_at": "2026-12-26T13:00:00.000Z",
+    "scheduled_at": "2026-12-27T13:00:00.000Z",
     "board_name": "Relogios de parede",
     "keyword": "relogio de parede cozinha",
     "intent": "cozinha",
@@ -2301,7 +2301,7 @@
   },
   {
     "id": 1110,
-    "scheduled_at": "2026-12-26T15:00:00.000Z",
+    "scheduled_at": "2026-12-27T15:00:00.000Z",
     "board_name": "Relogios de parede",
     "keyword": "relogio de parede sala",
     "intent": "sala",
@@ -2322,7 +2322,7 @@
   },
   {
     "id": 1111,
-    "scheduled_at": "2026-12-26T17:00:00.000Z",
+    "scheduled_at": "2026-12-27T17:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "banheiro pequeno organizado",
     "intent": "banheiro",
@@ -2343,7 +2343,7 @@
   },
   {
     "id": 1112,
-    "scheduled_at": "2026-12-26T19:00:00.000Z",
+    "scheduled_at": "2026-12-27T19:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro com cara de hotel",
     "intent": "banheiro",
@@ -2364,7 +2364,7 @@
   },
   {
     "id": 1113,
-    "scheduled_at": "2026-12-26T21:00:00.000Z",
+    "scheduled_at": "2026-12-27T21:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "organizador box banheiro",
     "intent": "banheiro",
@@ -2385,7 +2385,7 @@
   },
   {
     "id": 1114,
-    "scheduled_at": "2026-12-27T09:00:00.000Z",
+    "scheduled_at": "2026-12-28T09:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro decorado",
     "intent": "banheiro",
@@ -2406,7 +2406,7 @@
   },
   {
     "id": 1115,
-    "scheduled_at": "2026-12-27T11:00:00.000Z",
+    "scheduled_at": "2026-12-28T11:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro pequeno decorado",
     "intent": "banheiro",
@@ -2427,7 +2427,7 @@
   },
   {
     "id": 1116,
-    "scheduled_at": "2026-12-27T13:00:00.000Z",
+    "scheduled_at": "2026-12-28T13:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro moderno",
     "intent": "banheiro",
@@ -2448,7 +2448,7 @@
   },
   {
     "id": 1117,
-    "scheduled_at": "2026-12-27T15:00:00.000Z",
+    "scheduled_at": "2026-12-28T15:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro com cara de hotel",
     "intent": "banheiro",
@@ -2469,7 +2469,7 @@
   },
   {
     "id": 1118,
-    "scheduled_at": "2026-12-27T17:00:00.000Z",
+    "scheduled_at": "2026-12-28T17:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "lavabo decorado",
     "intent": "banheiro",
@@ -2490,7 +2490,7 @@
   },
   {
     "id": 1119,
-    "scheduled_at": "2026-12-27T19:00:00.000Z",
+    "scheduled_at": "2026-12-28T19:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "penteadeira",
     "intent": "banheiro",
@@ -2511,7 +2511,7 @@
   },
   {
     "id": 1120,
-    "scheduled_at": "2026-12-27T21:00:00.000Z",
+    "scheduled_at": "2026-12-28T21:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "organizacao de banheiro",
     "intent": "banheiro",
@@ -2532,7 +2532,7 @@
   },
   {
     "id": 1121,
-    "scheduled_at": "2026-12-28T09:00:00.000Z",
+    "scheduled_at": "2026-12-29T09:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "banheiro pequeno organizado",
     "intent": "banheiro",
@@ -2553,7 +2553,7 @@
   },
   {
     "id": 1122,
-    "scheduled_at": "2026-12-28T11:00:00.000Z",
+    "scheduled_at": "2026-12-29T11:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro com cara de hotel",
     "intent": "banheiro",
@@ -2574,7 +2574,7 @@
   },
   {
     "id": 1123,
-    "scheduled_at": "2026-12-28T13:00:00.000Z",
+    "scheduled_at": "2026-12-29T13:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro decorado",
     "intent": "banheiro",
@@ -2595,7 +2595,7 @@
   },
   {
     "id": 1124,
-    "scheduled_at": "2026-12-28T15:00:00.000Z",
+    "scheduled_at": "2026-12-29T15:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro pequeno decorado",
     "intent": "banheiro",
@@ -2616,7 +2616,7 @@
   },
   {
     "id": 1125,
-    "scheduled_at": "2026-12-28T17:00:00.000Z",
+    "scheduled_at": "2026-12-29T17:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro moderno",
     "intent": "banheiro",
@@ -2637,7 +2637,7 @@
   },
   {
     "id": 1126,
-    "scheduled_at": "2026-12-28T19:00:00.000Z",
+    "scheduled_at": "2026-12-29T19:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "banheiro com cara de hotel",
     "intent": "banheiro",
@@ -2658,7 +2658,7 @@
   },
   {
     "id": 1127,
-    "scheduled_at": "2026-12-28T21:00:00.000Z",
+    "scheduled_at": "2026-12-29T21:00:00.000Z",
     "board_name": "Banheiro com cara de hotel",
     "keyword": "lavabo decorado",
     "intent": "banheiro",
@@ -2679,7 +2679,7 @@
   },
   {
     "id": 1128,
-    "scheduled_at": "2026-12-29T09:00:00.000Z",
+    "scheduled_at": "2026-12-30T09:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "penteadeira",
     "intent": "banheiro",
@@ -2700,7 +2700,7 @@
   },
   {
     "id": 1129,
-    "scheduled_at": "2026-12-29T11:00:00.000Z",
+    "scheduled_at": "2026-12-30T11:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "organizacao de banheiro",
     "intent": "banheiro",
@@ -2721,7 +2721,7 @@
   },
   {
     "id": 1130,
-    "scheduled_at": "2026-12-29T13:00:00.000Z",
+    "scheduled_at": "2026-12-30T13:00:00.000Z",
     "board_name": "Banheiro organizado",
     "keyword": "organizador de maquiagem",
     "intent": "banheiro",
@@ -2742,7 +2742,7 @@
   },
   {
     "id": 1131,
-    "scheduled_at": "2026-12-29T15:00:00.000Z",
+    "scheduled_at": "2026-12-30T15:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala de estar apartamento",
     "intent": "sala",
@@ -2763,7 +2763,7 @@
   },
   {
     "id": 1132,
-    "scheduled_at": "2026-12-29T17:00:00.000Z",
+    "scheduled_at": "2026-12-30T17:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoração sala",
     "intent": "sala",
@@ -2784,7 +2784,7 @@
   },
   {
     "id": 1133,
-    "scheduled_at": "2026-12-29T19:00:00.000Z",
+    "scheduled_at": "2026-12-30T19:00:00.000Z",
     "board_name": "Mesa posta elegante",
     "keyword": "sala de jantar decorada",
     "intent": "sala",
@@ -2805,7 +2805,7 @@
   },
   {
     "id": 1134,
-    "scheduled_at": "2026-12-29T21:00:00.000Z",
+    "scheduled_at": "2026-12-30T21:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",
@@ -2826,7 +2826,7 @@
   },
   {
     "id": 1135,
-    "scheduled_at": "2026-12-30T09:00:00.000Z",
+    "scheduled_at": "2026-12-31T09:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala",
     "intent": "sala",
@@ -2847,7 +2847,7 @@
   },
   {
     "id": 1136,
-    "scheduled_at": "2026-12-30T11:00:00.000Z",
+    "scheduled_at": "2026-12-31T11:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala pequena decorada",
     "intent": "sala",
@@ -2868,7 +2868,7 @@
   },
   {
     "id": 1137,
-    "scheduled_at": "2026-12-30T13:00:00.000Z",
+    "scheduled_at": "2026-12-31T13:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala pequena",
     "intent": "sala",
@@ -2889,7 +2889,7 @@
   },
   {
     "id": 1138,
-    "scheduled_at": "2026-12-30T15:00:00.000Z",
+    "scheduled_at": "2026-12-31T15:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",
@@ -2910,7 +2910,7 @@
   },
   {
     "id": 1139,
-    "scheduled_at": "2026-12-30T17:00:00.000Z",
+    "scheduled_at": "2026-12-31T17:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala elegante",
     "intent": "sala",
@@ -2931,7 +2931,7 @@
   },
   {
     "id": 1140,
-    "scheduled_at": "2026-12-30T19:00:00.000Z",
+    "scheduled_at": "2026-12-31T19:00:00.000Z",
     "board_name": "Decoracao de parede",
     "keyword": "decoracao de parede",
     "intent": "sala",
@@ -2952,7 +2952,7 @@
   },
   {
     "id": 1141,
-    "scheduled_at": "2026-12-30T21:00:00.000Z",
+    "scheduled_at": "2026-12-31T21:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "projeto de cozinha",
     "intent": "cozinha",
@@ -2973,7 +2973,7 @@
   },
   {
     "id": 1142,
-    "scheduled_at": "2026-12-31T09:00:00.000Z",
+    "scheduled_at": "2027-01-01T09:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala de estar apartamento",
     "intent": "sala",
@@ -2994,7 +2994,7 @@
   },
   {
     "id": 1143,
-    "scheduled_at": "2026-12-31T11:00:00.000Z",
+    "scheduled_at": "2027-01-01T11:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoração sala",
     "intent": "sala",
@@ -3015,7 +3015,7 @@
   },
   {
     "id": 1144,
-    "scheduled_at": "2026-12-31T13:00:00.000Z",
+    "scheduled_at": "2027-01-01T13:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "decoração cozinha",
     "intent": "cozinha",
@@ -3036,7 +3036,7 @@
   },
   {
     "id": 1145,
-    "scheduled_at": "2026-12-31T15:00:00.000Z",
+    "scheduled_at": "2027-01-01T15:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha organizada",
     "intent": "cozinha",
@@ -3057,7 +3057,7 @@
   },
   {
     "id": 1146,
-    "scheduled_at": "2026-12-31T17:00:00.000Z",
+    "scheduled_at": "2027-01-01T17:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha pequena organizada",
     "intent": "cozinha",
@@ -3078,7 +3078,7 @@
   },
   {
     "id": 1147,
-    "scheduled_at": "2026-12-31T19:00:00.000Z",
+    "scheduled_at": "2027-01-01T19:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha decorada simples",
     "intent": "cozinha",
@@ -3099,7 +3099,7 @@
   },
   {
     "id": 1148,
-    "scheduled_at": "2026-12-31T21:00:00.000Z",
+    "scheduled_at": "2027-01-01T21:00:00.000Z",
     "board_name": "Mesa posta elegante",
     "keyword": "sala de jantar decorada",
     "intent": "sala",
@@ -3120,7 +3120,7 @@
   },
   {
     "id": 1149,
-    "scheduled_at": "2027-01-01T09:00:00.000Z",
+    "scheduled_at": "2027-01-02T09:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",
@@ -3141,7 +3141,7 @@
   },
   {
     "id": 1150,
-    "scheduled_at": "2027-01-01T11:00:00.000Z",
+    "scheduled_at": "2027-01-02T11:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala",
     "intent": "sala",
@@ -3162,7 +3162,7 @@
   },
   {
     "id": 1151,
-    "scheduled_at": "2027-01-01T13:00:00.000Z",
+    "scheduled_at": "2027-01-02T13:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "projeto de cozinha",
     "intent": "cozinha",
@@ -3183,7 +3183,7 @@
   },
   {
     "id": 1152,
-    "scheduled_at": "2027-01-01T15:00:00.000Z",
+    "scheduled_at": "2027-01-02T15:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala de estar apartamento",
     "intent": "sala",
@@ -3204,7 +3204,7 @@
   },
   {
     "id": 1153,
-    "scheduled_at": "2027-01-01T17:00:00.000Z",
+    "scheduled_at": "2027-01-02T17:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoração sala",
     "intent": "sala",
@@ -3225,7 +3225,7 @@
   },
   {
     "id": 1154,
-    "scheduled_at": "2027-01-01T19:00:00.000Z",
+    "scheduled_at": "2027-01-02T19:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "decoração cozinha",
     "intent": "cozinha",
@@ -3246,7 +3246,7 @@
   },
   {
     "id": 1155,
-    "scheduled_at": "2027-01-01T21:00:00.000Z",
+    "scheduled_at": "2027-01-02T21:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha organizada",
     "intent": "cozinha",
@@ -3267,7 +3267,7 @@
   },
   {
     "id": 1156,
-    "scheduled_at": "2027-01-02T09:00:00.000Z",
+    "scheduled_at": "2027-01-03T09:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha pequena organizada",
     "intent": "cozinha",
@@ -3288,7 +3288,7 @@
   },
   {
     "id": 1157,
-    "scheduled_at": "2027-01-02T11:00:00.000Z",
+    "scheduled_at": "2027-01-03T11:00:00.000Z",
     "board_name": "Cozinha elegante",
     "keyword": "cozinha decorada simples",
     "intent": "cozinha",
@@ -3309,7 +3309,7 @@
   },
   {
     "id": 1158,
-    "scheduled_at": "2027-01-02T13:00:00.000Z",
+    "scheduled_at": "2027-01-03T13:00:00.000Z",
     "board_name": "Mesa posta elegante",
     "keyword": "sala de jantar decorada",
     "intent": "sala",
@@ -3330,7 +3330,7 @@
   },
   {
     "id": 1159,
-    "scheduled_at": "2027-01-02T15:00:00.000Z",
+    "scheduled_at": "2027-01-03T15:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",
@@ -3351,7 +3351,7 @@
   },
   {
     "id": 1160,
-    "scheduled_at": "2027-01-02T17:00:00.000Z",
+    "scheduled_at": "2027-01-03T17:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala",
     "intent": "sala",
@@ -3372,7 +3372,7 @@
   },
   {
     "id": 1161,
-    "scheduled_at": "2027-01-02T19:00:00.000Z",
+    "scheduled_at": "2027-01-03T19:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala de estar apartamento",
     "intent": "sala",
@@ -3393,7 +3393,7 @@
   },
   {
     "id": 1162,
-    "scheduled_at": "2027-01-02T21:00:00.000Z",
+    "scheduled_at": "2027-01-03T21:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoração sala",
     "intent": "sala",
@@ -3414,7 +3414,7 @@
   },
   {
     "id": 1163,
-    "scheduled_at": "2027-01-03T09:00:00.000Z",
+    "scheduled_at": "2027-01-04T09:00:00.000Z",
     "board_name": "Relogios de parede",
     "keyword": "relogio digital de mesa",
     "intent": "sala",
@@ -3435,7 +3435,7 @@
   },
   {
     "id": 1164,
-    "scheduled_at": "2027-01-03T11:00:00.000Z",
+    "scheduled_at": "2027-01-04T11:00:00.000Z",
     "board_name": "Quarto decorado",
     "keyword": "relogio de mesa led",
     "intent": "quarto",
@@ -3456,7 +3456,7 @@
   },
   {
     "id": 1165,
-    "scheduled_at": "2027-01-03T13:00:00.000Z",
+    "scheduled_at": "2027-01-04T13:00:00.000Z",
     "board_name": "Quarto decorado",
     "keyword": "relogio despertador digital",
     "intent": "quarto",
@@ -3477,7 +3477,7 @@
   },
   {
     "id": 1166,
-    "scheduled_at": "2027-01-03T15:00:00.000Z",
+    "scheduled_at": "2027-01-04T15:00:00.000Z",
     "board_name": "Quarto decorado",
     "keyword": "relogio de cabeceira",
     "intent": "quarto",
@@ -3498,7 +3498,7 @@
   },
   {
     "id": 1167,
-    "scheduled_at": "2027-01-03T17:00:00.000Z",
+    "scheduled_at": "2027-01-04T17:00:00.000Z",
     "board_name": "Mesa posta elegante",
     "keyword": "sala de jantar decorada",
     "intent": "sala",
@@ -3519,7 +3519,7 @@
   },
   {
     "id": 1168,
-    "scheduled_at": "2027-01-03T19:00:00.000Z",
+    "scheduled_at": "2027-01-04T19:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",
@@ -3540,7 +3540,7 @@
   },
   {
     "id": 1169,
-    "scheduled_at": "2027-01-03T21:00:00.000Z",
+    "scheduled_at": "2027-01-04T21:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala",
     "intent": "sala",
@@ -3561,7 +3561,7 @@
   },
   {
     "id": 1170,
-    "scheduled_at": "2027-01-04T09:00:00.000Z",
+    "scheduled_at": "2027-01-05T09:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala pequena decorada",
     "intent": "sala",
@@ -3582,7 +3582,7 @@
   },
   {
     "id": 1171,
-    "scheduled_at": "2027-01-04T11:00:00.000Z",
+    "scheduled_at": "2027-01-05T11:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala de estar apartamento",
     "intent": "sala",
@@ -3603,7 +3603,7 @@
   },
   {
     "id": 1172,
-    "scheduled_at": "2027-01-04T13:00:00.000Z",
+    "scheduled_at": "2027-01-05T13:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoração sala",
     "intent": "sala",
@@ -3624,7 +3624,7 @@
   },
   {
     "id": 1173,
-    "scheduled_at": "2027-01-04T15:00:00.000Z",
+    "scheduled_at": "2027-01-05T15:00:00.000Z",
     "board_name": "Relogios de parede",
     "keyword": "relogio digital de mesa",
     "intent": "sala",
@@ -3645,7 +3645,7 @@
   },
   {
     "id": 1174,
-    "scheduled_at": "2027-01-04T17:00:00.000Z",
+    "scheduled_at": "2027-01-05T17:00:00.000Z",
     "board_name": "Quarto decorado",
     "keyword": "relogio de mesa led",
     "intent": "quarto",
@@ -3666,7 +3666,7 @@
   },
   {
     "id": 1175,
-    "scheduled_at": "2027-01-04T19:00:00.000Z",
+    "scheduled_at": "2027-01-05T19:00:00.000Z",
     "board_name": "Quarto decorado",
     "keyword": "relogio despertador digital",
     "intent": "quarto",
@@ -3687,7 +3687,7 @@
   },
   {
     "id": 1176,
-    "scheduled_at": "2027-01-04T21:00:00.000Z",
+    "scheduled_at": "2027-01-05T21:00:00.000Z",
     "board_name": "Mesa posta elegante",
     "keyword": "sala de jantar decorada",
     "intent": "sala",
@@ -3708,7 +3708,7 @@
   },
   {
     "id": 1177,
-    "scheduled_at": "2027-01-05T09:00:00.000Z",
+    "scheduled_at": "2027-01-06T09:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",
@@ -3729,7 +3729,7 @@
   },
   {
     "id": 1178,
-    "scheduled_at": "2027-01-05T11:00:00.000Z",
+    "scheduled_at": "2027-01-06T11:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala",
     "intent": "sala",
@@ -3750,7 +3750,7 @@
   },
   {
     "id": 1179,
-    "scheduled_at": "2027-01-05T13:00:00.000Z",
+    "scheduled_at": "2027-01-06T13:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala pequena decorada",
     "intent": "sala",
@@ -3771,7 +3771,7 @@
   },
   {
     "id": 1180,
-    "scheduled_at": "2027-01-05T15:00:00.000Z",
+    "scheduled_at": "2027-01-06T15:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala pequena",
     "intent": "sala",
@@ -3792,7 +3792,7 @@
   },
   {
     "id": 1181,
-    "scheduled_at": "2027-01-05T17:00:00.000Z",
+    "scheduled_at": "2027-01-06T17:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala de estar apartamento",
     "intent": "sala",
@@ -3813,7 +3813,7 @@
   },
   {
     "id": 1182,
-    "scheduled_at": "2027-01-05T19:00:00.000Z",
+    "scheduled_at": "2027-01-06T19:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoração sala",
     "intent": "sala",
@@ -3834,7 +3834,7 @@
   },
   {
     "id": 1183,
-    "scheduled_at": "2027-01-05T21:00:00.000Z",
+    "scheduled_at": "2027-01-06T21:00:00.000Z",
     "board_name": "Relogios de parede",
     "keyword": "relogio digital de mesa",
     "intent": "sala",
@@ -3855,7 +3855,7 @@
   },
   {
     "id": 1184,
-    "scheduled_at": "2027-01-06T09:00:00.000Z",
+    "scheduled_at": "2027-01-07T09:00:00.000Z",
     "board_name": "Quarto decorado",
     "keyword": "relogio de mesa led",
     "intent": "quarto",
@@ -3876,7 +3876,7 @@
   },
   {
     "id": 1185,
-    "scheduled_at": "2027-01-06T11:00:00.000Z",
+    "scheduled_at": "2027-01-07T11:00:00.000Z",
     "board_name": "Quarto decorado",
     "keyword": "relogio despertador digital",
     "intent": "quarto",
@@ -3897,7 +3897,7 @@
   },
   {
     "id": 1186,
-    "scheduled_at": "2027-01-06T13:00:00.000Z",
+    "scheduled_at": "2027-01-07T13:00:00.000Z",
     "board_name": "Mesa posta elegante",
     "keyword": "sala de jantar decorada",
     "intent": "sala",
@@ -3918,7 +3918,7 @@
   },
   {
     "id": 1187,
-    "scheduled_at": "2027-01-06T15:00:00.000Z",
+    "scheduled_at": "2027-01-07T15:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",
@@ -3939,7 +3939,7 @@
   },
   {
     "id": 1188,
-    "scheduled_at": "2027-01-06T17:00:00.000Z",
+    "scheduled_at": "2027-01-07T17:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala",
     "intent": "sala",
@@ -3960,7 +3960,7 @@
   },
   {
     "id": 1189,
-    "scheduled_at": "2027-01-06T19:00:00.000Z",
+    "scheduled_at": "2027-01-07T19:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala pequena decorada",
     "intent": "sala",
@@ -3981,7 +3981,7 @@
   },
   {
     "id": 1190,
-    "scheduled_at": "2027-01-06T21:00:00.000Z",
+    "scheduled_at": "2027-01-07T21:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala pequena",
     "intent": "sala",
@@ -4002,7 +4002,7 @@
   },
   {
     "id": 1191,
-    "scheduled_at": "2027-01-07T09:00:00.000Z",
+    "scheduled_at": "2027-01-08T09:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala de estar apartamento",
     "intent": "sala",
@@ -4023,7 +4023,7 @@
   },
   {
     "id": 1192,
-    "scheduled_at": "2027-01-07T11:00:00.000Z",
+    "scheduled_at": "2027-01-08T11:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoração sala",
     "intent": "sala",
@@ -4044,7 +4044,7 @@
   },
   {
     "id": 1193,
-    "scheduled_at": "2027-01-07T13:00:00.000Z",
+    "scheduled_at": "2027-01-08T13:00:00.000Z",
     "board_name": "Mesa posta elegante",
     "keyword": "sala de jantar decorada",
     "intent": "sala",
@@ -4065,7 +4065,7 @@
   },
   {
     "id": 1194,
-    "scheduled_at": "2027-01-07T15:00:00.000Z",
+    "scheduled_at": "2027-01-08T15:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "capa almofada sofa luxo",
     "intent": "sala",
@@ -4086,7 +4086,7 @@
   },
   {
     "id": 1195,
-    "scheduled_at": "2027-01-07T17:00:00.000Z",
+    "scheduled_at": "2027-01-08T17:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "almofada decorativa sofa",
     "intent": "sala",
@@ -4107,7 +4107,7 @@
   },
   {
     "id": 1196,
-    "scheduled_at": "2027-01-07T19:00:00.000Z",
+    "scheduled_at": "2027-01-08T19:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",
@@ -4128,7 +4128,7 @@
   },
   {
     "id": 1197,
-    "scheduled_at": "2027-01-07T21:00:00.000Z",
+    "scheduled_at": "2027-01-08T21:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala",
     "intent": "sala",
@@ -4149,7 +4149,7 @@
   },
   {
     "id": 1198,
-    "scheduled_at": "2027-01-08T09:00:00.000Z",
+    "scheduled_at": "2027-01-09T09:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala pequena decorada",
     "intent": "sala",
@@ -4170,7 +4170,7 @@
   },
   {
     "id": 1199,
-    "scheduled_at": "2027-01-08T11:00:00.000Z",
+    "scheduled_at": "2027-01-09T11:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala pequena",
     "intent": "sala",
@@ -4191,7 +4191,7 @@
   },
   {
     "id": 1200,
-    "scheduled_at": "2027-01-08T13:00:00.000Z",
+    "scheduled_at": "2027-01-09T13:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",
@@ -4212,7 +4212,7 @@
   },
   {
     "id": 1201,
-    "scheduled_at": "2027-01-08T15:00:00.000Z",
+    "scheduled_at": "2027-01-09T15:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala de estar apartamento",
     "intent": "sala",
@@ -4233,7 +4233,7 @@
   },
   {
     "id": 1202,
-    "scheduled_at": "2027-01-08T17:00:00.000Z",
+    "scheduled_at": "2027-01-09T17:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoração sala",
     "intent": "sala",
@@ -4254,7 +4254,7 @@
   },
   {
     "id": 1203,
-    "scheduled_at": "2027-01-08T19:00:00.000Z",
+    "scheduled_at": "2027-01-09T19:00:00.000Z",
     "board_name": "Mesa posta elegante",
     "keyword": "sala de jantar decorada",
     "intent": "sala",
@@ -4275,7 +4275,7 @@
   },
   {
     "id": 1204,
-    "scheduled_at": "2027-01-08T21:00:00.000Z",
+    "scheduled_at": "2027-01-09T21:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",
@@ -4296,7 +4296,7 @@
   },
   {
     "id": 1205,
-    "scheduled_at": "2027-01-09T09:00:00.000Z",
+    "scheduled_at": "2027-01-10T09:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala",
     "intent": "sala",
@@ -4317,7 +4317,7 @@
   },
   {
     "id": 1206,
-    "scheduled_at": "2027-01-09T11:00:00.000Z",
+    "scheduled_at": "2027-01-10T11:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala pequena decorada",
     "intent": "sala",
@@ -4338,7 +4338,7 @@
   },
   {
     "id": 1207,
-    "scheduled_at": "2027-01-09T13:00:00.000Z",
+    "scheduled_at": "2027-01-10T13:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala pequena",
     "intent": "sala",
@@ -4359,7 +4359,7 @@
   },
   {
     "id": 1208,
-    "scheduled_at": "2027-01-09T15:00:00.000Z",
+    "scheduled_at": "2027-01-10T15:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",
@@ -4380,7 +4380,7 @@
   },
   {
     "id": 1209,
-    "scheduled_at": "2027-01-09T17:00:00.000Z",
+    "scheduled_at": "2027-01-10T17:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala elegante",
     "intent": "sala",
@@ -4401,7 +4401,7 @@
   },
   {
     "id": 1210,
-    "scheduled_at": "2027-01-09T19:00:00.000Z",
+    "scheduled_at": "2027-01-10T19:00:00.000Z",
     "board_name": "Decoracao de parede",
     "keyword": "decoracao de parede",
     "intent": "sala",
@@ -4422,7 +4422,7 @@
   },
   {
     "id": 1211,
-    "scheduled_at": "2027-01-09T21:00:00.000Z",
+    "scheduled_at": "2027-01-10T21:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala de estar apartamento",
     "intent": "sala",
@@ -4443,7 +4443,7 @@
   },
   {
     "id": 1212,
-    "scheduled_at": "2027-01-10T09:00:00.000Z",
+    "scheduled_at": "2027-01-11T09:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoração sala",
     "intent": "sala",
@@ -4464,7 +4464,7 @@
   },
   {
     "id": 1213,
-    "scheduled_at": "2027-01-10T11:00:00.000Z",
+    "scheduled_at": "2027-01-11T11:00:00.000Z",
     "board_name": "Mesa posta elegante",
     "keyword": "capa cadeira jantar",
     "intent": "sala",
@@ -4485,7 +4485,7 @@
   },
   {
     "id": 1214,
-    "scheduled_at": "2027-01-10T13:00:00.000Z",
+    "scheduled_at": "2027-01-11T13:00:00.000Z",
     "board_name": "Mesa posta elegante",
     "keyword": "capa cadeira impermeavel",
     "intent": "sala",
@@ -4506,7 +4506,7 @@
   },
   {
     "id": 1215,
-    "scheduled_at": "2027-01-10T15:00:00.000Z",
+    "scheduled_at": "2027-01-11T15:00:00.000Z",
     "board_name": "Mesa posta elegante",
     "keyword": "sala de jantar decorada",
     "intent": "sala",
@@ -4527,7 +4527,7 @@
   },
   {
     "id": 1216,
-    "scheduled_at": "2027-01-10T17:00:00.000Z",
+    "scheduled_at": "2027-01-11T17:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",
@@ -4548,7 +4548,7 @@
   },
   {
     "id": 1217,
-    "scheduled_at": "2027-01-10T19:00:00.000Z",
+    "scheduled_at": "2027-01-11T19:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala",
     "intent": "sala",
@@ -4569,7 +4569,7 @@
   },
   {
     "id": 1218,
-    "scheduled_at": "2027-01-10T21:00:00.000Z",
+    "scheduled_at": "2027-01-11T21:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala pequena decorada",
     "intent": "sala",
@@ -4590,7 +4590,7 @@
   },
   {
     "id": 1219,
-    "scheduled_at": "2027-01-11T09:00:00.000Z",
+    "scheduled_at": "2027-01-12T09:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "decoracao de sala pequena",
     "intent": "sala",
@@ -4611,7 +4611,7 @@
   },
   {
     "id": 1220,
-    "scheduled_at": "2027-01-11T11:00:00.000Z",
+    "scheduled_at": "2027-01-12T11:00:00.000Z",
     "board_name": "Sala sofisticada",
     "keyword": "sala sofisticada",
     "intent": "sala",

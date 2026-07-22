@@ -1,41 +1,41 @@
 {
-  "imageDate": "2026-07-21",
+  "imageDate": "2026-07-22",
   "baseUrl": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest",
   "rendered": [
     {
-      "id": 1001,
-      "keyword": "banheiro pequeno organizado",
+      "id": 1006,
+      "keyword": "tapete de cozinha absorvente",
       "visual_strategy": "product_in_environment",
-      "generated_image_path": "public/pinterest/generated/pin-1001.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1001.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-1006.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1006.jpg"
     },
     {
-      "id": 1002,
-      "keyword": "porta papel banheiro moderno",
+      "id": 1007,
+      "keyword": "tapete para cozinha",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1002.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1002.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-1007.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1007.jpg"
     },
     {
-      "id": 1003,
-      "keyword": "organizador de maquiagem",
+      "id": 1008,
+      "keyword": "passadeira para cozinha",
       "visual_strategy": "environment_full_bleed",
-      "generated_image_path": "public/pinterest/generated/pin-1003.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1003.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-1008.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1008.jpg"
     },
     {
-      "id": 1004,
-      "keyword": "bandeja para banheiro",
+      "id": 1009,
+      "keyword": "tapete antiderrapante para cozinha",
       "visual_strategy": "environment_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1004.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1004.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-1009.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1009.jpg"
     },
     {
-      "id": 1005,
-      "keyword": "organizador de banheiro sofisticado",
+      "id": 1010,
+      "keyword": "tapete cozinha bege",
       "visual_strategy": "product_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1005.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1005.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-1010.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1010.jpg"
     }
   ],
   "needsAi": []
