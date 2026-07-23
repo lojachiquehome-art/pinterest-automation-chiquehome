@@ -228,9 +228,7 @@
     "alt_text": "Relogio de Mesa Digital Carregador Sem Fio e Luminaria LED 3 em 1 - relogio de cabeceira Chique Home",
     "product_title": "Relogio de Mesa Digital Carregador Sem Fio e Luminaria LED 3 em 1",
     "product_handle": "relogio-de-mesa-digital-carregador-sem-fio-e-luminaria-led-3-em-1",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1011.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1011.jpg"
+    "status": "ready"
   },
   {
     "id": 1012,
@@ -251,10 +249,7 @@
     "alt_text": "Relogio de Mesa Digital Despertador Triangular Bege - relogio digital de mesa Chique Home",
     "product_title": "Relogio de Mesa Digital Despertador Triangular Bege",
     "product_handle": "relogio-de-mesa-digital-despertador-triangular-bege",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1012.jpg",
-    "generated_image_path": "public/pinterest/product-originals/pin-1012.jpg",
-    "product_image_style": "shopify_original"
+    "status": "ready"
   },
   {
     "id": 1013,
@@ -275,9 +270,7 @@
     "alt_text": "Relogio Digital de Mesa Despertador Redondo Branco - mesa de cabeceira organizada Chique Home",
     "product_title": "Relogio Digital de Mesa Despertador Redondo Branco",
     "product_handle": "relogio-digital-de-mesa-despertador-redondo-branco",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1013.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1013.jpg"
+    "status": "ready"
   },
   {
     "id": 1014,
@@ -298,9 +291,7 @@
     "alt_text": "Relogio de Mesa Digital Despertador Triangular Bege - relogio despertador digital Chique Home",
     "product_title": "Relogio de Mesa Digital Despertador Triangular Bege",
     "product_handle": "relogio-de-mesa-digital-despertador-triangular-bege",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1014.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1014.jpg"
+    "status": "ready"
   },
   {
     "id": 1015,
@@ -321,9 +312,7 @@
     "alt_text": "Relogio Digital de Mesa Despertador Redondo Branco - relogio de mesa led Chique Home",
     "product_title": "Relogio Digital de Mesa Despertador Redondo Branco",
     "product_handle": "relogio-digital-de-mesa-despertador-redondo-branco",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1015.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1015.jpg"
+    "status": "ready"
   },
   {
     "id": 1016,
@@ -344,7 +333,9 @@
     "alt_text": "Relogio de Parede Lorenzzo Wood - relogio de parede lorenzzo wood Chique Home",
     "product_title": "Relogio de Parede Lorenzzo Wood",
     "product_handle": "relogio-de-parede-lorenzzo-wood",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1016.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1016.jpg"
   },
   {
     "id": 1017,
@@ -365,7 +356,10 @@
     "alt_text": "Relogio de Parede Grande Decorativo - relogio de parede cozinha Chique Home",
     "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo - Decoracao",
     "product_handle": "relogio-de-parede-para-cozinha-sala-grande-decorativo-decoracao",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1017.jpg",
+    "generated_image_path": "public/pinterest/product-originals/pin-1017.jpg",
+    "product_image_style": "product_closeup"
   },
   {
     "id": 1018,
@@ -386,7 +380,9 @@
     "alt_text": "Relogio de Parede Lorenzzo Wood - relogio de parede grande Chique Home",
     "product_title": "Relogio de Parede Lorenzzo Wood",
     "product_handle": "relogio-de-parede-lorenzzo-wood",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1018.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1018.jpg"
   },
   {
     "id": 1019,
@@ -407,7 +403,9 @@
     "alt_text": "Relogio de Parede Grande Decorativo Sofisticado - relogio de parede decorativo Chique Home",
     "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo Sofisticado",
     "product_handle": "relogio-de-parede-para-cozinha-sala-grande-decorativo-sofisticado",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1019.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1019.jpg"
   },
   {
     "id": 1020,
@@ -428,7 +426,9 @@
     "alt_text": "Relogio de Parede Lorenzzo Wood - relogio lorenzzo wood Chique Home",
     "product_title": "Relogio de Parede Lorenzzo Wood",
     "product_handle": "relogio-de-parede-lorenzzo-wood",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1020.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1020.jpg"
   },
   {
     "id": 1021,

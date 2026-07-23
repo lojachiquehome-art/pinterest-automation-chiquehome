@@ -3,39 +3,39 @@
   "baseUrl": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest",
   "rendered": [
     {
-      "id": 1011,
-      "keyword": "relogio de cabeceira",
+      "id": 1016,
+      "keyword": "relogio de parede lorenzzo wood",
       "visual_strategy": "product_in_environment",
-      "generated_image_path": "public/pinterest/generated/pin-1011.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1011.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-1016.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1016.jpg"
     },
     {
-      "id": 1012,
-      "keyword": "relogio digital de mesa",
+      "id": 1017,
+      "keyword": "relogio de parede cozinha",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1012.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1012.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-1017.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1017.jpg"
     },
     {
-      "id": 1013,
-      "keyword": "mesa de cabeceira organizada",
+      "id": 1018,
+      "keyword": "relogio de parede grande",
       "visual_strategy": "environment_full_bleed",
-      "generated_image_path": "public/pinterest/generated/pin-1013.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1013.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-1018.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1018.jpg"
     },
     {
-      "id": 1014,
-      "keyword": "relogio despertador digital",
+      "id": 1019,
+      "keyword": "relogio de parede decorativo",
       "visual_strategy": "environment_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1014.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1014.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-1019.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1019.jpg"
     },
     {
-      "id": 1015,
-      "keyword": "relogio de mesa led",
+      "id": 1020,
+      "keyword": "relogio lorenzzo wood",
       "visual_strategy": "product_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1015.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1015.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-1020.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1020.jpg"
     }
   ],
   "needsAi": []
