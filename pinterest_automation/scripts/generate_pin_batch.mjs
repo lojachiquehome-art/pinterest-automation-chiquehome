@@ -225,13 +225,74 @@ function buildPinterestTitle({ productShortName, keyword, boardName, strategy })
   return polishPortugueseTitle(truncateText(titleCaseFirst(title), 100));
 }
 
-function buildPinterestDescription({ productShortName, keyword, boardName, strategy }) {
+function productDescriptionLead({ productShortName, keyword, boardName }) {
   const cleanKeyword = accentPortugueseText(keyword);
   const cleanProduct = accentPortugueseText(productShortName);
+  const context = normalizeText(`${productShortName} ${keyword} ${boardName}`);
+
+  if (context.includes("porta papel") || context.includes("banheiro") || context.includes("lavabo")) {
+    return `${cleanProduct} ajuda a deixar o banheiro mais organizado e elegante, com um detalhe funcional que valoriza a decoração sem pesar no ambiente.`;
+  }
+  if (context.includes("tapete") || context.includes("cozinha") || context.includes("passadeira")) {
+    return `${cleanProduct} completa a cozinha com mais conforto, proteção e um visual alinhado para quem quer um ambiente bonito no dia a dia.`;
+  }
+  if (context.includes("relogio") && (context.includes("parede") || context.includes("lorenzzo"))) {
+    return `${cleanProduct} cria um ponto de destaque na parede e combina com salas, cozinhas e ambientes integrados com decoração sofisticada.`;
+  }
+  if (context.includes("relogio") || context.includes("despertador") || context.includes("cabeceira")) {
+    return `${cleanProduct} deixa a mesa de cabeceira mais moderna e funcional, com presença discreta para um quarto organizado e elegante.`;
+  }
+  if (context.includes("luminaria") || context.includes("iluminacao") || context.includes("lustre") || context.includes("arandela")) {
+    return `${cleanProduct} valoriza a iluminação do ambiente e traz uma sensação mais aconchegante, atual e sofisticada para a decoração.`;
+  }
+  if (context.includes("almofada") || context.includes("sofa")) {
+    return `${cleanProduct} renova o sofá com textura, conforto e acabamento elegante, ideal para uma sala mais acolhedora e sofisticada.`;
+  }
+  if (context.includes("cadeira") || context.includes("jantar") || context.includes("mesa posta")) {
+    return `${cleanProduct} transforma a sala de jantar com acabamento bonito e uso prático, deixando a composição mais alinhada e elegante.`;
+  }
+  if (context.includes("livro") || context.includes("decorativo")) {
+    return `${cleanProduct} é aquele detalhe decorativo que deixa mesas, aparadores e estantes com aparência mais sofisticada e bem produzida.`;
+  }
+  if (context.includes("organizador") || context.includes("prateleira")) {
+    return `${cleanProduct} ajuda a organizar melhor o espaço sem abrir mão de um visual limpo, bonito e fácil de combinar com a decoração.`;
+  }
+  return `${cleanProduct} é uma escolha da Chique Home para quem busca ${cleanKeyword} com visual bonito, funcional e acabamento sofisticado.`;
+}
+
+function environmentDescriptionLead({ keyword, boardName }) {
+  const cleanKeyword = accentPortugueseText(keyword);
   const cleanBoard = accentPortugueseText(boardName);
+  const context = normalizeText(`${keyword} ${boardName}`);
+
+  if (context.includes("banheiro") || context.includes("lavabo")) {
+    return `Ideia de ${cleanKeyword} para deixar o banheiro mais organizado, bonito e com aparência de ambiente planejado.`;
+  }
+  if (context.includes("cozinha") || context.includes("tapete") || context.includes("passadeira")) {
+    return `Inspiração de ${cleanKeyword} para uma cozinha mais prática, clara e elegante, com detalhes que melhoram o uso diário.`;
+  }
+  if (context.includes("jantar") || context.includes("mesa posta")) {
+    return `Inspiração de ${cleanKeyword} para deixar a sala de jantar mais elegante, bem composta e pronta para receber com sofisticação.`;
+  }
+  if (context.includes("sala") || context.includes("sofa")) {
+    return `Inspiração de ${cleanKeyword} para compor uma sala mais acolhedora, sofisticada e pronta para receber bem.`;
+  }
+  if (context.includes("quarto") || context.includes("cabeceira")) {
+    return `Ideia de ${cleanKeyword} para deixar o quarto mais confortável, organizado e visualmente sofisticado.`;
+  }
+  if (context.includes("iluminacao") || context.includes("luminaria") || context.includes("lustre")) {
+    return `Ideia de ${cleanKeyword} para transformar a sensação do ambiente com luz bonita, acabamento moderno e presença elegante.`;
+  }
+  if (context.includes("parede") || context.includes("relogio")) {
+    return `Inspiração de ${cleanKeyword} para valorizar a parede com um ponto visual elegante e fácil de aplicar na decoração.`;
+  }
+  return `Inspiração de ${cleanKeyword} para deixar a casa mais bonita, organizada e sofisticada com ideias da coleção ${cleanBoard}.`;
+}
+
+function buildPinterestDescription({ productShortName, keyword, boardName, strategy }) {
   const intro = isProductStrategy(strategy)
-    ? `${cleanProduct} é uma sugestão da Chique Home para quem busca ${cleanKeyword} com visual bonito, funcional e fácil de aplicar na decoração.`
-    : `Inspiração de ${cleanKeyword} para quem quer deixar a casa mais bonita, organizada e sofisticada com ideias da coleção ${cleanBoard}.`;
+    ? productDescriptionLead({ productShortName, keyword, boardName })
+    : environmentDescriptionLead({ keyword, boardName });
   return addPinterestCoupon(`${intro} Clique no botão "Acessar o site" para ver detalhes, medidas, preço e comprar na Chique Home.`);
 }
 
