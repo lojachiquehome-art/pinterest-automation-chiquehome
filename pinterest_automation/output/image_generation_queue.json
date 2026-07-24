@@ -120,34 +120,34 @@
     "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio de mesa led. Cenario: quarto de casal pequeno decorado, mesa de cabeceira organizada, relogio digital e tons neutros. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem com o produto em destaque e titulo centralizado usando o nome do produto ou colecao: \"Relogio Digital de Mesa Despertador Redondo Branco\". Visual premium, elegante, estilo Pinterest Brasil, sem lista e sem marcadores. Cupom PINTEREST10 discreto."
   },
   {
-    "id": 1021,
-    "board_name": "Iluminacao decorativa",
-    "keyword": "iluminacao decorativa",
+    "id": 1016,
+    "board_name": "Relogios de parede",
+    "keyword": "relogio de parede lorenzzo wood",
     "visual_strategy": "product_in_environment",
-    "product_title": "Arandela de Parede Externa/Interna Luminaria LED Quadrada - Preta",
-    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Arandela_de_Parede_Externa_Interna_Luminaria_LED_Quadrada_Preta_6.webp?v=1751328310",
-    "target_path": "public/pinterest/final/pin-1021.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: iluminacao decorativa. Cenario: ambiente interno com luminaria decorativa acesa, luz aconchegante e decoracao sofisticada. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Arandela de Parede Externa/Interna Luminaria LED Quadrada. Sem texto grande, foco em inspirar clique para compra."
+    "product_title": "Relogio de Parede Lorenzzo Wood",
+    "product_image_url": "https://chiquehome.com.br/cdn/shop/files/Relogio_de_Parede_para_cozinha_sala_decorativo_moderno_marrom_Lorenzzo_Wood.webp?v=1782693565",
+    "target_path": "public/pinterest/final/pin-1016.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio de parede lorenzzo wood. Cenario: parede de sala ou cozinha com relogio decorativo grande, composicao limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Relogio de Parede Lorenzzo Wood. Sem texto grande, foco em inspirar clique para compra."
   },
   {
-    "id": 1023,
-    "board_name": "Iluminacao decorativa",
-    "keyword": "luminaria para quarto",
+    "id": 1018,
+    "board_name": "Relogios de parede",
+    "keyword": "relogio de parede grande",
     "visual_strategy": "environment_full_bleed",
-    "product_title": "Luminaria de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
-    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Luminaria_de_Teto_para_Sala_Quarto_Cozinha_em_LED_branco_2.webp?v=1744760801",
-    "target_path": "public/pinterest/final/pin-1023.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: luminaria para quarto. Cenario: ambiente interno com luminaria decorativa acesa, luz aconchegante e decoracao sofisticada. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Luminaria de Teto em LED Espiral, aplicar apenas se fizer sentido natural."
+    "product_title": "Relogio de Parede Lorenzzo Wood",
+    "product_image_url": "https://chiquehome.com.br/cdn/shop/files/Relogio_de_Parede_para_cozinha_sala_decorativo_moderno_marrom_Lorenzzo_Wood.webp?v=1782693565",
+    "target_path": "public/pinterest/final/pin-1018.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio de parede grande. Cenario: parede de sala ou cozinha com relogio decorativo grande, composicao limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenario inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicavel. Produto relacionado: Relogio de Parede Lorenzzo Wood, aplicar apenas se fizer sentido natural."
   },
   {
-    "id": 1024,
-    "board_name": "Iluminacao decorativa",
-    "keyword": "iluminacao para sala",
+    "id": 1019,
+    "board_name": "Relogios de parede",
+    "keyword": "relogio de parede decorativo",
     "visual_strategy": "environment_title_overlay",
-    "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
-    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Lustre_Pendente_para_Sala_Quarto_Cozinha_Moderno_LED_Dourado.webp?v=1748190597",
-    "target_path": "public/pinterest/final/pin-1024.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: iluminacao para sala. Cenario: ambiente interno com luminaria decorativa acesa, luz aconchegante e decoracao sofisticada. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"iluminacao para sala: ideia elegante com Lustre Pendente Moderno LED Espiral\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+    "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo Sofisticado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Sofisticado_preto.webp?v=1758392862",
+    "target_path": "public/pinterest/final/pin-1019.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relogio de parede decorativo. Cenario: parede de sala ou cozinha com relogio decorativo grande, composicao limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenario bonito com titulo centralizado, curto e clicavel em portugues: \"Inspire-se: relogio de parede decorativo com toque Chique Home\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
   },
   {
     "id": 1025,

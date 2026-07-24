@@ -333,9 +333,7 @@
     "alt_text": "Relogio de Parede Lorenzzo Wood - relogio de parede lorenzzo wood Chique Home",
     "product_title": "Relogio de Parede Lorenzzo Wood",
     "product_handle": "relogio-de-parede-lorenzzo-wood",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1016.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1016.jpg"
+    "status": "ready"
   },
   {
     "id": 1017,
@@ -356,10 +354,7 @@
     "alt_text": "Relogio de Parede Grande Decorativo - relogio de parede cozinha Chique Home",
     "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo - Decoracao",
     "product_handle": "relogio-de-parede-para-cozinha-sala-grande-decorativo-decoracao",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1017.jpg",
-    "generated_image_path": "public/pinterest/product-originals/pin-1017.jpg",
-    "product_image_style": "product_closeup"
+    "status": "ready"
   },
   {
     "id": 1018,
@@ -380,9 +375,7 @@
     "alt_text": "Relogio de Parede Lorenzzo Wood - relogio de parede grande Chique Home",
     "product_title": "Relogio de Parede Lorenzzo Wood",
     "product_handle": "relogio-de-parede-lorenzzo-wood",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1018.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1018.jpg"
+    "status": "ready"
   },
   {
     "id": 1019,
@@ -403,9 +396,7 @@
     "alt_text": "Relogio de Parede Grande Decorativo Sofisticado - relogio de parede decorativo Chique Home",
     "product_title": "Relogio de Parede para Cozinha/Sala Grande Decorativo Sofisticado",
     "product_handle": "relogio-de-parede-para-cozinha-sala-grande-decorativo-sofisticado",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1019.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1019.jpg"
+    "status": "ready"
   },
   {
     "id": 1020,
@@ -449,7 +440,9 @@
     "alt_text": "Arandela de Parede Externa/Interna Luminaria LED Quadrada - iluminacao decorativa Chique Home",
     "product_title": "Arandela de Parede Externa/Interna Luminaria LED Quadrada - Preta",
     "product_handle": "arandela-de-parede-externa-interna-luminaria-led-quadrada-preta",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1021.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1021.jpg"
   },
   {
     "id": 1022,
@@ -470,7 +463,10 @@
     "alt_text": "Lustre Pendente Moderno LED Espiral - lustre pendente Chique Home",
     "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
     "product_handle": "lustre-pendente-para-sala-quarto-cozinha-moderno-led-espiral-dourado",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1022.jpg",
+    "generated_image_path": "public/pinterest/product-originals/pin-1022.jpg",
+    "product_image_style": "shopify_original"
   },
   {
     "id": 1023,
@@ -491,7 +487,9 @@
     "alt_text": "Luminaria de Teto em LED Espiral - luminaria para quarto Chique Home",
     "product_title": "Luminaria de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
     "product_handle": "luminaria-de-teto-para-sala-quarto-cozinha-em-led-espiral-branca",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1023.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1023.jpg"
   },
   {
     "id": 1024,
@@ -512,7 +510,9 @@
     "alt_text": "Lustre Pendente Moderno LED Espiral - iluminacao para sala Chique Home",
     "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
     "product_handle": "lustre-pendente-para-sala-quarto-cozinha-moderno-led-espiral-dourado",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1024.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1024.jpg"
   },
   {
     "id": 1025,
