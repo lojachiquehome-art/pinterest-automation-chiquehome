@@ -210,6 +210,53 @@ function titleCaseFirst(text) {
   return `${value[0].toUpperCase()}${value.slice(1)}`;
 }
 
+function productColorDetails(product) {
+  const text = normalizeText(`${product.title} ${product.handle} ${product.image_url} ${product.tags}`);
+  const details = [];
+  const add = (value) => {
+    if (!details.includes(value)) details.push(value);
+  };
+
+  if (text.includes("lorenzzo") || text.includes("wood") || text.includes("marrom")) add("branco com acabamento amadeirado/marrom");
+  if (text.includes("preto") || text.includes("preta")) add("preto");
+  if (text.includes("dourado") || text.includes("dourada")) add("dourado");
+  if (text.includes("branco") || text.includes("branca")) add("branco");
+  if (text.includes("bege areia")) add("bege areia");
+  else if (text.includes("bege")) add("bege");
+  if (text.includes("nude")) add("nude");
+  if (text.includes("verde")) add("verde");
+  if (text.includes("cinza") || text.includes("ciano")) add("cinza/ciano");
+
+  return details.join(", ");
+}
+
+function productModelDetails(product) {
+  const text = normalizeText(`${product.title} ${product.handle} ${product.tags}`);
+  const details = [];
+  const add = (value) => {
+    if (!details.includes(value)) details.push(value);
+  };
+
+  if (text.includes("lorenzzo")) add("modelo Lorenzzo Wood");
+  if (text.includes("espiral")) add("modelo espiral");
+  if (text.includes("triangular")) add("modelo triangular");
+  if (text.includes("redondo")) add("modelo redondo");
+  if (text.includes("duplo")) add("modelo duplo");
+  if (text.includes("quadrada") || text.includes("quadrado")) add("formato quadrado");
+  if (text.includes("3 em 1")) add("modelo 3 em 1");
+
+  return details.join(", ");
+}
+
+function productDetailsSentence(product) {
+  const color = productColorDetails(product);
+  const model = productModelDetails(product);
+  const parts = [];
+  if (model) parts.push(model);
+  if (color) parts.push(`cor/acabamento ${color}`);
+  return parts.length ? ` Destaque para ${parts.join(" e ")}.` : "";
+}
+
 function buildPinterestTitle({ productShortName, keyword, boardName, strategy }) {
   const cleanKeyword = accentPortugueseText(keyword);
   const cleanProduct = accentPortugueseText(productShortName);
@@ -225,74 +272,154 @@ function buildPinterestTitle({ productShortName, keyword, boardName, strategy })
   return polishPortugueseTitle(truncateText(titleCaseFirst(title), 100));
 }
 
-function productDescriptionLead({ productShortName, keyword, boardName }) {
+function productDescriptionLead({ product, productShortName, keyword, boardName, id }) {
   const cleanKeyword = accentPortugueseText(keyword);
   const cleanProduct = accentPortugueseText(productShortName);
   const context = normalizeText(`${productShortName} ${keyword} ${boardName}`);
+  const detail = productDetailsSentence(product);
+  const variant = id % 3;
 
-  if (context.includes("porta papel") || context.includes("banheiro") || context.includes("lavabo")) {
-    return `${cleanProduct} ajuda a deixar o banheiro mais organizado e elegante, com um detalhe funcional que valoriza a decoração sem pesar no ambiente.`;
-  }
-  if (context.includes("tapete") || context.includes("cozinha") || context.includes("passadeira")) {
-    return `${cleanProduct} completa a cozinha com mais conforto, proteção e um visual alinhado para quem quer um ambiente bonito no dia a dia.`;
+  if (context.includes("organizador") || context.includes("prateleira")) {
+    const options = [
+      `${cleanProduct} ajuda a organizar melhor o espaço sem abrir mão de um visual limpo e bonito.`,
+      `${cleanProduct} deixa a bancada ou prateleira mais prática, com tudo à vista e bem apresentado.`,
+      `${cleanProduct} une organização e estética para deixar o ambiente mais funcional e agradável.`,
+    ];
+    return `${options[variant]}${detail}`;
   }
   if (context.includes("relogio") && (context.includes("parede") || context.includes("lorenzzo"))) {
-    return `${cleanProduct} cria um ponto de destaque na parede e combina com salas, cozinhas e ambientes integrados com decoração sofisticada.`;
+    const options = [
+      `${cleanProduct} cria um ponto de destaque na parede e combina com salas, cozinhas e ambientes integrados.`,
+      `${cleanProduct} funciona como peça decorativa e utilitária para dar acabamento à parede sem exagero visual.`,
+      `${cleanProduct} deixa a parede mais interessante e ajuda a completar uma composição elegante no ambiente.`,
+    ];
+    return `${options[variant]}${detail}`;
   }
   if (context.includes("relogio") || context.includes("despertador") || context.includes("cabeceira")) {
-    return `${cleanProduct} deixa a mesa de cabeceira mais moderna e funcional, com presença discreta para um quarto organizado e elegante.`;
+    const options = [
+      `${cleanProduct} deixa a mesa de cabeceira mais moderna e funcional, com presença discreta no quarto.`,
+      `${cleanProduct} organiza a rotina e adiciona um detalhe tecnológico bonito para a cabeceira ou mesa lateral.`,
+      `${cleanProduct} combina praticidade e visual minimalista para quem quer um quarto mais limpo e atual.`,
+    ];
+    return `${options[variant]}${detail}`;
+  }
+  if (context.includes("porta papel") || context.includes("banheiro") || context.includes("lavabo")) {
+    const options = [
+      `${cleanProduct} organiza o banheiro com acabamento elegante e deixa o papel sempre à mão sem poluir a decoração.`,
+      `${cleanProduct} é uma escolha prática para lavabo ou banheiro pequeno, criando um visual mais limpo e sofisticado.`,
+      `${cleanProduct} valoriza o banheiro com um detalhe funcional, discreto e fácil de combinar com metais e revestimentos modernos.`,
+    ];
+    return `${options[variant]}${detail}`;
+  }
+  if (context.includes("tapete") || context.includes("cozinha") || context.includes("passadeira")) {
+    const options = [
+      `${cleanProduct} completa a cozinha com conforto, proteção e um visual mais alinhado para a rotina.`,
+      `${cleanProduct} deixa a área da pia ou bancada mais aconchegante, sem abrir mão de praticidade no dia a dia.`,
+      `${cleanProduct} ajuda a compor uma cozinha mais bonita e funcional, com presença discreta no piso.`,
+    ];
+    return `${options[variant]}${detail}`;
   }
   if (context.includes("luminaria") || context.includes("iluminacao") || context.includes("lustre") || context.includes("arandela")) {
-    return `${cleanProduct} valoriza a iluminação do ambiente e traz uma sensação mais aconchegante, atual e sofisticada para a decoração.`;
+    const options = [
+      `${cleanProduct} valoriza a iluminação do ambiente e cria uma sensação mais aconchegante na decoração.`,
+      `${cleanProduct} ajuda a transformar sala, quarto ou cozinha com luz bonita e acabamento moderno.`,
+      `${cleanProduct} traz presença elegante para o ambiente e deixa a composição mais atual sem perder sofisticação.`,
+    ];
+    return `${options[variant]}${detail}`;
   }
   if (context.includes("almofada") || context.includes("sofa")) {
-    return `${cleanProduct} renova o sofá com textura, conforto e acabamento elegante, ideal para uma sala mais acolhedora e sofisticada.`;
+    const options = [
+      `${cleanProduct} renova o sofá com textura, conforto e acabamento elegante para uma sala mais acolhedora.`,
+      `${cleanProduct} adiciona volume e sofisticação ao sofá, criando uma composição mais bem acabada.`,
+      `${cleanProduct} é um detalhe simples para mudar a sala e deixar o ambiente mais confortável visualmente.`,
+    ];
+    return `${options[variant]}${detail}`;
   }
   if (context.includes("cadeira") || context.includes("jantar") || context.includes("mesa posta")) {
-    return `${cleanProduct} transforma a sala de jantar com acabamento bonito e uso prático, deixando a composição mais alinhada e elegante.`;
+    const options = [
+      `${cleanProduct} transforma a sala de jantar com acabamento bonito e uso prático na rotina.`,
+      `${cleanProduct} deixa as cadeiras mais alinhadas e ajuda a criar uma mesa posta com aparência mais elegante.`,
+      `${cleanProduct} protege e renova as cadeiras, deixando o conjunto de jantar mais sofisticado.`,
+    ];
+    return `${options[variant]}${detail}`;
   }
   if (context.includes("livro") || context.includes("decorativo")) {
-    return `${cleanProduct} é aquele detalhe decorativo que deixa mesas, aparadores e estantes com aparência mais sofisticada e bem produzida.`;
+    const options = [
+      `${cleanProduct} é aquele detalhe decorativo que deixa mesas, aparadores e estantes com aparência mais produzida.`,
+      `${cleanProduct} ajuda a criar uma composição elegante em bandejas, mesas de centro e prateleiras.`,
+      `${cleanProduct} completa a decoração com um toque editorial e sofisticado, sem ocupar visualmente o ambiente.`,
+    ];
+    return `${options[variant]}${detail}`;
   }
-  if (context.includes("organizador") || context.includes("prateleira")) {
-    return `${cleanProduct} ajuda a organizar melhor o espaço sem abrir mão de um visual limpo, bonito e fácil de combinar com a decoração.`;
-  }
-  return `${cleanProduct} é uma escolha da Chique Home para quem busca ${cleanKeyword} com visual bonito, funcional e acabamento sofisticado.`;
+  return `${cleanProduct} é uma escolha da Chique Home para quem busca ${cleanKeyword} com visual bonito, funcional e acabamento sofisticado.${detail}`;
 }
 
-function environmentDescriptionLead({ keyword, boardName }) {
+function environmentDescriptionLead({ keyword, boardName, id }) {
   const cleanKeyword = accentPortugueseText(keyword);
   const cleanBoard = accentPortugueseText(boardName);
   const context = normalizeText(`${keyword} ${boardName}`);
+  const variant = id % 3;
 
   if (context.includes("banheiro") || context.includes("lavabo")) {
-    return `Ideia de ${cleanKeyword} para deixar o banheiro mais organizado, bonito e com aparência de ambiente planejado.`;
+    return [
+      `Ideia de ${cleanKeyword} para deixar o banheiro mais organizado, bonito e com aparência de ambiente planejado.`,
+      `Inspiração de ${cleanKeyword} para transformar o banheiro com poucos elementos e acabamento mais elegante.`,
+      `${titleCaseFirst(cleanKeyword)} combina praticidade e estética para um banheiro mais limpo e sofisticado.`,
+    ][variant];
   }
   if (context.includes("cozinha") || context.includes("tapete") || context.includes("passadeira")) {
-    return `Inspiração de ${cleanKeyword} para uma cozinha mais prática, clara e elegante, com detalhes que melhoram o uso diário.`;
+    return [
+      `Inspiração de ${cleanKeyword} para uma cozinha mais prática, clara e elegante, com detalhes que melhoram o uso diário.`,
+      `Ideia de ${cleanKeyword} para deixar a cozinha mais confortável, organizada e visualmente bem resolvida.`,
+      `${titleCaseFirst(cleanKeyword)} ajuda a criar uma cozinha bonita para usar todos os dias, sem perder funcionalidade.`,
+    ][variant];
   }
   if (context.includes("jantar") || context.includes("mesa posta")) {
-    return `Inspiração de ${cleanKeyword} para deixar a sala de jantar mais elegante, bem composta e pronta para receber com sofisticação.`;
+    return [
+      `Inspiração de ${cleanKeyword} para deixar a sala de jantar mais elegante, bem composta e pronta para receber com sofisticação.`,
+      `Ideia de ${cleanKeyword} para valorizar a mesa e deixar o ambiente de jantar mais acolhedor.`,
+      `${titleCaseFirst(cleanKeyword)} cria uma composição mais alinhada para receber bem e decorar com intenção.`,
+    ][variant];
   }
   if (context.includes("sala") || context.includes("sofa")) {
-    return `Inspiração de ${cleanKeyword} para compor uma sala mais acolhedora, sofisticada e pronta para receber bem.`;
+    return [
+      `Inspiração de ${cleanKeyword} para compor uma sala mais acolhedora, sofisticada e pronta para receber bem.`,
+      `Ideia de ${cleanKeyword} para deixar a sala mais elegante com detalhes certos e visual equilibrado.`,
+      `${titleCaseFirst(cleanKeyword)} ajuda a renovar o ambiente com uma composição mais confortável e sofisticada.`,
+    ][variant];
   }
   if (context.includes("quarto") || context.includes("cabeceira")) {
-    return `Ideia de ${cleanKeyword} para deixar o quarto mais confortável, organizado e visualmente sofisticado.`;
+    return [
+      `Ideia de ${cleanKeyword} para deixar o quarto mais confortável, organizado e visualmente sofisticado.`,
+      `Inspiração de ${cleanKeyword} para uma cabeceira mais funcional, bonita e bem composta.`,
+      `${titleCaseFirst(cleanKeyword)} deixa o quarto mais prático e elegante sem precisar mudar tudo.`,
+    ][variant];
   }
   if (context.includes("iluminacao") || context.includes("luminaria") || context.includes("lustre")) {
-    return `Ideia de ${cleanKeyword} para transformar a sensação do ambiente com luz bonita, acabamento moderno e presença elegante.`;
+    return [
+      `Ideia de ${cleanKeyword} para transformar a sensação do ambiente com luz bonita, acabamento moderno e presença elegante.`,
+      `Inspiração de ${cleanKeyword} para deixar sala, quarto ou cozinha com clima mais aconchegante.`,
+      `${titleCaseFirst(cleanKeyword)} muda a percepção do ambiente e valoriza a decoração com mais sofisticação.`,
+    ][variant];
   }
   if (context.includes("parede") || context.includes("relogio")) {
-    return `Inspiração de ${cleanKeyword} para valorizar a parede com um ponto visual elegante e fácil de aplicar na decoração.`;
+    return [
+      `Inspiração de ${cleanKeyword} para valorizar a parede com um ponto visual elegante e fácil de aplicar na decoração.`,
+      `Ideia de ${cleanKeyword} para completar a parede sem exagero e deixar o ambiente mais bem acabado.`,
+      `${titleCaseFirst(cleanKeyword)} cria destaque na decoração e combina com ambientes modernos e sofisticados.`,
+    ][variant];
   }
-  return `Inspiração de ${cleanKeyword} para deixar a casa mais bonita, organizada e sofisticada com ideias da coleção ${cleanBoard}.`;
+  return [
+    `Inspiração de ${cleanKeyword} para deixar a casa mais bonita, organizada e sofisticada com ideias da coleção ${cleanBoard}.`,
+    `Ideia de ${cleanKeyword} para renovar o ambiente com detalhes objetivos e visual Chique Home.`,
+    `${titleCaseFirst(cleanKeyword)} é uma forma simples de deixar o ambiente mais elegante e funcional.`,
+  ][variant];
 }
 
-function buildPinterestDescription({ productShortName, keyword, boardName, strategy }) {
+function buildPinterestDescription({ product, productShortName, keyword, boardName, strategy, id }) {
   const intro = isProductStrategy(strategy)
-    ? productDescriptionLead({ productShortName, keyword, boardName })
-    : environmentDescriptionLead({ keyword, boardName });
+    ? productDescriptionLead({ product, productShortName, keyword, boardName, id })
+    : environmentDescriptionLead({ keyword, boardName, id });
   return addPinterestCoupon(`${intro} Clique no botão "Acessar o site" para ver detalhes, medidas, preço e comprar na Chique Home.`);
 }
 
@@ -365,10 +492,12 @@ function buildRow({ id, product, term, strategy, scheduledAt }) {
     strategy,
   });
   const description = buildPinterestDescription({
+    product,
     productShortName: short,
     keyword: displayKeyword,
     boardName: term.board,
     strategy,
+    id,
   });
   const destinationType = landingType(strategy);
   return {
