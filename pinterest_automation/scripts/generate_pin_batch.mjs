@@ -1,6 +1,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { accentPortugueseText, polishPortugueseTitle } from "./portuguese_text.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -9,7 +10,7 @@ const PINTEREST_COUPON_TEXT = "Use o cupom PINTEREST10 e ganhe 10% de desconto p
 
 const titleTemplates = [
   "{keyword}: ideia elegante com {product_short}",
-  "{product_short}: inspiracao para {keyword}",
+  "{product_short}: inspiração para {keyword}",
   "{keyword} para deixar o ambiente mais sofisticado",
   "Inspire-se: {keyword} com toque Chique Home",
   "{product_short} para transformar o ambiente",
@@ -20,11 +21,11 @@ const titleTemplates = [
 
 const descriptionTemplates = [
   "Ideia de {keyword} para deixar sua casa mais bonita, funcional e sofisticada. Veja o produto na Chique Home e monte um ambiente com mais personalidade.",
-  "Se voce esta buscando {keyword}, este item ajuda a renovar o ambiente sem reforma. Confira detalhes, medidas e opcoes na Chique Home.",
-  "Uma inspiracao simples para quem quer {keyword} com acabamento elegante. Produto com compra segura, frete e rastreio.",
-  "Transforme o ambiente com uma escolha visual e funcional. Veja essa sugestao de {keyword} na Chique Home.",
-  "Gostou da ideia? Clique para ver preco, medidas, cores e detalhes do produto na Chique Home.",
-  "Uma sugestao pratica para quem quer comprar decoracao online com mais seguranca. Veja o produto, variacoes e informacoes de entrega.",
+  "Se você está buscando {keyword}, este item ajuda a renovar o ambiente sem reforma. Confira detalhes, medidas e opções na Chique Home.",
+  "Uma inspiração simples para quem quer {keyword} com acabamento elegante. Produto com compra segura, frete e rastreio.",
+  "Transforme o ambiente com uma escolha visual e funcional. Veja essa sugestão de {keyword} na Chique Home.",
+  "Gostou da ideia? Clique para ver preço, medidas, cores e detalhes do produto na Chique Home.",
+  "Uma sugestão prática para quem quer comprar decoração online com mais segurança. Veja o produto, variações e informações de entrega.",
 ];
 
 const visualVariants = [
@@ -147,11 +148,11 @@ function writeCsv(rows, file) {
 }
 
 function productShort(title) {
-  return title
+  return accentPortugueseText(title
     .split(" - ")[0]
     .replace(" para Sala/Quarto/Cozinha", "")
     .replace(" para Cozinha/Sala", "")
-    .slice(0, 70);
+    .slice(0, 70));
 }
 
 function matches(product, term) {
@@ -278,9 +279,10 @@ function termForCampaign(row) {
 function buildRow({ id, product, term, strategy, scheduledAt }) {
   const room = roomByType[product.product_type] ?? term.intent;
   const short = productShort(product.title);
-  const data = { keyword: term.keyword, product_short: short, room };
-  const title = truncateText(fill(titleTemplates[id % titleTemplates.length], data), 100);
-  const description = addPinterestCoupon(fill(descriptionTemplates[id % descriptionTemplates.length], data));
+  const displayKeyword = accentPortugueseText(term.keyword);
+  const data = { keyword: displayKeyword, product_short: short, room: accentPortugueseText(room) };
+  const title = polishPortugueseTitle(truncateText(fill(titleTemplates[id % titleTemplates.length], data), 100));
+  const description = addPinterestCoupon(accentPortugueseText(fill(descriptionTemplates[id % descriptionTemplates.length], data)));
   const destinationType = landingType(strategy);
   return {
     id,
@@ -298,10 +300,10 @@ function buildRow({ id, product, term, strategy, scheduledAt }) {
       ? makeCollectionUrl(term.board, term.keyword, id)
       : makeUrl(product.handle, term.keyword, id),
     image_url: product.image_url,
-    generated_image_prompt: imagePrompt({ product, term, title, strategy }),
+    generated_image_prompt: accentPortugueseText(imagePrompt({ product, term: { ...term, keyword: displayKeyword }, title, strategy })),
     requires_ai_image: requiresAiImage(strategy) ? "yes" : "no",
-    alt_text: `${short} - ${term.keyword} Chique Home`.slice(0, 500),
-    product_title: product.title,
+    alt_text: accentPortugueseText(`${short} - ${displayKeyword} Chique Home`).slice(0, 500),
+    product_title: accentPortugueseText(product.title),
     product_handle: product.handle,
     status: "ready",
   };

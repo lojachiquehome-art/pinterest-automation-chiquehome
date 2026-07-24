@@ -2,6 +2,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
+import { accentPortugueseText as accentText } from "./portuguese_text.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -62,22 +63,6 @@ function palette(boardName) {
 
 function textContext(row) {
   return `${row.board_name} ${row.keyword} ${row.product_title} ${row.product_handle}`.toLowerCase();
-}
-
-function accentText(value) {
-  return String(value ?? "")
-    .replace(/\brelogios\b/gi, "relógios")
-    .replace(/\brelogio\b/gi, "relógio")
-    .replace(/\biluminacao\b/gi, "iluminação")
-    .replace(/\bluminaria\b/gi, "luminária")
-    .replace(/\bdecoracao\b/gi, "decoração")
-    .replace(/\borganizacao\b/gi, "organização")
-    .replace(/\bhigienico\b/gi, "higiênico")
-    .replace(/\bacrilico\b/gi, "acrílico")
-    .replace(/\bgiratorio\b/gi, "giratório")
-    .replace(/\bsofa\b/gi, "sofá")
-    .replace(/\btrico\b/gi, "tricô")
-    .replace(/\bmoveis\b/gi, "móveis");
 }
 
 function conciseProductTitle(row) {
