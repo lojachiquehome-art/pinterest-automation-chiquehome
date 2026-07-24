@@ -8,26 +8,6 @@ const ROOT = path.resolve(__dirname, "..");
 const STORE_URL = "https://chiquehome.com.br";
 const PINTEREST_COUPON_TEXT = "Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.";
 
-const titleTemplates = [
-  "{keyword}: ideia elegante com {product_short}",
-  "{product_short}: inspiração para {keyword}",
-  "{keyword} para deixar o ambiente mais sofisticado",
-  "Inspire-se: {keyword} com toque Chique Home",
-  "{product_short} para transformar o ambiente",
-  "Veja como usar {product_short} em {keyword}",
-  "{keyword}: produto para comprar e usar em casa",
-  "Ideia pronta de {keyword} com link do produto",
-];
-
-const descriptionTemplates = [
-  "Ideia de {keyword} para deixar sua casa mais bonita, funcional e sofisticada. Veja o produto na Chique Home e monte um ambiente com mais personalidade.",
-  "Se você está buscando {keyword}, este item ajuda a renovar o ambiente sem reforma. Confira detalhes, medidas e opções na Chique Home.",
-  "Uma inspiração simples para quem quer {keyword} com acabamento elegante. Produto com compra segura, frete e rastreio.",
-  "Transforme o ambiente com uma escolha visual e funcional. Veja essa sugestão de {keyword} na Chique Home.",
-  "Gostou da ideia? Clique para ver preço, medidas, cores e detalhes do produto na Chique Home.",
-  "Uma sugestão prática para quem quer comprar decoração online com mais segurança. Veja o produto, variações e informações de entrega.",
-];
-
 const visualVariants = [
   "environment_full_bleed",
   "product_full_bleed",
@@ -218,6 +198,43 @@ function addPinterestCoupon(description) {
   return truncateText(`${description} ${PINTEREST_COUPON_TEXT}`, 500);
 }
 
+function isProductStrategy(strategy) {
+  return strategy === "product_full_bleed"
+    || strategy === "product_in_environment"
+    || strategy === "product_title_overlay";
+}
+
+function titleCaseFirst(text) {
+  const value = String(text ?? "").trim();
+  if (!value) return value;
+  return `${value[0].toUpperCase()}${value.slice(1)}`;
+}
+
+function buildPinterestTitle({ productShortName, keyword, boardName, strategy }) {
+  const cleanKeyword = accentPortugueseText(keyword);
+  const cleanProduct = accentPortugueseText(productShortName);
+  const cleanBoard = accentPortugueseText(boardName);
+  const productAlreadyHasKeyword = normalizeText(cleanKeyword)
+    .split(/\W+/)
+    .filter((token) => token.length > 3)
+    .every((token) => normalizeText(cleanProduct).includes(token));
+  const sameEnvironment = normalizeText(cleanKeyword) === normalizeText(cleanBoard);
+  const title = isProductStrategy(strategy)
+    ? (productAlreadyHasKeyword ? cleanProduct : `${cleanProduct} para ${cleanKeyword}`)
+    : (sameEnvironment ? `Ideias para ${cleanKeyword}` : `${cleanKeyword}: ideias para ${cleanBoard}`);
+  return polishPortugueseTitle(truncateText(titleCaseFirst(title), 100));
+}
+
+function buildPinterestDescription({ productShortName, keyword, boardName, strategy }) {
+  const cleanKeyword = accentPortugueseText(keyword);
+  const cleanProduct = accentPortugueseText(productShortName);
+  const cleanBoard = accentPortugueseText(boardName);
+  const intro = isProductStrategy(strategy)
+    ? `${cleanProduct} é uma sugestão da Chique Home para quem busca ${cleanKeyword} com visual bonito, funcional e fácil de aplicar na decoração.`
+    : `Inspiração de ${cleanKeyword} para quem quer deixar a casa mais bonita, organizada e sofisticada com ideias da coleção ${cleanBoard}.`;
+  return addPinterestCoupon(`${intro} Clique no botão "Acessar o site" para ver detalhes, medidas, preço e comprar na Chique Home.`);
+}
+
 function normalizeText(text) {
   return String(text ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 }
@@ -280,9 +297,18 @@ function buildRow({ id, product, term, strategy, scheduledAt }) {
   const room = roomByType[product.product_type] ?? term.intent;
   const short = productShort(product.title);
   const displayKeyword = accentPortugueseText(term.keyword);
-  const data = { keyword: displayKeyword, product_short: short, room: accentPortugueseText(room) };
-  const title = polishPortugueseTitle(truncateText(fill(titleTemplates[id % titleTemplates.length], data), 100));
-  const description = addPinterestCoupon(accentPortugueseText(fill(descriptionTemplates[id % descriptionTemplates.length], data)));
+  const title = buildPinterestTitle({
+    productShortName: short,
+    keyword: displayKeyword,
+    boardName: term.board,
+    strategy,
+  });
+  const description = buildPinterestDescription({
+    productShortName: short,
+    keyword: displayKeyword,
+    boardName: term.board,
+    strategy,
+  });
   const destinationType = landingType(strategy);
   return {
     id,
