@@ -417,9 +417,7 @@
     "alt_text": "Relógio de Parede Lorenzzo Wood - relógio lorenzzo wood Chique Home",
     "product_title": "Relógio de Parede Lorenzzo Wood",
     "product_handle": "relogio-de-parede-lorenzzo-wood",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1020.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1020.jpg"
+    "status": "ready"
   },
   {
     "id": 1021,
@@ -440,9 +438,7 @@
     "alt_text": "Arandela de Parede Externa/Interna Luminária LED Quadrada - iluminação decorativa Chique Home",
     "product_title": "Arandela de Parede Externa/Interna Luminária LED Quadrada - Preta",
     "product_handle": "arandela-de-parede-externa-interna-luminaria-led-quadrada-preta",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1021.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1021.jpg"
+    "status": "ready"
   },
   {
     "id": 1022,
@@ -463,10 +459,7 @@
     "alt_text": "Lustre Pendente Moderno LED Espiral - lustre pendente Chique Home",
     "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
     "product_handle": "lustre-pendente-para-sala-quarto-cozinha-moderno-led-espiral-dourado",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1022.jpg",
-    "generated_image_path": "public/pinterest/product-originals/pin-1022.jpg",
-    "product_image_style": "shopify_original"
+    "status": "ready"
   },
   {
     "id": 1023,
@@ -487,9 +480,7 @@
     "alt_text": "Luminária de Teto em LED Espiral - luminária para quarto Chique Home",
     "product_title": "Luminária de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
     "product_handle": "luminaria-de-teto-para-sala-quarto-cozinha-em-led-espiral-branca",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1023.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1023.jpg"
+    "status": "ready"
   },
   {
     "id": 1024,
@@ -510,9 +501,7 @@
     "alt_text": "Lustre Pendente Moderno LED Espiral - iluminação para sala Chique Home",
     "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
     "product_handle": "lustre-pendente-para-sala-quarto-cozinha-moderno-led-espiral-dourado",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1024.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-1024.jpg"
+    "status": "ready"
   },
   {
     "id": 1025,
@@ -533,7 +522,9 @@
     "alt_text": "Luminária de Teto em LED Espiral - luminária de teto Chique Home",
     "product_title": "Luminária de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
     "product_handle": "luminaria-de-teto-para-sala-quarto-cozinha-em-led-espiral-branca",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1025.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1025.jpg"
   },
   {
     "id": 1026,
@@ -554,7 +545,9 @@
     "alt_text": "Livro Caixa Decorativo Falso Moderno - decoração de sala Chique Home",
     "product_title": "Livro Caixa Decorativo Falso Moderno - Decoração",
     "product_handle": "livro-caixa-decorativo-falso-moderno-decoracao-sala",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1026.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1026.jpg"
   },
   {
     "id": 1027,
@@ -575,7 +568,10 @@
     "alt_text": "Capa de Almofada de Tricô 45x45 para Sofá Decorativa de Luxo - capa almofada sofá luxo Chique Home",
     "product_title": "Capa de Almofada de Tricô 45x45 para Sofá Decorativa de Luxo",
     "product_handle": "capa-de-almofada-de-trico-45x45-para-sofa-decorativa-de-luxo",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1027.jpg",
+    "generated_image_path": "public/pinterest/product-originals/pin-1027.jpg",
+    "product_image_style": "product_closeup"
   },
   {
     "id": 1028,
@@ -596,7 +592,9 @@
     "alt_text": "Capa para Cadeira de Jantar Impermeável Curva Decorativa - sala de jantar decorada Chique Home",
     "product_title": "Capa para Cadeira de Jantar Impermeável Curva Decorativa",
     "product_handle": "capa-para-cadeira-de-jantar-impermeavel-curva-decorativa",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1028.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1028.jpg"
   },
   {
     "id": 1029,
@@ -617,7 +615,9 @@
     "alt_text": "Capa de Almofada de Tricô 45x45 para Sofá Decorativa de Luxo - sala sofisticada Chique Home",
     "product_title": "Capa de Almofada de Tricô 45x45 para Sofá Decorativa de Luxo",
     "product_handle": "capa-de-almofada-de-trico-45x45-para-sofa-decorativa-de-luxo",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1029.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-1029.jpg"
   },
   {
     "id": 1030,

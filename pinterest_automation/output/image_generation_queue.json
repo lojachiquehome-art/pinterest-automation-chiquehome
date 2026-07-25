@@ -150,44 +150,44 @@
     "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relógio de parede decorativo. Cenário: parede de sala ou cozinha com relógio decorativo grande, composição limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Relógio de parede decorativo: ideias para Relógios de parede\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
   },
   {
-    "id": 1025,
-    "board_name": "Iluminacao decorativa",
-    "keyword": "luminaria de teto",
+    "id": 1020,
+    "board_name": "Relogios de parede",
+    "keyword": "relogio lorenzzo wood",
     "visual_strategy": "product_title_overlay",
+    "product_title": "Relógio de Parede Lorenzzo Wood",
+    "product_image_url": "https://chiquehome.com.br/cdn/shop/files/Relogio_de_Parede_para_cozinha_sala_decorativo_moderno_marrom_Lorenzzo_Wood.webp?v=1782693565",
+    "target_path": "public/pinterest/final/pin-1020.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: relógio lorenzzo wood. Cenário: parede de sala ou cozinha com relógio decorativo grande, composição limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem com o produto em destaque e título centralizado usando o nome do produto ou colecao: \"Relógio de Parede Lorenzzo Wood\". Visual premium, elegante, estilo Pinterest Brasil, sem lista e sem marcadores. Cupom PINTEREST10 discreto."
+  },
+  {
+    "id": 1021,
+    "board_name": "Iluminacao decorativa",
+    "keyword": "iluminacao decorativa",
+    "visual_strategy": "product_in_environment",
+    "product_title": "Arandela de Parede Externa/Interna Luminária LED Quadrada - Preta",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Arandela_de_Parede_Externa_Interna_Luminaria_LED_Quadrada_Preta_6.webp?v=1751328310",
+    "target_path": "public/pinterest/final/pin-1021.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: iluminação decorativa. Cenário: ambiente interno com luminária decorativa acesa, luz aconchegante e decoração sofisticada. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Arandela de Parede Externa/Interna Luminária LED Quadrada. Sem texto grande, foco em inspirar clique para compra."
+  },
+  {
+    "id": 1023,
+    "board_name": "Iluminacao decorativa",
+    "keyword": "luminaria para quarto",
+    "visual_strategy": "environment_full_bleed",
     "product_title": "Luminária de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
     "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Luminaria_de_Teto_para_Sala_Quarto_Cozinha_em_LED_branco_2.webp?v=1744760801",
-    "target_path": "public/pinterest/final/pin-1025.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: luminária de teto. Cenário: ambiente interno com luminária decorativa acesa, luz aconchegante e decoração sofisticada. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem com o produto em destaque e título centralizado usando o nome do produto ou colecao: \"Luminária de Teto em LED Espiral\". Visual premium, elegante, estilo Pinterest Brasil, sem lista e sem marcadores. Cupom PINTEREST10 discreto."
+    "target_path": "public/pinterest/final/pin-1023.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: luminária para quarto. Cenário: ambiente interno com luminária decorativa acesa, luz aconchegante e decoração sofisticada. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenário inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicável. Produto relacionado: Luminária de Teto em LED Espiral, aplicar apenas se fizer sentido natural."
   },
   {
-    "id": 1026,
-    "board_name": "Sala sofisticada",
-    "keyword": "decoracao de sala",
-    "visual_strategy": "product_in_environment",
-    "product_title": "Livro Caixa Decorativo Falso Moderno - Decoração",
-    "product_image_url": "http://chiquehome.com.br/cdn/shop/files/Livro_Caixa_Decorativo_Falso_Moderno_Decoracao_sala_escritorio.webp?v=1777253342",
-    "target_path": "public/pinterest/final/pin-1026.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: decoração de sala. Cenário: sala de estar sofisticada, sofá neutro, almofadas decorativas, relógio de parede e decoração elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Livro Caixa Decorativo Falso Moderno. Sem texto grande, foco em inspirar clique para compra."
-  },
-  {
-    "id": 1028,
-    "board_name": "Sala sofisticada",
-    "keyword": "sala de jantar decorada",
-    "visual_strategy": "environment_full_bleed",
-    "product_title": "Capa para Cadeira de Jantar Impermeável Curva Decorativa",
-    "product_image_url": "http://chiquehome.com.br/cdn/shop/files/capa-para-cadeira-de-jantar-impermeavel-curva-cinza-ciano.webp?v=1779658634",
-    "target_path": "public/pinterest/final/pin-1028.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala de jantar decorada. Cenário: sala de estar sofisticada, sofá neutro, almofadas decorativas, relógio de parede e decoração elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar um cenário inspiracional de ambiente, sem texto grande. A imagem precisa parecer resultado real de busca no Pinterest, bonita e clicável. Produto relacionado: Capa para Cadeira de Jantar Impermeável Curva Decorativa, aplicar apenas se fizer sentido natural."
-  },
-  {
-    "id": 1029,
-    "board_name": "Sala sofisticada",
-    "keyword": "sala sofisticada",
+    "id": 1024,
+    "board_name": "Iluminacao decorativa",
+    "keyword": "iluminacao para sala",
     "visual_strategy": "environment_title_overlay",
-    "product_title": "Capa de Almofada de Tricô 45x45 para Sofá Decorativa de Luxo",
-    "product_image_url": "http://chiquehome.com.br/cdn/shop/files/Capa_de_Almofada_de_Trico_45x45_para_Sofa_Decorativa_de_Luxo.webp?v=1729558953",
-    "target_path": "public/pinterest/final/pin-1029.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala sofisticada. Cenário: sala de estar sofisticada, sofá neutro, almofadas decorativas, relógio de parede e decoração elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Ideias para sala sofisticada\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+    "product_title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Dourado",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Lustre_Pendente_para_Sala_Quarto_Cozinha_Moderno_LED_Dourado.webp?v=1748190597",
+    "target_path": "public/pinterest/final/pin-1024.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: iluminação para sala. Cenário: ambiente interno com luminária decorativa acesa, luz aconchegante e decoração sofisticada. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Iluminação para sala: ideias para Iluminação decorativa\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
   },
   {
     "id": 1030,
