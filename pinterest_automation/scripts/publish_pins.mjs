@@ -24,10 +24,16 @@ function parseArgs() {
     const value = Number(args[index + 1]);
     return Number.isFinite(value) ? value : fallback;
   };
+  const readStringArg = (name, fallback) => {
+    const index = args.indexOf(name);
+    if (index === -1) return fallback;
+    return args[index + 1] || fallback;
+  };
   return {
     dryRun: args.includes("--dry-run"),
     limit: readNumberArg("--limit", 10),
     sleep: readNumberArg("--sleep", 10),
+    date: readStringArg("--date", brazilDateKey()),
   };
 }
 
@@ -102,12 +108,15 @@ function publishedAt(item) {
   return item.published_at || item.pin?.created_at || null;
 }
 
-function hasPublishedToday(history) {
-  const today = brazilDateKey();
-  return history.some((item) => {
-    const date = publishedAt(item);
-    return date && brazilDateKey(date) === today;
-  });
+function rowScheduledDateKey(row) {
+  return brazilDateKey(row.scheduled_at);
+}
+
+function countPublishedScheduledForDate(history, rowsById, dateKey) {
+  return history.filter((item) => {
+    const row = rowsById.get(String(item.row_id));
+    return row && rowScheduledDateKey(row) === dateKey;
+  }).length;
 }
 
 function selectDailyRows(rows, limit) {
@@ -132,18 +141,22 @@ function selectDailyRows(rows, limit) {
   return selected;
 }
 
-const { dryRun, limit, sleep: sleepSeconds } = parseArgs();
+const { dryRun, limit, sleep: sleepSeconds, date: targetDate } = parseArgs();
 const token = dryRun ? "" : await getPinterestAccessToken();
 
 const publishedFile = path.join(ROOT, "output", "published_pins.json");
 const failuresFile = path.join(ROOT, "output", "publish_failures.json");
 const publishedHistory = readPublishedHistory();
 const failureHistory = readFailureHistory();
+const allRows = JSON.parse(readFileSync(path.join(ROOT, "output", "pins_batch.json"), "utf8"));
+const rowsById = new Map(allRows.map((row) => [String(row.id), row]));
 
-if (!dryRun && hasPublishedToday(publishedHistory)) {
-  console.log(`Daily Pinterest publication already completed for ${brazilDateKey()} America/Sao_Paulo.`);
+const publishedTodayCount = countPublishedScheduledForDate(publishedHistory, rowsById, targetDate);
+if (!dryRun && publishedTodayCount >= limit) {
+  console.log(`Daily Pinterest publication already completed for ${targetDate} America/Sao_Paulo (${publishedTodayCount}/${limit}).`);
   process.exit(0);
 }
+const remainingLimit = dryRun ? limit : Math.max(0, limit - publishedTodayCount);
 
 const alreadyPublished = new Set(publishedHistory.map((item) => String(item.row_id)));
 const failedRows = new Set(
@@ -151,15 +164,18 @@ const failedRows = new Set(
     .filter((item) => item.status >= 400 && item.status < 500)
     .map((item) => String(item.row_id)),
 );
-const rows = JSON.parse(readFileSync(path.join(ROOT, "output", "pins_batch.json"), "utf8"))
-  .filter((row) => row.status === "ready" && !alreadyPublished.has(String(row.id)) && !failedRows.has(String(row.id)));
+const rows = allRows
+  .filter((row) => row.status === "ready"
+    && rowScheduledDateKey(row) === targetDate
+    && !alreadyPublished.has(String(row.id))
+    && !failedRows.has(String(row.id)));
 const boardMap = JSON.parse(readFileSync(path.join(ROOT, "data", "board_ids.json"), "utf8"));
 const published = [...publishedHistory];
 const failures = [...failureHistory];
 let processed = 0;
 
-for (const row of selectDailyRows(rows, limit * 8)) {
-  if (processed >= limit) break;
+for (const row of selectDailyRows(rows, remainingLimit * 8)) {
+  if (processed >= remainingLimit) break;
   if (row.requires_ai_image === "yes" && !row.generated_image_url) {
     console.log(`SKIP missing approved AI image: row ${row.id} | ${row.keyword} | ${row.visual_strategy}`);
     continue;

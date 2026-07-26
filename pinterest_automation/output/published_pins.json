@@ -1660,5 +1660,57 @@
       },
       "dominant_color": null
     }
+  },
+  {
+    "row_id": 1030,
+    "published_at": "2026-07-26T15:03:58.793Z",
+    "pin": {
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/c7/8f/5f/c78f5f718c235e7ea4e56f55be3747f9.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/c7/8f/5f/c78f5f718c235e7ea4e56f55be3747f9.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/c7/8f/5f/c78f5f718c235e7ea4e56f55be3747f9.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/c7/8f/5f/c78f5f718c235e7ea4e56f55be3747f9.jpg"
+          }
+        }
+      },
+      "board_section_id": null,
+      "is_standard": true,
+      "creative_type": "REGULAR",
+      "title": "Capa para Cadeira de Jantar Impermeável Curva Decorativa para decoração mesa posta",
+      "has_been_promoted": false,
+      "id": "930134129316095562",
+      "created_at": "2026-07-26T15:03:02",
+      "is_owner": true,
+      "parent_pin_id": null,
+      "pin_metrics": null,
+      "link": "https://chiquehome.com.br/products/capa-para-cadeira-de-jantar-impermeavel-curva-decorativa?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=decoracao_mesa_posta_1030",
+      "alt_text": "Capa para Cadeira de Jantar Impermeável Curva Decorativa - decoração mesa posta Chique Home",
+      "is_product": false,
+      "description": "Capa para Cadeira de Jantar Impermeável Curva Decorativa deixa as cadeiras mais alinhadas e ajuda a criar uma mesa posta com aparência mais elegante. Destaque para cor/acabamento cinza/ciano. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "dominant_color": null,
+      "product_tags": [],
+      "is_removable": false,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "board_id": "930134197981214271"
+    }
   }
 ]
