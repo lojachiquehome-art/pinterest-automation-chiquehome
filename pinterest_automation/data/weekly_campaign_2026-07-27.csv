@@ -1,0 +1,36 @@
+id,date,board_name,keyword,product_handle,visual_strategy,product_2_handle
+2001,2026-07-27,Banheiro com cara de hotel,banheiro pequeno e luxuoso,porta-shampoo-para-banheiro-box-suporte-moderno,product_full_bleed,
+2002,2026-07-27,Banheiro com cara de hotel,banheiro chique pequeno,porta-escova-de-dentes-para-banheiro-chique,product_in_environment,
+2003,2026-07-27,Banheiro com cara de hotel,banheiro planejado,saboneteira-para-banheiro-pia-de-ceramica-decoracao,environment_title_overlay,
+2004,2026-07-27,Banheiro com cara de hotel,banheiros modernos,bandeja-para-banheiro-decorativa-espelhada-organizadora-decoracao,product_full_bleed,
+2005,2026-07-27,Banheiro com cara de hotel,banheiro chique,porta-papel-higienico-de-parede-papeleira-para-banheiro-prateado,split_two_products,porta-papel-higienico-de-parede-moderno-para-banheiro-dourado
+2006,2026-07-28,Cozinha elegante,cozinha planejada,organizador-de-utensilios-de-cozinha-decoracao,product_full_bleed,
+2007,2026-07-28,Cozinha elegante,cozinha chique,porta-detergente-esponja-e-bucha-para-pia-de-cozinha-decoracao,product_in_environment,
+2008,2026-07-28,Tapetes para cozinha,cozinha gourmet,tapete-para-cozinha-antiderrapante-passadeira-moderno,environment_title_overlay,
+2009,2026-07-28,Tapetes para cozinha,cozinha minimalista,tapete-para-cozinha-antiderrapante-absorvente-minimalista-cinza,product_full_bleed,
+2010,2026-07-28,Tapetes para cozinha,cozinhas modernas,tapete-para-cozinha-antiderrapante-absorvente-minimalista-preto,split_two_products,tapete-para-cozinha-antiderrapante-absorvente-bege-areia
+2011,2026-07-29,Relogios de parede,sala de luxo,relogio-de-parede-aurelio-rose-black,product_full_bleed,
+2012,2026-07-29,Relogios de parede,sala de estar moderna,relogio-de-parede-toscana-beige,product_in_environment,
+2013,2026-07-29,Relogios de parede,sala de estar de luxo,relogio-de-parede-milano-gray,environment_title_overlay,
+2014,2026-07-29,Relogios de parede,sala moderna,relogio-de-parede-verona-white,product_full_bleed,
+2015,2026-07-29,Relogios de parede,sala de estar elegante,relogio-de-parede-torino-black,split_two_products,relogio-de-parede-para-cozinha-sala-decorativo-em-madeira-refinado
+2016,2026-07-30,Quarto decorado,quarto casal elegante,relogio-digital-de-mesa-despertador-decorativo-bege,product_full_bleed,
+2017,2026-07-30,Quarto decorado,quarto aconchegante,relogio-de-mesa-digital-despertador-espelhado-prateado,product_in_environment,
+2018,2026-07-30,Quarto decorado,quarto de casal,relogio-de-mesa-digital-despertador-curvado-preto,environment_title_overlay,
+2019,2026-07-30,Quarto decorado,quarto casal aconchegante,relogio-de-mesa-digital-despertador-cabeceira-branco,product_full_bleed,
+2020,2026-07-30,Quarto decorado,quarto casal pequeno,relogio-de-mesa-digital-despertador-mini-bege,split_two_products,relogio-de-mesa-digital-despertador-triangular-branco
+2021,2026-07-31,Escritório em casa,escritório de luxo,luminaria-de-mesa-led-sem-fio-touch-recarregavel-chique-home,product_full_bleed,
+2022,2026-07-31,Escritório em casa,escritório elegante,luminaria-de-mesa-led-touch-para-quarto-sala-decoracao,product_in_environment,
+2023,2026-07-31,Escritório em casa,escritório moderno,arandela-de-parede-interna-para-quarto-sala-dourada-led-passaro,environment_title_overlay,
+2024,2026-07-31,Iluminacao decorativa,área gourmet moderna,arandela-de-parede-luminaria-interna-externa-led-redonda-2-pecas,product_full_bleed,
+2025,2026-07-31,Iluminacao decorativa,área gourmet integrada,luminaria-de-teto-para-sala-quarto-cozinha-em-led-circular-preta,split_two_products,luminaria-de-teto-para-sala-quarto-cozinha-em-led-espiral-prateada
+2026,2026-08-01,Sala sofisticada,sala de estar chique,livro-caixa-decorativo-falso-moderno-decoracao-sala,product_full_bleed,
+2027,2026-08-01,Sala sofisticada,sala de jantar elegante,escultura-decorativa-o-leitor-estatueta-decoracao-para-sala,product_in_environment,
+2028,2026-08-01,Sala sofisticada,sala de estar elegante,capa-de-almofada-45x45-para-sofa-horse-decorativa-de-luxo,environment_title_overlay,
+2029,2026-08-01,Sala sofisticada,sala de estar contemporânea,capa-de-almofada-45x45-para-sofa-listrada-lisa-decorativa,product_full_bleed,
+2030,2026-08-01,Sala sofisticada,sala de jantar de luxo,vaso-decorativo-para-sala-de-flor-nordic-para-mesa-decoracao,split_two_products,vaso-decorativo-para-sala-de-ceramica-2-pecas-em-1-decoracao
+2031,2026-08-02,Organização e prateleiras,closet planejado,organizador-de-roupas-dobravel-para-guarda-roupa,product_full_bleed,
+2032,2026-08-02,Organização e prateleiras,closets de luxo,organizador-de-bolsas-em-acrilico-com-divisorias-p-3-bolsas-chique-home,product_in_environment,
+2033,2026-08-02,Organização e prateleiras,closets modernos,organizador-de-sapatos-ajustavel-com-camada-dupla-compre-4-e-leve-6-ganhe-2-de-brinde,environment_title_overlay,
+2034,2026-08-02,Organização e prateleiras,closet feminino,bandeja-redonda-giratoria-para-organizar-cozinha-banheiro,product_full_bleed,
+2035,2026-08-02,Organização e prateleiras,closet aberto,organizador-de-maquiagem-porta-pincel-em-acrilico-giratorio,split_two_products,organizador-de-maquiagem-e-cosmeticos-grande-com-gavetas-decoracao

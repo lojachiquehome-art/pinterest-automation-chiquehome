@@ -3,39 +3,249 @@
   "baseUrl": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest",
   "rendered": [
     {
-      "id": 1030,
-      "keyword": "decoracao mesa posta",
-      "visual_strategy": "product_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1030.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1030.jpg"
-    },
-    {
-      "id": 1032,
-      "keyword": "porta papel banheiro moderno",
+      "id": 2001,
+      "keyword": "banheiro pequeno e luxuoso",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-1032.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-1032.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-2001.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2001.jpg"
     },
     {
-      "id": 1033,
-      "keyword": "banheiro pequeno organizado",
-      "visual_strategy": "environment_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1033.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1033.jpg"
-    },
-    {
-      "id": 1034,
-      "keyword": "banheiro com cara de hotel",
+      "id": 2002,
+      "keyword": "banheiro chique pequeno",
       "visual_strategy": "product_in_environment",
-      "generated_image_path": "public/pinterest/generated/pin-1034.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1034.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-2002.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2002.jpg"
     },
     {
-      "id": 1035,
-      "keyword": "banheiro decorado",
-      "visual_strategy": "listicle_idea_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-1035.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-1035.jpg"
+      "id": 2003,
+      "keyword": "banheiro planejado",
+      "visual_strategy": "environment_title_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-2003.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2003.jpg"
+    },
+    {
+      "id": 2004,
+      "keyword": "banheiros modernos",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2004.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2004.jpg"
+    },
+    {
+      "id": 2005,
+      "keyword": "banheiro chique",
+      "visual_strategy": "split_two_products",
+      "generated_image_path": "public/pinterest/generated/pin-2005.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2005.jpg"
+    },
+    {
+      "id": 2006,
+      "keyword": "cozinha planejada",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2006.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2006.jpg"
+    },
+    {
+      "id": 2007,
+      "keyword": "cozinha chique",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-2007.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2007.jpg"
+    },
+    {
+      "id": 2008,
+      "keyword": "cozinha gourmet",
+      "visual_strategy": "environment_title_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-2008.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2008.jpg"
+    },
+    {
+      "id": 2009,
+      "keyword": "cozinha minimalista",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2009.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2009.jpg"
+    },
+    {
+      "id": 2010,
+      "keyword": "cozinhas modernas",
+      "visual_strategy": "split_two_products",
+      "generated_image_path": "public/pinterest/generated/pin-2010.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2010.jpg"
+    },
+    {
+      "id": 2011,
+      "keyword": "sala de luxo",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2011.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2011.jpg"
+    },
+    {
+      "id": 2012,
+      "keyword": "sala de estar moderna",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-2012.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2012.jpg"
+    },
+    {
+      "id": 2013,
+      "keyword": "sala de estar de luxo",
+      "visual_strategy": "environment_title_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-2013.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2013.jpg"
+    },
+    {
+      "id": 2014,
+      "keyword": "sala moderna",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2014.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2014.jpg"
+    },
+    {
+      "id": 2015,
+      "keyword": "sala de estar elegante",
+      "visual_strategy": "split_two_products",
+      "generated_image_path": "public/pinterest/generated/pin-2015.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2015.jpg"
+    },
+    {
+      "id": 2016,
+      "keyword": "quarto casal elegante",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2016.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2016.jpg"
+    },
+    {
+      "id": 2017,
+      "keyword": "quarto aconchegante",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-2017.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2017.jpg"
+    },
+    {
+      "id": 2018,
+      "keyword": "quarto de casal",
+      "visual_strategy": "environment_title_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-2018.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2018.jpg"
+    },
+    {
+      "id": 2019,
+      "keyword": "quarto casal aconchegante",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2019.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2019.jpg"
+    },
+    {
+      "id": 2020,
+      "keyword": "quarto casal pequeno",
+      "visual_strategy": "split_two_products",
+      "generated_image_path": "public/pinterest/generated/pin-2020.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2020.jpg"
+    },
+    {
+      "id": 2021,
+      "keyword": "escritório de luxo",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2021.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2021.jpg"
+    },
+    {
+      "id": 2022,
+      "keyword": "escritório elegante",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-2022.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2022.jpg"
+    },
+    {
+      "id": 2023,
+      "keyword": "escritório moderno",
+      "visual_strategy": "environment_title_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-2023.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2023.jpg"
+    },
+    {
+      "id": 2024,
+      "keyword": "área gourmet moderna",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2024.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2024.jpg"
+    },
+    {
+      "id": 2025,
+      "keyword": "área gourmet integrada",
+      "visual_strategy": "split_two_products",
+      "generated_image_path": "public/pinterest/generated/pin-2025.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2025.jpg"
+    },
+    {
+      "id": 2026,
+      "keyword": "sala de estar chique",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2026.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2026.jpg"
+    },
+    {
+      "id": 2027,
+      "keyword": "sala de jantar elegante",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-2027.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2027.jpg"
+    },
+    {
+      "id": 2028,
+      "keyword": "sala de estar elegante",
+      "visual_strategy": "environment_title_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-2028.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2028.jpg"
+    },
+    {
+      "id": 2029,
+      "keyword": "sala de estar contemporânea",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2029.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2029.jpg"
+    },
+    {
+      "id": 2030,
+      "keyword": "sala de jantar de luxo",
+      "visual_strategy": "split_two_products",
+      "generated_image_path": "public/pinterest/generated/pin-2030.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2030.jpg"
+    },
+    {
+      "id": 2031,
+      "keyword": "closet planejado",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2031.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2031.jpg"
+    },
+    {
+      "id": 2032,
+      "keyword": "closets de luxo",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-2032.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2032.jpg"
+    },
+    {
+      "id": 2033,
+      "keyword": "closets modernos",
+      "visual_strategy": "environment_title_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-2033.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2033.jpg"
+    },
+    {
+      "id": 2034,
+      "keyword": "closet feminino",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2034.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2034.jpg"
+    },
+    {
+      "id": 2035,
+      "keyword": "closet aberto",
+      "visual_strategy": "split_two_products",
+      "generated_image_path": "public/pinterest/generated/pin-2035.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2035.jpg"
     }
   ],
   "needsAi": []

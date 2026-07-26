@@ -1,4 +1,4 @@
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { accentPortugueseText, polishPortugueseTitle } from "./portuguese_text.mjs";
@@ -23,6 +23,8 @@ const roomByType = {
   "Relogio Mesa": "quarto ou mesa de cabeceira",
   Iluminacao: "sala, quarto ou cozinha",
   Sala: "sala",
+  Cozinha: "cozinha",
+  Organizacao: "closet ou area de organizacao",
 };
 
 const collectionByBoard = {
@@ -74,7 +76,7 @@ const boardScene = {
   "Hall de entrada": "hall de entrada elegante com aparador, bandeja, vaso, relogio ou arandela na parede",
   "Design de interiores": "ambiente residencial bem decorado com composicao harmônica, cores neutras e detalhes Chique Home",
   "Paleta de cores para casa": "ambiente decorado com paleta de cores harmonica, tons neutros e objetos decorativos",
-  "Truques de casa": "truque simples de organizacao e decoracao para deixar a casa mais bonita sem reforma",
+  "Truques de casa": "solucao elegante de organizacao e decoracao para deixar a casa mais bonita sem reforma",
   "Presentes para casa nova": "composicao de presentes para casa nova com itens uteis, decorativos e elegantes",
   "Área externa e varanda": "varanda pequena decorada com objetos funcionais, luz natural e clima acolhedor",
 };
@@ -201,7 +203,8 @@ function addPinterestCoupon(description) {
 function isProductStrategy(strategy) {
   return strategy === "product_full_bleed"
     || strategy === "product_in_environment"
-    || strategy === "product_title_overlay";
+    || strategy === "product_title_overlay"
+    || strategy === "split_two_products";
 }
 
 function titleCaseFirst(text) {
@@ -257,25 +260,115 @@ function productDetailsSentence(product) {
   return parts.length ? ` Destaque para ${parts.join(" e ")}.` : "";
 }
 
-function buildPinterestTitle({ productShortName, keyword, boardName, strategy }) {
+function productPairCategory(product, product2) {
+  const text = normalizeText(`${product.title} ${product.handle} ${product2?.title ?? ""} ${product2?.handle ?? ""} ${product.product_type} ${product2?.product_type ?? ""}`)
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+  const has = (phrase) => text.includes(normalizeText(phrase).replace(/[^a-z0-9]+/g, " "));
+  if (has("porta papel")) return "Porta-Papel Higiênico de Parede";
+  if (has("tapete")) return "Tapete para Cozinha Antiderrapante Absorvente";
+  if (has("relogio de parede")) return "Relógio de Parede";
+  if (has("relogio") && (has("mesa") || has("despertador"))) return "Relógio de Mesa Digital";
+  if (has("luminaria de teto")) return "Luminária de Teto LED";
+  if (has("vaso")) return "Vaso Decorativo";
+  if (has("organizador de maquiagem")) return "Organizador de Maquiagem";
+  return product.product_type ? accentPortugueseText(product.product_type) : "Produtos Chique Home";
+}
+
+function productPairVariant(product) {
+  const text = normalizeText(`${product.title} ${product.handle} ${product.tags}`)
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+  const has = (phrase) => text.includes(normalizeText(phrase).replace(/[^a-z0-9]+/g, " "));
+  const pieces = [];
+  const add = (value) => {
+    if (!pieces.includes(value)) pieces.push(value);
+  };
+
+  if (has("torino")) return "Torino Black";
+  if (has("cremona")) return "Cremona Cream Wood";
+  if (has("nordic")) return "Nordic branco";
+  if (has("ceramica")) return "cerâmica 2 peças";
+  if (has("porta pincel")) return "porta-pincel giratório preto";
+  if (has("gavetas")) return "gavetas";
+
+  if (has("papeleira")) add("papeleira");
+  if (/\bmini\b/.test(text)) add("mini");
+  if (has("triangular")) add("triangular");
+  if (has("circular")) add("circular");
+  if (has("espiral")) add("espiral");
+
+  if (has("prateado") || has("prateada")) add("prateado");
+  if (has("dourado") || has("dourada")) add("dourado");
+  if (has("preto") || has("preta")) add("preto");
+  if (has("branco") || has("branca")) add("branco");
+  if (has("bege areia")) add("bege areia");
+  else if (has("bege")) add("bege");
+  if (has("cinza") || has("ciano")) add("cinza/ciano");
+  if (has("verde")) add("verde");
+
+  return pieces.length ? accentPortugueseText(pieces.join(" ")) : productShort(product.title);
+}
+
+function titleCaseProductVariant(value) {
+  return String(value)
+    .split(" ")
+    .map((word) => {
+      if (/^(e|de|da|do|dos|das|para|com|em)$/i.test(word)) return word.toLowerCase();
+      return word
+        .split("-")
+        .map((part) => part ? `${part[0].toUpperCase()}${part.slice(1)}` : part)
+        .join("-");
+    })
+    .join(" ")
+    .replace(/\bLed\b/g, "LED");
+}
+
+function buildProductPairTitle(product, product2) {
+  const category = productPairCategory(product, product2);
+  const first = productPairVariant(product);
+  const second = product2 ? productPairVariant(product2) : "";
+  const rawTitle = second ? `${category} ${first} e ${second}` : `${category} ${first}`;
+  const title = normalizeText(category).includes("luminaria")
+    ? rawTitle.replace("circular preto", "circular preta").replace("espiral prateado", "espiral prateada")
+    : rawTitle;
+  return polishPortugueseTitle(truncateText(titleCaseProductVariant(title), 100));
+}
+
+function pairVariationPhrase(product, product2) {
+  const category = normalizeText(productPairCategory(product, product2)).replace(/[^a-z0-9]+/g, " ");
+  const first = productPairVariant(product);
+  const second = product2 ? productPairVariant(product2) : "";
+  const variants = second ? `${first} e ${second}` : first;
+
+  if (category.includes("porta papel")) return `nos acabamentos ${variants.replace("papeleira ", "")}`;
+  if (category.includes("tapete")) return `nas cores ${variants}`;
+  if (category.includes("relogio")) return `nos modelos ${variants}`;
+  if (category.includes("luminaria")) return `nos modelos ${variants.replace("preto", "preta").replace("prateado", "prateada")}`;
+  if (category.includes("vaso")) return `nos modelos ${variants}`;
+  if (category.includes("organizador")) return `nas versões ${variants}`;
+  return `nas variações ${variants}`;
+}
+
+function buildPinterestTitle({ product, product2, productShortName, product2ShortName, keyword, boardName, strategy }) {
   const cleanKeyword = accentPortugueseText(keyword);
   const cleanProduct = accentPortugueseText(productShortName);
   const cleanBoard = accentPortugueseText(boardName);
-  const productAlreadyHasKeyword = normalizeText(cleanKeyword)
-    .split(/\W+/)
-    .filter((token) => token.length > 3)
-    .every((token) => normalizeText(cleanProduct).includes(token));
-  const sameEnvironment = normalizeText(cleanKeyword) === normalizeText(cleanBoard);
+
+  if (strategy === "split_two_products") {
+    return buildProductPairTitle(product, product2);
+  }
+
   const title = isProductStrategy(strategy)
-    ? (productAlreadyHasKeyword ? cleanProduct : `${cleanProduct} para ${cleanKeyword}`)
-    : (sameEnvironment ? `Ideias para ${cleanKeyword}` : `${cleanKeyword}: ideias para ${cleanBoard}`);
+    ? cleanProduct
+    : cleanKeyword;
   return polishPortugueseTitle(truncateText(titleCaseFirst(title), 100));
 }
 
 function productDescriptionLead({ product, productShortName, keyword, boardName, id }) {
   const cleanKeyword = accentPortugueseText(keyword);
   const cleanProduct = accentPortugueseText(productShortName);
-  const context = normalizeText(`${productShortName} ${keyword} ${boardName}`);
+  const context = normalizeText(`${productShortName} ${product.product_type}`);
   const detail = productDetailsSentence(product);
   const variant = id % 3;
 
@@ -303,11 +396,43 @@ function productDescriptionLead({ product, productShortName, keyword, boardName,
     ];
     return `${options[variant]}${detail}`;
   }
-  if (context.includes("porta papel") || context.includes("banheiro") || context.includes("lavabo")) {
+  if (context.includes("porta papel")) {
     const options = [
       `${cleanProduct} organiza o banheiro com acabamento elegante e deixa o papel sempre à mão sem poluir a decoração.`,
       `${cleanProduct} é uma escolha prática para lavabo ou banheiro pequeno, criando um visual mais limpo e sofisticado.`,
       `${cleanProduct} valoriza o banheiro com um detalhe funcional, discreto e fácil de combinar com metais e revestimentos modernos.`,
+    ];
+    return `${options[variant]}${detail}`;
+  }
+  if (context.includes("porta shampoo") || context.includes("suporte")) {
+    const options = [
+      `${cleanProduct} ajuda a manter shampoo, sabonete e itens de banho organizados com visual limpo no box.`,
+      `${cleanProduct} deixa o banheiro mais funcional e sofisticado, com os produtos de uso diário sempre bem posicionados.`,
+      `${cleanProduct} organiza o box sem pesar na decoração e combina com banheiros modernos e bem planejados.`,
+    ];
+    return `${options[variant]}${detail}`;
+  }
+  if (context.includes("porta escova")) {
+    const options = [
+      `${cleanProduct} mantém escovas e itens de bancada organizados com um acabamento bonito para lavabo ou banheiro.`,
+      `${cleanProduct} deixa a pia mais limpa visualmente e ajuda a compor um banheiro mais chique e funcional.`,
+      `${cleanProduct} organiza a rotina do banheiro com presença discreta, prática e sofisticada na bancada.`,
+    ];
+    return `${options[variant]}${detail}`;
+  }
+  if (context.includes("saboneteira") || context.includes("bandeja") || context.includes("banheiro") || context.includes("lavabo")) {
+    const options = [
+      `${cleanProduct} valoriza a bancada do banheiro com um detalhe funcional, discreto e fácil de combinar.`,
+      `${cleanProduct} ajuda a organizar o lavabo ou banheiro com acabamento elegante e visual mais bem cuidado.`,
+      `${cleanProduct} completa a decoração do banheiro com praticidade e aparência sofisticada no dia a dia.`,
+    ];
+    return `${options[variant]}${detail}`;
+  }
+  if (context.includes("porta detergente") || context.includes("utensilio") || context.includes("utensilios") || context.includes("pratos")) {
+    const options = [
+      `${cleanProduct} mantém a pia e a bancada mais organizadas, com visual limpo e funcional para a rotina da cozinha.`,
+      `${cleanProduct} ajuda a deixar os itens de uso diário bem posicionados e a cozinha com aparência mais planejada.`,
+      `${cleanProduct} organiza a cozinha com praticidade e acabamento bonito, sem ocupar visualmente a bancada.`,
     ];
     return `${options[variant]}${detail}`;
   }
@@ -327,11 +452,35 @@ function productDescriptionLead({ product, productShortName, keyword, boardName,
     ];
     return `${options[variant]}${detail}`;
   }
+  if (context.includes("vaso")) {
+    const options = [
+      `${cleanProduct} cria um ponto decorativo elegante para mesa, aparador ou estante sem pesar no ambiente.`,
+      `${cleanProduct} adiciona forma e textura à decoração, deixando a composição mais sofisticada e bem finalizada.`,
+      `${cleanProduct} é um detalhe versátil para valorizar salas, aparadores e cantinhos decorados com acabamento elegante.`,
+    ];
+    return `${options[variant]}${detail}`;
+  }
+  if (context.includes("escultura") || context.includes("estatueta")) {
+    const options = [
+      `${cleanProduct} adiciona presença artística à decoração e deixa aparadores, estantes e mesas mais sofisticados.`,
+      `${cleanProduct} funciona como peça de destaque para compor ambientes elegantes com personalidade.`,
+      `${cleanProduct} completa a decoração com um toque escultórico, moderno e bem acabado para a sala.`,
+    ];
+    return `${options[variant]}${detail}`;
+  }
+  if (context.includes("cesto")) {
+    const options = [
+      `${cleanProduct} organiza mantas, objetos e pequenos itens com textura natural e aparência sofisticada.`,
+      `${cleanProduct} traz função e acabamento decorativo para deixar a sala mais organizada e acolhedora.`,
+      `${cleanProduct} ajuda a compor uma decoração prática, bonita e com toque natural no ambiente.`,
+    ];
+    return `${options[variant]}${detail}`;
+  }
   if (context.includes("almofada") || context.includes("sofa")) {
     const options = [
       `${cleanProduct} renova o sofá com textura, conforto e acabamento elegante para uma sala mais acolhedora.`,
       `${cleanProduct} adiciona volume e sofisticação ao sofá, criando uma composição mais bem acabada.`,
-      `${cleanProduct} é um detalhe simples para mudar a sala e deixar o ambiente mais confortável visualmente.`,
+      `${cleanProduct} é um detalhe elegante para mudar a sala e deixar o ambiente mais confortável visualmente.`,
     ];
     return `${options[variant]}${detail}`;
   }
@@ -412,12 +561,26 @@ function environmentDescriptionLead({ keyword, boardName, id }) {
   return [
     `Inspiração de ${cleanKeyword} para deixar a casa mais bonita, organizada e sofisticada com ideias da coleção ${cleanBoard}.`,
     `Ideia de ${cleanKeyword} para renovar o ambiente com detalhes objetivos e visual Chique Home.`,
-    `${titleCaseFirst(cleanKeyword)} é uma forma simples de deixar o ambiente mais elegante e funcional.`,
+    `${titleCaseFirst(cleanKeyword)} é uma forma elegante de deixar o ambiente mais sofisticado e funcional.`,
   ][variant];
 }
 
-function buildPinterestDescription({ product, productShortName, keyword, boardName, strategy, id }) {
-  const intro = isProductStrategy(strategy)
+function splitProductsDescriptionLead({ product, product2, productShortName, product2ShortName, id }) {
+  const category = productPairCategory(product, product2).toLowerCase();
+  const variations = pairVariationPhrase(product, product2);
+  const variant = id % 3;
+  const options = [
+    `Compare duas opções de ${category} ${variations} para escolher o acabamento que combina melhor com o seu ambiente.`,
+    `Veja dois modelos de ${category} da mesma coleção, ${variations}, e encontre a opção ideal para sua casa.`,
+    `Uma seleção com duas opções de ${category} ${variations}, pensada para facilitar a escolha de um visual mais sofisticado.`,
+  ];
+  return accentPortugueseText(options[variant]);
+}
+
+function buildPinterestDescription({ product, product2, productShortName, product2ShortName, keyword, boardName, strategy, id }) {
+  const intro = strategy === "split_two_products"
+    ? splitProductsDescriptionLead({ product, product2, productShortName, product2ShortName, id })
+    : isProductStrategy(strategy)
     ? productDescriptionLead({ product, productShortName, keyword, boardName, id })
     : environmentDescriptionLead({ keyword, boardName, id });
   return addPinterestCoupon(`${intro} Clique no botão "Acessar o site" para ver detalhes, medidas, preço e comprar na Chique Home.`);
@@ -458,19 +621,19 @@ function visualStrategy(term, index) {
 }
 
 function landingType(strategy) {
-  return strategy === "product_full_bleed" || strategy === "product_in_environment" || strategy === "product_title_overlay"
+  return strategy === "product_full_bleed"
+    || strategy === "product_in_environment"
     ? "product"
     : "collection";
 }
 
 function requiresAiImage(strategy) {
-  return strategy !== "product_full_bleed";
+  return strategy !== "product_full_bleed" && strategy !== "split_two_products";
 }
 
 function termForCampaign(row) {
   const isProductPin = row.visual_strategy === "product_full_bleed"
-    || row.visual_strategy === "product_in_environment"
-    || row.visual_strategy === "product_title_overlay";
+    || row.visual_strategy === "product_in_environment";
   return {
     keyword: row.keyword,
     intent: row.intent || row.board_name,
@@ -481,19 +644,25 @@ function termForCampaign(row) {
   };
 }
 
-function buildRow({ id, product, term, strategy, scheduledAt }) {
+function buildRow({ id, product, product2, term, strategy, scheduledAt }) {
   const room = roomByType[product.product_type] ?? term.intent;
   const short = productShort(product.title);
+  const short2 = product2 ? productShort(product2.title) : "";
   const displayKeyword = accentPortugueseText(term.keyword);
   const title = buildPinterestTitle({
+    product,
+    product2,
     productShortName: short,
+    product2ShortName: short2,
     keyword: displayKeyword,
     boardName: term.board,
     strategy,
   });
   const description = buildPinterestDescription({
     product,
+    product2,
     productShortName: short,
+    product2ShortName: short2,
     keyword: displayKeyword,
     boardName: term.board,
     strategy,
@@ -516,6 +685,9 @@ function buildRow({ id, product, term, strategy, scheduledAt }) {
       ? makeCollectionUrl(term.board, term.keyword, id)
       : makeUrl(product.handle, term.keyword, id),
     image_url: product.image_url,
+    product_2_title: product2 ? accentPortugueseText(product2.title) : "",
+    product_2_handle: product2?.handle ?? "",
+    product_2_image_url: product2?.image_url ?? "",
     generated_image_prompt: accentPortugueseText(imagePrompt({ product, term: { ...term, keyword: displayKeyword }, title, strategy })),
     requires_ai_image: requiresAiImage(strategy) ? "yes" : "no",
     alt_text: accentPortugueseText(`${short} - ${displayKeyword} Chique Home`).slice(0, 500),
@@ -562,25 +734,29 @@ function generate() {
   const rows = [];
   let idx = 1001;
 
-  const weeklyCampaignPath = path.join(ROOT, "data", "weekly_campaign_2026-07-21.csv");
-  try {
-    const weeklyRows = parseCsv(readFileSync(weeklyCampaignPath, "utf8"));
+  const weeklyCampaignFiles = readdirSync(path.join(ROOT, "data"))
+    .filter((file) => /^weekly_campaign_\d{4}-\d{2}-\d{2}\.csv$/i.test(file))
+    .sort();
+  for (const weeklyCampaignFile of weeklyCampaignFiles) {
+    const weeklyRows = parseCsv(readFileSync(path.join(ROOT, "data", weeklyCampaignFile), "utf8"));
     for (let i = 0; i < weeklyRows.length; i++) {
       const campaign = weeklyRows[i];
       const product = productsByHandle.get(campaign.product_handle);
       if (!product) throw new Error(`Produto nao encontrado no weekly campaign: ${campaign.product_handle}`);
+      const product2 = campaign.product_2_handle ? productsByHandle.get(campaign.product_2_handle) : null;
+      if (campaign.product_2_handle && !product2) throw new Error(`Produto 2 nao encontrado no weekly campaign: ${campaign.product_2_handle}`);
+      const id = Number(campaign.id) || idx;
+      idx = Math.max(idx, id + 1);
       const scheduled = new Date(`${campaign.date}T${String(slots[i % 5] ?? 9).padStart(2, "0")}:00:00-03:00`);
       rows.push(buildRow({
-        id: idx,
+        id,
         product,
+        product2,
         term: termForCampaign(campaign),
         strategy: campaign.visual_strategy,
         scheduledAt: scheduled,
       }));
-      idx++;
     }
-  } catch (error) {
-    if (error.code !== "ENOENT") throw error;
   }
 
   for (const product of products) {

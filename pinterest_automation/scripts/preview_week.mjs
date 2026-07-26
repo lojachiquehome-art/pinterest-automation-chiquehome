@@ -2,17 +2,29 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
+import { accentPortugueseText as accentText } from "./portuguese_text.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const rows = JSON.parse(readFileSync(path.join(ROOT, "output", "pins_batch.json"), "utf8")).slice(0, 30);
+
+function parseArgs() {
+  const args = process.argv.slice(2);
+  const valueAfter = (flag, fallback) => {
+    const index = args.indexOf(flag);
+    return index >= 0 ? args[index + 1] : fallback;
+  };
+  return {
+    from: valueAfter("--from", ""),
+    to: valueAfter("--to", ""),
+    output: valueAfter("--output", ""),
+  };
+}
 
 const styleLabel = {
-  product_in_environment: "produto em ambiente novo",
-  product_full_bleed: "foto Shopify vertical",
-  environment_full_bleed: "cenario sem texto",
-  environment_title_overlay: "cenario com titulo",
-  product_title_overlay: "produto com titulo",
+  product_full_bleed: "foto Shopify sem texto",
+  product_in_environment: "produto em ambiente sem texto",
+  environment_title_overlay: "ambiente com texto",
+  split_two_products: "grade 2 produtos",
 };
 
 function escapeXml(value) {
@@ -23,21 +35,12 @@ function escapeXml(value) {
     .replace(/"/g, "&quot;");
 }
 
-function accentText(value) {
-  return String(value ?? "")
-    .replace(/\brelogios\b/gi, "relógios")
-    .replace(/\brelogio\b/gi, "relógio")
-    .replace(/\biluminacao\b/gi, "iluminação")
-    .replace(/\bluminaria\b/gi, "luminária")
-    .replace(/\bdecoracao\b/gi, "decoração")
-    .replace(/\borganizacao\b/gi, "organização")
-    .replace(/\bhigienico\b/gi, "higiênico")
-    .replace(/\bacrilico\b/gi, "acrílico")
-    .replace(/\bgiratorio\b/gi, "giratório")
-    .replace(/\bsofa\b/gi, "sofá")
-    .replace(/\btrico\b/gi, "tricô")
-    .replace(/\bcenario\b/gi, "cenário");
-}
+const { from, to, output } = parseArgs();
+const rows = JSON.parse(readFileSync(path.join(ROOT, "output", "pins_batch.json"), "utf8"))
+  .filter((row) => {
+    const date = row.scheduled_at.slice(0, 10);
+    return (!from || date >= from) && (!to || date <= to);
+  });
 
 const byDay = {};
 for (const row of rows) {
@@ -59,7 +62,7 @@ const composites = [];
 let y = pad;
 
 for (const [date, dayRows] of Object.entries(byDay)) {
-  const header = `${date} | ${accentText(dayRows[0].board_name)} | 5 estilos`;
+  const header = `${date} | ${accentText(dayRows[0].board_name)} | ${dayRows.length} estilos`;
   composites.push({
     input: Buffer.from(`
       <svg width="${width}" height="${headH}" xmlns="http://www.w3.org/2000/svg">
@@ -103,7 +106,11 @@ for (const [date, dayRows] of Object.entries(byDay)) {
   y += cardH + labelH + pad;
 }
 
-const outPath = path.join(ROOT, "output", "preview_week_5_styles_2026-07-21_to_2026-07-26.jpg");
+const defaultName = from && to
+  ? `preview_week_5_styles_${from}_to_${to}.jpg`
+  : "preview_week_5_styles.jpg";
+const outPath = path.join(ROOT, output || path.join("output", defaultName));
+
 await sharp({
   create: {
     width,

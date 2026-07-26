@@ -248,7 +248,7 @@ async function productDataUrl(row) {
 function designedOverlay(row) {
   const colors = palette(row.board_name);
   const rawTitle = row.visual_strategy === "product_title_overlay"
-    ? conciseProductTitle(row)
+    ? row.keyword
     : row.visual_strategy === "environment_title_overlay"
       ? row.keyword
       : "";
@@ -266,11 +266,72 @@ function designedOverlay(row) {
   `;
 }
 
+async function renderSplitProductsPin(row) {
+  mkdirSync(GENERATED_DIR, { recursive: true });
+  const fileName = `pin-${String(row.id).padStart(4, "0")}.jpg`;
+  const filePath = path.join(GENERATED_DIR, fileName);
+  if (!row.product_2_image_url) throw new Error(`Row ${row.id} precisa de product_2_image_url para split_two_products.`);
+
+  const first = await productImageBuffer(row);
+  const secondRow = {
+    ...row,
+    image_url: row.product_2_image_url,
+    product_handle: row.product_2_handle,
+    product_title: row.product_2_title,
+  };
+  const second = await productImageBuffer(secondRow);
+  const halfHeight = HEIGHT / 2;
+  const background = palette(row.board_name).bg;
+
+  const top = await sharp(first)
+    .rotate()
+    .resize(WIDTH, halfHeight, {
+      fit: "contain",
+      position: "center",
+      background,
+    })
+    .jpeg({ quality: 92 })
+    .toBuffer();
+  const bottom = await sharp(second)
+    .rotate()
+    .resize(WIDTH, halfHeight, {
+      fit: "contain",
+      position: "center",
+      background,
+    })
+    .jpeg({ quality: 92 })
+    .toBuffer();
+  const divider = Buffer.from(`
+    <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="${halfHeight - 3}" width="${WIDTH}" height="6" fill="#fbf7ef"/>
+    </svg>
+  `);
+
+  await sharp({
+    create: {
+      width: WIDTH,
+      height: HEIGHT,
+      channels: 3,
+      background,
+    },
+  })
+    .composite([
+      { input: top, left: 0, top: 0 },
+      { input: bottom, left: 0, top: halfHeight },
+      { input: divider, left: 0, top: 0 },
+    ])
+    .jpeg({ quality: 92 })
+    .toFile(filePath);
+
+  return { fileName, filePath };
+}
+
 async function renderDesignedPin(row) {
   mkdirSync(GENERATED_DIR, { recursive: true });
   const fileName = `pin-${String(row.id).padStart(4, "0")}.jpg`;
   const filePath = path.join(GENERATED_DIR, fileName);
   const input = await productImageBuffer(row);
+  const colors = palette(row.board_name);
   const background = await sharp(input)
     .rotate()
     .resize(WIDTH, HEIGHT, {
@@ -288,6 +349,13 @@ async function renderDesignedPin(row) {
 
   writeFileSync(filePath, finalImage);
 
+  return { fileName, filePath };
+}
+
+function existingGeneratedPin(row) {
+  const fileName = `pin-${String(row.id).padStart(4, "0")}.jpg`;
+  const filePath = path.join(GENERATED_DIR, fileName);
+  if (!existsSync(filePath)) return null;
   return { fileName, filePath };
 }
 
@@ -310,21 +378,7 @@ async function renderProductPin(row) {
     .jpeg({ quality: 92 })
     .toBuffer();
 
-  const badge = Buffer.from(`
-    <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
-      <rect x="640" y="1380" width="280" height="72" rx="36" fill="#d9b98f" opacity="0.9"/>
-      <text x="780" y="1427" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#3b2d24">PINTEREST10</text>
-    </svg>
-  `);
-
-  const finalImage = await sharp(resized)
-    .composite([
-      { input: badge, left: 0, top: 0 },
-    ])
-    .jpeg({ quality: 92 })
-    .toBuffer();
-
-  writeFileSync(filePath, finalImage);
+  writeFileSync(filePath, resized);
 
   return {
     fileName,
@@ -373,11 +427,20 @@ for (const row of selected) {
     continue;
   }
 
+  if (row.visual_strategy === "split_two_products") {
+    if (!baseUrl) throw new Error("PIN_IMAGE_BASE_URL precisa estar configurado para imagens de grade.");
+    const rendered = await renderSplitProductsPin(row);
+    row.generated_image_url = `${baseUrl}/generated/${rendered.fileName}`;
+    row.generated_image_path = `public/pinterest/generated/${rendered.fileName}`;
+    console.log(`Rendered split image: row ${row.id} | ${rendered.fileName}`);
+    continue;
+  }
+
   if (!baseUrl) throw new Error("PIN_IMAGE_BASE_URL precisa estar configurado para imagens geradas.");
-  const rendered = await renderDesignedPin(row);
+  const rendered = existingGeneratedPin(row) ?? await renderDesignedPin(row);
   row.generated_image_url = `${baseUrl}/generated/${rendered.fileName}`;
   row.generated_image_path = `public/pinterest/generated/${rendered.fileName}`;
-  console.log(`Rendered designed image: row ${row.id} | ${rendered.fileName} | ${row.visual_strategy}`);
+  console.log(`Ready designed image: row ${row.id} | ${rendered.fileName} | ${row.visual_strategy}`);
 }
 
 writeFileSync(rowsPath, JSON.stringify(rows, null, 2), "utf8");
