@@ -1400,5 +1400,265 @@
       "created_at": "2026-07-25T12:34:04",
       "parent_pin_id": null
     }
+  },
+  {
+    "row_id": 1025,
+    "published_at": "2026-07-26T12:30:01.162Z",
+    "pin": {
+      "is_removable": false,
+      "parent_pin_id": null,
+      "id": "930134129316091838",
+      "description": "Luminária de Teto em LED Espiral traz presença elegante para o ambiente e deixa a composição mais atual sem perder sofisticação. Destaque para modelo espiral e cor/acabamento branco. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "is_product": false,
+      "board_id": "930134197981214278",
+      "alt_text": "Luminária de Teto em LED Espiral - luminária de teto Chique Home",
+      "pin_metrics": null,
+      "product_tags": [],
+      "has_been_promoted": false,
+      "created_at": "2026-07-26T12:30:00",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/ca/61/19/ca6119b7753ef50a8a15bfae6c02363a.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/ca/61/19/ca6119b7753ef50a8a15bfae6c02363a.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/ca/61/19/ca6119b7753ef50a8a15bfae6c02363a.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/ca/61/19/ca6119b7753ef50a8a15bfae6c02363a.jpg"
+          }
+        }
+      },
+      "title": "Luminária de Teto em LED Espiral",
+      "dominant_color": null,
+      "board_section_id": null,
+      "is_standard": true,
+      "creative_type": "REGULAR",
+      "link": "https://chiquehome.com.br/products/luminaria-de-teto-para-sala-quarto-cozinha-em-led-espiral-branca?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=luminaria_de_teto_1025",
+      "is_owner": true,
+      "board_owner": {
+        "username": "chiquehome"
+      }
+    }
+  },
+  {
+    "row_id": 1026,
+    "published_at": "2026-07-26T12:31:02.052Z",
+    "pin": {
+      "is_standard": true,
+      "link": "https://chiquehome.com.br/products/livro-caixa-decorativo-falso-moderno-decoracao-sala?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=decoracao_de_sala_1026",
+      "is_removable": false,
+      "has_been_promoted": false,
+      "product_tags": [],
+      "pin_metrics": null,
+      "is_product": false,
+      "description": "Livro Caixa Decorativo Falso Moderno é aquele detalhe decorativo que deixa mesas, aparadores e estantes com aparência mais produzida. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "id": "930134129316091870",
+      "alt_text": "Livro Caixa Decorativo Falso Moderno - decoração de sala Chique Home",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/0b/84/ed/0b84edf25e308084c318c57319add585.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/0b/84/ed/0b84edf25e308084c318c57319add585.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/0b/84/ed/0b84edf25e308084c318c57319add585.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/0b/84/ed/0b84edf25e308084c318c57319add585.jpg"
+          }
+        }
+      },
+      "creative_type": "REGULAR",
+      "dominant_color": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "title": "Livro Caixa Decorativo Falso Moderno para decoração de sala",
+      "created_at": "2026-07-26T12:31:01",
+      "parent_pin_id": null,
+      "is_owner": true,
+      "board_id": "930134197981214271",
+      "board_section_id": null
+    }
+  },
+  {
+    "row_id": 1027,
+    "published_at": "2026-07-26T12:32:03.220Z",
+    "pin": {
+      "is_removable": false,
+      "description": "Capa de Almofada de Tricô 45x45 para Sofá Decorativa de Luxo adiciona volume e sofisticação ao sofá, criando uma composição mais bem acabada. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "board_id": "930134197981214271",
+      "dominant_color": null,
+      "is_owner": true,
+      "is_standard": true,
+      "board_section_id": null,
+      "product_tags": [],
+      "is_product": false,
+      "alt_text": "Capa de Almofada de Tricô 45x45 para Sofá Decorativa de Luxo - capa almofada sofá luxo Chique Home",
+      "pin_metrics": null,
+      "title": "Capa de Almofada de Tricô 45x45 para Sofá Decorativa de Luxo",
+      "creative_type": "REGULAR",
+      "link": "https://chiquehome.com.br/products/capa-de-almofada-de-trico-45x45-para-sofa-decorativa-de-luxo?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=capa_almofada_sofa_luxo_1027",
+      "created_at": "2026-07-26T12:32:02",
+      "has_been_promoted": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/35/01/06/350106ea0003a3cdf3c7943b8763df2c.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/35/01/06/350106ea0003a3cdf3c7943b8763df2c.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/35/01/06/350106ea0003a3cdf3c7943b8763df2c.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/35/01/06/350106ea0003a3cdf3c7943b8763df2c.jpg"
+          }
+        }
+      },
+      "parent_pin_id": null,
+      "id": "930134129316091891",
+      "board_owner": {
+        "username": "chiquehome"
+      }
+    }
+  },
+  {
+    "row_id": 1028,
+    "published_at": "2026-07-26T12:33:04.377Z",
+    "pin": {
+      "description": "Sala de jantar decorada cria uma composição mais alinhada para receber bem e decorar com intenção. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "id": "930134129316091899",
+      "link": "https://chiquehome.com.br/collections/sala-sofisticada?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=sala_de_jantar_decorada_1028",
+      "is_removable": false,
+      "pin_metrics": null,
+      "alt_text": "Capa para Cadeira de Jantar Impermeável Curva Decorativa - sala de jantar decorada Chique Home",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/a5/ed/75/a5ed750bfcac980322278eac37f13bd4.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/a5/ed/75/a5ed750bfcac980322278eac37f13bd4.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/a5/ed/75/a5ed750bfcac980322278eac37f13bd4.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/a5/ed/75/a5ed750bfcac980322278eac37f13bd4.jpg"
+          }
+        }
+      },
+      "board_section_id": null,
+      "is_standard": true,
+      "parent_pin_id": null,
+      "dominant_color": null,
+      "product_tags": [],
+      "is_owner": true,
+      "board_id": "930134197981214271",
+      "creative_type": "REGULAR",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "created_at": "2026-07-26T12:33:03",
+      "title": "Sala de jantar decorada: ideias para Sala sofisticada",
+      "is_product": false,
+      "has_been_promoted": false
+    }
+  },
+  {
+    "row_id": 1029,
+    "published_at": "2026-07-26T12:34:05.254Z",
+    "pin": {
+      "product_tags": [],
+      "id": "930134129316091912",
+      "is_product": false,
+      "description": "Inspiração de sala sofisticada para compor uma sala mais acolhedora, sofisticada e pronta para receber bem. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "parent_pin_id": null,
+      "is_standard": true,
+      "creative_type": "REGULAR",
+      "has_been_promoted": false,
+      "link": "https://chiquehome.com.br/collections/sala-sofisticada?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=sala_sofisticada_1029",
+      "board_section_id": null,
+      "is_owner": true,
+      "pin_metrics": null,
+      "alt_text": "Capa de Almofada de Tricô 45x45 para Sofá Decorativa de Luxo - sala sofisticada Chique Home",
+      "board_id": "930134197981214271",
+      "created_at": "2026-07-26T12:34:04",
+      "title": "Ideias para sala sofisticada",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/34/fd/34/34fd3474830362bd4f39de5f7c4e8295.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/34/fd/34/34fd3474830362bd4f39de5f7c4e8295.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/34/fd/34/34fd3474830362bd4f39de5f7c4e8295.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/34/fd/34/34fd3474830362bd4f39de5f7c4e8295.jpg"
+          }
+        }
+      },
+      "is_removable": false,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "dominant_color": null
+    }
   }
 ]
