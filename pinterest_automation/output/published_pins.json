@@ -1712,5 +1712,265 @@
       },
       "board_id": "930134197981214271"
     }
+  },
+  {
+    "row_id": 2001,
+    "published_at": "2026-07-27T13:42:26.810Z",
+    "pin": {
+      "creative_type": "REGULAR",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "id": "930134129316127218",
+      "is_standard": true,
+      "has_been_promoted": false,
+      "pin_metrics": null,
+      "is_product": false,
+      "description": "Porta-Shampoo para Banheiro Box Suporte Moderno ajuda a manter shampoo, sabonete e itens de banho organizados com visual limpo no box. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "link": "https://chiquehome.com.br/products/porta-shampoo-para-banheiro-box-suporte-moderno?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=banheiro_pequeno_e_luxuoso_2001",
+      "product_tags": [],
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/36/5d/9d/365d9d6b537100a652a5c0eb502f77fc.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/36/5d/9d/365d9d6b537100a652a5c0eb502f77fc.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/36/5d/9d/365d9d6b537100a652a5c0eb502f77fc.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/36/5d/9d/365d9d6b537100a652a5c0eb502f77fc.jpg"
+          }
+        }
+      },
+      "parent_pin_id": null,
+      "board_id": "930134197981214274",
+      "board_section_id": null,
+      "alt_text": "Porta-Shampoo para Banheiro Box Suporte Moderno - banheiro pequeno e luxuoso Chique Home",
+      "title": "Porta-Shampoo para Banheiro Box Suporte Moderno",
+      "created_at": "2026-07-27T13:42:26",
+      "dominant_color": null,
+      "is_removable": false,
+      "is_owner": true
+    }
+  },
+  {
+    "row_id": 2002,
+    "published_at": "2026-07-27T13:43:27.693Z",
+    "pin": {
+      "board_section_id": null,
+      "parent_pin_id": null,
+      "creative_type": "REGULAR",
+      "link": "https://chiquehome.com.br/products/porta-escova-de-dentes-para-banheiro-chique?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=banheiro_chique_pequeno_2002",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/21/f1/9e/21f19ede7ec8094f09f76cd3b79e1fa3.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/21/f1/9e/21f19ede7ec8094f09f76cd3b79e1fa3.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/21/f1/9e/21f19ede7ec8094f09f76cd3b79e1fa3.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/21/f1/9e/21f19ede7ec8094f09f76cd3b79e1fa3.jpg"
+          }
+        }
+      },
+      "title": "Porta-Escova de Dentes para Banheiro Chique",
+      "dominant_color": null,
+      "description": "Porta-Escova de Dentes para Banheiro Chique ajuda a organizar o lavabo ou banheiro com acabamento elegante e visual mais bem cuidado. Destaque para cor/acabamento preto, branco. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "has_been_promoted": false,
+      "board_id": "930134197981214274",
+      "product_tags": [],
+      "created_at": "2026-07-27T13:43:27",
+      "is_owner": true,
+      "is_standard": true,
+      "is_removable": false,
+      "alt_text": "Porta-Escova de Dentes para Banheiro Chique - banheiro chique pequeno Chique Home",
+      "pin_metrics": null,
+      "id": "930134129316127239",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "is_product": false
+    }
+  },
+  {
+    "row_id": 2003,
+    "published_at": "2026-07-27T13:44:28.693Z",
+    "pin": {
+      "link": "https://chiquehome.com.br/collections/banheiro-com-cara-de-hotel?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=banheiro_planejado_2003",
+      "board_section_id": null,
+      "product_tags": [],
+      "dominant_color": null,
+      "pin_metrics": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/45/1c/cb/451ccbbf557e49c248bd7ed0622a4f76.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/45/1c/cb/451ccbbf557e49c248bd7ed0622a4f76.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/45/1c/cb/451ccbbf557e49c248bd7ed0622a4f76.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/45/1c/cb/451ccbbf557e49c248bd7ed0622a4f76.jpg"
+          }
+        }
+      },
+      "parent_pin_id": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "has_been_promoted": false,
+      "is_product": false,
+      "description": "Banheiro planejado combina praticidade e estética para um banheiro mais limpo e sofisticado. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "is_standard": true,
+      "created_at": "2026-07-27T13:44:28",
+      "board_id": "930134197981214274",
+      "id": "930134129316127256",
+      "alt_text": "Saboneteira para Banheiro Pia de Cerâmica Decoração - banheiro planejado Chique Home",
+      "creative_type": "REGULAR",
+      "is_removable": false,
+      "is_owner": true,
+      "title": "Banheiro planejado"
+    }
+  },
+  {
+    "row_id": 2004,
+    "published_at": "2026-07-27T13:45:29.661Z",
+    "pin": {
+      "product_tags": [],
+      "description": "Bandeja para Banheiro Decorativa Espelhada Organizadora ajuda a organizar melhor o espaço sem abrir mão de um visual limpo e bonito. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "pin_metrics": null,
+      "created_at": "2026-07-27T13:45:29",
+      "alt_text": "Bandeja para Banheiro Decorativa Espelhada Organizadora - banheiros modernos Chique Home",
+      "board_id": "930134197981214274",
+      "dominant_color": null,
+      "id": "930134129316127270",
+      "is_standard": true,
+      "has_been_promoted": false,
+      "board_section_id": null,
+      "parent_pin_id": null,
+      "is_removable": false,
+      "creative_type": "REGULAR",
+      "is_owner": true,
+      "title": "Bandeja para Banheiro Decorativa Espelhada Organizadora",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/00/5d/4a/005d4a4c83dedc01d7cba9ee66702c89.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/00/5d/4a/005d4a4c83dedc01d7cba9ee66702c89.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/00/5d/4a/005d4a4c83dedc01d7cba9ee66702c89.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/00/5d/4a/005d4a4c83dedc01d7cba9ee66702c89.jpg"
+          }
+        }
+      },
+      "is_product": false,
+      "link": "https://chiquehome.com.br/products/bandeja-para-banheiro-decorativa-espelhada-organizadora-decoracao?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=banheiros_modernos_2004"
+    }
+  },
+  {
+    "row_id": 2005,
+    "published_at": "2026-07-27T13:46:30.581Z",
+    "pin": {
+      "is_product": false,
+      "description": "Veja dois modelos de porta-papel higiênico de parede da mesma coleção, nos acabamentos prateado e dourado, e encontre a opção ideal para sua casa. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "board_id": "930134197981214274",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/0f/e2/78/0fe278cabcd7350c0ef48b82c7a52ddc.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/0f/e2/78/0fe278cabcd7350c0ef48b82c7a52ddc.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/0f/e2/78/0fe278cabcd7350c0ef48b82c7a52ddc.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/0f/e2/78/0fe278cabcd7350c0ef48b82c7a52ddc.jpg"
+          }
+        }
+      },
+      "id": "930134129316127300",
+      "title": "Porta-Papel Higiênico de Parede Papeleira Prateado e Dourado",
+      "parent_pin_id": null,
+      "dominant_color": null,
+      "is_owner": true,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "creative_type": "REGULAR",
+      "link": "https://chiquehome.com.br/collections/banheiro-com-cara-de-hotel?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=banheiro_chique_2005",
+      "created_at": "2026-07-27T13:46:30",
+      "product_tags": [],
+      "alt_text": "Porta-Papel Higiênico de Parede Papeleira para Banheiro Prateado - banheiro chique Chique Home",
+      "board_section_id": null,
+      "is_standard": true,
+      "is_removable": false,
+      "has_been_promoted": false,
+      "pin_metrics": null
+    }
   }
 ]
