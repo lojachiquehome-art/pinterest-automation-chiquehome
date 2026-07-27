@@ -286,18 +286,16 @@ async function renderSplitProductsPin(row) {
   const top = await sharp(first)
     .rotate()
     .resize(WIDTH, halfHeight, {
-      fit: "contain",
+      fit: "cover",
       position: "center",
-      background,
     })
     .jpeg({ quality: 92 })
     .toBuffer();
   const bottom = await sharp(second)
     .rotate()
     .resize(WIDTH, halfHeight, {
-      fit: "contain",
+      fit: "cover",
       position: "center",
-      background,
     })
     .jpeg({ quality: 92 })
     .toBuffer();
