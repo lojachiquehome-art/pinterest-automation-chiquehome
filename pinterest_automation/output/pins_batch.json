@@ -741,10 +741,7 @@
     "alt_text": "Porta-Shampoo para Banheiro Box Suporte Moderno - banheiro pequeno e luxuoso Chique Home",
     "product_title": "Porta-Shampoo para Banheiro Box Suporte Moderno",
     "product_handle": "porta-shampoo-para-banheiro-box-suporte-moderno",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2001.jpg",
-    "generated_image_path": "public/pinterest/product-originals/pin-2001.jpg",
-    "product_image_style": "product_closeup"
+    "status": "ready"
   },
   {
     "id": 2002,
@@ -768,9 +765,7 @@
     "alt_text": "Porta-Escova de Dentes para Banheiro Chique - banheiro chique pequeno Chique Home",
     "product_title": "Porta-Escova de Dentes para Banheiro Chique",
     "product_handle": "porta-escova-de-dentes-para-banheiro-chique",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2002.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-2002.jpg"
+    "status": "ready"
   },
   {
     "id": 2003,
@@ -794,9 +789,7 @@
     "alt_text": "Saboneteira para Banheiro Pia de Cerâmica Decoração - banheiro planejado Chique Home",
     "product_title": "Saboneteira para Banheiro Pia de Cerâmica Decoração",
     "product_handle": "saboneteira-para-banheiro-pia-de-ceramica-decoracao",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2003.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-2003.jpg"
+    "status": "ready"
   },
   {
     "id": 2004,
@@ -820,10 +813,7 @@
     "alt_text": "Bandeja para Banheiro Decorativa Espelhada Organizadora - banheiros modernos Chique Home",
     "product_title": "Bandeja para Banheiro Decorativa Espelhada Organizadora",
     "product_handle": "bandeja-para-banheiro-decorativa-espelhada-organizadora-decoracao",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2004.jpg",
-    "generated_image_path": "public/pinterest/product-originals/pin-2004.jpg",
-    "product_image_style": "shopify_original"
+    "status": "ready"
   },
   {
     "id": 2005,
@@ -847,9 +837,7 @@
     "alt_text": "Porta-Papel Higiênico de Parede Papeleira para Banheiro Prateado - banheiro chique Chique Home",
     "product_title": "Porta-Papel Higiênico de Parede Papeleira para Banheiro Prateado",
     "product_handle": "porta-papel-higienico-de-parede-papeleira-para-banheiro-prateado",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2005.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-2005.jpg"
+    "status": "ready"
   },
   {
     "id": 2006,
@@ -873,7 +861,10 @@
     "alt_text": "Organizador de Utensílios de Cozinha - cozinha planejada Chique Home",
     "product_title": "Organizador de Utensílios de Cozinha",
     "product_handle": "organizador-de-utensilios-de-cozinha-decoracao",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2006.jpg",
+    "generated_image_path": "public/pinterest/product-originals/pin-2006.jpg",
+    "product_image_style": "shopify_original"
   },
   {
     "id": 2007,
@@ -897,7 +888,9 @@
     "alt_text": "Porta Detergente Esponja e Bucha para Pia de Cozinha - cozinha chique Chique Home",
     "product_title": "Porta Detergente Esponja e Bucha para Pia de Cozinha",
     "product_handle": "porta-detergente-esponja-e-bucha-para-pia-de-cozinha-decoracao",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2007.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-2007.jpg"
   },
   {
     "id": 2008,
@@ -921,7 +914,9 @@
     "alt_text": "Tapete para Cozinha Antiderrapante Passadeira Moderno - cozinha gourmet Chique Home",
     "product_title": "Tapete para Cozinha Antiderrapante Passadeira Moderno",
     "product_handle": "tapete-para-cozinha-antiderrapante-passadeira-moderno",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2008.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-2008.jpg"
   },
   {
     "id": 2009,
@@ -945,7 +940,10 @@
     "alt_text": "Tapete para Cozinha Antiderrapante Absorvente Minimalista Cinza - cozinha minimalista Chique Home",
     "product_title": "Tapete para Cozinha Antiderrapante Absorvente Minimalista Cinza",
     "product_handle": "tapete-para-cozinha-antiderrapante-absorvente-minimalista-cinza",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2009.jpg",
+    "generated_image_path": "public/pinterest/product-originals/pin-2009.jpg",
+    "product_image_style": "product_closeup"
   },
   {
     "id": 2010,
@@ -969,7 +967,9 @@
     "alt_text": "Tapete para Cozinha Antiderrapante Absorvente Minimalista Preto - cozinhas modernas Chique Home",
     "product_title": "Tapete para Cozinha Antiderrapante Absorvente Minimalista Preto",
     "product_handle": "tapete-para-cozinha-antiderrapante-absorvente-minimalista-preto",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2010.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-2010.jpg"
   },
   {
     "id": 2011,
