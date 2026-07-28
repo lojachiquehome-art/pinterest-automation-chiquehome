@@ -260,24 +260,24 @@
     "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro planejado. Cenário: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organização. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Banheiro planejado\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
   },
   {
-    "id": 2012,
-    "board_name": "Relogios de parede",
-    "keyword": "sala de estar moderna",
+    "id": 2007,
+    "board_name": "Cozinha elegante",
+    "keyword": "cozinha chique",
     "visual_strategy": "product_in_environment",
-    "product_title": "Relógio de Parede Toscana Beige",
-    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Decorativo_Grande_Madeira_6.webp?v=1755914654",
-    "target_path": "public/pinterest/final/pin-2012.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala de estar moderna. Cenário: parede de sala ou cozinha com relógio decorativo grande, composição limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Relógio de Parede Toscana Beige. Sem texto grande, foco em inspirar clique para compra."
+    "product_title": "Porta Detergente Esponja e Bucha para Pia de Cozinha",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Porta_Detergente_e_Esponja_para_Pia_de_Cozinha.webp?v=1728844567",
+    "target_path": "public/pinterest/final/pin-2007.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha chique. Cenário: cozinha pequena organizada, clean, clara, armários planejados, bancada livre, potes organizadores, bandeja decorativa, tapete de cozinha discreto. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Porta Detergente Esponja e Bucha para Pia de Cozinha. Sem texto grande, foco em inspirar clique para compra."
   },
   {
-    "id": 2013,
-    "board_name": "Relogios de parede",
-    "keyword": "sala de estar de luxo",
+    "id": 2008,
+    "board_name": "Tapetes para cozinha",
+    "keyword": "cozinha gourmet",
     "visual_strategy": "environment_title_overlay",
-    "product_title": "Relógio de Parede Milano Gray",
-    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Relogio_de_Parede_para_Cozinha_Sala_Grande_Decorativo_Elegante_cinza_2.webp?v=1755049525",
-    "target_path": "public/pinterest/final/pin-2013.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala de estar de luxo. Cenário: parede de sala ou cozinha com relógio decorativo grande, composição limpa e elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Sala de estar de luxo\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+    "product_title": "Tapete para Cozinha Antiderrapante Passadeira Moderno",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Tapete_para_Cozinha_Antiderrapante_Moderno_verde_cinza_branco.webp?v=1746301954",
+    "target_path": "public/pinterest/final/pin-2008.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: cozinha gourmet. Cenário: cozinha moderna e funcional com passadeira ou tapete antiderrapante em destaque no piso, bancada organizada e luz natural. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Cozinha gourmet\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
   },
   {
     "id": 2017,

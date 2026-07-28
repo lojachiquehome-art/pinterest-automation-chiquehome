@@ -861,10 +861,7 @@
     "alt_text": "Organizador de Utensílios de Cozinha - cozinha planejada Chique Home",
     "product_title": "Organizador de Utensílios de Cozinha",
     "product_handle": "organizador-de-utensilios-de-cozinha-decoracao",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2006.jpg",
-    "generated_image_path": "public/pinterest/product-originals/pin-2006.jpg",
-    "product_image_style": "shopify_original"
+    "status": "ready"
   },
   {
     "id": 2007,
@@ -888,9 +885,7 @@
     "alt_text": "Porta Detergente Esponja e Bucha para Pia de Cozinha - cozinha chique Chique Home",
     "product_title": "Porta Detergente Esponja e Bucha para Pia de Cozinha",
     "product_handle": "porta-detergente-esponja-e-bucha-para-pia-de-cozinha-decoracao",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2007.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-2007.jpg"
+    "status": "ready"
   },
   {
     "id": 2008,
@@ -914,9 +909,7 @@
     "alt_text": "Tapete para Cozinha Antiderrapante Passadeira Moderno - cozinha gourmet Chique Home",
     "product_title": "Tapete para Cozinha Antiderrapante Passadeira Moderno",
     "product_handle": "tapete-para-cozinha-antiderrapante-passadeira-moderno",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2008.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-2008.jpg"
+    "status": "ready"
   },
   {
     "id": 2009,
@@ -940,10 +933,7 @@
     "alt_text": "Tapete para Cozinha Antiderrapante Absorvente Minimalista Cinza - cozinha minimalista Chique Home",
     "product_title": "Tapete para Cozinha Antiderrapante Absorvente Minimalista Cinza",
     "product_handle": "tapete-para-cozinha-antiderrapante-absorvente-minimalista-cinza",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2009.jpg",
-    "generated_image_path": "public/pinterest/product-originals/pin-2009.jpg",
-    "product_image_style": "product_closeup"
+    "status": "ready"
   },
   {
     "id": 2010,
@@ -967,9 +957,7 @@
     "alt_text": "Tapete para Cozinha Antiderrapante Absorvente Minimalista Preto - cozinhas modernas Chique Home",
     "product_title": "Tapete para Cozinha Antiderrapante Absorvente Minimalista Preto",
     "product_handle": "tapete-para-cozinha-antiderrapante-absorvente-minimalista-preto",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2010.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-2010.jpg"
+    "status": "ready"
   },
   {
     "id": 2011,
@@ -993,7 +981,10 @@
     "alt_text": "Relógio de Parede Aurelio Rose Black - sala de luxo Chique Home",
     "product_title": "Relógio de Parede Aurelio Rose Black",
     "product_handle": "relogio-de-parede-aurelio-rose-black",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2011.jpg",
+    "generated_image_path": "public/pinterest/product-originals/pin-2011.jpg",
+    "product_image_style": "product_closeup"
   },
   {
     "id": 2012,
@@ -1017,7 +1008,9 @@
     "alt_text": "Relógio de Parede Toscana Beige - sala de estar moderna Chique Home",
     "product_title": "Relógio de Parede Toscana Beige",
     "product_handle": "relogio-de-parede-toscana-beige",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2012.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-2012.jpg"
   },
   {
     "id": 2013,
@@ -1041,7 +1034,9 @@
     "alt_text": "Relógio de Parede Milano Gray - sala de estar de luxo Chique Home",
     "product_title": "Relógio de Parede Milano Gray",
     "product_handle": "relogio-de-parede-milano-gray",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2013.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-2013.jpg"
   },
   {
     "id": 2014,
@@ -1065,7 +1060,10 @@
     "alt_text": "Relógio de Parede Verona White - sala moderna Chique Home",
     "product_title": "Relógio de Parede Verona White",
     "product_handle": "relogio-de-parede-verona-white",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2014.jpg",
+    "generated_image_path": "public/pinterest/product-originals/pin-2014.jpg",
+    "product_image_style": "shopify_original"
   },
   {
     "id": 2015,
@@ -1089,7 +1087,9 @@
     "alt_text": "Relógio de Parede Torino Black - sala de estar elegante Chique Home",
     "product_title": "Relógio de Parede Torino Black",
     "product_handle": "relogio-de-parede-torino-black",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2015.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-2015.jpg"
   },
   {
     "id": 2016,
