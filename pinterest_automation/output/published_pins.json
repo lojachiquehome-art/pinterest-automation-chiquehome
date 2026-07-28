@@ -1972,5 +1972,265 @@
       "has_been_promoted": false,
       "pin_metrics": null
     }
+  },
+  {
+    "row_id": 2006,
+    "published_at": "2026-07-28T12:58:07.438Z",
+    "pin": {
+      "id": "930134129316160327",
+      "is_owner": true,
+      "is_standard": true,
+      "is_removable": false,
+      "created_at": "2026-07-28T12:58:07",
+      "has_been_promoted": false,
+      "description": "Organizador de Utensílios de Cozinha une organização e estética para deixar o ambiente mais funcional e agradável. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "dominant_color": null,
+      "product_tags": [],
+      "parent_pin_id": null,
+      "alt_text": "Organizador de Utensílios de Cozinha - cozinha planejada Chique Home",
+      "pin_metrics": null,
+      "board_id": "930134197981214272",
+      "board_section_id": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "link": "https://chiquehome.com.br/products/organizador-de-utensilios-de-cozinha-decoracao?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=cozinha_planejada_2006",
+      "title": "Organizador de Utensílios de Cozinha",
+      "is_product": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/52/56/13/525613a5a9d58340ba9ae995f983956d.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/52/56/13/525613a5a9d58340ba9ae995f983956d.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/52/56/13/525613a5a9d58340ba9ae995f983956d.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/52/56/13/525613a5a9d58340ba9ae995f983956d.jpg"
+          }
+        }
+      },
+      "creative_type": "REGULAR"
+    }
+  },
+  {
+    "row_id": 2007,
+    "published_at": "2026-07-28T12:59:08.429Z",
+    "pin": {
+      "creative_type": "REGULAR",
+      "is_product": false,
+      "description": "Porta Detergente Esponja e Bucha para Pia de Cozinha mantém a pia e a bancada mais organizadas, com visual limpo e funcional para a rotina da cozinha. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "product_tags": [],
+      "dominant_color": null,
+      "board_id": "930134197981214272",
+      "is_standard": true,
+      "has_been_promoted": false,
+      "created_at": "2026-07-28T12:59:08",
+      "title": "Porta Detergente Esponja e Bucha para Pia de Cozinha",
+      "is_owner": true,
+      "pin_metrics": null,
+      "is_removable": false,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "link": "https://chiquehome.com.br/products/porta-detergente-esponja-e-bucha-para-pia-de-cozinha-decoracao?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=cozinha_chique_2007",
+      "alt_text": "Porta Detergente Esponja e Bucha para Pia de Cozinha - cozinha chique Chique Home",
+      "id": "930134129316160351",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/8d/36/fc/8d36fcf66605b90a2b24fc4a9b627620.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/8d/36/fc/8d36fcf66605b90a2b24fc4a9b627620.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/8d/36/fc/8d36fcf66605b90a2b24fc4a9b627620.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/8d/36/fc/8d36fcf66605b90a2b24fc4a9b627620.jpg"
+          }
+        }
+      },
+      "board_section_id": null,
+      "parent_pin_id": null
+    }
+  },
+  {
+    "row_id": 2008,
+    "published_at": "2026-07-28T13:00:09.325Z",
+    "pin": {
+      "is_standard": true,
+      "product_tags": [],
+      "description": "Ideia de cozinha gourmet para deixar a cozinha mais confortável, organizada e visualmente bem resolvida. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "link": "https://chiquehome.com.br/collections/tapetes-para-cozinha?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=cozinha_gourmet_2008",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/70/bb/f9/70bbf93c7fa5b152acd3ab350e6d3d2a.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/70/bb/f9/70bbf93c7fa5b152acd3ab350e6d3d2a.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/70/bb/f9/70bbf93c7fa5b152acd3ab350e6d3d2a.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/70/bb/f9/70bbf93c7fa5b152acd3ab350e6d3d2a.jpg"
+          }
+        }
+      },
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "is_removable": false,
+      "id": "930134129316160376",
+      "board_section_id": null,
+      "parent_pin_id": null,
+      "has_been_promoted": false,
+      "dominant_color": null,
+      "creative_type": "REGULAR",
+      "title": "Cozinha gourmet",
+      "board_id": "930134197981214273",
+      "is_owner": true,
+      "alt_text": "Tapete para Cozinha Antiderrapante Passadeira Moderno - cozinha gourmet Chique Home",
+      "is_product": false,
+      "pin_metrics": null,
+      "created_at": "2026-07-28T13:00:09"
+    }
+  },
+  {
+    "row_id": 2009,
+    "published_at": "2026-07-28T13:01:10.222Z",
+    "pin": {
+      "alt_text": "Tapete para Cozinha Antiderrapante Absorvente Minimalista Cinza - cozinha minimalista Chique Home",
+      "creative_type": "REGULAR",
+      "is_removable": false,
+      "board_section_id": null,
+      "id": "930134129316160401",
+      "product_tags": [],
+      "pin_metrics": null,
+      "parent_pin_id": null,
+      "title": "Tapete para Cozinha Antiderrapante Absorvente Minimalista Cinza",
+      "has_been_promoted": false,
+      "is_standard": true,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/c7/54/3f/c7543ff76658177350f7a4edc4b37df2.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/c7/54/3f/c7543ff76658177350f7a4edc4b37df2.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/c7/54/3f/c7543ff76658177350f7a4edc4b37df2.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/c7/54/3f/c7543ff76658177350f7a4edc4b37df2.jpg"
+          }
+        }
+      },
+      "board_id": "930134197981214273",
+      "link": "https://chiquehome.com.br/products/tapete-para-cozinha-antiderrapante-absorvente-minimalista-cinza?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=cozinha_minimalista_2009",
+      "is_product": false,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "dominant_color": null,
+      "created_at": "2026-07-28T13:01:09",
+      "is_owner": true,
+      "description": "Tapete para Cozinha Antiderrapante Absorvente Minimalista Cinza ajuda a compor uma cozinha mais bonita e funcional, com presença discreta no piso. Destaque para cor/acabamento cinza/ciano. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest."
+    }
+  },
+  {
+    "row_id": 2010,
+    "published_at": "2026-07-28T13:02:11.227Z",
+    "pin": {
+      "link": "https://chiquehome.com.br/collections/tapetes-para-cozinha?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=cozinhas_modernas_2010",
+      "board_id": "930134197981214273",
+      "is_product": false,
+      "description": "Compare duas opções de tapete para cozinha antiderrapante absorvente nas cores preto e bege areia para escolher o acabamento que combina melhor com o seu ambiente. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "alt_text": "Tapete para Cozinha Antiderrapante Absorvente Minimalista Preto - cozinhas modernas Chique Home",
+      "dominant_color": null,
+      "id": "930134129316160430",
+      "is_standard": true,
+      "parent_pin_id": null,
+      "creative_type": "REGULAR",
+      "board_section_id": null,
+      "pin_metrics": null,
+      "is_removable": false,
+      "created_at": "2026-07-28T13:02:10",
+      "has_been_promoted": false,
+      "title": "Tapete para Cozinha Antiderrapante Absorvente Preto e Bege Areia",
+      "is_owner": true,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/b8/a3/9c/b8a39c28fea3c3a4cecd988e4f8e45da.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/b8/a3/9c/b8a39c28fea3c3a4cecd988e4f8e45da.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/b8/a3/9c/b8a39c28fea3c3a4cecd988e4f8e45da.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/b8/a3/9c/b8a39c28fea3c3a4cecd988e4f8e45da.jpg"
+          }
+        }
+      },
+      "product_tags": [],
+      "board_owner": {
+        "username": "chiquehome"
+      }
+    }
   }
 ]
