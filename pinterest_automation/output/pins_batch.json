@@ -981,10 +981,7 @@
     "alt_text": "Relógio de Parede Aurelio Rose Black - sala de luxo Chique Home",
     "product_title": "Relógio de Parede Aurelio Rose Black",
     "product_handle": "relogio-de-parede-aurelio-rose-black",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2011.jpg",
-    "generated_image_path": "public/pinterest/product-originals/pin-2011.jpg",
-    "product_image_style": "product_closeup"
+    "status": "ready"
   },
   {
     "id": 2012,
@@ -1008,9 +1005,7 @@
     "alt_text": "Relógio de Parede Toscana Beige - sala de estar moderna Chique Home",
     "product_title": "Relógio de Parede Toscana Beige",
     "product_handle": "relogio-de-parede-toscana-beige",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2012.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-2012.jpg"
+    "status": "ready"
   },
   {
     "id": 2013,
@@ -1034,9 +1029,7 @@
     "alt_text": "Relógio de Parede Milano Gray - sala de estar de luxo Chique Home",
     "product_title": "Relógio de Parede Milano Gray",
     "product_handle": "relogio-de-parede-milano-gray",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2013.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-2013.jpg"
+    "status": "ready"
   },
   {
     "id": 2014,
@@ -1060,10 +1053,7 @@
     "alt_text": "Relógio de Parede Verona White - sala moderna Chique Home",
     "product_title": "Relógio de Parede Verona White",
     "product_handle": "relogio-de-parede-verona-white",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2014.jpg",
-    "generated_image_path": "public/pinterest/product-originals/pin-2014.jpg",
-    "product_image_style": "shopify_original"
+    "status": "ready"
   },
   {
     "id": 2015,
@@ -1087,9 +1077,7 @@
     "alt_text": "Relógio de Parede Torino Black - sala de estar elegante Chique Home",
     "product_title": "Relógio de Parede Torino Black",
     "product_handle": "relogio-de-parede-torino-black",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2015.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-2015.jpg"
+    "status": "ready"
   },
   {
     "id": 2016,
@@ -1113,7 +1101,10 @@
     "alt_text": "Relógio Digital de Mesa Despertador Decorativo Bege - quarto casal elegante Chique Home",
     "product_title": "Relógio Digital de Mesa Despertador Decorativo Bege",
     "product_handle": "relogio-digital-de-mesa-despertador-decorativo-bege",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2016.jpg",
+    "generated_image_path": "public/pinterest/product-originals/pin-2016.jpg",
+    "product_image_style": "shopify_original"
   },
   {
     "id": 2017,
@@ -1137,7 +1128,9 @@
     "alt_text": "Relógio de Mesa Digital Despertador Espelhado Prateado - quarto aconchegante Chique Home",
     "product_title": "Relógio de Mesa Digital Despertador Espelhado Prateado",
     "product_handle": "relogio-de-mesa-digital-despertador-espelhado-prateado",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2017.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-2017.jpg"
   },
   {
     "id": 2018,
@@ -1161,7 +1154,9 @@
     "alt_text": "Relógio de Mesa Digital Despertador Curvado Preto - quarto de casal Chique Home",
     "product_title": "Relógio de Mesa Digital Despertador Curvado Preto",
     "product_handle": "relogio-de-mesa-digital-despertador-curvado-preto",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2018.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-2018.jpg"
   },
   {
     "id": 2019,
@@ -1185,7 +1180,10 @@
     "alt_text": "Relógio de Mesa Digital Despertador Cabeceira Branco - quarto casal aconchegante Chique Home",
     "product_title": "Relógio de Mesa Digital Despertador Cabeceira Branco",
     "product_handle": "relogio-de-mesa-digital-despertador-cabeceira-branco",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2019.jpg",
+    "generated_image_path": "public/pinterest/product-originals/pin-2019.jpg",
+    "product_image_style": "product_closeup"
   },
   {
     "id": 2020,
@@ -1209,7 +1207,9 @@
     "alt_text": "Relógio de Mesa Digital Despertador Mini Bege - quarto casal pequeno Chique Home",
     "product_title": "Relógio de Mesa Digital Despertador Mini Bege",
     "product_handle": "relogio-de-mesa-digital-despertador-mini-bege",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2020.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-2020.jpg"
   },
   {
     "id": 2021,

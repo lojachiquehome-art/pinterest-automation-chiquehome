@@ -3,39 +3,39 @@
   "baseUrl": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest",
   "rendered": [
     {
-      "id": 2011,
-      "keyword": "sala de luxo",
+      "id": 2016,
+      "keyword": "quarto casal elegante",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-2011.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2011.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-2016.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2016.jpg"
     },
     {
-      "id": 2012,
-      "keyword": "sala de estar moderna",
+      "id": 2017,
+      "keyword": "quarto aconchegante",
       "visual_strategy": "product_in_environment",
-      "generated_image_path": "public/pinterest/generated/pin-2012.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2012.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-2017.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2017.jpg"
     },
     {
-      "id": 2013,
-      "keyword": "sala de estar de luxo",
+      "id": 2018,
+      "keyword": "quarto de casal",
       "visual_strategy": "environment_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-2013.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2013.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-2018.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2018.jpg"
     },
     {
-      "id": 2014,
-      "keyword": "sala moderna",
+      "id": 2019,
+      "keyword": "quarto casal aconchegante",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-2014.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2014.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-2019.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2019.jpg"
     },
     {
-      "id": 2015,
-      "keyword": "sala de estar elegante",
+      "id": 2020,
+      "keyword": "quarto casal pequeno",
       "visual_strategy": "split_two_products",
-      "generated_image_path": "public/pinterest/generated/pin-2015.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2015.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-2020.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2020.jpg"
     }
   ],
   "needsAi": []
