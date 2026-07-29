@@ -2232,5 +2232,265 @@
         "username": "chiquehome"
       }
     }
+  },
+  {
+    "row_id": 2011,
+    "published_at": "2026-07-29T13:05:25.198Z",
+    "pin": {
+      "board_id": "930134197981214276",
+      "is_standard": true,
+      "parent_pin_id": null,
+      "pin_metrics": null,
+      "created_at": "2026-07-29T13:05:24",
+      "is_product": false,
+      "creative_type": "REGULAR",
+      "has_been_promoted": false,
+      "is_removable": false,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "title": "Relógio de Parede Aurelio Rose Black",
+      "alt_text": "Relógio de Parede Aurelio Rose Black - sala de luxo Chique Home",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/62/db/3e/62db3e3ccbd7b14956fa6d2f8097b3a8.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/62/db/3e/62db3e3ccbd7b14956fa6d2f8097b3a8.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/62/db/3e/62db3e3ccbd7b14956fa6d2f8097b3a8.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/62/db/3e/62db3e3ccbd7b14956fa6d2f8097b3a8.jpg"
+          }
+        }
+      },
+      "id": "930134129316196665",
+      "is_owner": true,
+      "product_tags": [],
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-aurelio-rose-black?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=sala_de_luxo_2011",
+      "description": "Relógio de Parede Aurelio Rose Black funciona como peça decorativa e utilitária para dar acabamento à parede sem exagero visual. Destaque para cor/acabamento preto. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "dominant_color": null,
+      "board_section_id": null
+    }
+  },
+  {
+    "row_id": 2012,
+    "published_at": "2026-07-29T13:06:26.188Z",
+    "pin": {
+      "is_removable": false,
+      "is_product": false,
+      "is_standard": true,
+      "alt_text": "Relógio de Parede Toscana Beige - sala de estar moderna Chique Home",
+      "is_owner": true,
+      "title": "Relógio de Parede Toscana Beige",
+      "creative_type": "REGULAR",
+      "id": "930134129316196688",
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-toscana-beige?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=sala_de_estar_moderna_2012",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "board_id": "930134197981214276",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/bf/40/27/bf402736e488ee1702c1823c40da824d.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/bf/40/27/bf402736e488ee1702c1823c40da824d.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/bf/40/27/bf402736e488ee1702c1823c40da824d.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/bf/40/27/bf402736e488ee1702c1823c40da824d.jpg"
+          }
+        }
+      },
+      "product_tags": [],
+      "description": "Relógio de Parede Toscana Beige deixa a parede mais interessante e ajuda a completar uma composição elegante no ambiente. Destaque para cor/acabamento bege. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "has_been_promoted": false,
+      "pin_metrics": null,
+      "parent_pin_id": null,
+      "dominant_color": null,
+      "board_section_id": null,
+      "created_at": "2026-07-29T13:06:25"
+    }
+  },
+  {
+    "row_id": 2013,
+    "published_at": "2026-07-29T13:07:27.105Z",
+    "pin": {
+      "title": "Sala de estar de luxo",
+      "pin_metrics": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/28/dd/66/28dd66f46b8556db7e485d26151aea4a.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/28/dd/66/28dd66f46b8556db7e485d26151aea4a.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/28/dd/66/28dd66f46b8556db7e485d26151aea4a.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/28/dd/66/28dd66f46b8556db7e485d26151aea4a.jpg"
+          }
+        }
+      },
+      "parent_pin_id": null,
+      "board_id": "930134197981214276",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "dominant_color": null,
+      "board_section_id": null,
+      "description": "Inspiração de sala de estar de luxo para compor uma sala mais acolhedora, sofisticada e pronta para receber bem. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "created_at": "2026-07-29T13:07:26",
+      "has_been_promoted": false,
+      "is_removable": false,
+      "alt_text": "Relógio de Parede Milano Gray - sala de estar de luxo Chique Home",
+      "id": "930134129316196702",
+      "product_tags": [],
+      "is_product": false,
+      "creative_type": "REGULAR",
+      "link": "https://chiquehome.com.br/collections/relogios-de-parede?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=sala_de_estar_de_luxo_2013",
+      "is_owner": true,
+      "is_standard": true
+    }
+  },
+  {
+    "row_id": 2014,
+    "published_at": "2026-07-29T13:08:28.221Z",
+    "pin": {
+      "has_been_promoted": false,
+      "is_owner": true,
+      "is_removable": false,
+      "created_at": "2026-07-29T13:08:27",
+      "alt_text": "Relógio de Parede Verona White - sala moderna Chique Home",
+      "creative_type": "REGULAR",
+      "is_product": false,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "board_id": "930134197981214276",
+      "parent_pin_id": null,
+      "description": "Relógio de Parede Verona White funciona como peça decorativa e utilitária para dar acabamento à parede sem exagero visual. Destaque para cor/acabamento branco. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "id": "930134129316196723",
+      "is_standard": true,
+      "pin_metrics": null,
+      "product_tags": [],
+      "dominant_color": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/13/ea/29/13ea2962f236e36e46552df66a860a95.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/13/ea/29/13ea2962f236e36e46552df66a860a95.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/13/ea/29/13ea2962f236e36e46552df66a860a95.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/13/ea/29/13ea2962f236e36e46552df66a860a95.jpg"
+          }
+        }
+      },
+      "title": "Relógio de Parede Verona White",
+      "board_section_id": null,
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-verona-white?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=sala_moderna_2014"
+    }
+  },
+  {
+    "row_id": 2015,
+    "published_at": "2026-07-29T13:09:29.598Z",
+    "pin": {
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "board_section_id": null,
+      "parent_pin_id": null,
+      "created_at": "2026-07-29T13:09:28",
+      "pin_metrics": null,
+      "is_removable": false,
+      "product_tags": [],
+      "has_been_promoted": false,
+      "creative_type": "REGULAR",
+      "board_id": "930134197981214276",
+      "description": "Uma seleção com duas opções de relógio de parede nos modelos Torino Black e Cremona Cream Wood, pensada para facilitar a escolha de um visual mais sofisticado. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "alt_text": "Relógio de Parede Torino Black - sala de estar elegante Chique Home",
+      "link": "https://chiquehome.com.br/collections/relogios-de-parede?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=sala_de_estar_elegante_2015",
+      "dominant_color": null,
+      "is_owner": true,
+      "title": "Relógio de Parede Torino Black e Cremona Cream Wood",
+      "is_standard": true,
+      "is_product": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/c6/48/7a/c6487aa4fab13cb77043d82e5ddd1de6.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/c6/48/7a/c6487aa4fab13cb77043d82e5ddd1de6.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/c6/48/7a/c6487aa4fab13cb77043d82e5ddd1de6.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/c6/48/7a/c6487aa4fab13cb77043d82e5ddd1de6.jpg"
+          }
+        }
+      },
+      "id": "930134129316196737"
+    }
   }
 ]
