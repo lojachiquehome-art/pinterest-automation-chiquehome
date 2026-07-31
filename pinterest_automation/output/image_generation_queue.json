@@ -320,24 +320,24 @@
     "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: quarto de casal. Cenário: quarto de casal pequeno decorado, mesa de cabeceira organizada, relógio digital e tons neutros. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Quarto de casal\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
   },
   {
-    "id": 2027,
-    "board_name": "Sala sofisticada",
-    "keyword": "sala de jantar elegante",
+    "id": 2022,
+    "board_name": "Escritório em casa",
+    "keyword": "escritório elegante",
     "visual_strategy": "product_in_environment",
-    "product_title": "Escultura Decorativa O Leitor Estatueta",
-    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Escultura_Decorativa_O_Leitor_Estatueta_Decoracao_branca.webp?v=1767988605",
-    "target_path": "public/pinterest/final/pin-2027.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala de jantar elegante. Cenário: sala de estar sofisticada, sofá neutro, almofadas decorativas, relógio de parede e decoração elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Escultura Decorativa O Leitor Estatueta. Sem texto grande, foco em inspirar clique para compra."
+    "product_title": "Luminária de Mesa LED Touch para Quarto Sala",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Abajur_Luminaria_de_Mesa_LED_Touch_para_Quarto_Sala_branca.png?v=1744942658",
+    "target_path": "public/pinterest/final/pin-2022.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: escritório elegante. Cenário: home office organizado, mesa clara, luminária, porta-canetas e pequenos objetos decorativos. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Luminária de Mesa LED Touch para Quarto Sala. Sem texto grande, foco em inspirar clique para compra."
   },
   {
-    "id": 2028,
-    "board_name": "Sala sofisticada",
-    "keyword": "sala de estar elegante",
+    "id": 2023,
+    "board_name": "Escritório em casa",
+    "keyword": "escritório moderno",
     "visual_strategy": "environment_title_overlay",
-    "product_title": "Capa de Almofada 45x45 para Sofá Horse Decorativa de Luxo",
-    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Capa_de_Almofada_45x45_para_Sofa_Decorativa_de_Luxo_Horse.webp?v=1749410097",
-    "target_path": "public/pinterest/final/pin-2028.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala de estar elegante. Cenário: sala de estar sofisticada, sofá neutro, almofadas decorativas, relógio de parede e decoração elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Sala de estar elegante\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+    "product_title": "Arandela de Parede Interna para Quarto Sala Dourada LED Pássaro",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Arandela_de_Parede_Interna_para_Quarto_Sala_Dourada_LED_Passaro.webp?v=1781180308",
+    "target_path": "public/pinterest/final/pin-2023.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: escritório moderno. Cenário: home office organizado, mesa clara, luminária, porta-canetas e pequenos objetos decorativos. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Escritório moderno\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
   },
   {
     "id": 2032,
