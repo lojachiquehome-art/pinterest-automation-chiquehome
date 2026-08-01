@@ -1341,10 +1341,7 @@
     "alt_text": "Livro Caixa Decorativo Falso Moderno - sala de estar chique Chique Home",
     "product_title": "Livro Caixa Decorativo Falso Moderno - Decoração",
     "product_handle": "livro-caixa-decorativo-falso-moderno-decoracao-sala",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2026.jpg",
-    "generated_image_path": "public/pinterest/product-originals/pin-2026.jpg",
-    "product_image_style": "shopify_original"
+    "status": "ready"
   },
   {
     "id": 2027,
@@ -1368,9 +1365,7 @@
     "alt_text": "Escultura Decorativa O Leitor Estatueta - sala de jantar elegante Chique Home",
     "product_title": "Escultura Decorativa O Leitor Estatueta",
     "product_handle": "escultura-decorativa-o-leitor-estatueta-decoracao-para-sala",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2027.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-2027.jpg"
+    "status": "ready"
   },
   {
     "id": 2028,
@@ -1394,9 +1389,7 @@
     "alt_text": "Capa de Almofada 45x45 para Sofá Horse Decorativa de Luxo - sala de estar elegante Chique Home",
     "product_title": "Capa de Almofada 45x45 para Sofá Horse Decorativa de Luxo",
     "product_handle": "capa-de-almofada-45x45-para-sofa-horse-decorativa-de-luxo",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2028.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-2028.jpg"
+    "status": "ready"
   },
   {
     "id": 2029,
@@ -1420,10 +1413,7 @@
     "alt_text": "Capa de Almofada 45x45 para Sofá Listrada Lisa Decorativa - sala de estar contemporânea Chique Home",
     "product_title": "Capa de Almofada 45x45 para Sofá Listrada Lisa Decorativa",
     "product_handle": "capa-de-almofada-45x45-para-sofa-listrada-lisa-decorativa",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2029.jpg",
-    "generated_image_path": "public/pinterest/product-originals/pin-2029.jpg",
-    "product_image_style": "product_closeup"
+    "status": "ready"
   },
   {
     "id": 2030,
@@ -1447,9 +1437,7 @@
     "alt_text": "Vaso Decorativo para Sala de Flor Nordic para Mesa - sala de jantar de luxo Chique Home",
     "product_title": "Vaso Decorativo para Sala de Flor Nordic para Mesa",
     "product_handle": "vaso-decorativo-para-sala-de-flor-nordic-para-mesa-decoracao",
-    "status": "ready",
-    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2030.jpg",
-    "generated_image_path": "public/pinterest/generated/pin-2030.jpg"
+    "status": "ready"
   },
   {
     "id": 2031,
@@ -1473,7 +1461,10 @@
     "alt_text": "Organizador de Roupas Dobrável para Guarda-Roupa - closet planejado Chique Home",
     "product_title": "Organizador de Roupas Dobrável para Guarda-Roupa",
     "product_handle": "organizador-de-roupas-dobravel-para-guarda-roupa",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2031.jpg",
+    "generated_image_path": "public/pinterest/product-originals/pin-2031.jpg",
+    "product_image_style": "product_closeup"
   },
   {
     "id": 2032,
@@ -1497,7 +1488,9 @@
     "alt_text": "Organizador de Bolsas em Acrílico com Divisórias - closets de luxo Chique Home",
     "product_title": "Organizador de Bolsas em Acrílico com Divisórias",
     "product_handle": "organizador-de-bolsas-em-acrilico-com-divisorias-p-3-bolsas-chique-home",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2032.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-2032.jpg"
   },
   {
     "id": 2033,
@@ -1521,7 +1514,9 @@
     "alt_text": "Organizador de Sapatos Ajustavel com Camada Dupla - closets modernos Chique Home",
     "product_title": "Organizador de Sapatos Ajustavel com Camada Dupla",
     "product_handle": "organizador-de-sapatos-ajustavel-com-camada-dupla-compre-4-e-leve-6-ganhe-2-de-brinde",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2033.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-2033.jpg"
   },
   {
     "id": 2034,
@@ -1545,7 +1540,10 @@
     "alt_text": "Bandeja Organizadora Decorativa para Cozinha Redonda Giratória - closet feminino Chique Home",
     "product_title": "Bandeja Organizadora Decorativa para Cozinha Redonda Giratória",
     "product_handle": "bandeja-redonda-giratoria-para-organizar-cozinha-banheiro",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2034.jpg",
+    "generated_image_path": "public/pinterest/product-originals/pin-2034.jpg",
+    "product_image_style": "shopify_original"
   },
   {
     "id": 2035,
@@ -1569,7 +1567,9 @@
     "alt_text": "Organizador de Maquiagem Porta Pincel em Acrílico Giratório - closet aberto Chique Home",
     "product_title": "Organizador de Maquiagem Porta Pincel em Acrílico Giratório",
     "product_handle": "organizador-de-maquiagem-porta-pincel-em-acrilico-giratorio",
-    "status": "ready"
+    "status": "ready",
+    "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2035.jpg",
+    "generated_image_path": "public/pinterest/generated/pin-2035.jpg"
   },
   {
     "id": 2036,

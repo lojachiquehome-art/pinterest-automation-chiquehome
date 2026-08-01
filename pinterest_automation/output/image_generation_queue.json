@@ -340,24 +340,24 @@
     "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: escritório moderno. Cenário: home office organizado, mesa clara, luminária, porta-canetas e pequenos objetos decorativos. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Escritório moderno\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
   },
   {
-    "id": 2032,
-    "board_name": "Organização e prateleiras",
-    "keyword": "closets de luxo",
+    "id": 2027,
+    "board_name": "Sala sofisticada",
+    "keyword": "sala de jantar elegante",
     "visual_strategy": "product_in_environment",
-    "product_title": "Organizador de Bolsas em Acrílico com Divisórias",
-    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Bolsas_em_Acrilico_Com_Divisorias.webp?v=1729258170",
-    "target_path": "public/pinterest/final/pin-2032.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: closets de luxo. Cenário: prateleiras organizadas com potes, caixas e objetos de decoração em ambiente pequeno. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Organizador de Bolsas em Acrílico com Divisórias. Sem texto grande, foco em inspirar clique para compra."
+    "product_title": "Escultura Decorativa O Leitor Estatueta",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Escultura_Decorativa_O_Leitor_Estatueta_Decoracao_branca.webp?v=1767988605",
+    "target_path": "public/pinterest/final/pin-2027.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala de jantar elegante. Cenário: sala de estar sofisticada, sofá neutro, almofadas decorativas, relógio de parede e decoração elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Escultura Decorativa O Leitor Estatueta. Sem texto grande, foco em inspirar clique para compra."
   },
   {
-    "id": 2033,
-    "board_name": "Organização e prateleiras",
-    "keyword": "closets modernos",
+    "id": 2028,
+    "board_name": "Sala sofisticada",
+    "keyword": "sala de estar elegante",
     "visual_strategy": "environment_title_overlay",
-    "product_title": "Organizador de Sapatos Ajustavel com Camada Dupla",
-    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_Sapatos_Calcados_Ajustavel.webp?v=1754403241",
-    "target_path": "public/pinterest/final/pin-2033.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: closets modernos. Cenário: prateleiras organizadas com potes, caixas e objetos de decoração em ambiente pequeno. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Closets modernos\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
+    "product_title": "Capa de Almofada 45x45 para Sofá Horse Decorativa de Luxo",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Capa_de_Almofada_45x45_para_Sofa_Decorativa_de_Luxo_Horse.webp?v=1749410097",
+    "target_path": "public/pinterest/final/pin-2028.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala de estar elegante. Cenário: sala de estar sofisticada, sofá neutro, almofadas decorativas, relógio de parede e decoração elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Sala de estar elegante\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
   },
   {
     "id": 2038,

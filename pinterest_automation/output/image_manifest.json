@@ -3,39 +3,39 @@
   "baseUrl": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest",
   "rendered": [
     {
-      "id": 2026,
-      "keyword": "sala de estar chique",
+      "id": 2031,
+      "keyword": "closet planejado",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-2026.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2026.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-2031.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2031.jpg"
     },
     {
-      "id": 2027,
-      "keyword": "sala de jantar elegante",
+      "id": 2032,
+      "keyword": "closets de luxo",
       "visual_strategy": "product_in_environment",
-      "generated_image_path": "public/pinterest/generated/pin-2027.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2027.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-2032.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2032.jpg"
     },
     {
-      "id": 2028,
-      "keyword": "sala de estar elegante",
+      "id": 2033,
+      "keyword": "closets modernos",
       "visual_strategy": "environment_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-2028.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2028.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-2033.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2033.jpg"
     },
     {
-      "id": 2029,
-      "keyword": "sala de estar contemporânea",
+      "id": 2034,
+      "keyword": "closet feminino",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-2029.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2029.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-2034.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2034.jpg"
     },
     {
-      "id": 2030,
-      "keyword": "sala de jantar de luxo",
+      "id": 2035,
+      "keyword": "closet aberto",
       "visual_strategy": "split_two_products",
-      "generated_image_path": "public/pinterest/generated/pin-2030.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2030.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-2035.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2035.jpg"
     }
   ],
   "needsAi": []
