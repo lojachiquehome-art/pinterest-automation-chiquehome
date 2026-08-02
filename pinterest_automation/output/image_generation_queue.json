@@ -360,34 +360,24 @@
     "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: sala de estar elegante. Cenário: sala de estar sofisticada, sofá neutro, almofadas decorativas, relógio de parede e decoração elegante. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Sala de estar elegante\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
   },
   {
-    "id": 2038,
-    "board_name": "Banheiro organizado",
-    "keyword": "banheiro pequeno organizado",
-    "visual_strategy": "environment_title_overlay",
-    "product_title": "Porta-Papel Higiênico de Parede Moderno Duplo para Banheiro - Preto",
-    "product_image_url": "https://chiquehome.com.br/cdn/shop/files/porta-papel-higienico-de-parede-para-banheiro-moderno-duplo-preto-detalhe_b1ef1b65-37fb-4c5b-bc3d-e9cba60dce50.jpg?v=1783619178",
-    "target_path": "public/pinterest/final/pin-2038.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro pequeno organizado. Cenário: banheiro organizado com suporte de parede, nichos, porta-shampoo no box e poucos objetos aparentes. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Banheiro pequeno organizado\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
-  },
-  {
-    "id": 2039,
-    "board_name": "Banheiro com cara de hotel",
-    "keyword": "banheiro com cara de hotel",
+    "id": 2032,
+    "board_name": "Organização e prateleiras",
+    "keyword": "closets de luxo",
     "visual_strategy": "product_in_environment",
-    "product_title": "Porta-Papel Higiênico de Parede Moderno Duplo para Banheiro - Preto",
-    "product_image_url": "https://chiquehome.com.br/cdn/shop/files/porta-papel-higienico-de-parede-para-banheiro-moderno-duplo-preto-detalhe_b1ef1b65-37fb-4c5b-bc3d-e9cba60dce50.jpg?v=1783619178",
-    "target_path": "public/pinterest/final/pin-2039.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro com cara de hotel. Cenário: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organização. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Porta-Papel Higiênico de Parede Moderno Duplo para Banheiro. Sem texto grande, foco em inspirar clique para compra."
+    "product_title": "Organizador de Bolsas em Acrílico com Divisórias",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_de_Bolsas_em_Acrilico_Com_Divisorias.webp?v=1729258170",
+    "target_path": "public/pinterest/final/pin-2032.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: closets de luxo. Cenário: prateleiras organizadas com potes, caixas e objetos de decoração em ambiente pequeno. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Aplicar visualmente o produto da Shopify em outro ambiente realista de forma natural. Produto: Organizador de Bolsas em Acrílico com Divisórias. Sem texto grande, foco em inspirar clique para compra."
   },
   {
-    "id": 2040,
-    "board_name": "Banheiro com cara de hotel",
-    "keyword": "banheiro decorado",
-    "visual_strategy": "listicle_idea_overlay",
-    "product_title": "Porta-Papel Higiênico de Parede Moderno Duplo para Banheiro - Preto",
-    "product_image_url": "https://chiquehome.com.br/cdn/shop/files/porta-papel-higienico-de-parede-para-banheiro-moderno-duplo-preto-detalhe_b1ef1b65-37fb-4c5b-bc3d-e9cba60dce50.jpg?v=1783619178",
-    "target_path": "public/pinterest/final/pin-2040.png",
-    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: banheiro decorado. Cenário: banheiro pequeno sofisticado com metais modernos, parede clara, bancada limpa e detalhe elegante de organização. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar imagem com produto ou ambiente em destaque, visual premium realista e clicável. Produto relacionado: Porta-Papel Higiênico de Parede Moderno Duplo para Banheiro."
+    "id": 2033,
+    "board_name": "Organização e prateleiras",
+    "keyword": "closets modernos",
+    "visual_strategy": "environment_title_overlay",
+    "product_title": "Organizador de Sapatos Ajustavel com Camada Dupla",
+    "product_image_url": "https://cdn.shopify.com/s/files/1/0864/2432/2353/files/Organizador_Sapatos_Calcados_Ajustavel.webp?v=1754403241",
+    "target_path": "public/pinterest/final/pin-2033.png",
+    "prompt": "Pinterest Pin vertical 2:3, imagem bonita full-bleed, sem card, sem borda, estilo foto premium realista. Tema: closets modernos. Cenário: prateleiras organizadas com potes, caixas e objetos de decoração em ambiente pequeno. Usar paleta Chique Home: off-white, bege, madeira clara, taupe suave, preto fosco, luz quente, visual premium brasileiro. Criar cenário bonito com título centralizado, curto e clicável em português: \"Closets modernos\". Texto elegante, alto contraste, estilo Pinterest Brasil, sem poluir. Cupom PINTEREST10 pequeno no canto inferior."
   },
   {
     "id": 2041,

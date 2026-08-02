@@ -3,39 +3,39 @@
   "baseUrl": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest",
   "rendered": [
     {
-      "id": 2031,
-      "keyword": "closet planejado",
+      "id": 2036,
+      "keyword": "porta papel higienico de parede",
       "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-2031.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2031.jpg"
+      "generated_image_path": "public/pinterest/product-originals/pin-2036.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2036.jpg"
     },
     {
-      "id": 2032,
-      "keyword": "closets de luxo",
-      "visual_strategy": "product_in_environment",
-      "generated_image_path": "public/pinterest/generated/pin-2032.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2032.jpg"
+      "id": 2037,
+      "keyword": "porta papel banheiro moderno",
+      "visual_strategy": "product_full_bleed",
+      "generated_image_path": "public/pinterest/product-originals/pin-2037.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2037.jpg"
     },
     {
-      "id": 2033,
-      "keyword": "closets modernos",
+      "id": 2038,
+      "keyword": "banheiro pequeno organizado",
       "visual_strategy": "environment_title_overlay",
-      "generated_image_path": "public/pinterest/generated/pin-2033.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2033.jpg"
+      "generated_image_path": "public/pinterest/generated/pin-2038.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2038.jpg"
     },
     {
-      "id": 2034,
-      "keyword": "closet feminino",
-      "visual_strategy": "product_full_bleed",
-      "generated_image_path": "public/pinterest/product-originals/pin-2034.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-2034.jpg"
+      "id": 2039,
+      "keyword": "banheiro com cara de hotel",
+      "visual_strategy": "product_in_environment",
+      "generated_image_path": "public/pinterest/generated/pin-2039.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2039.jpg"
     },
     {
-      "id": 2035,
-      "keyword": "closet aberto",
-      "visual_strategy": "split_two_products",
-      "generated_image_path": "public/pinterest/generated/pin-2035.jpg",
-      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2035.jpg"
+      "id": 2040,
+      "keyword": "banheiro decorado",
+      "visual_strategy": "listicle_idea_overlay",
+      "generated_image_path": "public/pinterest/generated/pin-2040.jpg",
+      "generated_image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-2040.jpg"
     }
   ],
   "needsAi": []
