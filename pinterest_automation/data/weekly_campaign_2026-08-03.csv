@@ -1,0 +1,36 @@
+id,date,board_name,keyword,product_handle,visual_strategy,product_2_handle
+3001,2026-08-03,Banheiro com cara de hotel,tapete para banheiro bege,tapete-para-banheiro-antiderrapante-box-banho-chique-bege,product_full_bleed,
+3002,2026-08-03,Banheiro com cara de hotel,tapete para banheiro cinza,tapete-para-banheiro-antiderrapante-box-chique-cinza,product_in_environment,
+3003,2026-08-03,Banheiro com cara de hotel,banheiro de luxo,tapete-para-banheiro-antiderrapante-box-banho-chique-branco,environment_title_overlay,
+3004,2026-08-03,Banheiro com cara de hotel,tapete para banheiro preto,tapete-para-banheiro-antiderrapante-box-banho-chique-preto,product_full_bleed,
+3005,2026-08-03,Banheiro com cara de hotel,banheiro chique,porta-papel-higienico-de-parede-moderno-estilo-b-prateado,split_two_products,porta-papel-higienico-de-parede-moderno-estilo-b-preto
+3006,2026-08-04,Tapetes para cozinha,tapete para cozinha kitchentimer,tapete-para-cozinha-antiderrapante-absorvente-kitchentimer,product_full_bleed,
+3007,2026-08-04,Tapetes para cozinha,tapete para cozinha verde terracota,tapete-para-cozinha-antiderrapante-absorvente-verde-terracota,product_in_environment,
+3008,2026-08-04,Tapetes para cozinha,cozinha planejada,tapete-para-cozinha-antiderrapante-absorvente-off-stone,environment_title_overlay,
+3009,2026-08-04,Tapetes para cozinha,tapete para cozinha areia pérola,tapete-para-cozinha-antiderrapante-absorvente-areia-perola,product_full_bleed,
+3010,2026-08-04,Tapetes para cozinha,cozinha chique,tapete-para-cozinha-antiderrapante-passadeira-moderno-grafite,split_two_products,tapete-para-cozinha-antiderrapante-absorvente-nude
+3011,2026-08-05,Relogios de parede,relógio de parede napoli dark,relogio-de-parede-napoli-dark-b,product_full_bleed,
+3012,2026-08-05,Relogios de parede,relógio de parede napoli light,relogio-de-parede-napoli-light-b,product_in_environment,
+3013,2026-08-05,Relogios de parede,sala de estar elegante,relogio-de-parede-torino-rose,environment_title_overlay,
+3014,2026-08-05,Relogios de parede,relógio de parede verona green,relogio-de-parede-verona-green,product_full_bleed,
+3015,2026-08-05,Relogios de parede,sala moderna,relogio-digital-de-parede-decorativo-moderno-laranja,split_two_products,relogio-digital-de-parede-decorativo-moderno-azul
+3016,2026-08-06,Quarto decorado,relógio de mesa mini marrom,relogio-de-mesa-digital-despertador-mini-marrom,product_full_bleed,
+3017,2026-08-06,Quarto decorado,relógio de mesa mini preto,relogio-de-mesa-digital-despertador-mini-preto,product_in_environment,
+3018,2026-08-06,Quarto decorado,quarto de casal,relogio-de-mesa-digital-cabeceira-despertador-branco,environment_title_overlay,
+3019,2026-08-06,Quarto decorado,relógio de mesa moderno preto,relogio-de-mesa-digital-despertador-moderno-preto,product_full_bleed,
+3020,2026-08-06,Quarto decorado,quarto aconchegante,relogio-de-mesa-digital-despertador-redondo-preto-colorido,split_two_products,relogio-de-mesa-digital-despertador-espelhado-cabeceira-preto
+3021,2026-08-07,Iluminacao decorativa,luminária de mesa led touch,luminaria-de-mesa-led-touch-recarregavel-chique-home,product_full_bleed,
+3022,2026-08-07,Iluminacao decorativa,arandela quadrada preta,arandela-de-parede-externa-interna-luminaria-led-quadrada-preta,product_in_environment,
+3023,2026-08-07,Iluminacao decorativa,sala de jantar elegante,lustre-pendente-para-sala-quarto-cozinha-moderno-led-espiral-dourado,environment_title_overlay,
+3024,2026-08-07,Iluminacao decorativa,luminária de teto espiral branca,luminaria-de-teto-para-sala-quarto-cozinha-em-led-espiral-branca,product_full_bleed,
+3025,2026-08-07,Iluminacao decorativa,iluminação para sala,lustre-pendente-para-sala-quarto-cozinha-moderno-led-espiral-branco,split_two_products,luminaria-de-mesa-led-sem-fio-touch-recarregavel-chique-home
+3026,2026-08-08,Sala sofisticada,capa de almofada tricô para sofá,capa-de-almofada-de-trico-45x45-para-sofa-decorativa-de-luxo,product_full_bleed,
+3027,2026-08-08,Sala sofisticada,capa para cadeira de jantar,capa-para-cadeira-de-jantar-impermeavel-curva-decorativa,product_in_environment,
+3028,2026-08-08,Sala sofisticada,sala de estar elegante,escultura-decorativa-casal-apaixonado-estatua-decoracao-para-sala,environment_title_overlay,
+3029,2026-08-08,Sala sofisticada,cesto de palha rattan,cesto-de-palha-para-decoracao-organizador-rattan,product_full_bleed,
+3030,2026-08-08,Sala sofisticada,sala sofisticada,escultura-decorativa-leao-estatua-para-mesa-decoracao,split_two_products,escultura-decorativa-abstrata-mao-estatua-decoracao
+3031,2026-08-09,Banheiro organizado,bandeja decorativa redonda para banheiro,bandeja-para-banheiro-lavabo-decorativa-redonda-decoracao,product_full_bleed,
+3032,2026-08-09,Banheiro organizado,bandeja espelhada oval para lavabo,bandeja-para-banheiro-lavabo-decorativa-espelhada-oval-decoracao,product_in_environment,
+3033,2026-08-09,Banheiro organizado,banheiro chique,bandeja-decorativa-para-banheiro-cozinha-redonda-decoracao,environment_title_overlay,
+3034,2026-08-09,Banheiro organizado,bandeja retangular para banheiro,bandeja-para-banheiro-decorativa-retangular-decoracao,product_full_bleed,
+3035,2026-08-09,Banheiro organizado,banheiro moderno,bandeja-para-banheiro-decorativa-espelhada-organizadora-decoracao,split_two_products,bandeja-decorativa-para-banheiro-cozinha-redonda-decoracao
