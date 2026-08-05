@@ -2,7 +2,7 @@ name: Pinterest daily automation
 
 on:
   schedule:
-    - cron: "25 12 * * *"
+    - cron: "25,30,35,40,45 12 * * *"
   workflow_dispatch:
     inputs:
       limit:
@@ -72,6 +72,9 @@ jobs:
         with:
           commit_message: "chore: generate daily pinterest assets"
           file_pattern: "pinterest_automation/public/pinterest/** pinterest_automation/output/*.json pinterest_automation/output/*.csv"
+
+      - name: Refresh publish history
+        run: git pull --ff-only origin main
 
       - name: Wait until 09:30 BRT
         if: github.event_name == 'schedule'
