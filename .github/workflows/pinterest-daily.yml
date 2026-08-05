@@ -13,6 +13,14 @@ on:
         description: "Dry run only"
         required: false
         default: "false"
+      date:
+        description: "Brazil date to publish, YYYY-MM-DD. Leave empty for today."
+        required: false
+        default: ""
+      regenerate_assets:
+        description: "Regenerate pin batch/assets before publishing"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -50,6 +58,7 @@ jobs:
           printf '%s' "$PINTEREST_TOKEN_JSON" > secrets/pinterest_token.json
 
       - name: Generate pins and images
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.regenerate_assets == 'true'
         run: |
           LIMIT="${{ github.event.inputs.limit || '5' }}"
           node scripts/generate_pin_batch.mjs
@@ -58,6 +67,7 @@ jobs:
           node scripts/export_image_prompts.mjs
 
       - name: Commit generated images before publishing
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.regenerate_assets == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: generate daily pinterest assets"
@@ -78,10 +88,15 @@ jobs:
       - name: Publish daily pins
         run: |
           LIMIT="${{ github.event.inputs.limit || '5' }}"
+          DATE_INPUT="${{ github.event.inputs.date || '' }}"
+          DATE_ARG=()
+          if [ -n "$DATE_INPUT" ]; then
+            DATE_ARG=(--date "$DATE_INPUT")
+          fi
           if [ "${{ github.event.inputs.dry_run || 'false' }}" = "true" ]; then
-            node scripts/publish_pins.mjs --dry-run --limit "$LIMIT"
+            node scripts/publish_pins.mjs --dry-run --limit "$LIMIT" "${DATE_ARG[@]}"
           else
-            node scripts/publish_pins.mjs --limit "$LIMIT" --sleep 60
+            node scripts/publish_pins.mjs --limit "$LIMIT" --sleep 60 "${DATE_ARG[@]}"
           fi
 
       - name: Commit publish history
