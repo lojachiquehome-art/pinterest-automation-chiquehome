@@ -3532,5 +3532,265 @@
       "is_owner": true,
       "created_at": "2026-08-02T12:34:05"
     }
+  },
+  {
+    "row_id": 3011,
+    "published_at": "2026-08-05T16:34:15.233Z",
+    "pin": {
+      "alt_text": "Relógio de Parede Napoli Dark B - relógio de parede napoli dark Chique Home",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "product_tags": [],
+      "parent_pin_id": null,
+      "pin_metrics": null,
+      "board_section_id": null,
+      "created_at": "2026-08-05T16:33:13",
+      "has_been_promoted": false,
+      "id": "930134129316440270",
+      "is_standard": true,
+      "board_id": "930134197981214276",
+      "is_product": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/b9/d4/4b/b9d44b789046fc92805747ba0d6c1316.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/b9/d4/4b/b9d44b789046fc92805747ba0d6c1316.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/b9/d4/4b/b9d44b789046fc92805747ba0d6c1316.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/b9/d4/4b/b9d44b789046fc92805747ba0d6c1316.jpg"
+          }
+        }
+      },
+      "is_owner": true,
+      "title": "Relógio de Parede Napoli Dark B",
+      "creative_type": "REGULAR",
+      "dominant_color": null,
+      "is_removable": false,
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-napoli-dark-b?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=rel%C3%B3gio_de_parede_napoli_dark_3011",
+      "description": "Relógio de Parede Napoli Dark B deixa a parede mais interessante e ajuda a completar uma composição elegante no ambiente. Destaque para cor/acabamento branco com acabamento amadeirado/marrom, bege. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest."
+    }
+  },
+  {
+    "row_id": 3012,
+    "published_at": "2026-08-05T16:35:17.009Z",
+    "pin": {
+      "board_id": "930134197981214276",
+      "is_owner": true,
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-napoli-light-b?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=rel%C3%B3gio_de_parede_napoli_light_3012",
+      "board_section_id": null,
+      "creative_type": "REGULAR",
+      "created_at": "2026-08-05T16:34:15",
+      "product_tags": [],
+      "alt_text": "Relógio de Parede Napoli Light B - relógio de parede napoli light Chique Home",
+      "description": "Relógio de Parede Napoli Light B cria um ponto de destaque na parede e combina com salas, cozinhas e ambientes integrados. Destaque para cor/acabamento branco com acabamento amadeirado/marrom, bege. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "parent_pin_id": null,
+      "has_been_promoted": false,
+      "pin_metrics": null,
+      "title": "Relógio de Parede Napoli Light B",
+      "is_removable": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/f6/38/1f/f6381f4872ccc701d07fe186d8719f25.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/f6/38/1f/f6381f4872ccc701d07fe186d8719f25.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/f6/38/1f/f6381f4872ccc701d07fe186d8719f25.jpg"
+          },
+          "1200x": {
+            "width": 1024,
+            "height": 1536,
+            "url": "https://i.pinimg.com/1200x/f6/38/1f/f6381f4872ccc701d07fe186d8719f25.jpg"
+          }
+        }
+      },
+      "id": "930134129316440292",
+      "is_standard": true,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "dominant_color": null,
+      "is_product": false
+    }
+  },
+  {
+    "row_id": 3013,
+    "published_at": "2026-08-05T16:36:18.357Z",
+    "pin": {
+      "is_standard": true,
+      "created_at": "2026-08-05T16:35:16",
+      "pin_metrics": null,
+      "is_removable": false,
+      "parent_pin_id": null,
+      "board_section_id": null,
+      "alt_text": "Relógio de Parede Torino Rose - sala de estar elegante Chique Home",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/29/f8/7e/29f87e1192a326a59a2f50702675a40a.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/29/f8/7e/29f87e1192a326a59a2f50702675a40a.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/29/f8/7e/29f87e1192a326a59a2f50702675a40a.jpg"
+          },
+          "1200x": {
+            "width": 1024,
+            "height": 1536,
+            "url": "https://i.pinimg.com/1200x/29/f8/7e/29f87e1192a326a59a2f50702675a40a.jpg"
+          }
+        }
+      },
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "product_tags": [],
+      "creative_type": "REGULAR",
+      "id": "930134129316440316",
+      "title": "Sala de estar elegante",
+      "is_product": false,
+      "description": "Ideia de sala de estar elegante para deixar a sala mais elegante com detalhes certos e visual equilibrado. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "dominant_color": null,
+      "has_been_promoted": false,
+      "link": "https://chiquehome.com.br/collections/relogios-de-parede?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=sala_de_estar_elegante_3013",
+      "is_owner": true,
+      "board_id": "930134197981214276"
+    }
+  },
+  {
+    "row_id": 3014,
+    "published_at": "2026-08-05T16:37:19.461Z",
+    "pin": {
+      "alt_text": "Relógio de Parede Verona Green - relógio de parede verona green Chique Home",
+      "creative_type": "REGULAR",
+      "is_product": false,
+      "pin_metrics": null,
+      "description": "Relógio de Parede Verona Green deixa a parede mais interessante e ajuda a completar uma composição elegante no ambiente. Destaque para cor/acabamento verde. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "dominant_color": null,
+      "has_been_promoted": false,
+      "is_standard": true,
+      "id": "930134129316440340",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "title": "Relógio de Parede Verona Green",
+      "parent_pin_id": null,
+      "created_at": "2026-08-05T16:36:17",
+      "board_section_id": null,
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-verona-green?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=rel%C3%B3gio_de_parede_verona_green_3014",
+      "is_removable": false,
+      "product_tags": [],
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/35/c3/76/35c37627c5b7397b415b756eee48948f.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/35/c3/76/35c37627c5b7397b415b756eee48948f.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/35/c3/76/35c37627c5b7397b415b756eee48948f.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/35/c3/76/35c37627c5b7397b415b756eee48948f.jpg"
+          }
+        }
+      },
+      "is_owner": true,
+      "board_id": "930134197981214276"
+    }
+  },
+  {
+    "row_id": 3015,
+    "published_at": "2026-08-05T16:38:20.744Z",
+    "pin": {
+      "creative_type": "REGULAR",
+      "is_product": false,
+      "created_at": "2026-08-05T16:37:19",
+      "board_id": "930134197981214276",
+      "is_standard": true,
+      "is_removable": false,
+      "product_tags": [],
+      "link": "https://chiquehome.com.br/collections/relogios-de-parede?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=sala_moderna_3015",
+      "is_owner": true,
+      "alt_text": "Relógio Digital de Parede Decorativo Moderno Laranja - sala moderna Chique Home",
+      "board_section_id": null,
+      "parent_pin_id": null,
+      "title": "Relógio Relógio Digital de Parede Decorativo Moderno Laranja e Relógio Digital de Parede Decorativo",
+      "id": "930134129316440372",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/18/59/42/185942ad4835e97a582dbcab6e422c8d.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/18/59/42/185942ad4835e97a582dbcab6e422c8d.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/18/59/42/185942ad4835e97a582dbcab6e422c8d.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/18/59/42/185942ad4835e97a582dbcab6e422c8d.jpg"
+          }
+        }
+      },
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "dominant_color": null,
+      "pin_metrics": null,
+      "description": "Compare duas opções de relógio nos modelos Relógio Digital de Parede Decorativo Moderno Laranja e Relógio Digital de Parede Decorativo Moderno Azul para escolher o acabamento que combina melhor com o seu ambiente. Clique no botão \"Acessar o site\" para ver detalhes, medidas, preço e comprar na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "has_been_promoted": false
+    }
   }
 ]
