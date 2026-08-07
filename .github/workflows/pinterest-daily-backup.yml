@@ -1,0 +1,91 @@
+name: Pinterest daily backup
+
+on:
+  schedule:
+    - cron: "5,20,35,50 8-20 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Pins to publish"
+        required: false
+        default: "5"
+      dry_run:
+        description: "Dry run only"
+        required: false
+        default: "false"
+      date:
+        description: "Brazil date to publish, YYYY-MM-DD. Leave empty for today."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pinterest-daily-production
+  cancel-in-progress: false
+
+jobs:
+  pinterest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    defaults:
+      run:
+        working-directory: pinterest_automation
+    env:
+      PINTEREST_CLIENT_ID: ${{ secrets.PINTEREST_CLIENT_ID }}
+      PINTEREST_CLIENT_SECRET: ${{ secrets.PINTEREST_CLIENT_SECRET }}
+      PINTEREST_REDIRECT_URI: ${{ secrets.PINTEREST_REDIRECT_URI }}
+      PINTEREST_TOKEN_JSON: ${{ secrets.PINTEREST_TOKEN_JSON }}
+      PIN_IMAGE_BASE_URL: ${{ vars.PIN_IMAGE_BASE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: pinterest_automation/package-lock.json
+
+      - run: npm ci
+
+      - name: Restore Pinterest token
+        run: |
+          mkdir -p secrets
+          printf '%s' "$PINTEREST_TOKEN_JSON" > secrets/pinterest_token.json
+
+      - name: Refresh publish history
+        run: git pull --ff-only origin main
+
+      - name: Wait until 09:30 BRT
+        if: github.event_name == 'schedule'
+        run: |
+          TARGET="$(TZ=America/Sao_Paulo date +%Y-%m-%d) 09:30:00"
+          TARGET_EPOCH="$(TZ=America/Sao_Paulo date -d "$TARGET" +%s)"
+          NOW_EPOCH="$(TZ=America/Sao_Paulo date +%s)"
+          if [ "$NOW_EPOCH" -lt "$TARGET_EPOCH" ]; then
+            SLEEP_SECONDS=$((TARGET_EPOCH - NOW_EPOCH))
+            echo "Waiting ${SLEEP_SECONDS}s to publish at 09:30 America/Sao_Paulo"
+            sleep "$SLEEP_SECONDS"
+          fi
+
+      - name: Publish daily pins
+        run: |
+          LIMIT="${{ github.event.inputs.limit || '5' }}"
+          DATE_INPUT="${{ github.event.inputs.date || '' }}"
+          DATE_ARG=()
+          if [ -n "$DATE_INPUT" ]; then
+            DATE_ARG=(--date "$DATE_INPUT")
+          fi
+          if [ "${{ github.event.inputs.dry_run || 'false' }}" = "true" ]; then
+            node scripts/publish_pins.mjs --dry-run --limit "$LIMIT" "${DATE_ARG[@]}"
+          else
+            node scripts/publish_pins.mjs --limit "$LIMIT" --sleep 60 "${DATE_ARG[@]}"
+          fi
+
+      - name: Commit publish history
+        if: always()
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update pinterest publish history"
+          file_pattern: "pinterest_automation/output/*.json"
