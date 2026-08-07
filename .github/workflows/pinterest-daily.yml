@@ -2,7 +2,7 @@ name: Pinterest daily automation
 
 on:
   schedule:
-    - cron: "25,30,35,40,45 12 * * *"
+    - cron: "0 8,9,10,11,12 * * *"
   workflow_dispatch:
     inputs:
       limit:
@@ -32,6 +32,7 @@ concurrency:
 jobs:
   pinterest:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
     defaults:
       run:
         working-directory: pinterest_automation
@@ -103,6 +104,7 @@ jobs:
           fi
 
       - name: Commit publish history
+        if: always()
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update pinterest publish history"

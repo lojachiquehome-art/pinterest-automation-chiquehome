@@ -108,6 +108,10 @@ function publishedAt(item) {
   return item.published_at || item.pin?.created_at || null;
 }
 
+function publishedPinId(item) {
+  return item.pin?.id || item.pinterest_id || item.id || null;
+}
+
 function rowScheduledDateKey(row) {
   return brazilDateKey(row.scheduled_at);
 }
@@ -115,7 +119,7 @@ function rowScheduledDateKey(row) {
 function countPublishedScheduledForDate(history, rowsById, dateKey) {
   return history.filter((item) => {
     const row = rowsById.get(String(item.row_id));
-    return row && rowScheduledDateKey(row) === dateKey;
+    return row && rowScheduledDateKey(row) === dateKey && publishedPinId(item);
   }).length;
 }
 
@@ -158,7 +162,11 @@ if (!dryRun && publishedTodayCount >= limit) {
 }
 const remainingLimit = dryRun ? limit : Math.max(0, limit - publishedTodayCount);
 
-const alreadyPublished = new Set(publishedHistory.map((item) => String(item.row_id)));
+const alreadyPublished = new Set(
+  publishedHistory
+    .filter((item) => publishedPinId(item))
+    .map((item) => String(item.row_id)),
+);
 const failedRows = new Set(
   failureHistory
     .filter((item) => item.status >= 400 && item.status < 500)
@@ -196,7 +204,17 @@ for (const row of selectDailyRows(rows, remainingLimit * 8)) {
   } else {
     try {
       const result = await pinterestPost("/pins", token, payload);
-      published.push({ row_id: row.id, published_at: new Date().toISOString(), pin: result });
+      if (!result?.id) {
+        throw new Error(`Pinterest API did not return a pin id for row ${row.id}.`);
+      }
+      published.push({
+        row_id: row.id,
+        pinterest_id: result.id,
+        url: `https://www.pinterest.com/pin/${result.id}/`,
+        title: row.title,
+        published_at: new Date().toISOString(),
+        pin: result,
+      });
       console.log(`Published pin for row ${row.id}: ${result.id}`);
       await sleep(sleepSeconds * 1000);
     } catch (error) {
@@ -223,4 +241,8 @@ if (!dryRun && published.length !== publishedHistory.length) {
 
 if (!dryRun && failures.length !== failureHistory.length) {
   writeFileSync(failuresFile, JSON.stringify(failures, null, 2), "utf8");
+}
+
+if (!dryRun && processed < remainingLimit) {
+  throw new Error(`Published only ${processed}/${remainingLimit} required pins for ${targetDate}. Check output/publish_failures.json and the workflow logs.`);
 }
