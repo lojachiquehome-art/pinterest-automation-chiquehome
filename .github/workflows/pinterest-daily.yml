@@ -2,7 +2,8 @@ name: Pinterest daily automation
 
 on:
   schedule:
-    - cron: "0,15,30,45 8-20 * * *"
+    # 09:30 BRT, with a 09:45 BRT safety retry. publish_pins.mjs skips days already completed.
+    - cron: "30,45 12 * * *"
   workflow_dispatch:
     inputs:
       limit:
@@ -76,18 +77,6 @@ jobs:
 
       - name: Refresh publish history
         run: git pull --ff-only origin main
-
-      - name: Wait until 09:30 BRT
-        if: github.event_name == 'schedule'
-        run: |
-          TARGET="$(TZ=America/Sao_Paulo date +%Y-%m-%d) 09:30:00"
-          TARGET_EPOCH="$(TZ=America/Sao_Paulo date -d "$TARGET" +%s)"
-          NOW_EPOCH="$(TZ=America/Sao_Paulo date +%s)"
-          if [ "$NOW_EPOCH" -lt "$TARGET_EPOCH" ]; then
-            SLEEP_SECONDS=$((TARGET_EPOCH - NOW_EPOCH))
-            echo "Waiting ${SLEEP_SECONDS}s to publish at 09:30 America/Sao_Paulo"
-            sleep "$SLEEP_SECONDS"
-          fi
 
       - name: Publish daily pins
         run: |
