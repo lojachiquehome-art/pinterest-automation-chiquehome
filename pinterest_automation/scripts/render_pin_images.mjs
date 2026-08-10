@@ -24,6 +24,8 @@ function parseArgs() {
   return {
     limit: Number(valueAfter("--limit", 10)),
     offset: Number(valueAfter("--offset", 0)),
+    from: valueAfter("--from", ""),
+    to: valueAfter("--to", ""),
     includePublished: args.includes("--include-published"),
   };
 }
@@ -395,7 +397,7 @@ function datedDir() {
   return `${yyyy}-${mm}-${dd}`;
 }
 
-const { limit, offset, includePublished } = parseArgs();
+const { limit, offset, from, to, includePublished } = parseArgs();
 const rowsPath = path.join(ROOT, "output", "pins_batch.json");
 const rows = JSON.parse(readFileSync(rowsPath, "utf8"));
 const publishedPath = path.join(ROOT, "output", "published_pins.json");
@@ -409,7 +411,14 @@ mkdirSync(PRODUCT_DIR, { recursive: true });
 mkdirSync(GENERATED_DIR, { recursive: true });
 
 const selected = rows
-  .filter((row) => row.status === "ready" && (includePublished || !publishedIds.has(String(row.id))) && (includePublished || !row.generated_image_url))
+  .filter((row) => {
+    const date = row.scheduled_at?.slice(0, 10) ?? "";
+    return row.status === "ready"
+      && (!from || date >= from)
+      && (!to || date <= to)
+      && (includePublished || !publishedIds.has(String(row.id)))
+      && (includePublished || !row.generated_image_url);
+  })
   .slice(offset, offset + limit);
 const baseUrl = process.env.PIN_IMAGE_BASE_URL?.replace(/\/$/, "");
 const needsAi = [];

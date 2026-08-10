@@ -1,0 +1,36 @@
+id,date,board_name,keyword,product_handle,visual_strategy,product_2_handle
+4001,2026-08-10,Cozinha elegante,organizador de geladeira transparente,kit-4-organizador-de-geladeira-pote-organizador-para-cozinha,product_full_bleed,
+4002,2026-08-10,Cozinha elegante,organizador de latas para geladeira,organizador-de-latas-para-geladeira-automatico-organizadores-de-cozinha,product_in_environment,
+4003,2026-08-10,Cozinha elegante,cozinha planejada,potes-de-vidro-hermeticos-com-tampa-de-bambu-e-colher,environment_title_overlay,
+4004,2026-08-10,Cozinha elegante,organizador de ovos para geladeira,organizador-de-ovos-para-geladeira-organizadores-de-cozinha,product_full_bleed,
+4005,2026-08-10,Cozinha elegante,organizadores de geladeira transparentes,organizador-de-geladeira-pote-organizador-para-cozinha,split_two_products,kit-3-organizador-de-geladeira-com-tampa-organizadores-de-cozinha
+4006,2026-08-11,Relogios de parede,relógio de parede Bellagio preto,relogio-de-parede-para-cozinha-sala-grande-decorativo-sofisticado,product_full_bleed,
+4007,2026-08-11,Relogios de parede,relógio de parede Valentino branco e preto,relogio-de-parede-para-cozinha-sala-grande-decorativo-quartz,product_in_environment,
+4008,2026-08-11,Relogios de parede,sala de estar moderna,relogio-de-parede-bellagio-white,environment_title_overlay,
+4009,2026-08-11,Relogios de parede,relógio de parede Milano cinza,relogio-de-parede-milano-gray,product_full_bleed,
+4010,2026-08-11,Relogios de parede,relógios de parede Bellagio azul e rose,relogio-de-parede-bellagio-blue,split_two_products,relogio-de-parede-bellagio-rose
+4011,2026-08-12,Banheiro organizado,porta-escova de dentes verde,porta-escova-de-dentes-e-pasta-com-tampa-para-banheiro-viagem-luxo,product_full_bleed,
+4012,2026-08-12,Banheiro organizado,porta-escova para banheiro,porta-escova-de-dentes-com-tampa-para-banheiro-chique,product_in_environment,
+4013,2026-08-12,Banheiro organizado,banheiro pequeno e luxuoso,porta-escova-de-dentes-e-pasta-com-tampa-para-banheiro-viagem-elegante,environment_title_overlay,
+4014,2026-08-12,Banheiro organizado,porta-escova de dentes elegante,porta-escova-de-dentes-e-pasta-com-tampa-para-banheiro-viagem,product_full_bleed,
+4015,2026-08-12,Banheiro organizado,porta-escovas para banheiro luxo e viagem,porta-escova-de-dentes-com-tampa-para-viagem-banheiro,split_two_products,porta-escova-de-dentes-e-pasta-com-tampa-para-banheiro-viagem-luxo
+4016,2026-08-13,Escritório em casa,porta-canetas de madeira,porta-canetas-e-lapis-para-escritorio-organizador-de-mesa-em-madeira,product_full_bleed,
+4017,2026-08-13,Escritório em casa,organizador de mesa,porta-canetas-e-lapis-para-escritorio-organizadores-de-mesa,product_in_environment,
+4018,2026-08-13,Escritório em casa,escritório moderno,porta-canetas-e-lapis-para-escritorio-organizador-de-mesa,environment_title_overlay,
+4019,2026-08-13,Escritório em casa,pasta sanfonada A4,pasta-sanfonada-com-7-divisorias-a4-organizadora-para-documentos-escolar,product_full_bleed,
+4020,2026-08-13,Escritório em casa,organizadores de mesa em madeira e branco,porta-canetas-e-lapis-para-escritorio-organizador-de-mesa-em-madeira,split_two_products,porta-canetas-e-lapis-para-escritorio-organizador-de-mesa
+4021,2026-08-14,Sala sofisticada,cesto de vime redondo,cesto-de-vime-redondo-para-decoracao-organizador,product_full_bleed,
+4022,2026-08-14,Sala sofisticada,cesto de vime para sala,cesto-de-vime-para-decoracao-organizador-rustico,product_in_environment,
+4023,2026-08-14,Sala sofisticada,sala de estar chique,porta-retrato-personalizado-de-madeira-para-sala-quarto-escritorio-bege,environment_title_overlay,
+4024,2026-08-14,Sala sofisticada,porta-retrato de madeira branco,porta-retrato-personalizado-de-madeira-para-sala-quarto-escritorio-branco,product_full_bleed,
+4025,2026-08-14,Sala sofisticada,porta-retratos de madeira retrô e bege,porta-retrato-personalizado-de-madeira-para-sala-quarto-escritorio-retro,split_two_products,porta-retrato-personalizado-de-madeira-para-sala-quarto-escritorio-bege
+4026,2026-08-15,Quarto decorado,umidificador de ar verde e rosa,umidificador-de-ar-para-quarto-ultrassonico-portatil-de-ambiente,product_full_bleed,
+4027,2026-08-15,Quarto decorado,umidificador para quarto,umidificador-de-ar-para-quarto-ultrassonico-de-ambiente-portatil-7-bicos,product_in_environment,
+4028,2026-08-15,Quarto decorado,quarto aconchegante,umidificador-de-ar-para-quarto-ultrassonico-de-ambiente-portatil,environment_title_overlay,
+4029,2026-08-15,Quarto decorado,relógio de mesa triangular bege,relogio-de-mesa-digital-despertador-triangular-bege,product_full_bleed,
+4030,2026-08-15,Quarto decorado,relógios de mesa triangulares preto e branco,relogio-de-mesa-digital-despertador-triangular-preto,split_two_products,relogio-de-mesa-digital-despertador-triangular-branco
+4031,2026-08-16,Tapetes para cozinha,tapete para cozinha off white,tapete-para-cozinha-antiderrapante-absorvente-sofisticado-off-white,product_full_bleed,
+4032,2026-08-16,Tapetes para cozinha,tapete para cozinha preto,tapete-para-cozinha-antiderrapante-absorvente-minimalista-preto,product_in_environment,
+4033,2026-08-16,Tapetes para cozinha,cozinha chique,tapete-para-cozinha-antiderrapante-absorvente-elegante-bege,environment_title_overlay,
+4034,2026-08-16,Tapetes para cozinha,tapete para cozinha cinza listrado,tapete-para-cozinha-antiderrapante-absorvente-listrado-cinza,product_full_bleed,
+4035,2026-08-16,Tapetes para cozinha,tapetes para cozinha bege e cinza,tapete-para-cozinha-antiderrapante-absorvente-bege-neutro,split_two_products,tapete-para-cozinha-antiderrapante-absorvente-sofisticado-cinza
