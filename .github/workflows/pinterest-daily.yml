@@ -78,6 +78,15 @@ jobs:
       - name: Refresh publish history
         run: git pull --ff-only origin main
 
+      - name: Validate vertical Pinterest images
+        run: |
+          DATE_INPUT="${{ github.event.inputs.date || '' }}"
+          DATE_ARG=()
+          if [ -n "$DATE_INPUT" ]; then
+            DATE_ARG=(--date "$DATE_INPUT")
+          fi
+          node scripts/validate_pin_images.mjs "${DATE_ARG[@]}"
+
       - name: Publish daily pins
         run: |
           LIMIT="${{ github.event.inputs.limit || '5' }}"
