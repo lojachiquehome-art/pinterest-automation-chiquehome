@@ -5044,116 +5044,6 @@
     }
   },
   {
-    "row_id": 4002,
-    "pinterest_id": "930134129316626904",
-    "url": "https://www.pinterest.com/pin/930134129316626904/",
-    "title": "Organizador de Latas para Geladeira Automático",
-    "published_at": "2026-08-11T02:19:20.827Z",
-    "pin": {
-      "is_removable": false,
-      "product_tags": [],
-      "id": "930134129316626904",
-      "has_been_promoted": false,
-      "title": "Organizador de Latas para Geladeira Automático",
-      "parent_pin_id": null,
-      "creative_type": "REGULAR",
-      "description": "Organizador de Latas para Geladeira Automático valoriza o ambiente com presença discreta, acabamento bonito e uso prático na rotina. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
-      "alt_text": "Organizador de Latas para Geladeira Automático - organizador de latas para geladeira Chique Home",
-      "board_owner": {
-        "username": "chiquehome"
-      },
-      "pin_metrics": null,
-      "link": "https://chiquehome.com.br/products/organizador-de-latas-para-geladeira-automatico-organizadores-de-cozinha?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=organizador_de_latas_para_geladeira_4002",
-      "media": {
-        "media_type": "image",
-        "images": {
-          "150x150": {
-            "width": 150,
-            "height": 150,
-            "url": "https://i.pinimg.com/150x150/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
-          },
-          "400x300": {
-            "width": 400,
-            "height": 300,
-            "url": "https://i.pinimg.com/400x300/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
-          },
-          "600x": {
-            "width": 564,
-            "height": 846,
-            "url": "https://i.pinimg.com/564x/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
-          },
-          "1200x": {
-            "width": 1000,
-            "height": 1500,
-            "url": "https://i.pinimg.com/1200x/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
-          }
-        }
-      },
-      "created_at": "2026-08-11T02:18:14",
-      "is_owner": true,
-      "is_product": false,
-      "board_section_id": null,
-      "dominant_color": "#000000",
-      "board_id": "930134197981214272",
-      "is_standard": true
-    }
-  },
-  {
-    "row_id": 4003,
-    "pinterest_id": "930134129316626920",
-    "url": "https://www.pinterest.com/pin/930134129316626920/",
-    "title": "Cozinha planejada",
-    "published_at": "2026-08-11T02:20:21.748Z",
-    "pin": {
-      "description": "Cozinha planejada com uma composição elegante, funcional e pensada para inspirar uma casa mais bonita no dia a dia. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
-      "is_owner": true,
-      "link": "https://chiquehome.com.br/collections/cozinha-elegante?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=cozinha_planejada_4003",
-      "parent_pin_id": null,
-      "board_section_id": null,
-      "alt_text": "Cozinha planejada - cozinha planejada Chique Home",
-      "is_product": false,
-      "dominant_color": "#000000",
-      "board_id": "930134197981214272",
-      "product_tags": [],
-      "is_standard": true,
-      "id": "930134129316626920",
-      "created_at": "2026-08-11T02:19:15",
-      "has_been_promoted": false,
-      "creative_type": "REGULAR",
-      "is_removable": false,
-      "title": "Cozinha planejada",
-      "board_owner": {
-        "username": "chiquehome"
-      },
-      "pin_metrics": null,
-      "media": {
-        "media_type": "image",
-        "images": {
-          "150x150": {
-            "width": 150,
-            "height": 150,
-            "url": "https://i.pinimg.com/150x150/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
-          },
-          "400x300": {
-            "width": 400,
-            "height": 300,
-            "url": "https://i.pinimg.com/400x300/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
-          },
-          "600x": {
-            "width": 564,
-            "height": 846,
-            "url": "https://i.pinimg.com/564x/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
-          },
-          "1200x": {
-            "width": 1000,
-            "height": 1500,
-            "url": "https://i.pinimg.com/1200x/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
-          }
-        }
-      }
-    }
-  },
-  {
     "row_id": 4006,
     "pinterest_id": "930134129316639967",
     "url": "https://www.pinterest.com/pin/930134129316639967/",
@@ -5206,116 +5096,6 @@
       "id": "930134129316639967",
       "is_product": false,
       "link": "https://chiquehome.com.br/products/relogio-de-parede-para-cozinha-sala-grande-decorativo-sofisticado?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=relogio_de_parede_bellagio_preto_4006"
-    }
-  },
-  {
-    "row_id": 4007,
-    "pinterest_id": "930134129316639994",
-    "url": "https://www.pinterest.com/pin/930134129316639994/",
-    "title": "Relógio de Parede Valentino White Black",
-    "published_at": "2026-08-11T12:31:04.230Z",
-    "pin": {
-      "title": "Relógio de Parede Valentino White Black",
-      "board_section_id": null,
-      "is_standard": true,
-      "media": {
-        "media_type": "image",
-        "images": {
-          "150x150": {
-            "width": 150,
-            "height": 150,
-            "url": "https://i.pinimg.com/150x150/08/24/bd/0824bd4fff0486dbe5662bd2b3195f7b.jpg"
-          },
-          "400x300": {
-            "width": 400,
-            "height": 300,
-            "url": "https://i.pinimg.com/400x300/08/24/bd/0824bd4fff0486dbe5662bd2b3195f7b.jpg"
-          },
-          "600x": {
-            "width": 564,
-            "height": 846,
-            "url": "https://i.pinimg.com/564x/08/24/bd/0824bd4fff0486dbe5662bd2b3195f7b.jpg"
-          },
-          "1200x": {
-            "width": 1000,
-            "height": 1500,
-            "url": "https://i.pinimg.com/1200x/08/24/bd/0824bd4fff0486dbe5662bd2b3195f7b.jpg"
-          }
-        }
-      },
-      "creative_type": "REGULAR",
-      "is_owner": true,
-      "created_at": "2026-08-11T12:31:03",
-      "board_id": "930134197981214276",
-      "alt_text": "Relógio de Parede Valentino White Black - relógio de parede Valentino branco e preto Chique Home",
-      "dominant_color": null,
-      "is_product": false,
-      "board_owner": {
-        "username": "chiquehome"
-      },
-      "id": "930134129316639994",
-      "parent_pin_id": null,
-      "pin_metrics": null,
-      "has_been_promoted": false,
-      "link": "https://chiquehome.com.br/products/relogio-de-parede-para-cozinha-sala-grande-decorativo-quartz?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=relogio_de_parede_valentino_branco_e_preto_4007",
-      "product_tags": [],
-      "is_removable": false,
-      "description": "Relógio de Parede Valentino White Black valoriza o ambiente com presença discreta, acabamento bonito e uso prático na rotina. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest."
-    }
-  },
-  {
-    "row_id": 4008,
-    "pinterest_id": "930134129316640026",
-    "url": "https://www.pinterest.com/pin/930134129316640026/",
-    "title": "Sala de estar moderna",
-    "published_at": "2026-08-11T12:32:05.360Z",
-    "pin": {
-      "is_product": false,
-      "parent_pin_id": null,
-      "description": "Sala de estar moderna com uma composição elegante, funcional e pensada para inspirar uma casa mais bonita no dia a dia. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
-      "is_owner": true,
-      "title": "Sala de estar moderna",
-      "board_owner": {
-        "username": "chiquehome"
-      },
-      "creative_type": "REGULAR",
-      "media": {
-        "media_type": "image",
-        "images": {
-          "150x150": {
-            "width": 150,
-            "height": 150,
-            "url": "https://i.pinimg.com/150x150/a5/94/ee/a594ee43499efc2f7c23b519b71d1504.jpg"
-          },
-          "400x300": {
-            "width": 400,
-            "height": 300,
-            "url": "https://i.pinimg.com/400x300/a5/94/ee/a594ee43499efc2f7c23b519b71d1504.jpg"
-          },
-          "600x": {
-            "width": 564,
-            "height": 846,
-            "url": "https://i.pinimg.com/564x/a5/94/ee/a594ee43499efc2f7c23b519b71d1504.jpg"
-          },
-          "1200x": {
-            "width": 1000,
-            "height": 1500,
-            "url": "https://i.pinimg.com/1200x/a5/94/ee/a594ee43499efc2f7c23b519b71d1504.jpg"
-          }
-        }
-      },
-      "alt_text": "Sala de estar moderna - sala de estar moderna Chique Home",
-      "has_been_promoted": false,
-      "dominant_color": null,
-      "created_at": "2026-08-11T12:32:04",
-      "product_tags": [],
-      "id": "930134129316640026",
-      "board_id": "930134197981214276",
-      "is_removable": false,
-      "is_standard": true,
-      "pin_metrics": null,
-      "board_section_id": null,
-      "link": "https://chiquehome.com.br/collections/relogios-de-parede?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=sala_de_estar_moderna_4008"
     }
   },
   {
@@ -5426,6 +5206,226 @@
       "pin_metrics": null,
       "product_tags": [],
       "has_been_promoted": false
+    }
+  },
+  {
+    "row_id": 4002,
+    "pinterest_id": "930134129316648283",
+    "url": "https://www.pinterest.com/pin/930134129316648283/",
+    "title": "Organizador de Latas para Geladeira Automático",
+    "published_at": "2026-08-11T17:37:16.654Z",
+    "pin": {
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "dominant_color": "#000000",
+      "is_owner": true,
+      "title": "Organizador de Latas para Geladeira Automático",
+      "parent_pin_id": null,
+      "pin_metrics": null,
+      "link": "https://chiquehome.com.br/products/organizador-de-latas-para-geladeira-automatico-organizadores-de-cozinha?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=organizador_de_latas_para_geladeira_4002",
+      "description": "Organizador de Latas para Geladeira Automático valoriza o ambiente com presença discreta, acabamento bonito e uso prático na rotina. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "board_id": "930134197981214272",
+      "is_product": false,
+      "created_at": "2026-08-11T17:36:10",
+      "id": "930134129316648283",
+      "product_tags": [],
+      "is_removable": false,
+      "is_standard": true,
+      "has_been_promoted": false,
+      "board_section_id": null,
+      "creative_type": "REGULAR",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
+          }
+        }
+      },
+      "alt_text": "Organizador de Latas para Geladeira Automático - organizador de latas para geladeira Chique Home"
+    }
+  },
+  {
+    "row_id": 4003,
+    "pinterest_id": "930134129316648286",
+    "url": "https://www.pinterest.com/pin/930134129316648286/",
+    "title": "Cozinha planejada",
+    "published_at": "2026-08-11T17:37:20.418Z",
+    "pin": {
+      "is_owner": true,
+      "parent_pin_id": null,
+      "link": "https://chiquehome.com.br/collections/cozinha-elegante?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=cozinha_planejada_4003",
+      "is_product": false,
+      "is_removable": false,
+      "title": "Cozinha planejada",
+      "dominant_color": "#000000",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "board_section_id": null,
+      "creative_type": "REGULAR",
+      "id": "930134129316648286",
+      "product_tags": [],
+      "board_id": "930134197981214272",
+      "pin_metrics": null,
+      "alt_text": "Cozinha planejada - cozinha planejada Chique Home",
+      "created_at": "2026-08-11T17:36:14",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
+          }
+        }
+      },
+      "description": "Cozinha planejada com uma composição elegante, funcional e pensada para inspirar uma casa mais bonita no dia a dia. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "is_standard": true,
+      "has_been_promoted": false
+    }
+  },
+  {
+    "row_id": 4007,
+    "pinterest_id": "930134129316648317",
+    "url": "https://www.pinterest.com/pin/930134129316648317/",
+    "title": "Relógio de Parede Valentino White Black",
+    "published_at": "2026-08-11T17:39:09.694Z",
+    "pin": {
+      "board_id": "930134197981214276",
+      "is_owner": true,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "dominant_color": "#b9a490",
+      "description": "Relógio de Parede Valentino White Black valoriza o ambiente com presença discreta, acabamento bonito e uso prático na rotina. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "id": "930134129316648317",
+      "has_been_promoted": false,
+      "product_tags": [],
+      "pin_metrics": null,
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-para-cozinha-sala-grande-decorativo-quartz?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=relogio_de_parede_valentino_branco_e_preto_4007",
+      "board_section_id": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/08/24/bd/0824bd4fff0486dbe5662bd2b3195f7b.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/08/24/bd/0824bd4fff0486dbe5662bd2b3195f7b.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/08/24/bd/0824bd4fff0486dbe5662bd2b3195f7b.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/08/24/bd/0824bd4fff0486dbe5662bd2b3195f7b.jpg"
+          }
+        }
+      },
+      "title": "Relógio de Parede Valentino White Black",
+      "alt_text": "Relógio de Parede Valentino White Black - relógio de parede Valentino branco e preto Chique Home",
+      "is_standard": true,
+      "parent_pin_id": null,
+      "creative_type": "REGULAR",
+      "is_removable": false,
+      "created_at": "2026-08-11T17:38:03",
+      "is_product": false
+    }
+  },
+  {
+    "row_id": 4008,
+    "pinterest_id": "930134129316648318",
+    "url": "https://www.pinterest.com/pin/930134129316648318/",
+    "title": "Sala de estar moderna",
+    "published_at": "2026-08-11T17:39:13.460Z",
+    "pin": {
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "title": "Sala de estar moderna",
+      "is_standard": true,
+      "id": "930134129316648318",
+      "link": "https://chiquehome.com.br/collections/relogios-de-parede?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=sala_de_estar_moderna_4008",
+      "is_owner": true,
+      "alt_text": "Sala de estar moderna - sala de estar moderna Chique Home",
+      "created_at": "2026-08-11T17:38:07",
+      "creative_type": "REGULAR",
+      "product_tags": [],
+      "board_id": "930134197981214276",
+      "pin_metrics": null,
+      "is_removable": false,
+      "parent_pin_id": null,
+      "has_been_promoted": false,
+      "is_product": false,
+      "dominant_color": "#543a1f",
+      "board_section_id": null,
+      "description": "Sala de estar moderna com uma composição elegante, funcional e pensada para inspirar uma casa mais bonita no dia a dia. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/a5/94/ee/a594ee43499efc2f7c23b519b71d1504.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/a5/94/ee/a594ee43499efc2f7c23b519b71d1504.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/a5/94/ee/a594ee43499efc2f7c23b519b71d1504.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/a5/94/ee/a594ee43499efc2f7c23b519b71d1504.jpg"
+          }
+        }
+      }
     }
   }
 ]
