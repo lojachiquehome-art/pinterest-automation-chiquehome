@@ -4934,116 +4934,6 @@
     }
   },
   {
-    "row_id": 4002,
-    "pinterest_id": "930134129316611637",
-    "url": "https://www.pinterest.com/pin/930134129316611637/",
-    "title": "Organizador de Latas para Geladeira Automático",
-    "published_at": "2026-08-10T17:02:45.887Z",
-    "pin": {
-      "id": "930134129316611637",
-      "description": "Organizador de Latas para Geladeira Automático valoriza o ambiente com presença discreta, acabamento bonito e uso prático na rotina. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
-      "dominant_color": null,
-      "has_been_promoted": false,
-      "creative_type": "REGULAR",
-      "alt_text": "Organizador de Latas para Geladeira Automático - organizador de latas para geladeira Chique Home",
-      "media": {
-        "media_type": "image",
-        "images": {
-          "150x150": {
-            "width": 150,
-            "height": 150,
-            "url": "https://i.pinimg.com/150x150/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
-          },
-          "400x300": {
-            "width": 400,
-            "height": 300,
-            "url": "https://i.pinimg.com/400x300/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
-          },
-          "600x": {
-            "width": 564,
-            "height": 846,
-            "url": "https://i.pinimg.com/564x/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
-          },
-          "1200x": {
-            "width": 1000,
-            "height": 1500,
-            "url": "https://i.pinimg.com/1200x/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
-          }
-        }
-      },
-      "is_standard": true,
-      "created_at": "2026-08-10T17:01:39",
-      "pin_metrics": null,
-      "link": "https://chiquehome.com.br/products/organizador-de-latas-para-geladeira-automatico-organizadores-de-cozinha?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=organizador_de_latas_para_geladeira_4002",
-      "board_section_id": null,
-      "is_product": false,
-      "title": "Organizador de Latas para Geladeira Automático",
-      "parent_pin_id": null,
-      "board_owner": {
-        "username": "chiquehome"
-      },
-      "is_removable": false,
-      "product_tags": [],
-      "board_id": "930134197981214272",
-      "is_owner": true
-    }
-  },
-  {
-    "row_id": 4003,
-    "pinterest_id": "930134129316611667",
-    "url": "https://www.pinterest.com/pin/930134129316611667/",
-    "title": "Cozinha planejada",
-    "published_at": "2026-08-10T17:03:47.945Z",
-    "pin": {
-      "product_tags": [],
-      "parent_pin_id": null,
-      "alt_text": "Cozinha planejada - cozinha planejada Chique Home",
-      "link": "https://chiquehome.com.br/collections/cozinha-elegante?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=cozinha_planejada_4003",
-      "board_section_id": null,
-      "pin_metrics": null,
-      "title": "Cozinha planejada",
-      "is_owner": true,
-      "is_product": false,
-      "media": {
-        "media_type": "image",
-        "images": {
-          "150x150": {
-            "width": 150,
-            "height": 150,
-            "url": "https://i.pinimg.com/150x150/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
-          },
-          "400x300": {
-            "width": 400,
-            "height": 300,
-            "url": "https://i.pinimg.com/400x300/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
-          },
-          "600x": {
-            "width": 564,
-            "height": 846,
-            "url": "https://i.pinimg.com/564x/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
-          },
-          "1200x": {
-            "width": 1000,
-            "height": 1500,
-            "url": "https://i.pinimg.com/1200x/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
-          }
-        }
-      },
-      "id": "930134129316611667",
-      "has_been_promoted": false,
-      "board_owner": {
-        "username": "chiquehome"
-      },
-      "is_removable": false,
-      "created_at": "2026-08-10T17:02:42",
-      "description": "Cozinha planejada com uma composição elegante, funcional e pensada para inspirar uma casa mais bonita no dia a dia. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
-      "dominant_color": null,
-      "creative_type": "REGULAR",
-      "board_id": "930134197981214272",
-      "is_standard": true
-    }
-  },
-  {
     "row_id": 4004,
     "pinterest_id": "930134129316611694",
     "url": "https://www.pinterest.com/pin/930134129316611694/",
@@ -5151,6 +5041,116 @@
       "dominant_color": null,
       "description": "Organizadores de geladeira transparentes em duas variações da mesma coleção para comparar acabamento, cor e estilo com mais clareza. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
       "is_removable": false
+    }
+  },
+  {
+    "row_id": 4002,
+    "pinterest_id": "930134129316626904",
+    "url": "https://www.pinterest.com/pin/930134129316626904/",
+    "title": "Organizador de Latas para Geladeira Automático",
+    "published_at": "2026-08-11T02:19:20.827Z",
+    "pin": {
+      "is_removable": false,
+      "product_tags": [],
+      "id": "930134129316626904",
+      "has_been_promoted": false,
+      "title": "Organizador de Latas para Geladeira Automático",
+      "parent_pin_id": null,
+      "creative_type": "REGULAR",
+      "description": "Organizador de Latas para Geladeira Automático valoriza o ambiente com presença discreta, acabamento bonito e uso prático na rotina. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "alt_text": "Organizador de Latas para Geladeira Automático - organizador de latas para geladeira Chique Home",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "pin_metrics": null,
+      "link": "https://chiquehome.com.br/products/organizador-de-latas-para-geladeira-automatico-organizadores-de-cozinha?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=organizador_de_latas_para_geladeira_4002",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/44/ac/e5/44ace559d928ba44ddfef2210a507d41.jpg"
+          }
+        }
+      },
+      "created_at": "2026-08-11T02:18:14",
+      "is_owner": true,
+      "is_product": false,
+      "board_section_id": null,
+      "dominant_color": "#000000",
+      "board_id": "930134197981214272",
+      "is_standard": true
+    }
+  },
+  {
+    "row_id": 4003,
+    "pinterest_id": "930134129316626920",
+    "url": "https://www.pinterest.com/pin/930134129316626920/",
+    "title": "Cozinha planejada",
+    "published_at": "2026-08-11T02:20:21.748Z",
+    "pin": {
+      "description": "Cozinha planejada com uma composição elegante, funcional e pensada para inspirar uma casa mais bonita no dia a dia. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "is_owner": true,
+      "link": "https://chiquehome.com.br/collections/cozinha-elegante?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=cozinha_planejada_4003",
+      "parent_pin_id": null,
+      "board_section_id": null,
+      "alt_text": "Cozinha planejada - cozinha planejada Chique Home",
+      "is_product": false,
+      "dominant_color": "#000000",
+      "board_id": "930134197981214272",
+      "product_tags": [],
+      "is_standard": true,
+      "id": "930134129316626920",
+      "created_at": "2026-08-11T02:19:15",
+      "has_been_promoted": false,
+      "creative_type": "REGULAR",
+      "is_removable": false,
+      "title": "Cozinha planejada",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "pin_metrics": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/74/ce/a6/74cea68f04dde988f3f52f18b2c0b54e.jpg"
+          }
+        }
+      }
     }
   }
 ]
