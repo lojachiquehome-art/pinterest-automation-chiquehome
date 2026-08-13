@@ -6,5 +6,13 @@
     "status": 400,
     "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
     "failed_at": "2026-08-09T12:32:13.825Z"
+  },
+  {
+    "row_id": 4016,
+    "title": "Porta-Canetas e Lápis para Escritório em Madeira",
+    "image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-4016.jpg",
+    "status": 400,
+    "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
+    "failed_at": "2026-08-13T12:30:07.764Z"
   }
 ]
