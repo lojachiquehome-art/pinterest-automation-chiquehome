@@ -94,6 +94,13 @@ function readFailureHistory() {
   return JSON.parse(readFileSync(file, "utf8"));
 }
 
+function isPermanentPublishFailure(item) {
+  if (!item || item.status < 400 || item.status >= 500) return false;
+  const message = String(item.error || "");
+  if (message.includes("\"code\":2787")) return false;
+  return true;
+}
+
 function brazilDateKey(value = new Date()) {
   const date = value instanceof Date ? value : new Date(value);
   return new Intl.DateTimeFormat("en-CA", {
@@ -169,7 +176,7 @@ const alreadyPublished = new Set(
 );
 const failedRows = new Set(
   failureHistory
-    .filter((item) => item.status >= 400 && item.status < 500)
+    .filter(isPermanentPublishFailure)
     .map((item) => String(item.row_id)),
 );
 const rows = allRows
