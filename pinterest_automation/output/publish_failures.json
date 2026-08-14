@@ -126,5 +126,29 @@
     "status": 400,
     "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
     "failed_at": "2026-08-14T13:50:51.779Z"
+  },
+  {
+    "row_id": 4023,
+    "title": "Sala de estar chique",
+    "image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/final-fixed-v2/pin-4023-v2.jpg",
+    "status": 400,
+    "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
+    "failed_at": "2026-08-14T14:00:59.526Z"
+  },
+  {
+    "row_id": 4024,
+    "title": "Porta-Retrato Personalizado de Madeira para Sala/Quarto/Escritório - Branco",
+    "image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-4024.jpg",
+    "status": 400,
+    "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
+    "failed_at": "2026-08-14T14:01:06.630Z"
+  },
+  {
+    "row_id": 4025,
+    "title": "Porta-retratos de madeira retrô e bege",
+    "image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-4025.jpg",
+    "status": 400,
+    "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
+    "failed_at": "2026-08-14T14:01:13.736Z"
   }
 ]

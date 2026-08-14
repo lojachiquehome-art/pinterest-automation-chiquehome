@@ -5977,5 +5977,115 @@
       },
       "has_been_promoted": false
     }
+  },
+  {
+    "row_id": 4021,
+    "pinterest_id": "930134129316738496",
+    "url": "https://www.pinterest.com/pin/930134129316738496/",
+    "title": "Cesto de Vime Redondo para Decoração Organizador",
+    "published_at": "2026-08-14T13:58:51.389Z",
+    "pin": {
+      "link": "https://chiquehome.com.br/products/cesto-de-vime-redondo-para-decoracao-organizador?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=cesto_de_vime_redondo_4021",
+      "description": "Cesto de Vime Redondo para Decoração Organizador valoriza o ambiente com presença discreta, acabamento bonito e uso prático na rotina. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "created_at": "2026-08-14T13:58:50",
+      "has_been_promoted": false,
+      "creative_type": "REGULAR",
+      "board_section_id": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/c2/0e/0b/c20e0b7d9b6bfe1f64ec1079e5a9826a.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/c2/0e/0b/c20e0b7d9b6bfe1f64ec1079e5a9826a.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/c2/0e/0b/c20e0b7d9b6bfe1f64ec1079e5a9826a.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/c2/0e/0b/c20e0b7d9b6bfe1f64ec1079e5a9826a.jpg"
+          }
+        }
+      },
+      "id": "930134129316738496",
+      "pin_metrics": null,
+      "alt_text": "Cesto de Vime Redondo para Decoração Organizador - cesto de vime redondo Chique Home",
+      "is_product": false,
+      "board_id": "930134197981214271",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "is_standard": true,
+      "title": "Cesto de Vime Redondo para Decoração Organizador",
+      "parent_pin_id": null,
+      "is_owner": true,
+      "is_removable": false,
+      "dominant_color": null,
+      "product_tags": []
+    }
+  },
+  {
+    "row_id": 4022,
+    "pinterest_id": "930134129316738526",
+    "url": "https://www.pinterest.com/pin/930134129316738526/",
+    "title": "Cesto de Vime para Decoração Organizador Rústico",
+    "published_at": "2026-08-14T13:59:52.347Z",
+    "pin": {
+      "alt_text": "Cesto de Vime para Decoração Organizador Rústico - cesto de vime para sala Chique Home",
+      "is_product": false,
+      "title": "Cesto de Vime para Decoração Organizador Rústico",
+      "creative_type": "REGULAR",
+      "board_section_id": null,
+      "product_tags": [],
+      "id": "930134129316738526",
+      "link": "https://chiquehome.com.br/products/cesto-de-vime-para-decoracao-organizador-rustico?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=cesto_de_vime_para_sala_4022",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "is_standard": true,
+      "is_removable": false,
+      "pin_metrics": null,
+      "parent_pin_id": null,
+      "is_owner": true,
+      "has_been_promoted": false,
+      "description": "Cesto de Vime para Decoração Organizador Rústico valoriza o ambiente com presença discreta, acabamento bonito e uso prático na rotina. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "created_at": "2026-08-14T13:59:51",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/de/e6/5a/dee65a04de6b0755e02e6553bc3101fc.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/de/e6/5a/dee65a04de6b0755e02e6553bc3101fc.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/de/e6/5a/dee65a04de6b0755e02e6553bc3101fc.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/de/e6/5a/dee65a04de6b0755e02e6553bc3101fc.jpg"
+          }
+        }
+      },
+      "board_id": "930134197981214271",
+      "dominant_color": null
+    }
   }
 ]
