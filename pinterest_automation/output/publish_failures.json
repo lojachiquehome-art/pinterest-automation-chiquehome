@@ -46,5 +46,45 @@
     "status": 400,
     "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
     "failed_at": "2026-08-14T12:30:36.722Z"
+  },
+  {
+    "row_id": 4021,
+    "title": "Cesto de Vime Redondo para Decoração Organizador",
+    "image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-4021.jpg",
+    "status": 400,
+    "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
+    "failed_at": "2026-08-14T12:31:05.556Z"
+  },
+  {
+    "row_id": 4022,
+    "title": "Cesto de Vime para Decoração Organizador Rústico",
+    "image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/final-fixed-v2/pin-4022-v2.jpg",
+    "status": 400,
+    "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
+    "failed_at": "2026-08-14T12:31:12.668Z"
+  },
+  {
+    "row_id": 4023,
+    "title": "Sala de estar chique",
+    "image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/final-fixed-v2/pin-4023-v2.jpg",
+    "status": 400,
+    "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
+    "failed_at": "2026-08-14T12:31:19.777Z"
+  },
+  {
+    "row_id": 4024,
+    "title": "Porta-Retrato Personalizado de Madeira para Sala/Quarto/Escritório - Branco",
+    "image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/product-originals/pin-4024.jpg",
+    "status": 400,
+    "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
+    "failed_at": "2026-08-14T12:31:26.890Z"
+  },
+  {
+    "row_id": 4025,
+    "title": "Porta-retratos de madeira retrô e bege",
+    "image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/generated/pin-4025.jpg",
+    "status": 400,
+    "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
+    "failed_at": "2026-08-14T12:31:33.983Z"
   }
 ]
