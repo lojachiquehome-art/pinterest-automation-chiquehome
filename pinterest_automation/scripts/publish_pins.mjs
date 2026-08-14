@@ -33,6 +33,8 @@ function parseArgs() {
     dryRun: args.includes("--dry-run"),
     limit: readNumberArg("--limit", 10),
     sleep: readNumberArg("--sleep", 10),
+    interval: readNumberArg("--interval", 0),
+    startAt: readStringArg("--start-at", ""),
     date: readStringArg("--date", brazilDateKey()),
   };
 }
@@ -111,6 +113,25 @@ function brazilDateKey(value = new Date()) {
   }).format(date);
 }
 
+function scheduledPublishTime(dateKey, startAt, index, intervalSeconds) {
+  if (!startAt) return null;
+  if (!/^\d{2}:\d{2}$/.test(startAt)) {
+    throw new Error(`Invalid --start-at value: ${startAt}. Use HH:MM in America/Sao_Paulo.`);
+  }
+  const [hour, minute] = startAt.split(":").map(Number);
+  const start = new Date(`${dateKey}T${String(hour).padStart(2, "0")}:${String(minute).padStart(2, "0")}:00-03:00`);
+  return new Date(start.getTime() + index * intervalSeconds * 1000);
+}
+
+async function waitForScheduledPublishTime(dateKey, startAt, index, intervalSeconds) {
+  const target = scheduledPublishTime(dateKey, startAt, index, intervalSeconds);
+  if (!target) return;
+  const waitMs = target.getTime() - Date.now();
+  if (waitMs <= 0) return;
+  console.log(`Waiting until ${target.toISOString()} (${dateKey} ${startAt} America/Sao_Paulo + ${index} min) before publishing.`);
+  await sleep(waitMs);
+}
+
 function publishedAt(item) {
   return item.published_at || item.pin?.created_at || null;
 }
@@ -152,8 +173,9 @@ function selectDailyRows(rows, limit) {
   return selected;
 }
 
-const { dryRun, limit, sleep: sleepSeconds, date: targetDate } = parseArgs();
+const { dryRun, limit, sleep: sleepSeconds, interval, startAt, date: targetDate } = parseArgs();
 const token = dryRun ? "" : await getPinterestAccessToken();
+const intervalSeconds = interval || sleepSeconds;
 
 const publishedFile = path.join(ROOT, "output", "published_pins.json");
 const failuresFile = path.join(ROOT, "output", "publish_failures.json");
@@ -210,6 +232,7 @@ for (const row of selectDailyRows(rows, remainingLimit * 8)) {
     console.log(JSON.stringify(payload, null, 2));
   } else {
     try {
+      await waitForScheduledPublishTime(targetDate, startAt, publishedTodayCount + processed, intervalSeconds);
       const result = await pinterestPost("/pins", token, payload);
       if (!result?.id) {
         throw new Error(`Pinterest API did not return a pin id for row ${row.id}.`);
@@ -223,7 +246,7 @@ for (const row of selectDailyRows(rows, remainingLimit * 8)) {
         pin: result,
       });
       console.log(`Published pin for row ${row.id}: ${result.id}`);
-      await sleep(sleepSeconds * 1000);
+      if (!startAt) await sleep(sleepSeconds * 1000);
     } catch (error) {
       const status = error instanceof PinterestApiError ? error.status : 0;
       const body = error instanceof PinterestApiError ? error.body : String(error?.message || error);

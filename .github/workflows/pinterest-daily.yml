@@ -2,8 +2,9 @@ name: Pinterest daily automation
 
 on:
   schedule:
-    # 09:30 BRT, with a 09:45 BRT safety retry. publish_pins.mjs skips days already completed.
-    - cron: "30,45 12 * * *"
+    # Starts at 09:25 BRT so setup finishes before the script publishes at 09:30, 09:31, 09:32, 09:33 and 09:34.
+    # 09:45 BRT remains as a safety retry. publish_pins.mjs skips days already completed.
+    - cron: "25,45 12 * * *"
   workflow_dispatch:
     inputs:
       limit:
@@ -98,7 +99,7 @@ jobs:
           if [ "${{ github.event.inputs.dry_run || 'false' }}" = "true" ]; then
             node scripts/publish_pins.mjs --dry-run --limit "$LIMIT" "${DATE_ARG[@]}"
           else
-            node scripts/publish_pins.mjs --limit "$LIMIT" --sleep 60 "${DATE_ARG[@]}"
+            node scripts/publish_pins.mjs --limit "$LIMIT" --start-at 09:30 --interval 60 "${DATE_ARG[@]}"
           fi
 
       - name: Commit publish history
