@@ -6802,5 +6802,280 @@
       "pin_metrics": null,
       "parent_pin_id": null
     }
+  },
+  {
+    "row_id": 5001,
+    "pinterest_id": "930134129316836685",
+    "url": "https://www.pinterest.com/pin/930134129316836685/",
+    "title": "Porta-Papel Higiênico de Parede Moderno Duplo para Banheiro - Cinza",
+    "published_at": "2026-08-17T12:35:23.384Z",
+    "pin": {
+      "is_standard": true,
+      "product_tags": [],
+      "board_id": "930134197981214275",
+      "is_product": false,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "board_section_id": null,
+      "parent_pin_id": null,
+      "description": "Porta-Papel Higiênico de Parede Moderno Duplo para Banheiro - Cinza organiza o banheiro com acabamento moderno, visual limpo e uso prático no dia a dia. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "title": "Porta-Papel Higiênico de Parede Moderno Duplo para Banheiro - Cinza",
+      "created_at": "2026-08-17T12:35:23",
+      "id": "930134129316836685",
+      "has_been_promoted": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/18/c5/f6/18c5f66964679f54175e5608029ccda9.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/18/c5/f6/18c5f66964679f54175e5608029ccda9.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/18/c5/f6/18c5f66964679f54175e5608029ccda9.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/18/c5/f6/18c5f66964679f54175e5608029ccda9.jpg"
+          }
+        }
+      },
+      "link": "https://chiquehome.com.br/products/porta-papel-higienico-de-parede-moderno-duplo-para-banheiro-cinza?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=porta_papel_higienico_cinza_5001",
+      "creative_type": "REGULAR",
+      "pin_metrics": null,
+      "is_removable": false,
+      "dominant_color": "#a4a198",
+      "alt_text": "Porta-Papel Higiênico de Parede Moderno Duplo para Banheiro - Cinza - porta-papel higiênico cinza Chique Home",
+      "is_owner": true
+    }
+  },
+  {
+    "row_id": 5002,
+    "pinterest_id": "930134129316836711",
+    "url": "https://www.pinterest.com/pin/930134129316836711/",
+    "title": "Porta-Papel Higiênico de Parede Moderno para Banheiro - Branco",
+    "published_at": "2026-08-17T12:36:24.055Z",
+    "pin": {
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "board_section_id": null,
+      "board_id": "930134197981214275",
+      "is_owner": true,
+      "is_product": false,
+      "created_at": "2026-08-17T12:36:23",
+      "description": "Porta-Papel Higiênico de Parede Moderno para Banheiro - Branco organiza o banheiro com acabamento moderno, visual limpo e uso prático no dia a dia. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "title": "Porta-Papel Higiênico de Parede Moderno para Banheiro - Branco",
+      "dominant_color": "#aea89e",
+      "has_been_promoted": false,
+      "alt_text": "Porta-Papel Higiênico de Parede Moderno para Banheiro - Branco - porta-papel higiênico branco Chique Home",
+      "link": "https://chiquehome.com.br/products/porta-papel-higienico-de-parede-moderno-para-banheiro-branco?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=porta_papel_higienico_branco_5002",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/5d/e1/e4/5de1e4b76c8581c0f1f83e76b2f04e0f.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/5d/e1/e4/5de1e4b76c8581c0f1f83e76b2f04e0f.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/5d/e1/e4/5de1e4b76c8581c0f1f83e76b2f04e0f.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/5d/e1/e4/5de1e4b76c8581c0f1f83e76b2f04e0f.jpg"
+          }
+        }
+      },
+      "product_tags": [],
+      "is_removable": false,
+      "parent_pin_id": null,
+      "is_standard": true,
+      "pin_metrics": null,
+      "creative_type": "REGULAR",
+      "id": "930134129316836711"
+    }
+  },
+  {
+    "row_id": 5003,
+    "pinterest_id": "930134129316836737",
+    "url": "https://www.pinterest.com/pin/930134129316836737/",
+    "title": "Banheiro moderno",
+    "published_at": "2026-08-17T12:37:24.742Z",
+    "pin": {
+      "description": "Banheiro moderno com composição elegante, funcional e pensada para inspirar uma casa mais sofisticada. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "is_owner": true,
+      "creative_type": "REGULAR",
+      "board_section_id": null,
+      "link": "https://chiquehome.com.br/collections/banheiro-organizado?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=banheiro_moderno_5003",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/e8/38/ff/e838ff6207ea1a5da2210c9e5f791ee3.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/e8/38/ff/e838ff6207ea1a5da2210c9e5f791ee3.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/e8/38/ff/e838ff6207ea1a5da2210c9e5f791ee3.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/e8/38/ff/e838ff6207ea1a5da2210c9e5f791ee3.jpg"
+          }
+        }
+      },
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "is_removable": false,
+      "title": "Banheiro moderno",
+      "is_product": false,
+      "id": "930134129316836737",
+      "dominant_color": "#918c83",
+      "parent_pin_id": null,
+      "has_been_promoted": false,
+      "created_at": "2026-08-17T12:37:24",
+      "board_id": "930134197981214275",
+      "alt_text": "Banheiro moderno - banheiro moderno Chique Home",
+      "pin_metrics": null,
+      "product_tags": [],
+      "is_standard": true
+    }
+  },
+  {
+    "row_id": 5004,
+    "pinterest_id": "930134129316836786",
+    "url": "https://www.pinterest.com/pin/930134129316836786/",
+    "title": "Porta-Papel Higiênico de Parede Moderno para Banheiro - Preto",
+    "published_at": "2026-08-17T12:38:25.478Z",
+    "pin": {
+      "title": "Porta-Papel Higiênico de Parede Moderno para Banheiro - Preto",
+      "is_product": false,
+      "dominant_color": "#a59d93",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/37/3c/f0/373cf08b27ad80d78b84a52598e1b45e.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/37/3c/f0/373cf08b27ad80d78b84a52598e1b45e.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/37/3c/f0/373cf08b27ad80d78b84a52598e1b45e.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/37/3c/f0/373cf08b27ad80d78b84a52598e1b45e.jpg"
+          }
+        }
+      },
+      "alt_text": "Porta-Papel Higiênico de Parede Moderno para Banheiro - Preto - porta-papel higiênico preto Chique Home",
+      "link": "https://chiquehome.com.br/products/porta-papel-higienico-de-parede-moderno-para-banheiro-preto?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=porta_papel_higienico_preto_5004",
+      "created_at": "2026-08-17T12:38:25",
+      "is_removable": false,
+      "product_tags": [],
+      "is_standard": true,
+      "id": "930134129316836786",
+      "is_owner": true,
+      "board_section_id": null,
+      "parent_pin_id": null,
+      "board_id": "930134197981214275",
+      "has_been_promoted": false,
+      "pin_metrics": null,
+      "creative_type": "REGULAR",
+      "description": "Porta-Papel Higiênico de Parede Moderno para Banheiro - Preto organiza o banheiro com acabamento moderno, visual limpo e uso prático no dia a dia. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "board_owner": {
+        "username": "chiquehome"
+      }
+    }
+  },
+  {
+    "row_id": 5005,
+    "pinterest_id": "930134129316836810",
+    "url": "https://www.pinterest.com/pin/930134129316836810/",
+    "title": "Porta-papéis higiênicos branco e cinza",
+    "published_at": "2026-08-17T12:39:26.039Z",
+    "pin": {
+      "id": "930134129316836810",
+      "description": "Porta-papéis higiênicos branco e cinza em duas opções da mesma coleção para comparar acabamento, cor e estilo antes de escolher. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "product_tags": [],
+      "is_removable": false,
+      "link": "https://chiquehome.com.br/collections/banheiro-organizado?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=porta_papeis_higienicos_branco_e_cinza_5005",
+      "is_product": false,
+      "has_been_promoted": false,
+      "dominant_color": "#a79f96",
+      "board_section_id": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/14/27/74/1427741272e8b84de76486b924ccc992.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/14/27/74/1427741272e8b84de76486b924ccc992.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/14/27/74/1427741272e8b84de76486b924ccc992.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/14/27/74/1427741272e8b84de76486b924ccc992.jpg"
+          }
+        }
+      },
+      "created_at": "2026-08-17T12:39:25",
+      "board_id": "930134197981214275",
+      "alt_text": "Porta-papéis higiênicos branco e cinza - porta-papéis higiênicos branco e cinza Chique Home",
+      "is_standard": true,
+      "parent_pin_id": null,
+      "is_owner": true,
+      "title": "Porta-papéis higiênicos branco e cinza",
+      "pin_metrics": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "creative_type": "REGULAR"
+    }
   }
 ]
