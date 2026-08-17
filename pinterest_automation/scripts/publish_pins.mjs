@@ -7,6 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const API_BASE = "https://api.pinterest.com/v5";
 const MISSING_BOARD_ID = "BOARD_ID_AQUI";
+const MAX_DAILY_PINS = 5;
 
 class PinterestApiError extends Error {
   constructor(status, body) {
@@ -31,7 +32,7 @@ function parseArgs() {
   };
   return {
     dryRun: args.includes("--dry-run"),
-    limit: readNumberArg("--limit", 10),
+    limit: Math.min(readNumberArg("--limit", MAX_DAILY_PINS), MAX_DAILY_PINS),
     sleep: readNumberArg("--sleep", 10),
     interval: readNumberArg("--interval", 0),
     startAt: readStringArg("--start-at", ""),

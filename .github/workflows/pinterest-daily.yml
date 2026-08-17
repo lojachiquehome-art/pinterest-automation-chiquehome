@@ -3,8 +3,7 @@ name: Pinterest daily automation
 on:
   schedule:
     # Starts at 09:25 BRT so setup finishes before the script publishes at 09:30, 09:31, 09:32, 09:33 and 09:34.
-    # 09:45 BRT remains as a safety retry. publish_pins.mjs skips days already completed.
-    - cron: "25,45 12 * * *"
+    - cron: "25 12 * * *"
   workflow_dispatch:
     inputs:
       limit:
@@ -33,6 +32,7 @@ concurrency:
 
 jobs:
   pinterest:
+    if: github.event_name != 'schedule' || github.event.schedule == '25 12 * * *'
     runs-on: ubuntu-latest
     timeout-minutes: 360
     defaults:
@@ -79,7 +79,30 @@ jobs:
       - name: Refresh publish history
         run: git pull --ff-only origin main
 
+      - name: Acquire daily publish lock
+        if: github.event_name == 'schedule'
+        run: |
+          DATE_KEY=$(node -e "console.log(new Intl.DateTimeFormat('en-CA',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()))")
+          LOCK_FILE="output/daily_locks/${DATE_KEY}.lock"
+          mkdir -p output/daily_locks
+          git pull --ff-only origin main
+          if [ -f "$LOCK_FILE" ]; then
+            echo "Pinterest daily run for ${DATE_KEY} already has a lock. Skipping publish."
+            echo "PINTEREST_SKIP_PUBLISH=true" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          printf '{"date":"%s","run_id":"%s","created_at":"%s"}\n' "$DATE_KEY" "$GITHUB_RUN_ID" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > "$LOCK_FILE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$LOCK_FILE"
+          git commit -m "chore: lock pinterest run ${DATE_KEY}"
+          if ! git push origin HEAD:main; then
+            echo "Another Pinterest run acquired the lock for ${DATE_KEY}. Skipping publish."
+            echo "PINTEREST_SKIP_PUBLISH=true" >> "$GITHUB_ENV"
+          fi
+
       - name: Validate vertical Pinterest images
+        if: env.PINTEREST_SKIP_PUBLISH != 'true'
         run: |
           DATE_INPUT="${{ github.event.inputs.date || '' }}"
           DATE_ARG=()
@@ -89,6 +112,7 @@ jobs:
           node scripts/validate_pin_images.mjs "${DATE_ARG[@]}"
 
       - name: Publish daily pins
+        if: env.PINTEREST_SKIP_PUBLISH != 'true'
         run: |
           LIMIT="${{ github.event.inputs.limit || '5' }}"
           DATE_INPUT="${{ github.event.inputs.date || '' }}"
@@ -103,7 +127,7 @@ jobs:
           fi
 
       - name: Commit publish history
-        if: always()
+        if: always() && env.PINTEREST_SKIP_PUBLISH != 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update pinterest publish history"
