@@ -1,0 +1,36 @@
+id,date,board_name,keyword,product_handle,visual_strategy,product_2_handle,generated_image_path
+5001,2026-08-17,Banheiro organizado,porta-papel higiênico cinza,porta-papel-higienico-de-parede-moderno-duplo-para-banheiro-cinza,product_full_bleed,,public/pinterest/final/pin-5001.jpg
+5002,2026-08-17,Banheiro organizado,porta-papel higiênico branco,porta-papel-higienico-de-parede-moderno-para-banheiro-branco,product_in_environment,,public/pinterest/final/pin-5002.jpg
+5003,2026-08-17,Banheiro organizado,banheiro moderno,porta-papel-higienico-de-parede-moderno-para-banheiro-preto,environment_title_overlay,,public/pinterest/final/pin-5003.jpg
+5004,2026-08-17,Banheiro organizado,porta-papel higiênico preto,porta-papel-higienico-de-parede-moderno-para-banheiro-preto,product_full_bleed,,public/pinterest/final/pin-5004.jpg
+5005,2026-08-17,Banheiro organizado,porta-papéis higiênicos branco e cinza,porta-papel-higienico-de-parede-moderno-para-banheiro-branco,split_two_products,porta-papel-higienico-de-parede-moderno-duplo-para-banheiro-cinza,public/pinterest/final/pin-5005.jpg
+5006,2026-08-18,Iluminacao decorativa,lustre pendente dourado,lustre-pendente-para-sala-de-jantar-cozinha-moderno-led-dourado,product_full_bleed,,public/pinterest/final/pin-5006.jpg
+5007,2026-08-18,Iluminacao decorativa,lustre pendente preto,lustre-pendente-para-sala-de-jantar-cozinha-moderno-led-preto,product_in_environment,,public/pinterest/final/pin-5007.jpg
+5008,2026-08-18,Iluminacao decorativa,sala de jantar elegante,luminaria-de-teto-para-sala-quarto-cozinha-em-led-circular-dourada,environment_title_overlay,,public/pinterest/final/pin-5008.jpg
+5009,2026-08-18,Iluminacao decorativa,luminária circular branca,luminaria-de-teto-para-sala-quarto-cozinha-em-led-circular-branca,product_full_bleed,,public/pinterest/final/pin-5009.jpg
+5010,2026-08-18,Iluminacao decorativa,luminárias circulares branca e dourada,luminaria-de-teto-para-sala-quarto-cozinha-em-led-circular-branca,split_two_products,luminaria-de-teto-para-sala-quarto-cozinha-em-led-circular-dourada,public/pinterest/final/pin-5010.jpg
+5011,2026-08-19,Relogios de parede,relógio de parede Verona Rose,relogio-de-parede-verona-rose,product_full_bleed,,public/pinterest/final/pin-5011.jpg
+5012,2026-08-19,Relogios de parede,relógio de parede Cremona Dark Wood,relogio-de-parede-cremona-dark-wood,product_in_environment,,public/pinterest/final/pin-5012.jpg
+5013,2026-08-19,Relogios de parede,sala moderna,relogio-de-parede-milano-white,environment_title_overlay,,public/pinterest/final/pin-5013.jpg
+5014,2026-08-19,Relogios de parede,relógio de parede Toscana Brown,relogio-de-parede-toscana-brown,product_full_bleed,,public/pinterest/final/pin-5014.jpg
+5015,2026-08-19,Relogios de parede,relógios Aurelio dourado e preto,relogio-de-parede-aurelio-gold-white,split_two_products,relogio-de-parede-aurelio-gold-black,public/pinterest/final/pin-5015.jpg
+5016,2026-08-20,Escritório em casa,luminária de mesa dourada,luminaria-de-mesa-led-para-quarto-sala-dourada-espiral-3-cores,product_full_bleed,,public/pinterest/final/pin-5016.jpg
+5017,2026-08-20,Escritório em casa,luminária de mesa espiral,luminaria-de-mesa-led-para-quarto-sala-espiral-decoracao,product_in_environment,,public/pinterest/final/pin-5017.jpg
+5018,2026-08-20,Escritório em casa,escritório moderno,arandela-de-parede-interna-para-quarto-sala-led-curva,environment_title_overlay,,public/pinterest/final/pin-5018.jpg
+5019,2026-08-20,Escritório em casa,luminária de mesa borboleta,luminaria-de-mesa-led-para-quarto-sala-borboleta-3-cores,product_full_bleed,,public/pinterest/final/pin-5019.jpg
+5020,2026-08-20,Escritório em casa,luminárias de mesa curva e espiral,luminaria-de-mesa-led-para-quarto-sala-curvo-decorativa,split_two_products,luminaria-de-mesa-led-para-quarto-sala-espiral-decoracao,public/pinterest/final/pin-5020.jpg
+5021,2026-08-21,Sala sofisticada,vaso decorativo espiral,vaso-decorativo-para-sala-de-ceramica-espiral-2-pecas-decoracao,product_full_bleed,,public/pinterest/final/pin-5021.jpg
+5022,2026-08-21,Sala sofisticada,escultura decorativa casal,escultura-decorativa-casal-estatua-decoracao-para-sala,product_in_environment,,public/pinterest/final/pin-5022.jpg
+5023,2026-08-21,Sala sofisticada,sala de estar elegante,vaso-decorativo-para-sala-de-ceramica-2-pecas-decoracao,environment_title_overlay,,public/pinterest/final/pin-5023.jpg
+5024,2026-08-21,Sala sofisticada,escultura decorativa touro,escultura-decorativa-touro-estatua-para-mesa-decoracao,product_full_bleed,,public/pinterest/final/pin-5024.jpg
+5025,2026-08-21,Sala sofisticada,esculturas decorativas cachorro e renas,escultura-decorativa-cachorro-balao-moderna-decoracao-para-sala,split_two_products,escultura-decorativa-renas-estatua-para-mesa-decoracao-para-sala,public/pinterest/final/pin-5025.jpg
+5026,2026-08-22,Quarto decorado,relógio de mesa redondo branco,relogio-de-mesa-digital-despertador-redondo-branco-colorido,product_full_bleed,,public/pinterest/final/pin-5026.jpg
+5027,2026-08-22,Quarto decorado,relógio de mesa redondo preto,relogio-de-mesa-digital-despertador-redondo-preto,product_in_environment,,public/pinterest/final/pin-5027.jpg
+5028,2026-08-22,Quarto decorado,quarto aconchegante,relogio-de-mesa-digital-despertador-curvado-verde,environment_title_overlay,,public/pinterest/final/pin-5028.jpg
+5029,2026-08-22,Quarto decorado,relógio de mesa espelhado preto,relogio-de-mesa-digital-despertador-espelhado-preto,product_full_bleed,,public/pinterest/final/pin-5029.jpg
+5030,2026-08-22,Quarto decorado,relógios de mesa decorativos branco e preto,relogio-de-mesa-digital-despertador-decorativo-branco,split_two_products,relogio-de-mesa-digital-despertador-decorativo-preto,public/pinterest/final/pin-5030.jpg
+5031,2026-08-23,Cozinha elegante,kit de utensílios de madeira,kit-utensilios-de-cozinha-de-madeira-antiaderente-7-pecas,product_full_bleed,,public/pinterest/final/pin-5031.jpg
+5032,2026-08-23,Cozinha elegante,kit de utensílios de silicone,kit-7-utensilios-de-cozinha-de-silicone-antiaderente-decoracao-cozinha,product_in_environment,,public/pinterest/final/pin-5032.jpg
+5033,2026-08-23,Cozinha elegante,cozinha sofisticada,escorredor-de-talheres-organizador-de-cozinha-decoracao,environment_title_overlay,,public/pinterest/final/pin-5033.jpg
+5034,2026-08-23,Cozinha elegante,porta papel toalha de mesa,porta-papel-toalha-de-mesa-vertical-para-cozinha,product_full_bleed,,public/pinterest/final/pin-5034.jpg
+5035,2026-08-23,Cozinha elegante,potes organizadores de vidro e plástico,pote-de-vidro-com-tampa-de-bambu-decoracao-para-cozinha,split_two_products,potes-hermeticos-organizadores-de-plastico-decoracao-cozinha,public/pinterest/final/pin-5035.jpg
