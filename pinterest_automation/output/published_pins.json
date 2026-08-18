@@ -7077,5 +7077,280 @@
       "parent_pin_id": null,
       "board_id": "930134197981214275"
     }
+  },
+  {
+    "row_id": 5006,
+    "pinterest_id": "930134129316869422",
+    "url": "https://www.pinterest.com/pin/930134129316869422/",
+    "title": "Lustre Pendente Moderno LED - Dourado",
+    "published_at": "2026-08-18T12:30:01.291Z",
+    "pin": {
+      "parent_pin_id": null,
+      "description": "Lustre Pendente Moderno LED - Dourado cria uma iluminação mais acolhedora e sofisticada para valorizar a decoração do ambiente. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "board_id": "930134197981214278",
+      "is_standard": true,
+      "product_tags": [],
+      "has_been_promoted": false,
+      "created_at": "2026-08-18T12:30:00",
+      "pin_metrics": null,
+      "is_removable": false,
+      "link": "https://chiquehome.com.br/products/lustre-pendente-para-sala-de-jantar-cozinha-moderno-led-dourado?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=lustre_pendente_dourado_5006",
+      "creative_type": "REGULAR",
+      "alt_text": "Lustre Pendente Moderno LED - Dourado - lustre pendente dourado Chique Home",
+      "is_owner": true,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/62/ac/42/62ac424007a21f083a760783361e6a7a.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/62/ac/42/62ac424007a21f083a760783361e6a7a.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/62/ac/42/62ac424007a21f083a760783361e6a7a.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/62/ac/42/62ac424007a21f083a760783361e6a7a.jpg"
+          }
+        }
+      },
+      "board_section_id": null,
+      "dominant_color": null,
+      "id": "930134129316869422",
+      "title": "Lustre Pendente Moderno LED - Dourado",
+      "is_product": false
+    }
+  },
+  {
+    "row_id": 5007,
+    "pinterest_id": "930134129316869445",
+    "url": "https://www.pinterest.com/pin/930134129316869445/",
+    "title": "Lustre Pendente Moderno LED - Preto",
+    "published_at": "2026-08-18T12:31:02.750Z",
+    "pin": {
+      "is_product": false,
+      "created_at": "2026-08-18T12:31:02",
+      "title": "Lustre Pendente Moderno LED - Preto",
+      "description": "Lustre Pendente Moderno LED - Preto cria uma iluminação mais acolhedora e sofisticada para valorizar a decoração do ambiente. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "board_section_id": null,
+      "link": "https://chiquehome.com.br/products/lustre-pendente-para-sala-de-jantar-cozinha-moderno-led-preto?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=lustre_pendente_preto_5007",
+      "is_owner": true,
+      "parent_pin_id": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "is_standard": true,
+      "product_tags": [],
+      "has_been_promoted": false,
+      "creative_type": "REGULAR",
+      "pin_metrics": null,
+      "dominant_color": null,
+      "is_removable": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/4a/63/a6/4a63a6200042414673d6cdf0677386f5.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/4a/63/a6/4a63a6200042414673d6cdf0677386f5.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/4a/63/a6/4a63a6200042414673d6cdf0677386f5.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/4a/63/a6/4a63a6200042414673d6cdf0677386f5.jpg"
+          }
+        }
+      },
+      "id": "930134129316869445",
+      "board_id": "930134197981214278",
+      "alt_text": "Lustre Pendente Moderno LED - Preto - lustre pendente preto Chique Home"
+    }
+  },
+  {
+    "row_id": 5008,
+    "pinterest_id": "930134129316869467",
+    "url": "https://www.pinterest.com/pin/930134129316869467/",
+    "title": "Sala de jantar elegante",
+    "published_at": "2026-08-18T12:32:03.625Z",
+    "pin": {
+      "is_standard": true,
+      "product_tags": [],
+      "has_been_promoted": false,
+      "alt_text": "Sala de jantar elegante - sala de jantar elegante Chique Home",
+      "is_product": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/78/0c/df/780cdf50726b698df2f20536600a5a29.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/78/0c/df/780cdf50726b698df2f20536600a5a29.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/78/0c/df/780cdf50726b698df2f20536600a5a29.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/78/0c/df/780cdf50726b698df2f20536600a5a29.jpg"
+          }
+        }
+      },
+      "link": "https://chiquehome.com.br/collections/iluminacao-decorativa?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=sala_de_jantar_elegante_5008",
+      "dominant_color": null,
+      "parent_pin_id": null,
+      "created_at": "2026-08-18T12:32:03",
+      "description": "Sala de jantar elegante com composição elegante, funcional e pensada para inspirar uma casa mais sofisticada. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "is_owner": true,
+      "board_id": "930134197981214278",
+      "title": "Sala de jantar elegante",
+      "id": "930134129316869467",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "creative_type": "REGULAR",
+      "is_removable": false,
+      "pin_metrics": null,
+      "board_section_id": null
+    }
+  },
+  {
+    "row_id": 5009,
+    "pinterest_id": "930134129316869495",
+    "url": "https://www.pinterest.com/pin/930134129316869495/",
+    "title": "Luminária de Teto em LED Circular - Branca",
+    "published_at": "2026-08-18T12:33:04.443Z",
+    "pin": {
+      "dominant_color": null,
+      "alt_text": "Luminária de Teto em LED Circular - Branca - luminária circular branca Chique Home",
+      "description": "Luminária de Teto em LED Circular - Branca cria uma iluminação mais acolhedora e sofisticada para valorizar a decoração do ambiente. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/39/38/a1/3938a1f94311744bc206c7aef40173c8.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/39/38/a1/3938a1f94311744bc206c7aef40173c8.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/39/38/a1/3938a1f94311744bc206c7aef40173c8.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/39/38/a1/3938a1f94311744bc206c7aef40173c8.jpg"
+          }
+        }
+      },
+      "is_standard": true,
+      "creative_type": "REGULAR",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "id": "930134129316869495",
+      "parent_pin_id": null,
+      "link": "https://chiquehome.com.br/products/luminaria-de-teto-para-sala-quarto-cozinha-em-led-circular-branca?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=luminaria_circular_branca_5009",
+      "board_id": "930134197981214278",
+      "created_at": "2026-08-18T12:33:04",
+      "has_been_promoted": false,
+      "is_product": false,
+      "board_section_id": null,
+      "title": "Luminária de Teto em LED Circular - Branca",
+      "is_owner": true,
+      "is_removable": false,
+      "product_tags": [],
+      "pin_metrics": null
+    }
+  },
+  {
+    "row_id": 5010,
+    "pinterest_id": "930134129316869542",
+    "url": "https://www.pinterest.com/pin/930134129316869542/",
+    "title": "Luminárias circulares branca e dourada",
+    "published_at": "2026-08-18T12:34:05.400Z",
+    "pin": {
+      "is_removable": false,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "pin_metrics": null,
+      "link": "https://chiquehome.com.br/collections/iluminacao-decorativa?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=luminarias_circulares_branca_e_dourada_5010",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/bf/7e/1b/bf7e1b62cd53703291bf98f715aea0e6.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/bf/7e/1b/bf7e1b62cd53703291bf98f715aea0e6.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/bf/7e/1b/bf7e1b62cd53703291bf98f715aea0e6.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/bf/7e/1b/bf7e1b62cd53703291bf98f715aea0e6.jpg"
+          }
+        }
+      },
+      "has_been_promoted": false,
+      "board_id": "930134197981214278",
+      "alt_text": "Luminárias circulares branca e dourada - luminárias circulares branca e dourada Chique Home",
+      "is_owner": true,
+      "description": "Luminárias circulares branca e dourada em duas opções da mesma coleção para comparar acabamento, cor e estilo antes de escolher. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "product_tags": [],
+      "title": "Luminárias circulares branca e dourada",
+      "is_standard": true,
+      "id": "930134129316869542",
+      "is_product": false,
+      "board_section_id": null,
+      "creative_type": "REGULAR",
+      "parent_pin_id": null,
+      "dominant_color": null,
+      "created_at": "2026-08-18T12:34:05"
+    }
   }
 ]
