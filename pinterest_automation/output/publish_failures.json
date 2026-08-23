@@ -150,5 +150,13 @@
     "status": 400,
     "error": "{\"code\":2787,\"message\":\"Sorry! Something went wrong on our end.\"}",
     "failed_at": "2026-08-14T14:01:13.736Z"
+  },
+  {
+    "row_id": 5034,
+    "title": "Porta Papel Toalha De Mesa Vertical para Cozinha",
+    "image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/final/pin-5034.jpg",
+    "status": 500,
+    "error": "{\"code\":12,\"message\":\"Something went wrong on our end. Sorry about that.\",\"details\":{\"request_id\":\"6475370596879986\"}}",
+    "failed_at": "2026-08-23T12:33:11.435Z"
   }
 ]
