@@ -8672,5 +8672,60 @@
         "username": "chiquehome"
       }
     }
+  },
+  {
+    "row_id": 5034,
+    "pinterest_id": "930134129317026328",
+    "url": "https://www.pinterest.com/pin/930134129317026328/",
+    "title": "Porta Papel Toalha De Mesa Vertical para Cozinha",
+    "published_at": "2026-08-23T12:34:35.157Z",
+    "pin": {
+      "pin_metrics": null,
+      "product_tags": [],
+      "description": "Porta Papel Toalha De Mesa Vertical para Cozinha deixa o ambiente mais organizado, bonito e funcional sem perder a sensação de casa sofisticada. Clique no botão \"Acessar o site\" para ver detalhes, medidas e preço na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto por ter vindo do Pinterest.",
+      "dominant_color": "#dee0e0",
+      "created_at": "2026-08-23T12:34:34",
+      "title": "Porta Papel Toalha De Mesa Vertical para Cozinha",
+      "is_standard": true,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/bd/d2/dc/bdd2dcfb8ce57ef1f10e6bbcbc9fd04a.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/bd/d2/dc/bdd2dcfb8ce57ef1f10e6bbcbc9fd04a.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/bd/d2/dc/bdd2dcfb8ce57ef1f10e6bbcbc9fd04a.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/bd/d2/dc/bdd2dcfb8ce57ef1f10e6bbcbc9fd04a.jpg"
+          }
+        }
+      },
+      "board_section_id": null,
+      "is_removable": false,
+      "has_been_promoted": false,
+      "alt_text": "Porta Papel Toalha De Mesa Vertical para Cozinha - porta papel toalha de mesa Chique Home",
+      "link": "https://chiquehome.com.br/products/porta-papel-toalha-de-mesa-vertical-para-cozinha?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_organic_chiquehome&utm_content=porta_papel_toalha_de_mesa_5034",
+      "is_owner": true,
+      "id": "930134129317026328",
+      "parent_pin_id": null,
+      "is_product": false,
+      "creative_type": "REGULAR",
+      "board_id": "930134197981214272"
+    }
   }
 ]
