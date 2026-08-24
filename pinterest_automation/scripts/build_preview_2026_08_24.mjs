@@ -525,11 +525,8 @@ async function environmentPanel(row, day, options = {}) {
 
 async function productInEnvironment(row, day) {
   const filePath = path.join(GENERATED_DIR, `pin-${row.id}.jpg`);
-  const image = await environmentPanel(row, day, {
+  const image = await productPhotoPanel(row, day, {
     imageIndex: row.imageIndex ?? 0,
-    productW: row.productW,
-    productH: row.productH,
-    productTop: row.productTop,
   });
   await sharp(image).jpeg({ quality: 92 }).toFile(filePath);
   return filePath;
@@ -537,12 +534,9 @@ async function productInEnvironment(row, day) {
 
 async function environmentWithTitle(row, day) {
   const filePath = path.join(GENERATED_DIR, `pin-${row.id}.jpg`);
-  const image = await environmentPanel(row, day, {
+  const image = await productPhotoPanel(row, day, {
     imageIndex: row.imageIndex ?? 0,
     text: row.overlay ?? row.keyword,
-    productW: row.productW,
-    productH: row.productH,
-    productTop: row.productTop,
   });
   await sharp(image).jpeg({ quality: 92 }).toFile(filePath);
   return filePath;
@@ -550,21 +544,15 @@ async function environmentWithTitle(row, day) {
 
 async function splitTwoProducts(row, day) {
   const filePath = path.join(GENERATED_DIR, `pin-${row.id}.jpg`);
-  const top = await environmentPanel(row, day, {
+  const top = await productPhotoPanel(row, day, {
     height: HEIGHT / 2,
     coupon: false,
     imageIndex: row.imageIndex ?? 0,
-    productW: row.productW ?? 760,
-    productH: row.productH ?? 430,
-    productTop: row.productTop ?? 375,
   });
-  const bottom = await environmentPanel({ ...row, handle: row.handle2 }, day, {
+  const bottom = await productPhotoPanel({ ...row, handle: row.handle2 }, day, {
     height: HEIGHT / 2,
     coupon: false,
     imageIndex: row.imageIndex2 ?? 0,
-    productW: row.productW2 ?? row.productW ?? 760,
-    productH: row.productH2 ?? row.productH ?? 430,
-    productTop: row.productTop2 ?? row.productTop ?? 375,
   });
   const divider = Buffer.from(`<svg width="${WIDTH}" height="${HEIGHT}" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="${HEIGHT / 2 - 3}" width="${WIDTH}" height="6" fill="#fbf7ef"/></svg>`);
   await sharp({ create: { width: WIDTH, height: HEIGHT, channels: 3, background: "#f4efe7" } })
