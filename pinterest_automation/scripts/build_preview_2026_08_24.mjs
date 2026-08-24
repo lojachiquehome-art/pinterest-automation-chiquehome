@@ -297,29 +297,107 @@ function sceneDecor(kind, width = WIDTH, height = HEIGHT) {
   `;
 }
 
+function averageCornerColor(data, info, sample = 18) {
+  const colors = [];
+  const pushPixel = (x, y) => {
+    const idx = (y * info.width + x) * 4;
+    colors.push([data[idx], data[idx + 1], data[idx + 2]]);
+  };
+  for (let y = 0; y < Math.min(sample, info.height); y += 1) {
+    for (let x = 0; x < Math.min(sample, info.width); x += 1) pushPixel(x, y);
+    for (let x = Math.max(0, info.width - sample); x < info.width; x += 1) pushPixel(x, y);
+  }
+  for (let y = Math.max(0, info.height - sample); y < info.height; y += 1) {
+    for (let x = 0; x < Math.min(sample, info.width); x += 1) pushPixel(x, y);
+    for (let x = Math.max(0, info.width - sample); x < info.width; x += 1) pushPixel(x, y);
+  }
+  const sum = colors.reduce((acc, color) => {
+    acc[0] += color[0];
+    acc[1] += color[1];
+    acc[2] += color[2];
+    return acc;
+  }, [0, 0, 0]);
+  return sum.map((value) => value / Math.max(1, colors.length));
+}
+
 async function trimmedProductImage(input, maxW, maxH) {
   const { data, info } = await sharp(input)
     .rotate()
-    .trim({ background: "#ffffff", threshold: 18 })
+    .trim({ threshold: 12 })
     .resize(maxW, maxH, { fit: "inside", withoutEnlargement: false })
     .ensureAlpha()
     .raw()
     .toBuffer({ resolveWithObject: true });
 
-  for (let i = 0; i < data.length; i += 4) {
+  const bg = averageCornerColor(data, info);
+  const totalPixels = info.width * info.height;
+  const background = new Uint8Array(totalPixels);
+  const queued = new Uint8Array(totalPixels);
+  const queue = [];
+
+  const isBackgroundLike = (idx) => {
+    const i = idx * 4;
     const r = data[i];
     const g = data[i + 1];
     const b = data[i + 2];
+    const alpha = data[i + 3];
     const max = Math.max(r, g, b);
     const min = Math.min(r, g, b);
-    const isBrightNeutral = max > 232 && max - min < 26;
-    const isAlmostWhite = r > 242 && g > 242 && b > 242;
-    if (isBrightNeutral || isAlmostWhite) {
+    const distanceFromBg = Math.hypot(r - bg[0], g - bg[1], b - bg[2]);
+    const brightNeutral = max > 214 && max - min < 42;
+    const mutedNeutral = max > 170 && max - min < 24;
+    return alpha < 12 || distanceFromBg < 74 || (brightNeutral && distanceFromBg < 118) || (mutedNeutral && distanceFromBg < 96);
+  };
+
+  const enqueue = (idx) => {
+    if (idx < 0 || idx >= totalPixels || queued[idx]) return;
+    if (!isBackgroundLike(idx)) return;
+    queued[idx] = 1;
+    queue.push(idx);
+  };
+
+  for (let x = 0; x < info.width; x += 1) {
+    enqueue(x);
+    enqueue((info.height - 1) * info.width + x);
+  }
+  for (let y = 0; y < info.height; y += 1) {
+    enqueue(y * info.width);
+    enqueue(y * info.width + info.width - 1);
+  }
+
+  for (let cursor = 0; cursor < queue.length; cursor += 1) {
+    const idx = queue[cursor];
+    background[idx] = 1;
+    const x = idx % info.width;
+    if (x > 0) enqueue(idx - 1);
+    if (x < info.width - 1) enqueue(idx + 1);
+    if (idx >= info.width) enqueue(idx - info.width);
+    if (idx < totalPixels - info.width) enqueue(idx + info.width);
+  }
+
+  for (let idx = 0; idx < totalPixels; idx += 1) {
+    const i = idx * 4;
+    if (background[idx]) {
       data[i + 3] = 0;
+      continue;
+    }
+    const x = idx % info.width;
+    const y = Math.floor(idx / info.width);
+    const r = data[i];
+    const g = data[i + 1];
+    const b = data[i + 2];
+    const distanceFromBg = Math.hypot(r - bg[0], g - bg[1], b - bg[2]);
+    const edgeDistance = Math.min(x, y, info.width - 1 - x, info.height - 1 - y);
+    if (edgeDistance < 18 && distanceFromBg < 104) {
+      data[i + 3] = Math.min(data[i + 3], Math.round((edgeDistance / 18) * 220));
     }
   }
 
-  return sharp(data, { raw: info }).png().toBuffer();
+  return sharp(data, { raw: info })
+    .trim({ background: { r: 0, g: 0, b: 0, alpha: 0 }, threshold: 8 })
+    .extend({ top: 18, bottom: 18, left: 18, right: 18, background: { r: 0, g: 0, b: 0, alpha: 0 } })
+    .png()
+    .toBuffer();
 }
 
 async function hasCleanCutout(input) {
@@ -379,12 +457,6 @@ async function environmentPanel(row, day, options = {}) {
   const input = await productBuffer(row.handle, options.imageIndex ?? row.imageIndex ?? 0);
   const colors = palette(day);
   const text = options.text ? wrapText(options.text.toUpperCase(), 18, 3) : [];
-  const productCover = await sharp(input)
-    .rotate()
-    .resize(w, h, { fit: "cover", position: row.position ?? "center" })
-    .modulate({ brightness: 0.98, saturation: 0.94 })
-    .jpeg({ quality: 92 })
-    .toBuffer();
   const scene = Buffer.from(`
     <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">
       <defs>
@@ -407,11 +479,11 @@ async function environmentPanel(row, day, options = {}) {
   const targetW = Math.max(options.productW ?? 0, Math.round(w * 0.72));
   const targetH = Math.max(options.productH ?? 0, Math.round(h * 0.44));
   const productCutout = await trimmedProductImage(input, targetW, targetH);
-  const useCutout = false;
   const meta = await sharp(productCutout).metadata();
   const productTop = Math.round(options.productTop ?? h * 0.64);
   const productLeft = Math.round(options.productLeft ?? (w - meta.width) / 2);
   const productY = Math.max(0, Math.min(h - meta.height, productTop - Math.round(meta.height / 2)));
+  const productX = Math.max(0, Math.min(w - meta.width, productLeft));
   const titleY = Math.round(h * 0.30);
   const title = text.length
     ? `<rect x="${Math.round(w * 0.08)}" y="${titleY - 78}" width="${Math.round(w * 0.84)}" height="${112 + Math.max(0, text.length - 1) * 66}" fill="#2d211b" opacity="0.30"/>
@@ -433,16 +505,20 @@ async function environmentPanel(row, day, options = {}) {
       ${title}
       ${coupon}
     </svg>`);
-  const startingImage = useCutout ? base : productCover;
-  const composites = useCutout
-    ? [
-        { input: productCutout, left: productLeft, top: productY },
-        { input: overlay, left: 0, top: 0 },
-      ]
-    : [{ input: overlay, left: 0, top: 0 }];
+  const shadow = Buffer.from(`
+    <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">
+      <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+      <ellipse cx="${productX + meta.width / 2}" cy="${Math.min(h - 42, productY + meta.height - 12)}" rx="${Math.max(120, meta.width * 0.42)}" ry="${Math.max(24, meta.height * 0.065)}" fill="#1f1712" opacity="0.26" filter="url(#blur)"/>
+    </svg>`);
+  const composites = [
+    { input: shadow, left: 0, top: 0 },
+    { input: productCutout, left: productX, top: productY },
+    { input: overlay, left: 0, top: 0 },
+  ];
 
-  return sharp(startingImage)
+  return sharp(base)
     .composite(composites)
+    .resize(w, h, { fit: "cover", position: "center" })
     .jpeg({ quality: 92 })
     .toBuffer();
 }
