@@ -1,0 +1,18 @@
+{
+  "status": "approved",
+  "scope": "Apply approved preview with product-name SEO to GitHub, start 2026-09-14 through 2026-09-20",
+  "userInstruction": "publique agora no github para começar as postagens amanhã dia 14/09",
+  "couponDecision": "keep_existing_yever_coupon",
+  "couponCheck": "User confirmed PINTEREST10 is managed in Yever and explicitly instructed to keep it. No Shopify discount creation required.",
+  "couponUserInstruction": "esse cupom ta na yever, pode manter",
+  "pins": 35,
+  "products": 42,
+  "timezone": "America/Sao_Paulo",
+  "dailyTimes": [
+    "09:30",
+    "09:31",
+    "09:32",
+    "09:33",
+    "09:34"
+  ]
+}

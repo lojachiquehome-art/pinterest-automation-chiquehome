@@ -1,0 +1,188 @@
+{
+  "checkedAt": "2026-09-14T00:47:31.649Z",
+  "pins": 35,
+  "originalImagesMatch": 35,
+  "priorRowsPreserved": 2011,
+  "historyRecords": 268,
+  "tests": [
+    {
+      "date": "2026-09-14",
+      "imageValidation": "Validated 5 vertical Pinterest images for 2026-09-14.",
+      "dryRunPayloads": 5
+    },
+    {
+      "date": "2026-09-15",
+      "imageValidation": "Validated 5 vertical Pinterest images for 2026-09-15.",
+      "dryRunPayloads": 5
+    },
+    {
+      "date": "2026-09-16",
+      "imageValidation": "Validated 5 vertical Pinterest images for 2026-09-16.",
+      "dryRunPayloads": 5
+    },
+    {
+      "date": "2026-09-17",
+      "imageValidation": "Validated 5 vertical Pinterest images for 2026-09-17.",
+      "dryRunPayloads": 5
+    },
+    {
+      "date": "2026-09-18",
+      "imageValidation": "Validated 5 vertical Pinterest images for 2026-09-18.",
+      "dryRunPayloads": 5
+    },
+    {
+      "date": "2026-09-19",
+      "imageValidation": "Validated 5 vertical Pinterest images for 2026-09-19.",
+      "dryRunPayloads": 5
+    },
+    {
+      "date": "2026-09-20",
+      "imageValidation": "Validated 5 vertical Pinterest images for 2026-09-20.",
+      "dryRunPayloads": 5
+    }
+  ],
+  "hashes": [
+    {
+      "id": 10001,
+      "sha256": "c66108f88d181306c88a1624914d7887a61db44f6eb6e6b679977b7c47fd793a"
+    },
+    {
+      "id": 10002,
+      "sha256": "c3c14a0f1fd57aa0a61bd03b8df24defa257d60e96231a92887b98e106b1ec91"
+    },
+    {
+      "id": 10003,
+      "sha256": "27b930b8a16ba05c500739a8024c1dfb4c2672c1ca316e56b083bce2ca3f271b"
+    },
+    {
+      "id": 10004,
+      "sha256": "8ef93f21570cce2b861694d41eb1524866b1f6534486dffec8c46918266b87bf"
+    },
+    {
+      "id": 10005,
+      "sha256": "cc9acb569f82a3a0c5adac1870c3a69d73557d293dd5c686ecb1d2486428a816"
+    },
+    {
+      "id": 10006,
+      "sha256": "933cc431e51c3159bb07e1fbac81c9bca103e70ff66f489dbf7eab8b262942c8"
+    },
+    {
+      "id": 10007,
+      "sha256": "3e0431471b793fd7a2b13ce1686757255d2d427826a248eebcb4a1f2fbef7d4d"
+    },
+    {
+      "id": 10008,
+      "sha256": "d03a69265b54e21597d83a54cc29e94ea4afa9c1cf32f72e08fee1286ec83dc5"
+    },
+    {
+      "id": 10009,
+      "sha256": "1c7eb0a973ea17c352302919bfbf85f09fcb2c4f96a5cad661f425a5b38084bb"
+    },
+    {
+      "id": 10010,
+      "sha256": "018277f09e858108a8d5e045db442256e0e0c820ab08199a09870b0eb6861417"
+    },
+    {
+      "id": 10011,
+      "sha256": "569c300946b91c1a33f5082a0997010e387621547198f4935230b4e07001a531"
+    },
+    {
+      "id": 10012,
+      "sha256": "45065e28f7c8503c465b54801012725ea571fce2f3a3215b870d35a6339a1fcb"
+    },
+    {
+      "id": 10013,
+      "sha256": "ce38cab5f6ca614fbf6b4eb9787fe73df8bf938e9039d027d0f9bdf73101abd9"
+    },
+    {
+      "id": 10014,
+      "sha256": "5341dc3adda0906c30ef5ab1e804f6bb8ad84d88f101a3d83a726b2a7cb36f3d"
+    },
+    {
+      "id": 10015,
+      "sha256": "c60f9e79d4cc2516ea4ce3601e9e36ecf966cbf8fb52a3e0d964351c794d68c5"
+    },
+    {
+      "id": 10016,
+      "sha256": "b79a7d6079374aa7cc1eef594c9603d4971b0098f9f74c2358ebbe8c8bed89cb"
+    },
+    {
+      "id": 10017,
+      "sha256": "f16a389bf96530755d106954bedb6e3c67753642806b64f8bc7630d2998f9af3"
+    },
+    {
+      "id": 10018,
+      "sha256": "ce80937d7de1464d14790115ccb5b80775e85e32f6d198c0d5860bb88ee58c51"
+    },
+    {
+      "id": 10019,
+      "sha256": "01dec984d4613345a4e647f36877911bbaa033b4ab90e2b260ca636b31b2e297"
+    },
+    {
+      "id": 10020,
+      "sha256": "1272ca402c66da457e74b739bea5492a348a01a728af89328ddef39dd2e934b5"
+    },
+    {
+      "id": 10021,
+      "sha256": "9c480911352d2aef5ecc672a0ca82cb650c70fec060bed31fbd771b1228de52a"
+    },
+    {
+      "id": 10022,
+      "sha256": "f3d99f65500b76d0342a36c382022e3c8e953275eb215395ac209f98ae2d3f5e"
+    },
+    {
+      "id": 10023,
+      "sha256": "362b74a922bf9683857496e81d1e7b1d34fa67aa4fcb1bf3e414668e9831b385"
+    },
+    {
+      "id": 10024,
+      "sha256": "f0fc52106493a8aa2df458592d65000d4712cbe7325c9bfb28563604730ebea1"
+    },
+    {
+      "id": 10025,
+      "sha256": "b9a9687b794144431af0111064bde16777c391c96a5cad5b89182eee08866cee"
+    },
+    {
+      "id": 10026,
+      "sha256": "9e50619c40ecba85e8fe28316400d5bde39c11f53c09b329c13e0066f0c962ba"
+    },
+    {
+      "id": 10027,
+      "sha256": "671cc5cf5adc99df36a4f69689cd4cf28586ea058bb8c7db88dee5c89e44a97b"
+    },
+    {
+      "id": 10028,
+      "sha256": "c4965875e9a8d60f9ddf31bee28a25199d7525e055be91095cec7a0d6c21a95b"
+    },
+    {
+      "id": 10029,
+      "sha256": "7ac22902d63585c0b0145689d74d570c544beadd09fa156bd4d26e2fc51eb5a0"
+    },
+    {
+      "id": 10030,
+      "sha256": "d8f75bc1f893d0283f20444a21db77f7e1edc057de4a06cfd18f2b7bd5c5d0a1"
+    },
+    {
+      "id": 10031,
+      "sha256": "66e617464f6f00ee869e1b83be58c1f5dbcb64a8b61713bd2e115f8e6c70b619"
+    },
+    {
+      "id": 10032,
+      "sha256": "23631eccb8cda3dd21f096f9f057a08ec70eff29d309e2843257e39f35df50c7"
+    },
+    {
+      "id": 10033,
+      "sha256": "97f6f166034c201be6689b063497cb981752cab846c953287a8f2f55afc9e08c"
+    },
+    {
+      "id": 10034,
+      "sha256": "dde12eae3434f41657eb5e869cd23f50be7464cbe3d916383fb2a1a60e16bcf0"
+    },
+    {
+      "id": 10035,
+      "sha256": "5f21795381551904fcfb95cdc312c7a8859fb39576efdbb2939f08f1eb9069ea"
+    }
+  ],
+  "workflow": "09:25 BRT preparation; 09:30 start; 60-second intervals; active state separately confirmed via GitHub API",
+  "issues": []
+}
