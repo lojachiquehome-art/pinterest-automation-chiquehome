@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-09-20T14:48:53.768Z",
+  "pins": 35,
+  "distinctProducts": 42,
+  "excludedWeeks": [
+    "2026-08-17",
+    "2026-08-24",
+    "2026-08-31",
+    "2026-09-07",
+    "2026-09-14"
+  ],
+  "excludedHandles": 202,
+  "remoteRecentRows": 175,
+  "errors": [],
+  "salesPeriod": "Last60days Shopify as of2026-09-20",
+  "productsWithRecordedOrders": 21,
+  "ranking": [
+    {
+      "title": "Relógio de Parede Lorenzzo Wood",
+      "orders": 75
+    },
+    {
+      "title": "Relógio de Parede Cremona Cream Wood",
+      "orders": 5
+    },
+    {
+      "title": "Relógio de Parede para Cozinha/Sala Grande Decorativo - Decoração",
+      "orders": 5
+    },
+    {
+      "title": "Relógio de Parede Valentino White Black",
+      "orders": 2
+    },
+    {
+      "title": "Relógio de Parede Bellagio White",
+      "orders": 4
+    },
+    {
+      "title": "Relógio de Parede Bellagio Blue",
+      "orders": 4
+    },
+    {
+      "title": "Porta-Escova de Dentes com Tampa para Banheiro Chique",
+      "orders": 3
+    },
+    {
+      "title": "Porta-Papel Higiênico de Parede Moderno Duplo para Banheiro - Preto",
+      "orders": 3
+    },
+    {
+      "title": "Porta-Escova de Dentes e Pasta com Tampa para Banheiro/Viagem Luxo",
+      "orders": 2
+    },
+    {
+      "title": "Saboneteira para Banheiro Pia de Cerâmica - Decoração",
+      "orders": 1
+    },
+    {
+      "title": "Tapete para Banheiro Antiderrapante Box Banho Chique - Bege",
+      "orders": 1
+    },
+    {
+      "title": "Tapete para Banheiro Antiderrapante Box Banho Chique - Cinza",
+      "orders": 0
+    },
+    {
+      "title": "Tapete para Cozinha Antiderrapante Absorvente - Areia Pérola",
+      "orders": 1
+    },
+    {
+      "title": "Tapete para Cozinha Antiderrapante Passadeira Absorvente - Bege",
+      "orders": 1
+    },
+    {
+      "title": "Tapete para Cozinha Antiderrapante Absorvente Elegante - Bege",
+      "orders": 1
+    },
+    {
+      "title": "Tapete para Cozinha Antiderrapante Absorvente Sofisticado - Cinza",
+      "orders": 1
+    },
+    {
+      "title": "Tapete para Cozinha Antiderrapante Absorvente - Verde Terracota",
+      "orders": 1
+    },
+    {
+      "title": "Tapete para Cozinha Antiderrapante Absorvente - Off Stone",
+      "orders": 0
+    },
+    {
+      "title": "Castiçal de Vela para Natal Rena - Decoração Natalina de Mesa",
+      "orders": 0
+    },
+    {
+      "title": "Presépio de Natal Completo em Resina Religioso 6 Peças - Decoração Natalina",
+      "orders": 0
+    },
+    {
+      "title": "Jogo Americano para Natal Retangular - Decoração de Mesa Natalina",
+      "orders": 0
+    },
+    {
+      "title": "Porta-Copos para Natal Redondo - Decoração de Mesa Natalina",
+      "orders": 0
+    },
+    {
+      "title": "Tábua de Frios Natal de Árvore Natalina - Kit com 3 Peças",
+      "orders": 0
+    },
+    {
+      "title": "Tábua de Frios Natal de Gorro e Árvore Natalina - Modelo Escuro",
+      "orders": 0
+    },
+    {
+      "title": "Luminária de Mesa LED Sem Fio Touch Recarregável - Chique Home",
+      "orders": 1
+    },
+    {
+      "title": "Lustre Pendente para Sala/Quarto/Cozinha Moderno LED Espiral - Branco",
+      "orders": 1
+    },
+    {
+      "title": "Arandela de Parede Interna para Quarto/Sala Dourada LED Pássaro",
+      "orders": 0
+    },
+    {
+      "title": "Luminária de Teto para Sala/Quarto/Cozinha em LED Espiral - Branca",
+      "orders": 0
+    },
+    {
+      "title": "Luminária de Mesa LED Touch para Quarto/Sala - Decoração",
+      "orders": 0
+    },
+    {
+      "title": "Luminária de Mesa LED Touch Recarregável - Chique Home",
+      "orders": 0
+    },
+    {
+      "title": "Escultura Decorativa O Leitor Estatueta - Decoração",
+      "orders": 1
+    },
+    {
+      "title": "Escultura Decorativa Abstrata Mão Estátua - Decoração",
+      "orders": 1
+    },
+    {
+      "title": "Capa de Almofada de Tricô 45x45 para Sofá Decorativa de Luxo",
+      "orders": 1
+    },
+    {
+      "title": "Escultura Decorativa Casal Apaixonado Estátua - Decoração",
+      "orders": 0
+    },
+    {
+      "title": "Vaso Decorativo para Sala de Flor Nordic para Mesa - Decoração",
+      "orders": 0
+    },
+    {
+      "title": "Vaso Decorativo para Sala de Cerâmica 2 Peças em 1 - Decoração",
+      "orders": 0
+    },
+    {
+      "title": "Porta-Canetas e Lápis para Escritório - Organizador de Mesa",
+      "orders": 0
+    },
+    {
+      "title": "Bandeja Organizadora Decorativa para Cozinha Redonda Giratória",
+      "orders": 0
+    },
+    {
+      "title": "Potes de Vidro Herméticos com Tampa de Bambu e Colher",
+      "orders": 0
+    },
+    {
+      "title": "Organizador de Ovos para Geladeira - Organizadores de Cozinha",
+      "orders": 0
+    },
+    {
+      "title": "Kit 3 Organizador de Geladeira Com Tampa - Organizadores de Cozinha",
+      "orders": 0
+    },
+    {
+      "title": "Kit Organizadores de Geladeira Transparentes - 4 Peças",
+      "orders": 0
+    }
+  ],
+  "approval": "pending",
+  "publication": "not_requested"
+}
