@@ -53,4 +53,3 @@ copyFileSync(path.join(PREVIEW,'validation.json'),path.join(archive,'validation.
 copyFileSync(path.join(PREVIEW,'legendas.md'),path.join(archive,'legendas.md'));
 copyFileSync(path.join(PREVIEW,'previa-semana-28-setembro-a-4-outubro.jpg'),path.join(ROOT,'output/preview_week_5_styles_2026-09-28_to_2026-10-04.jpg'));
 console.log('Staged 35 approved pins with exact SEO metadata, 42 products, 2026-09-28 through 2026-10-04.');
-
