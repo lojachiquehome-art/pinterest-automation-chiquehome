@@ -2,11 +2,22 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
+import { createHash } from "node:crypto";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const MIN_RATIO = 0.62;
 const MAX_RATIO = 0.72;
+const reviewsPath = path.join(ROOT, "data", "reviewed_dark_photos.json");
+const reviewedDarkPhotos = fs.existsSync(reviewsPath)
+  ? JSON.parse(fs.readFileSync(reviewsPath, "utf8")) : [];
+
+function isReviewedDarkPhoto(row, filePath) {
+  // Scope visual-review exceptions to exact approved bytes; edits require a new review.
+  if (row.visual_strategy !== "product_full_bleed") return false;
+  const digest = createHash("sha256").update(fs.readFileSync(filePath)).digest("hex");
+  return reviewedDarkPhotos.some(review => String(review.id) === String(row.id) && review.sha256 === digest);
+}
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -99,7 +110,7 @@ for (const row of rows) {
     throw new Error(`Row ${row.id} image is not vertical Pinterest format: ${meta.width}x${meta.height} ${filePath}`);
   }
 
-  if (await hasBlackBars(filePath)) {
+  if (await hasBlackBars(filePath) && !isReviewedDarkPhoto(row, filePath)) {
     throw new Error(`Row ${row.id} image has black bars/borders: ${filePath}`);
   }
 }

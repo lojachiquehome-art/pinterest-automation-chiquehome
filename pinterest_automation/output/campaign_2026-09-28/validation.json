@@ -1,0 +1,239 @@
+{
+  "checkedAt": "2026-09-27T14:02:29.907Z",
+  "dates": [
+    "2026-09-28",
+    "2026-10-04"
+  ],
+  "pins": 35,
+  "distinctProducts": 42,
+  "excludedWeeks": [
+    "2026-08-24",
+    "2026-08-31",
+    "2026-09-07",
+    "2026-09-14",
+    "2026-09-21"
+  ],
+  "excludedProducts": 210,
+  "christmasDate": "2026-10-01",
+  "maxTitleCharacters": 70,
+  "maxDescriptionCharacters": 350,
+  "photos": 14,
+  "newEnvironments": 21,
+  "productsWithOrdersLast60Days": 8,
+  "salesSource": "Shopify live 2026-09-27",
+  "ranking": [
+    {
+      "id": "gid://shopify/Product/10715680145713",
+      "title": "Relógio de Parede Milano White",
+      "orders": 4
+    },
+    {
+      "id": "gid://shopify/Product/10715680178481",
+      "title": "Relógio de Parede Cremona Dark Wood",
+      "orders": 1
+    },
+    {
+      "id": "gid://shopify/Product/10715680702769",
+      "title": "Relógio de Parede Napoli Dark B",
+      "orders": 2
+    },
+    {
+      "id": "gid://shopify/Product/10715679850801",
+      "title": "Relógio de Parede Toscana Brown",
+      "orders": 1
+    },
+    {
+      "id": "gid://shopify/Product/10151669367089",
+      "title": "Relógio de Mesa Digital Despertador Triangular Bege",
+      "orders": 2
+    },
+    {
+      "id": "gid://shopify/Product/10717275095345",
+      "title": "Relógio de Mesa Digital Despertador Triangular Branco",
+      "orders": 1
+    },
+    {
+      "id": "gid://shopify/Product/10154772398385",
+      "title": "Porta-Escova de Dentes e Pasta com Tampa para Banheiro/Viagem Elegante",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10567006224689",
+      "title": "Porta-Papel Higiênico de Parede Moderno Duplo para Banheiro - Cinza",
+      "orders": 1
+    },
+    {
+      "id": "gid://shopify/Product/10341856641329",
+      "title": "Organizador de Maquiagem Porta Pincel em Acrílico Giratório",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9393599545649",
+      "title": "Porta-Shampoo para Banheiro Box Suporte Moderno",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9890949005617",
+      "title": "Tapete para Banheiro Antiderrapante Box Banho Chique - Branco",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10271199658289",
+      "title": "Tapete para Banheiro Antiderrapante Box Banho Chique - Preto",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10846877024561",
+      "title": "Bandeja Decorativa Centro de Mesa Folha Vazada Branco",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10828759859505",
+      "title": "Mesinha de Canto Lateral 2 Níveis Retangular Black",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9692228419889",
+      "title": "Capa de Almofada 45x45 para Sofá Horse Decorativa de Luxo",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9485594296625",
+      "title": "Escultura Decorativa Casal Estátua - Decoração",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10846876959025",
+      "title": "Bandeja Decorativa Centro de Mesa Folha Vazada Marrom",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10846877155633",
+      "title": "Bandeja Decorativa Centro de Mesa Folha Vazada Verde",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10062537982257",
+      "title": "Bolas para Árvore de Natal Branca/Vermelha/Dourada - Kit com 44 Unidades",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10062918353201",
+      "title": "Tapete/Capacho de Natal para Entrada/Cozinha/Banheiro - Happy Holidays",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10427937521969",
+      "title": "Toalha de Mesa para Natal Impermeável - Merry Christmas",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10062884929841",
+      "title": "Bolas para Árvore de Natal Branca/Vermelha/Verde - Kit com 6 Unidades",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10062166196529",
+      "title": "Toalha de Mesa para Natal Retangular Impermeável - Árvore",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10425373557041",
+      "title": "Toalha de Mesa para Natal Retangular Impermeável - Folhas",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9404535669041",
+      "title": "Luminária de Mesa LED para Quarto/Sala Dourada Espiral 3 Cores",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9386683826481",
+      "title": "Arandela de Parede Interna para Quarto/Sala LED Curva",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9401448104241",
+      "title": "Luminária de Mesa LED para Quarto/Sala Borboleta 3 Cores",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9401479856433",
+      "title": "Luminária de Mesa LED para Quarto/Sala Espiral - Decoração",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9387354390833",
+      "title": "Lustre Pendente para Sala de Jantar/Cozinha Moderno LED - Dourado",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10303758532913",
+      "title": "Lustre Pendente para Sala de Jantar/Cozinha Moderno LED - Preto",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10010451345713",
+      "title": "Kit Utensílios De Cozinha De Madeira Antiaderente - 7 Peças (Pague 4, LEVE 3 de BRINDE)",
+      "orders": 1
+    },
+    {
+      "id": "gid://shopify/Product/9915026538801",
+      "title": "Pote de Vidro com Tampa de Bambu - Decoração para Cozinha",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9914795753777",
+      "title": "Porta Detergente Esponja e Bucha para Pia de Cozinha - Decoração",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9915053277489",
+      "title": "Porta Papel Toalha De Mesa Vertical para Cozinha",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10164056523057",
+      "title": "Organizador de Latas para Geladeira - Organizadores de Cozinha",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10164465729841",
+      "title": "Organizador de Latas para Geladeira Automático - Organizadores de Cozinha",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10387716407601",
+      "title": "Porta-Retrato Personalizado de Madeira para Sala/Quarto/Escritório - Bege",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10019973005617",
+      "title": "Organizador de Roupas Dobrável para Guarda-Roupa - Compre 1, LEVE 3",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9378167161137",
+      "title": "Livro Caixa Decorativo Falso Moderno - Decoração",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/9485805257009",
+      "title": "Escultura Decorativa Cachorro Balão Moderna - Decoração",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10387817988401",
+      "title": "Porta-Retrato Personalizado de Madeira para Sala/Quarto/Escritório - Branco",
+      "orders": 0
+    },
+    {
+      "id": "gid://shopify/Product/10387933004081",
+      "title": "Porta-Retrato Personalizado de Madeira para Sala/Quarto/Escritório - Retrô",
+      "orders": 0
+    }
+  ],
+  "errors": [],
+  "approval": "approved",
+  "publication": "preparing_github"
+}
