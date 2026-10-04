@@ -1,0 +1,11 @@
+{
+  "authorized": true,
+  "userReply": "sim",
+  "scope": "Completar Natal com três produtos usados há mais tempo; excluir últimas cinco prévias nos demais dias",
+  "date": "2026-10-04",
+  "productIds": [
+    "10063267561777",
+    "10069665120561",
+    "10069673836849"
+  ]
+}
