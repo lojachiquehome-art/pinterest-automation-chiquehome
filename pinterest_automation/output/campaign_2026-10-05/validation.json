@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-04T20:42:42.883Z",
+  "dates": [
+    "2026-10-05",
+    "2026-10-11"
+  ],
+  "pins": 35,
+  "distinctProducts": 42,
+  "excludedWeeks": [
+    "2026-08-31",
+    "2026-09-07",
+    "2026-09-14",
+    "2026-09-21",
+    "2026-09-28"
+  ],
+  "excludedProducts": 210,
+  "christmasDate": "2026-10-08",
+  "authorizedChristmasRepeats": [
+    {
+      "id": "gid://shopify/Product/10063267561777",
+      "title": "Guirlanda de Natal de Luxo para Porta/Parede Grande - Dourada"
+    },
+    {
+      "id": "gid://shopify/Product/10069665120561",
+      "title": "Calendário do Advento de Natal - Decoração Natalina de Mesa"
+    },
+    {
+      "id": "gid://shopify/Product/10069673836849",
+      "title": "Mini Árvore de Natal Iluminada - Decoração Natalina para Casa"
+    }
+  ],
+  "unauthorizedRepeats": 0,
+  "previouslyUnpublishedProducts": 10,
+  "maxTitleCharacters": 66,
+  "maxDescriptionCharacters": 388,
+  "photos": 14,
+  "newEnvironments": 21,
+  "errors": [],
+  "approval": "approved",
+  "publication": "preparing_github"
+}
