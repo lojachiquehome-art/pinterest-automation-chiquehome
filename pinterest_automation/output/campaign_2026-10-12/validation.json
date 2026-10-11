@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-11T16:21:41.091Z",
+  "dates": [
+    "2026-10-12",
+    "2026-10-18"
+  ],
+  "pins": 35,
+  "distinctProducts": 42,
+  "excludedWeeks": [
+    "2026-09-07",
+    "2026-09-14",
+    "2026-09-21",
+    "2026-09-28",
+    "2026-10-05"
+  ],
+  "excludedProducts": 207,
+  "christmasDate": "2026-10-15",
+  "authorizedChristmasRepeats": [
+    {
+      "id": "gid://shopify/Product/10062519763249",
+      "title": "Carrossel de Natal de Enfeite - Decoração Natalina de Mesa"
+    },
+    {
+      "id": "gid://shopify/Product/10062921072945",
+      "title": "Tapete/Capacho de Natal para Entrada/Cozinha/Banheiro - Welcome"
+    },
+    {
+      "id": "gid://shopify/Product/10428030091569",
+      "title": "Toalha de Mesa para Natal Retangular Impermeável Quadriculada - Xadrez"
+    },
+    {
+      "id": "gid://shopify/Product/10069599322417",
+      "title": "Casinha Decorada de Natal Iluminada - Decoração Natalina de Mesa"
+    }
+  ],
+  "unauthorizedRepeats": 0,
+  "availableProducts": 42,
+  "previousWeekPublished": 35,
+  "maxTitleCharacters": 63,
+  "maxDescriptionCharacters": 361,
+  "photos": 14,
+  "newEnvironments": 21,
+  "errors": [],
+  "approval": "approved",
+  "publication": "preparing_github"
+}
