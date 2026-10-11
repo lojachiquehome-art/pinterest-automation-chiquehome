@@ -1,6 +1,6 @@
 # Pinterest Chique Home — 12/10 a 18/10/2026
 
-Prévia para aprovação. Horário: America/Sao_Paulo.
+Prévia aprovada e aplicada ao GitHub. Horário: America/Sao_Paulo.
 
 ## 2026-10-12 · 09:30 · Pin 14001
 
