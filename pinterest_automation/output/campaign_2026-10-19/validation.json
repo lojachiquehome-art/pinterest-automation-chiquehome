@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-18T16:35:52.680Z",
+  "dates": [
+    "2026-10-19",
+    "2026-10-25"
+  ],
+  "pins": 35,
+  "distinctProducts": 42,
+  "excludedWeeks": [
+    "2026-09-14",
+    "2026-09-21",
+    "2026-09-28",
+    "2026-10-05",
+    "2026-10-12"
+  ],
+  "excludedProducts": 210,
+  "christmasDate": "2026-10-22",
+  "repeatedProducts": [],
+  "unauthorizedRepeats": 0,
+  "availableProducts": 42,
+  "previousWeekPublished": 35,
+  "maxTitleCharacters": 56,
+  "maxDescriptionCharacters": 360,
+  "photos": 14,
+  "newEnvironments": 21,
+  "errors": [],
+  "approval": "approved",
+  "publication": "preparing_github"
+}
