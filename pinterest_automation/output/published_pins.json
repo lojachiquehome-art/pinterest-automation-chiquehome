@@ -25502,5 +25502,280 @@
       "is_owner": true,
       "product_tags": []
     }
+  },
+  {
+    "row_id": 16001,
+    "pinterest_id": "930134129318974340",
+    "url": "https://www.pinterest.com/pin/930134129318974340/",
+    "title": "Relógio de parede Aurelio prateado e branco",
+    "published_at": "2026-10-26T15:06:54.687Z",
+    "pin": {
+      "is_standard": true,
+      "title": "Relógio de parede Aurelio prateado e branco",
+      "is_product": false,
+      "is_owner": true,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/5f/53/c6/5f53c697e5be3faa3564f1d98fa1817f.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/5f/53/c6/5f53c697e5be3faa3564f1d98fa1817f.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/5f/53/c6/5f53c697e5be3faa3564f1d98fa1817f.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/5f/53/c6/5f53c697e5be3faa3564f1d98fa1817f.jpg"
+          }
+        }
+      },
+      "is_removable": false,
+      "parent_pin_id": null,
+      "description": "O relógio de parede Aurelio combina branco e prata para iluminar a composição da sala. Um detalhe funcional da Chique Home para acompanhar a rotina com elegância. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #RelogioDeParede #Decoracao #Brasil",
+      "id": "930134129318974340",
+      "pin_metrics": null,
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-aurelio-silver-white?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_10_26&utm_content=pin_16001",
+      "has_been_promoted": false,
+      "created_at": "2026-10-26T15:06:54",
+      "alt_text": "Relógio de parede Aurelio prateado e branco. Fotografia oficial da Chique Home.",
+      "board_section_id": null,
+      "creative_type": "REGULAR",
+      "dominant_color": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "product_tags": [],
+      "board_id": "930134197981214276"
+    }
+  },
+  {
+    "row_id": 16002,
+    "pinterest_id": "930134129318974363",
+    "url": "https://www.pinterest.com/pin/930134129318974363/",
+    "title": "Relógio de parede Lorenzzo azul-noite",
+    "published_at": "2026-10-26T15:07:56.262Z",
+    "pin": {
+      "product_tags": [],
+      "creative_type": "REGULAR",
+      "is_product": false,
+      "id": "930134129318974363",
+      "is_standard": true,
+      "is_removable": false,
+      "dominant_color": null,
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-lorenzzo-blue-night?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_10_26&utm_content=pin_16002",
+      "title": "Relógio de parede Lorenzzo azul-noite",
+      "pin_metrics": null,
+      "alt_text": "Relógio de parede Lorenzzo azul-noite. Produto em novo ambiente.",
+      "is_owner": true,
+      "board_section_id": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/1f/ed/02/1fed028015db6e0fed6412dc308cbf6e.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/1f/ed/02/1fed028015db6e0fed6412dc308cbf6e.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/1f/ed/02/1fed028015db6e0fed6412dc308cbf6e.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/1f/ed/02/1fed028015db6e0fed6412dc308cbf6e.jpg"
+          }
+        }
+      },
+      "parent_pin_id": null,
+      "has_been_promoted": false,
+      "description": "O mostrador azul-noite do relógio Lorenzzo cria um ponto de cor na parede e combina com madeira e tons neutros. Encontre na Chique Home uma nova presença para sua sala. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #RelogioDeParede #Decoracao #Brasil",
+      "board_id": "930134197981214276",
+      "created_at": "2026-10-26T15:07:55"
+    }
+  },
+  {
+    "row_id": 16003,
+    "pinterest_id": "930134129318974384",
+    "url": "https://www.pinterest.com/pin/930134129318974384/",
+    "title": "Relógio de parede Verona verde para renovar a sala",
+    "published_at": "2026-10-26T15:08:57.234Z",
+    "pin": {
+      "title": "Relógio de parede Verona verde para renovar a sala",
+      "creative_type": "REGULAR",
+      "pin_metrics": null,
+      "board_section_id": null,
+      "is_owner": true,
+      "has_been_promoted": false,
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-verona-green?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_10_26&utm_content=pin_16003",
+      "created_at": "2026-10-26T15:08:56",
+      "description": "Tempo de renovar: o relógio Verona verde traz cor à decoração sem perder a leveza. Inspire-se neste ambiente e descubra os detalhes do modelo na Chique Home. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #RelogioDeParede #Decoracao #Brasil",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "dominant_color": null,
+      "product_tags": [],
+      "board_id": "930134197981214276",
+      "is_standard": true,
+      "is_product": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/14/ee/5a/14ee5ae7c79014c961a7c6ab7868f053.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/14/ee/5a/14ee5ae7c79014c961a7c6ab7868f053.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/14/ee/5a/14ee5ae7c79014c961a7c6ab7868f053.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/14/ee/5a/14ee5ae7c79014c961a7c6ab7868f053.jpg"
+          }
+        }
+      },
+      "id": "930134129318974384",
+      "alt_text": "Relógio de parede Verona verde para renovar a sala. Ambiente com a frase: Tempo de renovar.",
+      "is_removable": false,
+      "parent_pin_id": null
+    }
+  },
+  {
+    "row_id": 16004,
+    "pinterest_id": "930134129318974397",
+    "url": "https://www.pinterest.com/pin/930134129318974397/",
+    "title": "Relógio de parede Valentino branco e rosé",
+    "published_at": "2026-10-26T15:09:58.187Z",
+    "pin": {
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/f4/83/03/f483037d15048d8c844e726bc82e3ed2.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/f4/83/03/f483037d15048d8c844e726bc82e3ed2.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/f4/83/03/f483037d15048d8c844e726bc82e3ed2.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/f4/83/03/f483037d15048d8c844e726bc82e3ed2.jpg"
+          }
+        }
+      },
+      "pin_metrics": null,
+      "is_owner": true,
+      "is_removable": false,
+      "alt_text": "Relógio de parede Valentino branco e rosé. Fotografia oficial da Chique Home.",
+      "is_standard": true,
+      "title": "Relógio de parede Valentino branco e rosé",
+      "dominant_color": null,
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-valentino-white-rose?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_10_26&utm_content=pin_16004",
+      "parent_pin_id": null,
+      "has_been_promoted": false,
+      "is_product": false,
+      "description": "Branco e rosé se encontram no relógio de parede Valentino. Uma escolha da Chique Home para compor ambientes claros com um toque delicado de brilho. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #RelogioDeParede #Decoracao #Brasil",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "creative_type": "REGULAR",
+      "product_tags": [],
+      "created_at": "2026-10-26T15:09:57",
+      "board_section_id": null,
+      "board_id": "930134197981214276",
+      "id": "930134129318974397"
+    }
+  },
+  {
+    "row_id": 16005,
+    "pinterest_id": "930134129318974422",
+    "url": "https://www.pinterest.com/pin/930134129318974422/",
+    "title": "Relógios de parede Napoli: claro ou escuro?",
+    "published_at": "2026-10-26T15:10:59.207Z",
+    "pin": {
+      "board_section_id": null,
+      "parent_pin_id": null,
+      "has_been_promoted": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/51/08/79/510879496508cad65d5c8fbce3707c0c.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/51/08/79/510879496508cad65d5c8fbce3707c0c.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/51/08/79/510879496508cad65d5c8fbce3707c0c.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/51/08/79/510879496508cad65d5c8fbce3707c0c.jpg"
+          }
+        }
+      },
+      "product_tags": [],
+      "is_standard": true,
+      "description": "Compare os modelos Napoli Claro A e Escuro A em dois ambientes. Escolha na coleção de relógios da Chique Home a combinação que conversa com sua casa. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #RelogioDeParede #Decoracao #Brasil",
+      "is_owner": true,
+      "alt_text": "Relógios de parede Napoli: claro ou escuro?. Duas opções em ambientes diferentes, em metades superior e inferior.",
+      "id": "930134129318974422",
+      "board_id": "930134197981214276",
+      "creative_type": "REGULAR",
+      "is_removable": false,
+      "title": "Relógios de parede Napoli: claro ou escuro?",
+      "link": "https://chiquehome.com.br/collections/relogios-de-parede-e-de-mesa?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_10_26&utm_content=pin_16005",
+      "is_product": false,
+      "created_at": "2026-10-26T15:10:58",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "pin_metrics": null,
+      "dominant_color": null
+    }
   }
 ]
