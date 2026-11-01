@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-11-01T15:58:40.195Z",
+  "dates": [
+    "2026-11-02",
+    "2026-11-08"
+  ],
+  "pins": 35,
+  "distinctProducts": 42,
+  "excludedWeeks": [
+    "2026-09-28",
+    "2026-10-05",
+    "2026-10-12",
+    "2026-10-19",
+    "2026-10-26"
+  ],
+  "excludedProducts": 210,
+  "christmasDates": [
+    "2026-11-03",
+    "2026-11-05",
+    "2026-11-07"
+  ],
+  "authorizedRepeatedProducts": [
+    {
+      "id": "gid://shopify/Product/10063267561777",
+      "title": "Guirlanda de Natal de Luxo para Porta Grande Dourada - 50cm",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10062537982257",
+      "title": "Bolas para Árvore de Natal Branca/Vermelha/Dourada - Kit com 44 Unidades",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10062884929841",
+      "title": "Bolas para Árvore de Natal Branca/Vermelha/Verde - Kit com 6 Unidades",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10062918353201",
+      "title": "Tapete/Capacho de Natal para Entrada/Cozinha/Banheiro - Happy Holidays",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10427937521969",
+      "title": "Toalha de Mesa para Natal Impermeável - Merry Christmas",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10062166196529",
+      "title": "Toalha de Mesa para Natal Retangular Impermeável - Árvore",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10425373557041",
+      "title": "Toalha de Mesa para Natal Retangular Impermeável - Folhas",
+      "day": 6
+    }
+  ],
+  "unauthorizedRepeats": 0,
+  "availableProducts": 42,
+  "previousWeekPublished": 35,
+  "maxTitleCharacters": 54,
+  "maxDescriptionCharacters": 333,
+  "photos": 14,
+  "newEnvironments": 21,
+  "errors": [],
+  "approval": "approved",
+  "publication": "preparing_github"
+}
