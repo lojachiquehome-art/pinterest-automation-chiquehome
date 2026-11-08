@@ -113,12 +113,13 @@
   ],
   "unauthorizedRepeats": 0,
   "availableProducts": 42,
-  "previousWeekPublished": 30,
+  "previousWeekPublished": 35,
   "maxTitleCharacters": 56,
   "maxDescriptionCharacters": 331,
   "photos": 14,
   "newEnvironments": 21,
   "errors": [],
   "approval": "approved",
-  "publication": "preparing_github"
+  "publication": "applied_to_github",
+  "commit": "aa373ef50a805d583e108bfc41d12324e5d7eeb7"
 }

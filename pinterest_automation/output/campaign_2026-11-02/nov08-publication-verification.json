@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-11-08T13:51:02.932Z",
+  "runId": 42486661378,
+  "runUrl": "https://github.com/lojachiquehome-art/pinterest-automation-chiquehome/actions/runs/42486661378",
+  "weekPublished": 35,
+  "verified": [
+    {
+      "row_id": 17031,
+      "pinterest_id": "930134129319361178",
+      "url": "https://www.pinterest.com/pin/930134129319361178/",
+      "published_at": "2026-11-08T13:48:24.654Z",
+      "status": 200
+    },
+    {
+      "row_id": 17032,
+      "pinterest_id": "930134129319361180",
+      "url": "https://www.pinterest.com/pin/930134129319361180/",
+      "published_at": "2026-11-08T13:48:25.511Z",
+      "status": 200
+    },
+    {
+      "row_id": 17033,
+      "pinterest_id": "930134129319361181",
+      "url": "https://www.pinterest.com/pin/930134129319361181/",
+      "published_at": "2026-11-08T13:48:27.393Z",
+      "status": 200
+    },
+    {
+      "row_id": 17034,
+      "pinterest_id": "930134129319361184",
+      "url": "https://www.pinterest.com/pin/930134129319361184/",
+      "published_at": "2026-11-08T13:48:28.159Z",
+      "status": 200
+    },
+    {
+      "row_id": 17035,
+      "pinterest_id": "930134129319361185",
+      "url": "https://www.pinterest.com/pin/930134129319361185/",
+      "published_at": "2026-11-08T13:48:28.995Z",
+      "status": 200
+    }
+  ]
+}
