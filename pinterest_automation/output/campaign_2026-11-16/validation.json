@@ -1,0 +1,124 @@
+{
+  "checkedAt": "2026-11-15T15:28:50.845Z",
+  "dates": [
+    "2026-11-16",
+    "2026-11-22"
+  ],
+  "pins": 35,
+  "distinctProducts": 42,
+  "excludedWeeks": [
+    "2026-10-12",
+    "2026-10-19",
+    "2026-10-26",
+    "2026-11-02",
+    "2026-11-09"
+  ],
+  "excludedProducts": 197,
+  "christmasDates": [
+    "2026-11-17",
+    "2026-11-19",
+    "2026-11-21"
+  ],
+  "authorizedRepeatedProducts": [
+    {
+      "id": "gid://shopify/Product/10900460175665",
+      "title": "Guirlanda de Natal para Porta Merry Christmas - 40cm",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10061888389425",
+      "title": "Castiçal de Vela para Natal de Luxo - Decoração Natalina de Mesa",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10061871677745",
+      "title": "Capa para Almofada de Natal 45x45 para Sofá Decorativa",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10900527350065",
+      "title": "Guirlanda de Natal para Porta Champagne - 40cm",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10062896300337",
+      "title": "Tapete/Capacho de Natal para Entrada/Cozinha/Banheiro - Merry Christmas",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10062933983537",
+      "title": "Tapete/Capacho de Natal para Entrada/Cozinha/Banheiro - Rena",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10900808007985",
+      "title": "Guirlanda de Natal para Porta Feliz Natal - 48cm",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10062234288433",
+      "title": "Toalha de Mesa para Natal Impermeável - Enfeitada",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10062166196529",
+      "title": "Toalha de Mesa para Natal Retangular Impermeável - Árvore",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10900812103985",
+      "title": "Guirlanda de Natal para Porta Feliz Natal - 38cm",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10427936047409",
+      "title": "Toalha de Mesa para Natal Impermeável Árvore - Vermelha",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10428022718769",
+      "title": "Toalha de Mesa para Natal Retangular Impermeável Quadriculada - Azul",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10063249899825",
+      "title": "Guirlanda de Natal para Porta de Luxo Vermelha/Verde - 45cm",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10062277640497",
+      "title": "Toalha de Mesa para Natal Retangular Impermeável Quadriculada",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10061893665073",
+      "title": "Castiçal de Vela para Natal Rena - Decoração Natalina de Mesa",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10063267561777",
+      "title": "Guirlanda de Natal de Luxo para Porta Grande Dourada - 50cm",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10061880688945",
+      "title": "Capa para Almofada de Natal 45x45 para Sofá Bordado",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10061886095665",
+      "title": "Capa para Almofada de Natal para Sofá Lisa - 45x45 e 30x50",
+      "day": 6
+    }
+  ],
+  "unauthorizedRepeats": 0,
+  "availableProducts": 42,
+  "previousWeekPublished": 35,
+  "maxTitleCharacters": 56,
+  "maxDescriptionCharacters": 328,
+  "photos": 14,
+  "newEnvironments": 21,
+  "errors": [],
+  "approval": "approved",
+  "publication": "preparing_github"
+}
