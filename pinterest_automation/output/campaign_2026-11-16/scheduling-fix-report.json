@@ -1,0 +1,75 @@
+{
+  "status": "deployed to GitHub main; GitHub dry-run succeeded",
+  "date": "2026-11-15",
+  "source": "https://docs.github.com/en/actions/how-tos/troubleshoot-workflows",
+  "cause": [
+    "GitHub schedule can be delayed or dropped",
+    "Daily durable lock prevented retries",
+    "Token acquired before long wait",
+    "History written only at end of batch"
+  ],
+  "changes": [
+    "Cron 47 6-11 * * *: six early opportunities",
+    "Retained concurrency cancel-in-progress=false and timeout360",
+    "Removed permanent daily lock; published history remains deduplication authority",
+    "Refresh credentials after long wait, prepare intent30seconds before each slot",
+    "Persist intent before POST and history after each confirmed pin; git synchronization enabled in workflow",
+    "Stop on failure; ambiguous POST intent requires reconciliation rather than blind retry",
+    "401/403/408/429 no longer permanently exclude row"
+  ],
+  "checks": {
+    "node_test": "6 passed, 0 failed",
+    "node_check_publish_pins": "passed",
+    "git_diff_check": "passed; line-ending warnings only",
+    "dry_run_2026_11_15": "exit0; already published rows excluded, no network mutation",
+    "githubDryRun": "success",
+    "publicRepository": true
+  },
+  "timing": {
+    "first_trigger_utc": "06:47",
+    "publication_utc": "12:30–12:34",
+    "duration_minutes_to_last_pin": 347,
+    "job_timeout_minutes": 360
+  },
+  "limitations": [
+    "GitHub cannot guarantee punctuality; all six triggers may be delayed/dropped",
+    "Runner consumes up to approximately5h47 daily",
+    "Cancellation between intent and durable success requires Pinterest reconciliation; deliberately fails closed",
+    "Credential or checkpoint operations exceeding30seconds can delay a slot",
+    "Concurrent main changes cause checkpoint push to fail closed; no automatic merge",
+    "Existing legacy daily lock files retained but no longer consulted",
+    "Live publishing checkpoint push will only be exercised by an approved publication; dry-run does not post."
+  ],
+  "files": [
+    ".codex-pinterest-sep14/.github/workflows/pinterest-daily.yml",
+    ".codex-pinterest-sep14/pinterest_automation/scripts/publish_pins.mjs",
+    ".codex-pinterest-sep14/pinterest_automation/scripts/publish_checkpoint.mjs",
+    ".codex-pinterest-sep14/pinterest_automation/scripts/publish_checkpoint.test.mjs"
+  ],
+  "deployment": {
+    "commit": "606b177add568c7faa072d11452276bacfb40b23",
+    "priorRunIds": [
+      43727741426,
+      43625716086,
+      43496131692,
+      43296987711,
+      43089766714,
+      42889397273,
+      42712410043,
+      42507582407,
+      42486661378,
+      42397945098
+    ],
+    "test": "dry_run=true; date=2026-11-15; no publication",
+    "requestedAt": "2026-11-15T15:25:46.798Z",
+    "runId": 43729627612,
+    "runUrl": "https://github.com/lojachiquehome-art/pinterest-automation-chiquehome/actions/runs/43729627612",
+    "status": "completed",
+    "conclusion": "success",
+    "checkedAt": "2026-11-15T15:26:33.653Z"
+  },
+  "independentReview": {
+    "result": "No blocking runtime or credential exposure findings",
+    "note": "Ambiguous POST blocks future work until reconciliation; deliberate deduplication protection"
+  }
+}
