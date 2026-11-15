@@ -1,6 +1,7 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { createCheckpoint } from "./publish_checkpoint.mjs";
 import { getPinterestAccessToken } from "./pinterest_auth.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -99,6 +100,7 @@ function readFailureHistory() {
 
 function isPermanentPublishFailure(item) {
   if (!item || item.status < 400 || item.status >= 500) return false;
+  if ([401, 403, 408, 429].includes(item.status)) return false;
   const message = String(item.error || "");
   if (message.includes("\"code\":2787")) return false;
   return true;
@@ -124,10 +126,10 @@ function scheduledPublishTime(dateKey, startAt, index, intervalSeconds) {
   return new Date(start.getTime() + index * intervalSeconds * 1000);
 }
 
-async function waitForScheduledPublishTime(dateKey, startAt, index, intervalSeconds) {
+async function waitForScheduledPublishTime(dateKey, startAt, index, intervalSeconds, leadMs = 0) {
   const target = scheduledPublishTime(dateKey, startAt, index, intervalSeconds);
   if (!target) return;
-  const waitMs = target.getTime() - Date.now();
+  const waitMs = target.getTime() - Date.now() - leadMs;
   if (waitMs <= 0) return;
   console.log(`Waiting until ${target.toISOString()} (${dateKey} ${startAt} America/Sao_Paulo + ${index} min) before publishing.`);
   await sleep(waitMs);
@@ -175,13 +177,14 @@ function selectDailyRows(rows, limit) {
 }
 
 const { dryRun, limit, sleep: sleepSeconds, interval, startAt, date: targetDate } = parseArgs();
-const token = dryRun ? "" : await getPinterestAccessToken();
+const checkpoint = createCheckpoint(ROOT, process.argv.includes("--checkpoint-git"));
 const intervalSeconds = interval || sleepSeconds;
 
 const publishedFile = path.join(ROOT, "output", "published_pins.json");
 const failuresFile = path.join(ROOT, "output", "publish_failures.json");
 const publishedHistory = readPublishedHistory();
 const failureHistory = readFailureHistory();
+if (!dryRun) checkpoint.assertClear(publishedHistory);
 const allRows = JSON.parse(readFileSync(path.join(ROOT, "output", "pins_batch.json"), "utf8"));
 const rowsById = new Map(allRows.map((row) => [String(row.id), row]));
 
@@ -232,8 +235,14 @@ for (const row of selectDailyRows(rows, remainingLimit * 8)) {
   if (dryRun) {
     console.log(JSON.stringify(payload, null, 2));
   } else {
+    let postStarted = false;
     try {
+      // Prepare credentials and durable intent 30 seconds before the slot.
+      await waitForScheduledPublishTime(targetDate, startAt, publishedTodayCount + processed, intervalSeconds, 30_000);
+      const token = await getPinterestAccessToken();
+      checkpoint.begin(row.id);
       await waitForScheduledPublishTime(targetDate, startAt, publishedTodayCount + processed, intervalSeconds);
+      postStarted = true;
       const result = await pinterestPost("/pins", token, payload);
       if (!result?.id) {
         throw new Error(`Pinterest API did not return a pin id for row ${row.id}.`);
@@ -246,6 +255,7 @@ for (const row of selectDailyRows(rows, remainingLimit * 8)) {
         published_at: new Date().toISOString(),
         pin: result,
       });
+      checkpoint.complete(row.id, published);
       console.log(`Published pin for row ${row.id}: ${result.id}`);
       if (!startAt) await sleep(sleepSeconds * 1000);
     } catch (error) {
@@ -260,7 +270,12 @@ for (const row of selectDailyRows(rows, remainingLimit * 8)) {
         failed_at: new Date().toISOString(),
       });
       console.log(`SKIP Pinterest publish error: row ${row.id} | status ${status} | ${body}`);
-      continue;
+      writeFileSync(failuresFile, JSON.stringify(failures, null, 2), "utf8");
+      // Only a definite rejection, or failure before POST, is safe to retry.
+      if (!postStarted || (error instanceof PinterestApiError && status >= 400 && status < 500 && status !== 408)) {
+        checkpoint.reject(row.id);
+      }
+      throw error;
     }
   }
   processed += 1;
