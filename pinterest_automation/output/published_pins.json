@@ -31332,5 +31332,60 @@
       "description": "A luminária de teto circular preta combina aros de LED e desenho compacto. Conheça este modelo da Chique Home para iluminar sala, quarto ou cozinha. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #Iluminacao #Decoracao #Brasil",
       "dominant_color": null
     }
+  },
+  {
+    "row_id": 19002,
+    "pinterest_id": "930134129319598202",
+    "url": "https://www.pinterest.com/pin/930134129319598202/",
+    "title": "Arandela curva: um novo ponto de luz na parede",
+    "published_at": "2026-11-16T16:26:39.360Z",
+    "pin": {
+      "created_at": "2026-11-16T16:26:39",
+      "link": "https://chiquehome.com.br/products/arandela-de-parede-interna-para-quarto-sala-led-curva?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_16&utm_content=pin_19002",
+      "title": "Arandela curva: um novo ponto de luz na parede",
+      "creative_type": "REGULAR",
+      "has_been_promoted": false,
+      "is_standard": true,
+      "alt_text": "Arandela curva: um novo ponto de luz na parede. Produto em novo ambiente.",
+      "is_owner": true,
+      "pin_metrics": null,
+      "id": "930134129319598202",
+      "dominant_color": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "parent_pin_id": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/8f/0f/1f/8f0f1fe3ab228e57fe02846455f636e9.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/8f/0f/1f/8f0f1fe3ab228e57fe02846455f636e9.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/8f/0f/1f/8f0f1fe3ab228e57fe02846455f636e9.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/8f/0f/1f/8f0f1fe3ab228e57fe02846455f636e9.jpg"
+          }
+        }
+      },
+      "description": "A arandela de parede curva acrescenta uma linha de luz à decoração. Veja na Chique Home as opções para compor um canto acolhedor na sala ou no quarto. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #Iluminacao #Decoracao #Brasil",
+      "board_id": "930134197981214278",
+      "board_section_id": null,
+      "product_tags": [],
+      "is_removable": false,
+      "is_product": false
+    }
   }
 ]
