@@ -31662,5 +31662,60 @@
       },
       "parent_pin_id": null
     }
+  },
+  {
+    "row_id": 19008,
+    "pinterest_id": "930134129319626797",
+    "url": "https://www.pinterest.com/pin/930134129319626797/",
+    "title": "Capa de almofada de Natal com rena: um toque acolhedor",
+    "published_at": "2026-11-17T16:29:39.616Z",
+    "pin": {
+      "title": "Capa de almofada de Natal com rena: um toque acolhedor",
+      "link": "https://chiquehome.com.br/products/capa-para-almofada-de-natal-45x45-para-sofa-decorativa?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_16&utm_content=pin_19008",
+      "id": "930134129319626797",
+      "board_section_id": null,
+      "product_tags": [],
+      "is_owner": true,
+      "is_standard": true,
+      "dominant_color": null,
+      "created_at": "2026-11-17T16:29:39",
+      "creative_type": "REGULAR",
+      "parent_pin_id": null,
+      "description": "A capa de almofada natalina com rena leva o clima de festa ao banco ou sofá. Explore as estampas da Chique Home e escolha a que combina com sua casa. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #Natal #DecoracaoNatalina #Brasil",
+      "is_removable": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/00/a9/b7/00a9b787b5061898fe51058f149d939e.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/00/a9/b7/00a9b787b5061898fe51058f149d939e.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/00/a9/b7/00a9b787b5061898fe51058f149d939e.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/00/a9/b7/00a9b787b5061898fe51058f149d939e.jpg"
+          }
+        }
+      },
+      "pin_metrics": null,
+      "alt_text": "Capa de almofada de Natal com rena: um toque acolhedor. Ambiente com a frase: O Natal começa na entrada.",
+      "is_product": false,
+      "board_id": "930134197981214286",
+      "has_been_promoted": false,
+      "board_owner": {
+        "username": "chiquehome"
+      }
+    }
   }
 ]
