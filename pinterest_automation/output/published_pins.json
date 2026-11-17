@@ -31772,5 +31772,60 @@
       "creative_type": "REGULAR",
       "id": "930134129319626798"
     }
+  },
+  {
+    "row_id": 19010,
+    "pinterest_id": "930134129319626802",
+    "url": "https://www.pinterest.com/pin/930134129319626802/",
+    "title": "Capachos de Natal: duas boas-vindas para sua casa",
+    "published_at": "2026-11-17T16:29:46.814Z",
+    "pin": {
+      "dominant_color": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "link": "https://chiquehome.com.br/collections/decoracao-de-natal-2026?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_16&utm_content=pin_19010",
+      "is_standard": true,
+      "title": "Capachos de Natal: duas boas-vindas para sua casa",
+      "creative_type": "REGULAR",
+      "parent_pin_id": null,
+      "alt_text": "Capachos de Natal: duas boas-vindas para sua casa. Duas opções em ambientes diferentes, em metades superior e inferior.",
+      "has_been_promoted": false,
+      "is_owner": true,
+      "is_product": false,
+      "description": "Uma mensagem festiva ou uma rena cheia de encanto: compare os capachos natalinos da Chique Home e escolha a estampa para receber suas visitas. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #Natal #DecoracaoNatalina #Brasil",
+      "board_id": "930134197981214286",
+      "id": "930134129319626802",
+      "product_tags": [],
+      "pin_metrics": null,
+      "board_section_id": null,
+      "created_at": "2026-11-17T16:29:46",
+      "is_removable": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/8f/96/a3/8f96a319fcbac49af0f731ce8eb4ec71.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/8f/96/a3/8f96a319fcbac49af0f731ce8eb4ec71.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/8f/96/a3/8f96a319fcbac49af0f731ce8eb4ec71.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/8f/96/a3/8f96a319fcbac49af0f731ce8eb4ec71.jpg"
+          }
+        }
+      }
+    }
   }
 ]
