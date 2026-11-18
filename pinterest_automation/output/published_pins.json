@@ -31882,5 +31882,60 @@
       "created_at": "2026-11-18T15:58:49",
       "is_standard": true
     }
+  },
+  {
+    "row_id": 19012,
+    "pinterest_id": "930134129319655601",
+    "url": "https://www.pinterest.com/pin/930134129319655601/",
+    "title": "Porta-shampoo: organização na parede do banheiro",
+    "published_at": "2026-11-18T15:58:53.301Z",
+    "pin": {
+      "is_product": false,
+      "id": "930134129319655601",
+      "is_removable": false,
+      "parent_pin_id": null,
+      "dominant_color": null,
+      "description": "Deixe os itens de banho juntos com o porta-shampoo de parede. Confira na Chique Home os formatos do suporte e escolha conforme o espaço do seu banheiro. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #Banheiro #Organizacao #Brasil",
+      "product_tags": [],
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "board_id": "930134197981214275",
+      "is_owner": true,
+      "is_standard": true,
+      "alt_text": "Porta-shampoo: organização na parede do banheiro. Produto em novo ambiente.",
+      "created_at": "2026-11-18T15:58:53",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/89/96/80/899680befa37f249da81bf4d866274e8.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/89/96/80/899680befa37f249da81bf4d866274e8.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/89/96/80/899680befa37f249da81bf4d866274e8.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/89/96/80/899680befa37f249da81bf4d866274e8.jpg"
+          }
+        }
+      },
+      "pin_metrics": null,
+      "creative_type": "REGULAR",
+      "has_been_promoted": false,
+      "board_section_id": null,
+      "link": "https://chiquehome.com.br/products/porta-shampoo-para-banheiro-box-suporte-moderno?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_16&utm_content=pin_19012",
+      "title": "Porta-shampoo: organização na parede do banheiro"
+    }
   }
 ]
