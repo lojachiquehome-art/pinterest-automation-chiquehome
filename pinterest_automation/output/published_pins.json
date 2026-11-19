@@ -32322,5 +32322,60 @@
       "pin_metrics": null,
       "title": "Guirlanda Feliz Natal de 38 cm com flores vermelhas"
     }
+  },
+  {
+    "row_id": 19020,
+    "pinterest_id": "930134129319683168",
+    "url": "https://www.pinterest.com/pin/930134129319683168/",
+    "title": "Toalhas de Natal: vermelho festivo ou xadrez azul?",
+    "published_at": "2026-11-19T16:05:10.135Z",
+    "pin": {
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/60/3e/4d/603e4da65fa6ba96a3ed6159c84bf824.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/60/3e/4d/603e4da65fa6ba96a3ed6159c84bf824.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/60/3e/4d/603e4da65fa6ba96a3ed6159c84bf824.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/60/3e/4d/603e4da65fa6ba96a3ed6159c84bf824.jpg"
+          }
+        }
+      },
+      "title": "Toalhas de Natal: vermelho festivo ou xadrez azul?",
+      "pin_metrics": null,
+      "has_been_promoted": false,
+      "description": "Compare a toalha natalina vermelha com árvore e a versão quadriculada azul da Chique Home. Duas propostas para criar uma mesa com a sua personalidade. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #Natal #MesaPosta #Brasil",
+      "created_at": "2026-11-19T16:05:09",
+      "is_removable": false,
+      "id": "930134129319683168",
+      "product_tags": [],
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "board_id": "930134197981214279",
+      "parent_pin_id": null,
+      "alt_text": "Toalhas de Natal: vermelho festivo ou xadrez azul?. Duas opções em ambientes diferentes, em metades superior e inferior.",
+      "board_section_id": null,
+      "creative_type": "REGULAR",
+      "link": "https://chiquehome.com.br/collections/decoracao-de-natal-2026?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_16&utm_content=pin_19020",
+      "dominant_color": null,
+      "is_owner": true,
+      "is_standard": true,
+      "is_product": false
+    }
   }
 ]
