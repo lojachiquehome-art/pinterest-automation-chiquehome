@@ -32487,5 +32487,60 @@
       "parent_pin_id": null,
       "created_at": "2026-11-20T15:45:55"
     }
+  },
+  {
+    "row_id": 19023,
+    "pinterest_id": "930134129319710515",
+    "url": "https://www.pinterest.com/pin/930134129319710515/",
+    "title": "Relógio Verona branco: tempo para estar em casa",
+    "published_at": "2026-11-20T15:46:00.485Z",
+    "pin": {
+      "dominant_color": null,
+      "creative_type": "REGULAR",
+      "description": "Com mostrador claro e desenho delicado, o relógio Verona branco acompanha diferentes composições. Conheça o modelo da Chique Home para sala ou cozinha. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #RelogioDeParede #Decoracao #Brasil",
+      "title": "Relógio Verona branco: tempo para estar em casa",
+      "board_section_id": null,
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-verona-white?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_16&utm_content=pin_19023",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "is_standard": true,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/74/15/8e/74158e1089a687401463753b11039e88.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/74/15/8e/74158e1089a687401463753b11039e88.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/74/15/8e/74158e1089a687401463753b11039e88.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/74/15/8e/74158e1089a687401463753b11039e88.jpg"
+          }
+        }
+      },
+      "alt_text": "Relógio Verona branco: tempo para estar em casa. Ambiente com a frase: Tempo para estar em casa.",
+      "is_removable": false,
+      "pin_metrics": null,
+      "product_tags": [],
+      "parent_pin_id": null,
+      "created_at": "2026-11-20T15:45:59",
+      "is_owner": true,
+      "id": "930134129319710515",
+      "is_product": false,
+      "board_id": "930134197981214276",
+      "has_been_promoted": false
+    }
   }
 ]
