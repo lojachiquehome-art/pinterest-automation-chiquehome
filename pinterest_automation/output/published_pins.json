@@ -32377,5 +32377,60 @@
       "is_standard": true,
       "is_product": false
     }
+  },
+  {
+    "row_id": 19021,
+    "pinterest_id": "930134129319710511",
+    "url": "https://www.pinterest.com/pin/930134129319710511/",
+    "title": "Relógio Aurelio preto e dourado: presença na parede",
+    "published_at": "2026-11-20T15:45:52.735Z",
+    "pin": {
+      "alt_text": "Relógio Aurelio preto e dourado: presença na parede. Fotografia oficial da Chique Home.",
+      "dominant_color": null,
+      "has_been_promoted": false,
+      "board_id": "930134197981214276",
+      "is_removable": false,
+      "creative_type": "REGULAR",
+      "is_standard": true,
+      "is_owner": true,
+      "board_section_id": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "pin_metrics": null,
+      "is_product": false,
+      "description": "O relógio de parede Aurelio combina fundo preto e números dourados em destaque. Conheça este modelo da Chique Home para completar a decoração da sala. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #RelogioDeParede #Decoracao #Brasil",
+      "id": "930134129319710511",
+      "product_tags": [],
+      "parent_pin_id": null,
+      "created_at": "2026-11-20T15:45:52",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/9b/84/cc/9b84cc7d8a01c469941244a0f607c7d4.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/9b/84/cc/9b84cc7d8a01c469941244a0f607c7d4.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/9b/84/cc/9b84cc7d8a01c469941244a0f607c7d4.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/9b/84/cc/9b84cc7d8a01c469941244a0f607c7d4.jpg"
+          }
+        }
+      },
+      "title": "Relógio Aurelio preto e dourado: presença na parede",
+      "link": "https://chiquehome.com.br/products/relogio-de-parede-aurelio-gold-black?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_16&utm_content=pin_19021"
+    }
   }
 ]
