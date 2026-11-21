@@ -32872,5 +32872,60 @@
       "has_been_promoted": false,
       "pin_metrics": null
     }
+  },
+  {
+    "row_id": 19030,
+    "pinterest_id": "930134129319738325",
+    "url": "https://www.pinterest.com/pin/930134129319738325/",
+    "title": "Capas de almofada natalinas para renovar o sofá",
+    "published_at": "2026-11-21T14:57:13.136Z",
+    "pin": {
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "alt_text": "Capas de almofada natalinas para renovar o sofá. Duas opções em ambientes diferentes, em metades superior e inferior.",
+      "is_product": false,
+      "description": "Árvore bordada ou textura em verde: compare as capas de almofada natalinas da Chique Home. Explore os modelos para criar um cantinho acolhedor no Natal. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #Natal #DecoracaoDeNatal #Brasil",
+      "id": "930134129319738325",
+      "title": "Capas de almofada natalinas para renovar o sofá",
+      "created_at": "2026-11-21T14:57:12",
+      "dominant_color": null,
+      "board_section_id": null,
+      "has_been_promoted": false,
+      "parent_pin_id": null,
+      "board_id": "930134197981214271",
+      "is_owner": true,
+      "pin_metrics": null,
+      "link": "https://chiquehome.com.br/collections/decoracao-de-natal-2026?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_16&utm_content=pin_19030",
+      "is_standard": true,
+      "is_removable": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/39/3b/0b/393b0b13887074a5769386ae7ab51431.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/39/3b/0b/393b0b13887074a5769386ae7ab51431.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/39/3b/0b/393b0b13887074a5769386ae7ab51431.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/39/3b/0b/393b0b13887074a5769386ae7ab51431.jpg"
+          }
+        }
+      },
+      "product_tags": [],
+      "creative_type": "REGULAR"
+    }
   }
 ]
