@@ -32817,5 +32817,60 @@
         }
       }
     }
+  },
+  {
+    "row_id": 19029,
+    "pinterest_id": "930134129319738323",
+    "url": "https://www.pinterest.com/pin/930134129319738323/",
+    "title": "Guirlanda de Natal dourada de 50 cm para a entrada",
+    "published_at": "2026-11-21T14:57:09.854Z",
+    "pin": {
+      "created_at": "2026-11-21T14:57:09",
+      "title": "Guirlanda de Natal dourada de 50 cm para a entrada",
+      "description": "Folhas douradas, pinhas e bolas decorativas compõem esta guirlanda de 50 cm. Conheça na Chique Home os detalhes para vestir a porta para o Natal. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #Natal #DecoracaoDeNatal #Brasil",
+      "id": "930134129319738323",
+      "alt_text": "Guirlanda de Natal dourada de 50 cm para a entrada. Fotografia oficial da Chique Home.",
+      "link": "https://chiquehome.com.br/products/guirlanda-de-natal-de-luxo-para-porta-grande-dourada-50cm?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_16&utm_content=pin_19029",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "product_tags": [],
+      "is_product": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/85/e9/20/85e920640e4f3dae7cef8a58a221e09f.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/85/e9/20/85e920640e4f3dae7cef8a58a221e09f.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/85/e9/20/85e920640e4f3dae7cef8a58a221e09f.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/85/e9/20/85e920640e4f3dae7cef8a58a221e09f.jpg"
+          }
+        }
+      },
+      "board_id": "930134197981214271",
+      "board_section_id": null,
+      "creative_type": "REGULAR",
+      "is_standard": true,
+      "is_owner": true,
+      "dominant_color": null,
+      "is_removable": false,
+      "parent_pin_id": null,
+      "has_been_promoted": false,
+      "pin_metrics": null
+    }
   }
 ]
