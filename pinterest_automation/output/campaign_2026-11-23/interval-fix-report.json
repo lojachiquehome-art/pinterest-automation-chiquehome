@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-22",
+  "commit": "013a2ef6140f480596b398fdfcafffe4164346da",
+  "deployed": true,
+  "files": [
+    "scripts/publish_pins.mjs",
+    "scripts/publish_timing.test.mjs"
+  ],
+  "behavior": "Keep at least 60 seconds after prior confirmed publication, including late starts and resumed runs; preserve nominal daily slots and checkpoint protections.",
+  "tests": {
+    "passed": 10,
+    "failed": 0,
+    "regressionBeforeFix": "Two timing tests failed before implementation",
+    "independentLoopSimulation": "Five delayed pins spaced 62 seconds with mocked 2-second POST; resume with two existing pins published only three and respected persisted interval"
+  },
+  "independentReview": {
+    "blockingFindings": 0,
+    "reviewer": "nov23_titles"
+  },
+  "limitations": [
+    "GitHub cron may start late",
+    "Spacing measured after publication confirmation adds API latency to nominal time"
+  ],
+  "newCampaignPublished": false,
+  "githubDryRun": {
+    "runId": 45031833148,
+    "conclusion": "success",
+    "published": false
+  }
+}
