@@ -1,0 +1,124 @@
+{
+  "checkedAt": "2026-11-22T14:16:44.475Z",
+  "dates": [
+    "2026-11-23",
+    "2026-11-29"
+  ],
+  "pins": 35,
+  "distinctProducts": 42,
+  "excludedWeeks": [
+    "2026-10-19",
+    "2026-10-26",
+    "2026-11-02",
+    "2026-11-09",
+    "2026-11-16"
+  ],
+  "excludedProducts": 185,
+  "christmasDates": [
+    "2026-11-24",
+    "2026-11-26",
+    "2026-11-28"
+  ],
+  "authorizedRepeatedProducts": [
+    {
+      "id": "gid://shopify/Product/10069673836849",
+      "title": "Mini Árvore de Natal Iluminada - Decoração Natalina para Casa",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10062433321265",
+      "title": "Presépio de Natal Completo em Resina Religioso 6 Peças - Decoração Natalina",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10069599322417",
+      "title": "Casinha Decorada de Natal Iluminada - Decoração Natalina de Mesa",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10062526906673",
+      "title": "Árvore de Natal Branca em LED Retrátil 1,2m - Decoração de Natal Criativa",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10062537982257",
+      "title": "Bolas para Árvore de Natal Branca/Vermelha/Dourada - Kit com 44 Unidades",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10062884929841",
+      "title": "Bolas para Árvore de Natal Branca/Vermelha/Verde - Kit com 6 Unidades",
+      "day": 2
+    },
+    {
+      "id": "gid://shopify/Product/10062519763249",
+      "title": "Carrossel de Natal de Enfeite - Decoração Natalina de Mesa",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10063029698865",
+      "title": "Porta-Copos para Natal Redondo - Decoração de Mesa Natalina",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10063043428657",
+      "title": "Jogo Americano para Natal Retangular - Decoração de Mesa Natalina",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10063290073393",
+      "title": "Guirlanda de Natal Vermelha para Porta com Mini Luminária - 30cm",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10065226662193",
+      "title": "Tábua de Frios Natal de Árvore Natalina - Kit com 3 Peças",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10065279615281",
+      "title": "Tábua de Frios Natal de Gorro e Árvore Natalina - Modelo Escuro",
+      "day": 4
+    },
+    {
+      "id": "gid://shopify/Product/10424234541361",
+      "title": "Guirlanda de Natal para Porta de Luxo Vermelha - 45cm",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10062918353201",
+      "title": "Tapete/Capacho de Natal para Entrada/Cozinha/Banheiro - Happy Holidays",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10425373557041",
+      "title": "Toalha de Mesa para Natal Retangular Impermeável - Folhas",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10424203084081",
+      "title": "Guirlanda de Natal Dourada para Porta com Mini Luminária - 30cm",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10427919270193",
+      "title": "Toalha de Mesa para Natal Impermeável - Snow",
+      "day": 6
+    },
+    {
+      "id": "gid://shopify/Product/10427937521969",
+      "title": "Toalha de Mesa para Natal Impermeável - Merry Christmas",
+      "day": 6
+    }
+  ],
+  "unauthorizedRepeats": 0,
+  "availableProducts": 42,
+  "previousWeekPublished": 35,
+  "maxTitleCharacters": 52,
+  "maxDescriptionCharacters": 343,
+  "photos": 14,
+  "newEnvironments": 21,
+  "errors": [],
+  "approval": "approved",
+  "publication": "preparing_github"
+}
