@@ -33092,5 +33092,60 @@
       "is_owner": true,
       "has_been_promoted": false
     }
+  },
+  {
+    "row_id": 19034,
+    "pinterest_id": "930134129319766521",
+    "url": "https://www.pinterest.com/pin/930134129319766521/",
+    "title": "Escorredor de talheres para uma bancada organizada",
+    "published_at": "2026-11-22T14:02:40.894Z",
+    "pin": {
+      "pin_metrics": null,
+      "is_product": false,
+      "is_removable": false,
+      "is_standard": true,
+      "board_id": "930134197981214272",
+      "description": "O escorredor de talheres com divisórias reúne os utensílios junto à pia. Conheça na Chique Home as cores e os detalhes para compor sua bancada. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #CozinhaOrganizada #Decoracao #Brasil",
+      "dominant_color": null,
+      "has_been_promoted": false,
+      "link": "https://chiquehome.com.br/products/escorredor-de-talheres-organizador-de-cozinha-decoracao?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_16&utm_content=pin_19034",
+      "id": "930134129319766521",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "title": "Escorredor de talheres para uma bancada organizada",
+      "created_at": "2026-11-22T14:02:40",
+      "product_tags": [],
+      "parent_pin_id": null,
+      "alt_text": "Escorredor de talheres para uma bancada organizada. Fotografia oficial da Chique Home.",
+      "is_owner": true,
+      "board_section_id": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/b9/48/28/b94828e7997d2e0b20070a68fcbb7d10.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/b9/48/28/b94828e7997d2e0b20070a68fcbb7d10.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/b9/48/28/b94828e7997d2e0b20070a68fcbb7d10.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/b9/48/28/b94828e7997d2e0b20070a68fcbb7d10.jpg"
+          }
+        }
+      },
+      "creative_type": "REGULAR"
+    }
   }
 ]
