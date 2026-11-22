@@ -33147,5 +33147,60 @@
       },
       "creative_type": "REGULAR"
     }
+  },
+  {
+    "row_id": 19035,
+    "pinterest_id": "930134129319766524",
+    "url": "https://www.pinterest.com/pin/930134129319766524/",
+    "title": "Cestos de vime: textura para organizar com charme",
+    "published_at": "2026-11-22T14:02:44.122Z",
+    "pin": {
+      "is_removable": false,
+      "is_standard": true,
+      "board_id": "930134197981214272",
+      "pin_metrics": null,
+      "parent_pin_id": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/d1/fd/08/d1fd08f4fb4b980394aa67137a2379c9.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/d1/fd/08/d1fd08f4fb4b980394aa67137a2379c9.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/d1/fd/08/d1fd08f4fb4b980394aa67137a2379c9.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/d1/fd/08/d1fd08f4fb4b980394aa67137a2379c9.jpg"
+          }
+        }
+      },
+      "title": "Cestos de vime: textura para organizar com charme",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "is_owner": true,
+      "creative_type": "REGULAR",
+      "alt_text": "Cestos de vime: textura para organizar com charme. Duas opções em ambientes diferentes, em metades superior e inferior.",
+      "dominant_color": null,
+      "created_at": "2026-11-22T14:02:43",
+      "board_section_id": null,
+      "description": "Redondo ou rústico: compare os cestos de vime da Chique Home. Duas opções para reunir pequenos itens e acrescentar textura à decoração da casa. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #CozinhaOrganizada #Decoracao #Brasil",
+      "has_been_promoted": false,
+      "is_product": false,
+      "link": "https://chiquehome.com.br/collections/cozinha?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_16&utm_content=pin_19035",
+      "product_tags": [],
+      "id": "930134129319766524"
+    }
   }
 ]
