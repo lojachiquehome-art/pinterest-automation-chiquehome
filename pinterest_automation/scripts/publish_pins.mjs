@@ -126,12 +126,13 @@ function scheduledPublishTime(dateKey, startAt, index, intervalSeconds) {
   return new Date(start.getTime() + index * intervalSeconds * 1000);
 }
 
-async function waitForScheduledPublishTime(dateKey, startAt, index, intervalSeconds, leadMs = 0) {
+async function waitForScheduledPublishTime(dateKey, startAt, index, intervalSeconds, leadMs = 0, notBeforeMs = 0) {
   const target = scheduledPublishTime(dateKey, startAt, index, intervalSeconds);
   if (!target) return;
-  const waitMs = target.getTime() - Date.now() - leadMs;
+  const effectiveTarget = Math.max(target.getTime(), notBeforeMs);
+  const waitMs = effectiveTarget - Date.now() - leadMs;
   if (waitMs <= 0) return;
-  console.log(`Waiting until ${target.toISOString()} (${dateKey} ${startAt} America/Sao_Paulo + ${index} min) before publishing.`);
+  console.log(`Waiting until ${new Date(effectiveTarget).toISOString()} (${dateKey} ${startAt} America/Sao_Paulo + ${index} min; minimum interval preserved) before publishing.`);
   await sleep(waitMs);
 }
 
@@ -237,11 +238,15 @@ for (const row of selectDailyRows(rows, remainingLimit * 8)) {
   } else {
     let postStarted = false;
     try {
-      // Prepare credentials and durable intent 30 seconds before the slot.
-      await waitForScheduledPublishTime(targetDate, startAt, publishedTodayCount + processed, intervalSeconds, 30_000);
+      // Include persisted history so retries also preserve a full interval.
+      const lastPublishedMs = Math.max(0, ...published.filter(publishedPinId)
+        .map(item => Date.parse(publishedAt(item))).filter(Number.isFinite));
+      const notBeforeMs = lastPublishedMs + intervalSeconds * 1000;
+      // Prepare credentials and durable intent 30 seconds before the effective slot.
+      await waitForScheduledPublishTime(targetDate, startAt, publishedTodayCount + processed, intervalSeconds, 30_000, notBeforeMs);
       const token = await getPinterestAccessToken();
       checkpoint.begin(row.id);
-      await waitForScheduledPublishTime(targetDate, startAt, publishedTodayCount + processed, intervalSeconds);
+      await waitForScheduledPublishTime(targetDate, startAt, publishedTodayCount + processed, intervalSeconds, 0, notBeforeMs);
       postStarted = true;
       const result = await pinterestPost("/pins", token, payload);
       if (!result?.id) {
