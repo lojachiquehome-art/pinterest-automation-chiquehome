@@ -33037,5 +33037,60 @@
       "is_standard": true,
       "alt_text": "Organizador de latas para uma geladeira em ordem. Produto em novo ambiente."
     }
+  },
+  {
+    "row_id": 19033,
+    "pinterest_id": "930134129319766519",
+    "url": "https://www.pinterest.com/pin/930134129319766519/",
+    "title": "Conjunto de quatro organizadores para geladeira",
+    "published_at": "2026-11-22T14:02:37.531Z",
+    "pin": {
+      "link": "https://chiquehome.com.br/products/kit-4-organizador-de-geladeira-pote-organizador-para-cozinha?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_16&utm_content=pin_19033",
+      "created_at": "2026-11-22T14:02:37",
+      "product_tags": [],
+      "alt_text": "Conjunto de quatro organizadores para geladeira. Ambiente com a frase: Tudo encontra seu lugar.",
+      "creative_type": "REGULAR",
+      "is_product": false,
+      "description": "Separe os alimentos em quatro recipientes organizadores e facilite a composição das prateleiras. Confira o conjunto da Chique Home para a sua geladeira. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #CozinhaOrganizada #Decoracao #Brasil",
+      "is_standard": true,
+      "parent_pin_id": null,
+      "board_id": "930134197981214272",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/70/b8/7d/70b87d580f9019ff97ddeeb1990a454c.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/70/b8/7d/70b87d580f9019ff97ddeeb1990a454c.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/70/b8/7d/70b87d580f9019ff97ddeeb1990a454c.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/70/b8/7d/70b87d580f9019ff97ddeeb1990a454c.jpg"
+          }
+        }
+      },
+      "title": "Conjunto de quatro organizadores para geladeira",
+      "dominant_color": null,
+      "id": "930134129319766519",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "board_section_id": null,
+      "is_removable": false,
+      "pin_metrics": null,
+      "is_owner": true,
+      "has_been_promoted": false
+    }
   }
 ]
