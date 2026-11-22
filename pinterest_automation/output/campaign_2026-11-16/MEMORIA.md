@@ -18,3 +18,7 @@ Próximo passo:aprovação específica do conteúdo,então aplicação da campan
 ## Campanha 16–22/11/2026 aprovada e aplicada em15/11
 
 Aprovação explícita: “Ficou perfeita, prévia aprovada! Pode aplicar no GitHub para começar amanhã dia16/11,5pins por dia até domingo dia22/11,todos os dias das9:30às9:34.” Commit 95d66ab638ecf34b5af01aedd9f8197972b66e48 — https://github.com/lojachiquehome-art/pinterest-automation-chiquehome/commit/95d66ab638ecf34b5af01aedd9f8197972b66e48.35pins19001–19035,cinco/dia16–22/11,09:30,09:31,09:32,09:33,09:34 America/Sao_Paulo. Natal17/11,19/11,21/11. Mantidas18retomadas autorizadas e demais24produtos fora das últimas5prévias.35imagens e metadados remotos conferidos;sete simulações diárias passaram;histórico anterior preservado;workflowativo;autenticação real Pinterest chiquehomeHTTP200. Correção antecipada de agendamento606b177mantida,sem promessa de SLAdoGitHub. Nenhum pin disparado antecipadamente. Esta seção substitui estados anteriores de aprovação pendente. Ver staged-validation.json,auth-validation.json e github-publication-receipt.json.
+
+
+### Fechamento da semana16–22/11 em22/11/2026
+Havia30/35no histórico. Usuário pediu publicar faltantes;consultaPinterest confirmou ausência19031–19035. ExecuçãoGitHub45030594704concluída com sucesso. Todos35pins19001–19035confirmados individualmente porAPIHTTP200,títulos,descrições e links iguais àprévia. Vernov22-publication-verification.json. Horários observados durante a semana continuaram atrasados;cronantecipado não garantiu09:30. Não reenviar esses35pins.

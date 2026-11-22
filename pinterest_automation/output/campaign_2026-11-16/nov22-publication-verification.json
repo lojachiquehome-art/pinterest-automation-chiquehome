@@ -1,0 +1,253 @@
+{
+  "checkedAt": "2026-11-22T14:05:21.032Z",
+  "runId": 45030594704,
+  "runUrl": "https://github.com/lojachiquehome-art/pinterest-automation-chiquehome/actions/runs/45030594704",
+  "weekPublished": 35,
+  "verified": [
+    {
+      "row_id": 19001,
+      "pinterest_id": "930134129319598201",
+      "url": "https://www.pinterest.com/pin/930134129319598201/",
+      "published_at": "2026-11-16T16:26:35.903Z",
+      "status": 200
+    },
+    {
+      "row_id": 19002,
+      "pinterest_id": "930134129319598202",
+      "url": "https://www.pinterest.com/pin/930134129319598202/",
+      "published_at": "2026-11-16T16:26:39.360Z",
+      "status": 200
+    },
+    {
+      "row_id": 19003,
+      "pinterest_id": "930134129319598204",
+      "url": "https://www.pinterest.com/pin/930134129319598204/",
+      "published_at": "2026-11-16T16:26:42.754Z",
+      "status": 200
+    },
+    {
+      "row_id": 19004,
+      "pinterest_id": "930134129319598208",
+      "url": "https://www.pinterest.com/pin/930134129319598208/",
+      "published_at": "2026-11-16T16:26:46.333Z",
+      "status": 200
+    },
+    {
+      "row_id": 19005,
+      "pinterest_id": "930134129319598209",
+      "url": "https://www.pinterest.com/pin/930134129319598209/",
+      "published_at": "2026-11-16T16:26:50.120Z",
+      "status": 200
+    },
+    {
+      "row_id": 19006,
+      "pinterest_id": "930134129319626791",
+      "url": "https://www.pinterest.com/pin/930134129319626791/",
+      "published_at": "2026-11-17T16:29:32.386Z",
+      "status": 200
+    },
+    {
+      "row_id": 19007,
+      "pinterest_id": "930134129319626794",
+      "url": "https://www.pinterest.com/pin/930134129319626794/",
+      "published_at": "2026-11-17T16:29:35.871Z",
+      "status": 200
+    },
+    {
+      "row_id": 19008,
+      "pinterest_id": "930134129319626797",
+      "url": "https://www.pinterest.com/pin/930134129319626797/",
+      "published_at": "2026-11-17T16:29:39.616Z",
+      "status": 200
+    },
+    {
+      "row_id": 19009,
+      "pinterest_id": "930134129319626798",
+      "url": "https://www.pinterest.com/pin/930134129319626798/",
+      "published_at": "2026-11-17T16:29:43.210Z",
+      "status": 200
+    },
+    {
+      "row_id": 19010,
+      "pinterest_id": "930134129319626802",
+      "url": "https://www.pinterest.com/pin/930134129319626802/",
+      "published_at": "2026-11-17T16:29:46.814Z",
+      "status": 200
+    },
+    {
+      "row_id": 19011,
+      "pinterest_id": "930134129319655597",
+      "url": "https://www.pinterest.com/pin/930134129319655597/",
+      "published_at": "2026-11-18T15:58:50.056Z",
+      "status": 200
+    },
+    {
+      "row_id": 19012,
+      "pinterest_id": "930134129319655601",
+      "url": "https://www.pinterest.com/pin/930134129319655601/",
+      "published_at": "2026-11-18T15:58:53.301Z",
+      "status": 200
+    },
+    {
+      "row_id": 19013,
+      "pinterest_id": "930134129319657399",
+      "url": "https://www.pinterest.com/pin/930134129319657399/",
+      "published_at": "2026-11-18T17:10:35.932Z",
+      "status": 200
+    },
+    {
+      "row_id": 19014,
+      "pinterest_id": "930134129319657414",
+      "url": "https://www.pinterest.com/pin/930134129319657414/",
+      "published_at": "2026-11-18T17:11:37.049Z",
+      "status": 200
+    },
+    {
+      "row_id": 19015,
+      "pinterest_id": "930134129319657422",
+      "url": "https://www.pinterest.com/pin/930134129319657422/",
+      "published_at": "2026-11-18T17:12:38.161Z",
+      "status": 200
+    },
+    {
+      "row_id": 19016,
+      "pinterest_id": "930134129319683159",
+      "url": "https://www.pinterest.com/pin/930134129319683159/",
+      "published_at": "2026-11-19T16:04:56.141Z",
+      "status": 200
+    },
+    {
+      "row_id": 19017,
+      "pinterest_id": "930134129319683162",
+      "url": "https://www.pinterest.com/pin/930134129319683162/",
+      "published_at": "2026-11-19T16:04:59.629Z",
+      "status": 200
+    },
+    {
+      "row_id": 19018,
+      "pinterest_id": "930134129319683164",
+      "url": "https://www.pinterest.com/pin/930134129319683164/",
+      "published_at": "2026-11-19T16:05:03.070Z",
+      "status": 200
+    },
+    {
+      "row_id": 19019,
+      "pinterest_id": "930134129319683166",
+      "url": "https://www.pinterest.com/pin/930134129319683166/",
+      "published_at": "2026-11-19T16:05:06.346Z",
+      "status": 200
+    },
+    {
+      "row_id": 19020,
+      "pinterest_id": "930134129319683168",
+      "url": "https://www.pinterest.com/pin/930134129319683168/",
+      "published_at": "2026-11-19T16:05:10.135Z",
+      "status": 200
+    },
+    {
+      "row_id": 19021,
+      "pinterest_id": "930134129319710511",
+      "url": "https://www.pinterest.com/pin/930134129319710511/",
+      "published_at": "2026-11-20T15:45:52.735Z",
+      "status": 200
+    },
+    {
+      "row_id": 19022,
+      "pinterest_id": "930134129319710513",
+      "url": "https://www.pinterest.com/pin/930134129319710513/",
+      "published_at": "2026-11-20T15:45:56.436Z",
+      "status": 200
+    },
+    {
+      "row_id": 19023,
+      "pinterest_id": "930134129319710515",
+      "url": "https://www.pinterest.com/pin/930134129319710515/",
+      "published_at": "2026-11-20T15:46:00.485Z",
+      "status": 200
+    },
+    {
+      "row_id": 19024,
+      "pinterest_id": "930134129319710518",
+      "url": "https://www.pinterest.com/pin/930134129319710518/",
+      "published_at": "2026-11-20T15:46:03.873Z",
+      "status": 200
+    },
+    {
+      "row_id": 19025,
+      "pinterest_id": "930134129319710521",
+      "url": "https://www.pinterest.com/pin/930134129319710521/",
+      "published_at": "2026-11-20T15:46:07.742Z",
+      "status": 200
+    },
+    {
+      "row_id": 19026,
+      "pinterest_id": "930134129319738317",
+      "url": "https://www.pinterest.com/pin/930134129319738317/",
+      "published_at": "2026-11-21T14:57:00.022Z",
+      "status": 200
+    },
+    {
+      "row_id": 19027,
+      "pinterest_id": "930134129319738319",
+      "url": "https://www.pinterest.com/pin/930134129319738319/",
+      "published_at": "2026-11-21T14:57:03.373Z",
+      "status": 200
+    },
+    {
+      "row_id": 19028,
+      "pinterest_id": "930134129319738321",
+      "url": "https://www.pinterest.com/pin/930134129319738321/",
+      "published_at": "2026-11-21T14:57:06.633Z",
+      "status": 200
+    },
+    {
+      "row_id": 19029,
+      "pinterest_id": "930134129319738323",
+      "url": "https://www.pinterest.com/pin/930134129319738323/",
+      "published_at": "2026-11-21T14:57:09.854Z",
+      "status": 200
+    },
+    {
+      "row_id": 19030,
+      "pinterest_id": "930134129319738325",
+      "url": "https://www.pinterest.com/pin/930134129319738325/",
+      "published_at": "2026-11-21T14:57:13.136Z",
+      "status": 200
+    },
+    {
+      "row_id": 19031,
+      "pinterest_id": "930134129319766516",
+      "url": "https://www.pinterest.com/pin/930134129319766516/",
+      "published_at": "2026-11-22T14:02:30.924Z",
+      "status": 200
+    },
+    {
+      "row_id": 19032,
+      "pinterest_id": "930134129319766517",
+      "url": "https://www.pinterest.com/pin/930134129319766517/",
+      "published_at": "2026-11-22T14:02:34.212Z",
+      "status": 200
+    },
+    {
+      "row_id": 19033,
+      "pinterest_id": "930134129319766519",
+      "url": "https://www.pinterest.com/pin/930134129319766519/",
+      "published_at": "2026-11-22T14:02:37.531Z",
+      "status": 200
+    },
+    {
+      "row_id": 19034,
+      "pinterest_id": "930134129319766521",
+      "url": "https://www.pinterest.com/pin/930134129319766521/",
+      "published_at": "2026-11-22T14:02:40.894Z",
+      "status": 200
+    },
+    {
+      "row_id": 19035,
+      "pinterest_id": "930134129319766524",
+      "url": "https://www.pinterest.com/pin/930134129319766524/",
+      "published_at": "2026-11-22T14:02:44.122Z",
+      "status": 200
+    }
+  ]
+}
