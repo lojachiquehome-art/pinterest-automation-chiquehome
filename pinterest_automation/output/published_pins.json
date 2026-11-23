@@ -33367,5 +33367,60 @@
       "creative_type": "REGULAR",
       "title": "Vaso 2 em 1: curvas que acolhem"
     }
+  },
+  {
+    "row_id": 20004,
+    "pinterest_id": "930134129319804174",
+    "url": "https://www.pinterest.com/pin/930134129319804174/",
+    "title": "Escultura O Apaixonado para uma sala com afeto",
+    "published_at": "2026-11-23T18:48:28.840Z",
+    "pin": {
+      "title": "Escultura O Apaixonado para uma sala com afeto",
+      "is_product": false,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/6a/d3/c4/6ad3c4e1879f00593ebab80d5b68b90f.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/6a/d3/c4/6ad3c4e1879f00593ebab80d5b68b90f.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/6a/d3/c4/6ad3c4e1879f00593ebab80d5b68b90f.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/6a/d3/c4/6ad3c4e1879f00593ebab80d5b68b90f.jpg"
+          }
+        }
+      },
+      "is_removable": false,
+      "alt_text": "Escultura O Apaixonado para uma sala com afeto. Fotografia oficial da Chique Home.",
+      "id": "930134129319804174",
+      "parent_pin_id": null,
+      "dominant_color": null,
+      "board_section_id": null,
+      "pin_metrics": null,
+      "is_owner": true,
+      "board_id": "930134197981214271",
+      "is_standard": true,
+      "link": "https://chiquehome.com.br/products/escultura-decorativa-abstrata-o-apaixonado-decoracao-para-sala?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_23&utm_content=pin_20004",
+      "created_at": "2026-11-23T18:48:28",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "product_tags": [],
+      "creative_type": "REGULAR",
+      "description": "A escultura O Apaixonado acrescenta um gesto de carinho à decoração. Veja como sua silhueta se destaca no aparador e inspira uma sala com mais personalidade. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #DecoracaoDeSala #Vasos #Brasil",
+      "has_been_promoted": false
+    }
   }
 ]
