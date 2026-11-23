@@ -33257,5 +33257,60 @@
       "has_been_promoted": false,
       "title": "Vaso Corpo Humano: arte e flores na sala"
     }
+  },
+  {
+    "row_id": 20002,
+    "pinterest_id": "930134129319804120",
+    "url": "https://www.pinterest.com/pin/930134129319804120/",
+    "title": "Vasos Rosquinha: duas peças para compor a sala",
+    "published_at": "2026-11-23T18:46:27.065Z",
+    "pin": {
+      "board_id": "930134197981214271",
+      "is_product": false,
+      "link": "https://chiquehome.com.br/products/vaso-decorativo-para-sala-de-ceramica-rosquinha-2-pecas-decoracao?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_23&utm_content=pin_20002",
+      "pin_metrics": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "product_tags": [],
+      "created_at": "2026-11-23T18:46:26",
+      "description": "As curvas dos vasos Rosquinha criam uma composição delicada na sala. Combine as duas peças com texturas naturais para valorizar o aparador sem sobrecarregar o ambiente. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #DecoracaoDeSala #Vasos #Brasil",
+      "has_been_promoted": false,
+      "id": "930134129319804120",
+      "is_owner": true,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/42/7f/fb/427ffb4f6fafdbf92e162d0e1595cdb6.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/42/7f/fb/427ffb4f6fafdbf92e162d0e1595cdb6.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/42/7f/fb/427ffb4f6fafdbf92e162d0e1595cdb6.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/42/7f/fb/427ffb4f6fafdbf92e162d0e1595cdb6.jpg"
+          }
+        }
+      },
+      "dominant_color": null,
+      "parent_pin_id": null,
+      "creative_type": "REGULAR",
+      "is_removable": false,
+      "is_standard": true,
+      "alt_text": "Vasos Rosquinha: duas peças para compor a sala. Produto em novo ambiente.",
+      "board_section_id": null,
+      "title": "Vasos Rosquinha: duas peças para compor a sala"
+    }
   }
 ]
