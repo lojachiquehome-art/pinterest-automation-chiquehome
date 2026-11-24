@@ -33642,5 +33642,60 @@
       },
       "is_removable": false
     }
+  },
+  {
+    "row_id": 20009,
+    "pinterest_id": "930134129319833679",
+    "url": "https://www.pinterest.com/pin/930134129319833679/",
+    "title": "Árvore de Natal retrátil com LED de 1,2 m",
+    "published_at": "2026-11-24T18:23:33.157Z",
+    "pin": {
+      "creative_type": "REGULAR",
+      "parent_pin_id": null,
+      "board_section_id": null,
+      "board_id": "930134197981214271",
+      "is_removable": false,
+      "alt_text": "Árvore de Natal retrátil com LED de 1,2 m. Fotografia oficial da Chique Home.",
+      "is_owner": true,
+      "pin_metrics": null,
+      "dominant_color": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "id": "930134129319833679",
+      "is_standard": true,
+      "link": "https://chiquehome.com.br/products/arvore-de-natal-branca-em-led-retratil-1-2m-decoracao-de-natal-criativa?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_23&utm_content=pin_20009",
+      "is_product": false,
+      "description": "A árvore de Natal retrátil com LED de 1,2 m inspira uma decoração leve e luminosa. Veja os detalhes do modelo e escolha um lugar especial para receber o clima de Natal. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #Natal #DecoracaoNatalina #Brasil",
+      "title": "Árvore de Natal retrátil com LED de 1,2 m",
+      "has_been_promoted": false,
+      "created_at": "2026-11-24T18:23:32",
+      "product_tags": [],
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/57/70/28/57702843db7556924d48a374737d9954.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/57/70/28/57702843db7556924d48a374737d9954.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/57/70/28/57702843db7556924d48a374737d9954.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/57/70/28/57702843db7556924d48a374737d9954.jpg"
+          }
+        }
+      }
+    }
   }
 ]
