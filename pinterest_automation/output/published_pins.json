@@ -33532,5 +33532,60 @@
       },
       "parent_pin_id": null
     }
+  },
+  {
+    "row_id": 20007,
+    "pinterest_id": "930134129319833564",
+    "url": "https://www.pinterest.com/pin/930134129319833564/",
+    "title": "Presépio de Natal com 6 peças para decorar",
+    "published_at": "2026-11-24T18:21:31.130Z",
+    "pin": {
+      "is_owner": true,
+      "link": "https://chiquehome.com.br/products/presepio-de-natal-completo-em-resina-religioso-6-pecas-decoracao-natalina?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_23&utm_content=pin_20007",
+      "title": "Presépio de Natal com 6 peças para decorar",
+      "parent_pin_id": null,
+      "board_section_id": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "description": "O presépio de Natal com 6 peças convida a montar uma composição cheia de significado. Reserve um espaço especial no aparador para celebrar a tradição em família. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #Natal #DecoracaoNatalina #Brasil",
+      "is_standard": true,
+      "creative_type": "REGULAR",
+      "is_product": false,
+      "dominant_color": null,
+      "pin_metrics": null,
+      "id": "930134129319833564",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/17/ae/9c/17ae9ca73920db5cb070b70cd2893cbc.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/17/ae/9c/17ae9ca73920db5cb070b70cd2893cbc.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/17/ae/9c/17ae9ca73920db5cb070b70cd2893cbc.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/17/ae/9c/17ae9ca73920db5cb070b70cd2893cbc.jpg"
+          }
+        }
+      },
+      "alt_text": "Presépio de Natal com 6 peças para decorar. Produto em novo ambiente.",
+      "has_been_promoted": false,
+      "board_id": "930134197981214271",
+      "product_tags": [],
+      "created_at": "2026-11-24T18:21:30",
+      "is_removable": false
+    }
   }
 ]
