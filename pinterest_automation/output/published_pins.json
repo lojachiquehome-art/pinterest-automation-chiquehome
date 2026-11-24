@@ -33587,5 +33587,60 @@
       "created_at": "2026-11-24T18:21:30",
       "is_removable": false
     }
+  },
+  {
+    "row_id": 20008,
+    "pinterest_id": "930134129319833616",
+    "url": "https://www.pinterest.com/pin/930134129319833616/",
+    "title": "Casinha iluminada: o encanto dos detalhes de Natal",
+    "published_at": "2026-11-24T18:22:32.231Z",
+    "pin": {
+      "parent_pin_id": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "link": "https://chiquehome.com.br/products/casinha-decorada-de-natal-iluminada-decoracao-natalina-de-mesa?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_23&utm_content=pin_20008",
+      "board_id": "930134197981214271",
+      "has_been_promoted": false,
+      "product_tags": [],
+      "created_at": "2026-11-24T18:22:31",
+      "is_product": false,
+      "description": "A casinha de Natal iluminada cria um ponto de aconchego na decoração. Combine-a com poucos elementos para deixar seus detalhes em evidência no cantinho natalino. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #Natal #DecoracaoNatalina #Brasil",
+      "board_section_id": null,
+      "title": "Casinha iluminada: o encanto dos detalhes de Natal",
+      "creative_type": "REGULAR",
+      "id": "930134129319833616",
+      "is_owner": true,
+      "alt_text": "Casinha iluminada: o encanto dos detalhes de Natal. Ambiente com a frase: O encanto mora nos detalhes.",
+      "is_standard": true,
+      "dominant_color": null,
+      "pin_metrics": null,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/49/df/15/49df15c57c483f69d141bf2919171ce8.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/49/df/15/49df15c57c483f69d141bf2919171ce8.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/49/df/15/49df15c57c483f69d141bf2919171ce8.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/49/df/15/49df15c57c483f69d141bf2919171ce8.jpg"
+          }
+        }
+      },
+      "is_removable": false
+    }
   }
 ]
