@@ -33862,5 +33862,60 @@
       "alt_text": "Organizador de bolsas em acrílico para o quarto. Produto em novo ambiente.",
       "is_owner": true
     }
+  },
+  {
+    "row_id": 20013,
+    "pinterest_id": "930134129319862159",
+    "url": "https://www.pinterest.com/pin/930134129319862159/",
+    "title": "Esculturas Pensador: um convite à pausa",
+    "published_at": "2026-11-25T17:40:34.745Z",
+    "pin": {
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/12/40/b5/1240b542242fda7d340e5072eb904fbc.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/12/40/b5/1240b542242fda7d340e5072eb904fbc.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/12/40/b5/1240b542242fda7d340e5072eb904fbc.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/12/40/b5/1240b542242fda7d340e5072eb904fbc.jpg"
+          }
+        }
+      },
+      "is_product": false,
+      "description": "O conjunto de esculturas Pensador acrescenta expressão ao quarto. Componha um cantinho tranquilo com as três figuras e objetos que façam sentido na sua rotina. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #QuartoDecorado #Decoracao #Brasil",
+      "board_id": "930134197981214292",
+      "created_at": "2026-11-25T17:40:34",
+      "id": "930134129319862159",
+      "link": "https://chiquehome.com.br/products/escultura-decorativa-o-pensador-estatueta-3-pecas-decoracao-para-sala?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_23&utm_content=pin_20013",
+      "parent_pin_id": null,
+      "product_tags": [],
+      "is_standard": true,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "alt_text": "Esculturas Pensador: um convite à pausa. Ambiente com a frase: Reserve um tempo para você.",
+      "board_section_id": null,
+      "pin_metrics": null,
+      "title": "Esculturas Pensador: um convite à pausa",
+      "is_owner": true,
+      "creative_type": "REGULAR",
+      "is_removable": false,
+      "dominant_color": null,
+      "has_been_promoted": false
+    }
   }
 ]
