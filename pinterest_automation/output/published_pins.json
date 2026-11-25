@@ -33972,5 +33972,60 @@
       "parent_pin_id": null,
       "creative_type": "REGULAR"
     }
+  },
+  {
+    "row_id": 20015,
+    "pinterest_id": "930134129319862249",
+    "url": "https://www.pinterest.com/pin/930134129319862249/",
+    "title": "Porta-retratos: dourado ou rosado para suas memórias",
+    "published_at": "2026-11-25T17:42:36.764Z",
+    "pin": {
+      "description": "Duas opções de porta-retratos para dar lugar às lembranças: acabamento dourado ou rosado. Explore a coleção e escolha o detalhe que combina com a decoração do quarto. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #QuartoDecorado #Decoracao #Brasil",
+      "dominant_color": null,
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "is_standard": true,
+      "product_tags": [],
+      "link": "https://chiquehome.com.br/collections/decoracao-para-quarto?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_23&utm_content=pin_20015",
+      "creative_type": "REGULAR",
+      "alt_text": "Porta-retratos: dourado ou rosado para suas memórias. Duas opções em ambientes diferentes, em metades superior e inferior.",
+      "has_been_promoted": false,
+      "is_owner": true,
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/96/69/05/9669053f8a2869560b2eca35a14a6305.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/96/69/05/9669053f8a2869560b2eca35a14a6305.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/96/69/05/9669053f8a2869560b2eca35a14a6305.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/96/69/05/9669053f8a2869560b2eca35a14a6305.jpg"
+          }
+        }
+      },
+      "parent_pin_id": null,
+      "id": "930134129319862249",
+      "board_section_id": null,
+      "title": "Porta-retratos: dourado ou rosado para suas memórias",
+      "board_id": "930134197981214292",
+      "created_at": "2026-11-25T17:42:36",
+      "is_removable": false,
+      "pin_metrics": null,
+      "is_product": false
+    }
   }
 ]
