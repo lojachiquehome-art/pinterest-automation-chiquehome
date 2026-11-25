@@ -33917,5 +33917,60 @@
       "dominant_color": null,
       "has_been_promoted": false
     }
+  },
+  {
+    "row_id": 20014,
+    "pinterest_id": "930134129319862232",
+    "url": "https://www.pinterest.com/pin/930134129319862232/",
+    "title": "Escultura Silêncio: presença e contemplação",
+    "published_at": "2026-11-25T17:41:35.694Z",
+    "pin": {
+      "id": "930134129319862232",
+      "is_product": false,
+      "is_removable": false,
+      "pin_metrics": null,
+      "description": "A escultura Silêncio dá personalidade à decoração com sua forma expressiva. Inspire-se para destacar a peça na cômoda e criar um espaço que convide a desacelerar. Use o cupom PINTEREST10 e ganhe 10% de desconto. Enviamos para todo o Brasil. 🇧🇷 Clique em “Acessar o site” para conferir os detalhes. #QuartoDecorado #Decoracao #Brasil",
+      "is_owner": true,
+      "board_id": "930134197981214292",
+      "media": {
+        "media_type": "image",
+        "images": {
+          "150x150": {
+            "width": 150,
+            "height": 150,
+            "url": "https://i.pinimg.com/150x150/82/2c/f5/822cf5752a2cf8c09eaca7e2302fb1d2.jpg"
+          },
+          "400x300": {
+            "width": 400,
+            "height": 300,
+            "url": "https://i.pinimg.com/400x300/82/2c/f5/822cf5752a2cf8c09eaca7e2302fb1d2.jpg"
+          },
+          "600x": {
+            "width": 564,
+            "height": 846,
+            "url": "https://i.pinimg.com/564x/82/2c/f5/822cf5752a2cf8c09eaca7e2302fb1d2.jpg"
+          },
+          "1200x": {
+            "width": 1000,
+            "height": 1500,
+            "url": "https://i.pinimg.com/1200x/82/2c/f5/822cf5752a2cf8c09eaca7e2302fb1d2.jpg"
+          }
+        }
+      },
+      "alt_text": "Escultura Silêncio: presença e contemplação. Fotografia oficial da Chique Home.",
+      "has_been_promoted": false,
+      "is_standard": true,
+      "dominant_color": null,
+      "board_section_id": null,
+      "product_tags": [],
+      "created_at": "2026-11-25T17:41:35",
+      "link": "https://chiquehome.com.br/products/escultura-decorativa-silencio-estatua-para-mesa-decoracao-para-sala?utm_source=pinterest&utm_medium=organic_pin&utm_campaign=pinterest_2026_11_23&utm_content=pin_20014",
+      "board_owner": {
+        "username": "chiquehome"
+      },
+      "title": "Escultura Silêncio: presença e contemplação",
+      "parent_pin_id": null,
+      "creative_type": "REGULAR"
+    }
   }
 ]
