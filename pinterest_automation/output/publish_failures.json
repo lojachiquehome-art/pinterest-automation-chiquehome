@@ -174,5 +174,13 @@
     "status": 0,
     "error": "Pinterest OAuth 401: {\"code\":28,\"message\":\"Refresh token is expired.\"}",
     "failed_at": "2026-11-26T17:20:04.772Z"
+  },
+  {
+    "row_id": 20016,
+    "title": "Carrossel de Natal: um detalhe cheio de encanto",
+    "image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/final/pin-20016.jpg",
+    "status": 0,
+    "error": "Pinterest OAuth 401: {\"code\":28,\"message\":\"Refresh token is expired.\"}",
+    "failed_at": "2026-11-26T18:21:27.867Z"
   }
 ]
