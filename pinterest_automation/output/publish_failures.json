@@ -166,5 +166,13 @@
     "status": 0,
     "error": "Command failed: git push origin HEAD:main\nremote: Internal Server Error        \nremote: Request ID C8AD:D417A:137652:28117A:6AFDCB3E        \nremote: Time 2026-11-18T15:59:01Z\nTo https://github.com/lojachiquehome-art/pinterest-automation-chiquehome\n ! [remote rejected] HEAD -> main (Internal Server Error)\nerror: failed to push some refs to 'https://github.com/lojachiquehome-art/pinterest-automation-chiquehome'\n",
     "failed_at": "2026-11-18T15:59:01.574Z"
+  },
+  {
+    "row_id": 20016,
+    "title": "Carrossel de Natal: um detalhe cheio de encanto",
+    "image_url": "https://raw.githubusercontent.com/lojachiquehome-art/pinterest-automation-chiquehome/main/pinterest_automation/public/pinterest/final/pin-20016.jpg",
+    "status": 0,
+    "error": "Pinterest OAuth 401: {\"code\":28,\"message\":\"Refresh token is expired.\"}",
+    "failed_at": "2026-11-26T17:20:04.772Z"
   }
 ]
